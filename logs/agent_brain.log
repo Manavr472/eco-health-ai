@@ -1,0 +1,59 @@
+[2025-11-27 00:11:24,967] [THOUGHT] Analyzing resource needs for surge date: 2024-11-28 (in 5 days)
+[2025-11-27 00:11:24,967] [THOUGHT] Current Resources: {'doctors': 12, 'nurses': 35, 'support_staff': 18, 'ppe_kits': 200, 'oxygen_liters': 1000, 'iv_fluids_ml': 50000, 'medications_units': 500, 'bed_linens': 300}
+[2025-11-27 00:11:24,967] [THOUGHT] Forecasted Needs: {'doctors_needed': 9, 'nurses_needed': 28, 'support_staff_needed': 14, 'ppe_kits': 282, 'oxygen_liters': 1410, 'iv_fluids_ml': 70500, 'medications_units': 705, 'bed_linens': 282}
+[2025-11-27 00:11:24,967] [ACTION] Supply Shortage: Order 310 medications_units (Priority: 18.7)
+[2025-11-27 00:11:24,968] [ACTION] Supply Shortage: Order 124 ppe_kits (Priority: 14.1)
+[2025-11-27 00:11:25,011] [ACTION] Supply Shortage: Order 31075 iv_fluids_ml (Priority: 14.1)
+[2025-11-27 00:11:25,011] [ACTION] Supply Shortage: Order 621 oxygen_liters (Priority: 11.8)
+[2025-11-27 00:11:25,011] [ACTION] Supply Shortage: Order 24 bed_linens (Priority: 0.0)
+[2025-11-27 00:11:32,834] [THOUGHT] Analyzing resource needs for surge date: 2024-11-28 (in 5 days)
+[2025-11-27 00:11:32,835] [THOUGHT] Current Resources: {'doctors': 12, 'nurses': 35, 'support_staff': 18, 'ppe_kits': 200, 'oxygen_liters': 1000, 'iv_fluids_ml': 50000, 'medications_units': 500, 'bed_linens': 300}
+[2025-11-27 00:11:32,835] [THOUGHT] Forecasted Needs: {'doctors_needed': 9, 'nurses_needed': 28, 'support_staff_needed': 14, 'ppe_kits': 282, 'oxygen_liters': 1410, 'iv_fluids_ml': 70500, 'medications_units': 705, 'bed_linens': 282}
+[2025-11-27 00:11:32,835] [ACTION] Supply Shortage: Order 310 medications_units (Priority: 18.7)
+[2025-11-27 00:11:32,835] [ACTION] Supply Shortage: Order 124 ppe_kits (Priority: 14.1)
+[2025-11-27 00:11:32,835] [ACTION] Supply Shortage: Order 31075 iv_fluids_ml (Priority: 14.1)
+[2025-11-27 00:11:32,835] [ACTION] Supply Shortage: Order 621 oxygen_liters (Priority: 11.8)
+[2025-11-27 00:11:32,835] [ACTION] Supply Shortage: Order 24 bed_linens (Priority: 0.0)
+[2025-11-27 00:12:32,984] [THOUGHT] Analyzing resource needs for surge date: 2024-11-28 (in 5 days)
+[2025-11-27 00:12:32,984] [THOUGHT] Current Resources: {'doctors': 12, 'nurses': 35, 'support_staff': 18, 'ppe_kits': 200, 'oxygen_liters': 1000, 'iv_fluids_ml': 50000, 'medications_units': 500, 'bed_linens': 300}
+[2025-11-27 00:12:32,984] [THOUGHT] Forecasted Needs: {'doctors_needed': 9, 'nurses_needed': 28, 'support_staff_needed': 14, 'ppe_kits': 282, 'oxygen_liters': 1410, 'iv_fluids_ml': 70500, 'medications_units': 705, 'bed_linens': 282}
+[2025-11-27 00:12:32,985] [ACTION] Supply Shortage: Order 310 medications_units (Priority: 18.7)
+[2025-11-27 00:12:32,985] [ACTION] Supply Shortage: Order 124 ppe_kits (Priority: 14.1)
+[2025-11-27 00:12:32,985] [ACTION] Supply Shortage: Order 31075 iv_fluids_ml (Priority: 14.1)
+[2025-11-27 00:12:32,985] [ACTION] Supply Shortage: Order 621 oxygen_liters (Priority: 11.8)
+[2025-11-27 00:12:32,985] [ACTION] Supply Shortage: Order 24 bed_linens (Priority: 0.0)
+[2025-11-27 00:13:33,474] [THOUGHT] Analyzing resource needs for surge date: 2024-11-28 (in 5 days)
+[2025-11-27 00:13:33,474] [THOUGHT] Current Resources: {'doctors': 12, 'nurses': 35, 'support_staff': 18, 'ppe_kits': 200, 'oxygen_liters': 1000, 'iv_fluids_ml': 50000, 'medications_units': 500, 'bed_linens': 300}
+[2025-11-27 00:13:33,474] [THOUGHT] Forecasted Needs: {'doctors_needed': 9, 'nurses_needed': 28, 'support_staff_needed': 14, 'ppe_kits': 282, 'oxygen_liters': 1410, 'iv_fluids_ml': 70500, 'medications_units': 705, 'bed_linens': 282}
+[2025-11-27 00:13:33,474] [ACTION] Supply Shortage: Order 310 medications_units (Priority: 18.7)
+[2025-11-27 00:13:33,474] [ACTION] Supply Shortage: Order 124 ppe_kits (Priority: 14.1)
+[2025-11-27 00:13:33,474] [ACTION] Supply Shortage: Order 31075 iv_fluids_ml (Priority: 14.1)
+[2025-11-27 00:13:33,474] [ACTION] Supply Shortage: Order 621 oxygen_liters (Priority: 11.8)
+[2025-11-27 00:13:33,474] [ACTION] Supply Shortage: Order 24 bed_linens (Priority: 0.0)
+[2025-11-27 00:14:33,529] [THOUGHT] Analyzing resource needs for surge date: 2024-11-28 (in 5 days)
+[2025-11-27 00:14:33,529] [THOUGHT] Current Resources: {'doctors': 12, 'nurses': 35, 'support_staff': 18, 'ppe_kits': 200, 'oxygen_liters': 1000, 'iv_fluids_ml': 50000, 'medications_units': 500, 'bed_linens': 300}
+[2025-11-27 00:14:33,529] [THOUGHT] Forecasted Needs: {'doctors_needed': 9, 'nurses_needed': 28, 'support_staff_needed': 14, 'ppe_kits': 282, 'oxygen_liters': 1410, 'iv_fluids_ml': 70500, 'medications_units': 705, 'bed_linens': 282}
+[2025-11-27 00:14:33,529] [ACTION] Supply Shortage: Order 310 medications_units (Priority: 18.7)
+[2025-11-27 00:14:33,587] [ACTION] Supply Shortage: Order 124 ppe_kits (Priority: 14.1)
+[2025-11-27 00:14:33,587] [ACTION] Supply Shortage: Order 31075 iv_fluids_ml (Priority: 14.1)
+[2025-11-27 00:14:33,587] [ACTION] Supply Shortage: Order 621 oxygen_liters (Priority: 11.8)
+[2025-11-27 00:14:33,587] [ACTION] Supply Shortage: Order 24 bed_linens (Priority: 0.0)
+[2025-11-27 00:15:19,519] [THOUGHT] Generating surge predictions for Hospital 1 for next 7 days
+[2025-11-27 00:15:31,839] [THOUGHT] Generating surge predictions for Hospital 1 for next 7 days
+[2025-11-27 00:15:33,638] [THOUGHT] Analyzing resource needs for surge date: 2024-11-28 (in 5 days)
+[2025-11-27 00:15:33,638] [THOUGHT] Current Resources: {'doctors': 12, 'nurses': 35, 'support_staff': 18, 'ppe_kits': 200, 'oxygen_liters': 1000, 'iv_fluids_ml': 50000, 'medications_units': 500, 'bed_linens': 300}
+[2025-11-27 00:15:33,638] [THOUGHT] Forecasted Needs: {'doctors_needed': 9, 'nurses_needed': 28, 'support_staff_needed': 14, 'ppe_kits': 282, 'oxygen_liters': 1410, 'iv_fluids_ml': 70500, 'medications_units': 705, 'bed_linens': 282}
+[2025-11-27 00:15:33,638] [ACTION] Supply Shortage: Order 310 medications_units (Priority: 18.7)
+[2025-11-27 00:15:33,638] [ACTION] Supply Shortage: Order 124 ppe_kits (Priority: 14.1)
+[2025-11-27 00:15:33,638] [ACTION] Supply Shortage: Order 31075 iv_fluids_ml (Priority: 14.1)
+[2025-11-27 00:15:33,638] [ACTION] Supply Shortage: Order 621 oxygen_liters (Priority: 11.8)
+[2025-11-27 00:15:33,638] [ACTION] Supply Shortage: Order 24 bed_linens (Priority: 0.0)
+[2025-11-27 00:16:31,641] [THOUGHT] Generating surge predictions for Hospital 1 for next 7 days
+[2025-11-27 00:16:33,356] [THOUGHT] Analyzing resource needs for surge date: 2024-11-28 (in 5 days)
+[2025-11-27 00:16:33,356] [THOUGHT] Current Resources: {'doctors': 12, 'nurses': 35, 'support_staff': 18, 'ppe_kits': 200, 'oxygen_liters': 1000, 'iv_fluids_ml': 50000, 'medications_units': 500, 'bed_linens': 300}
+[2025-11-27 00:16:33,356] [THOUGHT] Forecasted Needs: {'doctors_needed': 9, 'nurses_needed': 28, 'support_staff_needed': 14, 'ppe_kits': 282, 'oxygen_liters': 1410, 'iv_fluids_ml': 70500, 'medications_units': 705, 'bed_linens': 282}
+[2025-11-27 00:16:33,356] [ACTION] Supply Shortage: Order 310 medications_units (Priority: 18.7)
+[2025-11-27 00:16:33,356] [ACTION] Supply Shortage: Order 124 ppe_kits (Priority: 14.1)
+[2025-11-27 00:16:33,356] [ACTION] Supply Shortage: Order 31075 iv_fluids_ml (Priority: 14.1)
+[2025-11-27 00:16:33,356] [ACTION] Supply Shortage: Order 621 oxygen_liters (Priority: 11.8)
+[2025-11-27 00:16:33,356] [ACTION] Supply Shortage: Order 24 bed_linens (Priority: 0.0)

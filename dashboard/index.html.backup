@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Health AI - Hospital Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="dashboard-header">
+        <div class="header-content">
+            <h1>🏥 Eco-Health AI Dashboard</h1>
+            <div class="hospital-selector">
+                <label>Hospital:</label>
+                <select id="hospitalSelect">
+                    <option value="1">Mumbai Hospital 1 - Bandra</option>
+                    <option value="2">Mumbai Hospital 2 - Andheri</option>
+                    <option value="3">Mumbai Hospital 3 - Colaba</option>
+                    <option value="4">Mumbai Hospital 4 - Worli</option>
+                    <option value="5">Mumbai Hospital 5 - Kurla</option>
+                </select>
+            </div>
+            <div class="last-update">
+                Last Updated: <span id="lastUpdate">--</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Alert Banner -->
+    <div id="alertBanner" class="alert-banner hidden">
+        <div class="alert-content">
+            <span class="alert-icon">⚠️</span>
+            <span id="alertMessage"></span>
+            <button class="alert-close" onclick="closeAlert()">×</button>
+        </div>
+    </div>
+
+    <!-- Main Dashboard -->
+    <main class="dashboard-main">
+
+        <!-- KPI Cards -->
+        <section class="kpi-section">
+            <div class="kpi-card">
+                <div class="kpi-icon">📊</div>
+                <div class="kpi-content">
+                    <h3>Readiness Score</h3>
+                    <div class="kpi-value" id="readinessScore">--</div>
+                    <div class="kpi-status" id="readinessStatus">Loading...</div>
+                </div>
+            </div>
+
+            <div class="kpi-card">
+                <div class="kpi-icon">🚨</div>
+                <div class="kpi-content">
+                    <h3>Predicted Surge</h3>
+                    <div class="kpi-value" id="surgeMultiplier">--</div>
+                    <div class="kpi-status" id="surgeDate">--</div>
+                </div>
+            </div>
+
+            <div class="kpi-card">
+                <div class="kpi-icon">🌡️</div>
+                <div class="kpi-content">
+                    <h3>Current AQI</h3>
+                    <div class="kpi-value" id="currentAQI">--</div>
+                    <div class="kpi-status" id="aqiCategory">--</div>
+                </div>
+            </div>
+
+            <div class="kpi-card">
+                <div class="kpi-icon">🌱</div>
+                <div class="kpi-content">
+                    <h3>Carbon Credits</h3>
+                    <div class="kpi-value" id="carbonCredits">--</div>
+                    <div class="kpi-status">tons CO₂ reduced</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Charts Section -->
+        <section class="charts-section">
+            <!-- Surge Predictions Chart -->
+            <div class="chart-container">
+                <div class="chart-header">
+                    <h2>📈 7-Day Surge Predictions</h2>
+                    <span class="chart-info">Predicted patient admissions</span>
+                </div>
+                <div style="position: relative; height: 300px;">
+                    <canvas id="surgePredictionChart"></canvas>
+                </div>
+                <div class="resource-grid">
+                    <!-- Staff Resources -->
+                    <div class="resource-card">
+                        <h3>Medical Staff</h3>
+                        <div class="resource-item">
+                            <span class="resource-label">Doctors</span>
+                            <div class="resource-bar">
+                                <div class="resource-progress" id="doctorsBar"></div>
+                            </div>
+                            <span class="resource-value" id="doctorsValue">--</span>
+                        </div>
+                        <div class="resource-item">
+                            <span class="resource-label">Nurses</span>
+                            <div class="resource-bar">
+                                <div class="resource-progress" id="nursesBar"></div>
+                            </div>
+                            <span class="resource-value" id="nursesValue">--</span>
+                        </div>
+                        <div class="resource-item">
+                            <span class="resource-label">Support Staff</span>
+                            <div class="resource-bar">
+                                <div class="resource-progress" id="supportBar"></div>
+                            </div>
+                            <span class="resource-value" id="supportValue">--</span>
+                        </div>
+                    </div>
+
+                    <!-- Critical Supplies -->
+                    <div class="resource-card">
+                        <h3>Critical Supplies</h3>
+                        <div class="resource-item">
+                            <span class="resource-label">PPE Kits</span>
+                            <div class="resource-bar">
+                                <div class="resource-progress" id="ppeBar"></div>
+                            </div>
+                            <span class="resource-value" id="ppeValue">--</span>
+                        </div>
+                        <div class="resource-item">
+                            <span class="resource-label">Oxygen (L)</span>
+                            <div class="resource-bar">
+                                <div class="resource-progress" id="oxygenBar"></div>
+                            </div>
+                            <span class="resource-value" id="oxygenValue">--</span>
+                        </div>
+                        <div class="resource-item">
+                            <span class="resource-label">Medications</span>
+                            <div class="resource-bar">
+                                <div class="resource-progress" id="medsBar"></div>
+                            </div>
+                            <span class="resource-value" id="medsValue">--</span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- AI Recommendations Section -->
+        <section class="recommendations-section">
+            <h2>🤖 AI Agent Recommendations</h2>
+            <div id="recommendationsList" class="recommendations-list">
+                <!-- Recommendations will be populated by JavaScript -->
+                <div class="loading">Loading recommendations...</div>
+            </div>
+        </section>
+
+        <!-- Action Timeline -->
+        <section class="timeline-section">
+            <h2>📅 Action Timeline</h2>
+            <div id="actionTimeline" class="timeline">
+                <!-- Timeline will be populated by JavaScript -->
+                <div class="loading">Loading timeline...</div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="dashboard-footer">
+        <p>Eco-Health AI Platform | Mumbai Region</p>
+        <p>Powered by Agentic AI for Sustainable Hospital Operations</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

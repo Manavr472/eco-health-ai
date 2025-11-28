@@ -1,0 +1,118 @@
+{
+  "network": "EcoHealthChain",
+  "chain_length": 4,
+  "total_credits": 5.8,
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-26 01:09:39.243776",
+      "data": {
+        "type": "genesis",
+        "network": "EcoHealthChain",
+        "token": "CARBON"
+      },
+      "previous_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "009774de63822e18bd98d474cc583e10ec0e9dfedf2ea5b57940fe3af1a2cd76",
+      "nonce": 235
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-26 01:09:39.258500",
+      "data": {
+        "type": "carbon_credit",
+        "token_symbol": "ECO",
+        "amount_tons": 2.5,
+        "token_amount": 2500000000000000000,
+        "hospital_id": 1,
+        "surge_event_id": "DIWALI-2024",
+        "timestamp": "2025-11-26T01:09:39.258500",
+        "verification": {
+          "event": "Diwali 2024",
+          "verified": true,
+          "timestamp": "2025-11-26T01:09:39.258500"
+        },
+        "value_usd": 62.5
+      },
+      "previous_hash": "009774de63822e18bd98d474cc583e10ec0e9dfedf2ea5b57940fe3af1a2cd76",
+      "hash": "0046e892cd6f91ad026f475756e6b557bae3eeb87503d1dc264b2906afced81e",
+      "nonce": 138
+    },
+    {
+      "index": 2,
+      "timestamp": "2025-11-26 01:09:39.260405",
+      "data": {
+        "type": "carbon_credit",
+        "token_symbol": "ECO",
+        "amount_tons": 1.8,
+        "token_amount": 1800000000000000000,
+        "hospital_id": 2,
+        "surge_event_id": "MONSOON-JUNE-2024",
+        "timestamp": "2025-11-26T01:09:39.260405",
+        "verification": {
+          "event": "Monsoon June 2024",
+          "verified": true,
+          "timestamp": "2025-11-26T01:09:39.260405"
+        },
+        "value_usd": 45.0
+      },
+      "previous_hash": "0046e892cd6f91ad026f475756e6b557bae3eeb87503d1dc264b2906afced81e",
+      "hash": "000b40e317c1797465112aa7959ec0dc66d698bcc0f4e77eb67242b10bed467b",
+      "nonce": 85
+    },
+    {
+      "index": 3,
+      "timestamp": "2025-11-26 01:09:39.261431",
+      "data": {
+        "type": "carbon_credit",
+        "token_symbol": "ECO",
+        "amount_tons": 1.5,
+        "token_amount": 1500000000000000000,
+        "hospital_id": 1,
+        "surge_event_id": "HEATWAVE-MAY-2024",
+        "timestamp": "2025-11-26T01:09:39.261431",
+        "verification": {
+          "event": "Heatwave May 2024",
+          "verified": true,
+          "timestamp": "2025-11-26T01:09:39.261431"
+        },
+        "value_usd": 37.5
+      },
+      "previous_hash": "000b40e317c1797465112aa7959ec0dc66d698bcc0f4e77eb67242b10bed467b",
+      "hash": "0042d64c495caaae00b6c19d25c96a6765e977395cdf665d87ae9f03e98e82d9",
+      "nonce": 433
+    }
+  ],
+  "registry": [
+    {
+      "credit_id": "ECO-000001",
+      "block_index": 1,
+      "block_hash": "0046e892cd6f91ad026f475756e6b557bae3eeb87503d1dc264b2906afced81e",
+      "carbon_tons": 2.5,
+      "hospital_id": 1,
+      "timestamp": "2025-11-26 01:09:39.258500",
+      "value_usd": 62.5,
+      "status": "active"
+    },
+    {
+      "credit_id": "ECO-000002",
+      "block_index": 2,
+      "block_hash": "000b40e317c1797465112aa7959ec0dc66d698bcc0f4e77eb67242b10bed467b",
+      "carbon_tons": 1.8,
+      "hospital_id": 2,
+      "timestamp": "2025-11-26 01:09:39.260405",
+      "value_usd": 45.0,
+      "status": "active"
+    },
+    {
+      "credit_id": "ECO-000003",
+      "block_index": 3,
+      "block_hash": "0042d64c495caaae00b6c19d25c96a6765e977395cdf665d87ae9f03e98e82d9",
+      "carbon_tons": 1.5,
+      "hospital_id": 1,
+      "timestamp": "2025-11-26 01:09:39.261431",
+      "value_usd": 37.5,
+      "status": "active"
+    }
+  ],
+  "export_timestamp": "2025-11-26T01:09:39.267390"
+}

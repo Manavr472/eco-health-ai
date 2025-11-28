@@ -1,0 +1,15 @@
+Hospital_id,type_of_hospital,Hospital Name,Location,total_number_of_beds
+KEM_H1,Municipal,King Edward Memorial Hospital,Parel,2250
+LOK_H2,Municipal,Lokmanya Tilak Hospital,Sion,1422
+NAI_H3,Municipal,BYL Nair Hospital,Mumbai Central,1229
+JJ_H4,Mumicipal,JJ Hospital,Mumbai Central,1352
+HIN_H5,Private,Hinduja Hospital,Mahim,337
+LIL_H6,Private,Lilavati Hospital,Bandra West,320
+NAN_H7,Private,NANAVATI,Vile Parle,350
+BOM_H8,Private,Bombay Hospital,Marine Lines,732
+JAS_H9,Private,Jaslok Hospital & Research Centre,Tardeo,448
+BRE_H10,Private,Breach Candy Hospital Trust,Breach Candy,213
+SAI_H11,Private,Saifee Hospital,Charni Road,254
+JUP_H13,Private,Jupiter Hospital,Thane West,350
+COO_H14,Municipal,Dr. R N Cooper Hospital,Juhu,700
+HBT_H15,Municipal,HBT (Thackeray) Trauma Care,Jogeshwari East,180

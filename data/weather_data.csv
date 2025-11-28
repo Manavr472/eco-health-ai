@@ -1,0 +1,2193 @@
+date,season,temperature_c,rainfall_mm,humidity_percent,wind_speed_kmh,condition,is_extreme_heat,is_heavy_rain,is_storm
+2020-01-01,winter,27.0,0.0,45.1,2.1,Pleasant,False,False,False
+2020-01-02,winter,24.5,0.0,67.7,2.6,Pleasant,False,False,False
+2020-01-03,winter,23.2,0.0,57.4,3.0,Pleasant,False,False,False
+2020-01-04,winter,22.9,3.82,92.7,3.9,Pleasant,False,False,False
+2020-01-05,winter,25.1,0.0,66.2,2.0,Pleasant,False,False,False
+2020-01-06,winter,21.6,0.0,77.4,6.6,Pleasant,False,False,False
+2020-01-07,winter,23.8,0.0,70.8,6.2,Pleasant,False,False,False
+2020-01-08,winter,20.4,0.0,64.3,9.2,Pleasant,False,False,False
+2020-01-09,winter,20.2,0.0,73.3,1.8,Pleasant,False,False,False
+2020-01-10,winter,18.8,0.0,54.0,6.3,Cool,False,False,False
+2020-01-11,winter,26.6,0.0,70.1,15.2,Pleasant,False,False,False
+2020-01-12,winter,21.9,0.72,77.0,5.4,Pleasant,False,False,False
+2020-01-13,winter,22.5,0.0,56.0,3.0,Pleasant,False,False,False
+2020-01-14,winter,24.6,0.0,54.1,30.6,Pleasant,False,False,False
+2020-01-15,winter,20.6,0.0,63.3,6.6,Pleasant,False,False,False
+2020-01-16,winter,30.3,0.0,64.6,20.2,Hot,False,False,False
+2020-01-17,winter,21.5,0.0,62.6,13.7,Pleasant,False,False,False
+2020-01-18,winter,22.9,0.0,59.0,8.2,Pleasant,False,False,False
+2020-01-19,winter,22.7,0.0,59.4,3.8,Pleasant,False,False,False
+2020-01-20,winter,25.4,7.35,74.2,9.6,Rainy,False,False,False
+2020-01-21,winter,28.6,0.0,57.7,5.7,Pleasant,False,False,False
+2020-01-22,winter,24.8,3.71,82.2,29.8,Pleasant,False,False,False
+2020-01-23,winter,21.5,0.0,54.4,11.7,Pleasant,False,False,False
+2020-01-24,winter,22.3,5.23,85.0,9.7,Rainy,False,False,False
+2020-01-25,winter,20.3,0.0,55.7,19.6,Pleasant,False,False,False
+2020-01-26,winter,23.5,0.0,63.8,8.4,Pleasant,False,False,False
+2020-01-27,winter,21.8,0.0,67.5,13.2,Pleasant,False,False,False
+2020-01-28,winter,22.8,0.0,64.8,13.9,Pleasant,False,False,False
+2020-01-29,winter,25.2,0.0,58.4,5.2,Pleasant,False,False,False
+2020-01-30,winter,24.6,0.0,60.2,1.5,Pleasant,False,False,False
+2020-01-31,winter,22.8,0.0,63.3,11.2,Pleasant,False,False,False
+2020-02-01,winter,20.7,0.0,61.5,11.1,Pleasant,False,False,False
+2020-02-02,winter,24.9,0.0,66.9,21.2,Pleasant,False,False,False
+2020-02-03,winter,25.0,0.0,61.3,10.9,Pleasant,False,False,False
+2020-02-04,winter,26.6,6.44,86.5,1.9,Rainy,False,False,False
+2020-02-05,winter,21.0,0.0,66.6,13.0,Pleasant,False,False,False
+2020-02-06,winter,22.8,0.0,61.7,6.8,Pleasant,False,False,False
+2020-02-07,winter,22.1,0.0,50.3,2.7,Pleasant,False,False,False
+2020-02-08,winter,21.5,0.0,66.7,6.1,Pleasant,False,False,False
+2020-02-09,winter,27.8,0.0,70.8,3.1,Pleasant,False,False,False
+2020-02-10,winter,26.4,0.0,57.0,5.0,Pleasant,False,False,False
+2020-02-11,winter,23.9,0.0,66.6,16.1,Pleasant,False,False,False
+2020-02-12,winter,24.5,0.0,65.8,17.1,Pleasant,False,False,False
+2020-02-13,winter,24.3,0.0,62.6,19.0,Pleasant,False,False,False
+2020-02-14,winter,26.3,0.0,61.1,6.0,Pleasant,False,False,False
+2020-02-15,winter,25.8,0.0,59.8,10.3,Pleasant,False,False,False
+2020-02-16,winter,23.6,0.0,56.9,4.1,Pleasant,False,False,False
+2020-02-17,winter,24.3,0.0,47.6,9.8,Pleasant,False,False,False
+2020-02-18,winter,22.7,0.0,59.4,8.0,Pleasant,False,False,False
+2020-02-19,winter,19.3,0.0,66.9,4.1,Cool,False,False,False
+2020-02-20,winter,25.8,0.0,60.2,6.7,Pleasant,False,False,False
+2020-02-21,winter,26.1,0.0,52.7,9.8,Pleasant,False,False,False
+2020-02-22,winter,19.8,0.0,55.4,4.3,Cool,False,False,False
+2020-02-23,winter,23.0,0.0,69.4,25.4,Pleasant,False,False,False
+2020-02-24,winter,23.9,0.0,64.0,10.2,Pleasant,False,False,False
+2020-02-25,winter,20.4,0.0,66.9,6.0,Pleasant,False,False,False
+2020-02-26,winter,27.3,0.0,52.5,7.4,Pleasant,False,False,False
+2020-02-27,winter,23.8,0.0,70.4,15.8,Pleasant,False,False,False
+2020-02-28,winter,26.7,0.0,64.3,1.7,Pleasant,False,False,False
+2020-02-29,winter,20.3,0.0,56.4,11.5,Pleasant,False,False,False
+2020-03-01,summer,35.9,0.0,62.3,18.5,Very Hot,False,False,False
+2020-03-02,summer,30.0,0.0,60.4,9.6,Pleasant,False,False,False
+2020-03-03,summer,33.1,0.0,61.4,12.5,Hot,False,False,False
+2020-03-04,summer,32.1,0.0,59.4,5.1,Hot,False,False,False
+2020-03-05,summer,37.3,0.0,67.9,9.0,Very Hot,True,False,False
+2020-03-06,summer,30.1,0.0,56.6,32.7,Hot,False,False,False
+2020-03-07,summer,28.8,0.0,58.0,7.3,Pleasant,False,False,False
+2020-03-08,summer,29.9,0.0,71.9,14.9,Pleasant,False,False,False
+2020-03-09,summer,31.6,0.0,70.9,13.7,Hot,False,False,False
+2020-03-10,summer,34.3,0.0,57.7,3.2,Hot,False,False,False
+2020-03-11,summer,31.6,4.23,82.4,9.9,Hot,False,False,False
+2020-03-12,summer,33.2,0.0,75.1,8.5,Hot,False,False,False
+2020-03-13,summer,32.2,0.0,70.7,28.7,Hot,False,False,False
+2020-03-14,summer,34.1,13.34,80.4,2.6,Rainy,False,False,False
+2020-03-15,summer,31.9,0.0,66.1,9.7,Hot,False,False,False
+2020-03-16,summer,35.5,2.65,90.2,7.8,Very Hot,False,False,False
+2020-03-17,summer,31.0,0.0,60.1,10.6,Hot,False,False,False
+2020-03-18,summer,32.5,0.0,48.3,3.8,Hot,False,False,False
+2020-03-19,summer,33.9,0.0,61.7,5.6,Hot,False,False,False
+2020-03-20,summer,30.1,0.0,56.1,22.8,Hot,False,False,False
+2020-03-21,summer,30.8,0.0,69.3,1.9,Hot,False,False,False
+2020-03-22,summer,31.5,0.0,47.8,16.6,Hot,False,False,False
+2020-03-23,summer,35.1,0.0,67.2,10.2,Very Hot,False,False,False
+2020-03-24,summer,31.6,0.0,77.7,17.8,Hot,False,False,False
+2020-03-25,summer,28.3,0.0,52.8,4.2,Pleasant,False,False,False
+2020-03-26,summer,33.0,0.0,59.3,5.3,Hot,False,False,False
+2020-03-27,summer,32.1,0.0,62.5,3.7,Hot,False,False,False
+2020-03-28,summer,28.1,0.0,66.0,8.2,Pleasant,False,False,False
+2020-03-29,summer,35.2,0.0,56.8,7.2,Very Hot,False,False,False
+2020-03-30,summer,32.4,0.0,72.6,3.6,Hot,False,False,False
+2020-03-31,summer,34.5,0.0,57.8,11.6,Hot,False,False,False
+2020-04-01,summer,37.5,0.0,64.9,21.6,Very Hot,True,False,False
+2020-04-02,summer,35.6,0.0,65.3,3.2,Very Hot,False,False,False
+2020-04-03,summer,34.7,0.0,61.3,12.4,Hot,False,False,False
+2020-04-04,summer,34.2,0.0,50.8,20.7,Hot,False,False,False
+2020-04-05,summer,30.4,0.0,60.7,15.7,Hot,False,False,False
+2020-04-06,summer,30.5,0.0,57.1,7.5,Hot,False,False,False
+2020-04-07,summer,40.0,0.0,59.5,8.9,Very Hot,True,False,False
+2020-04-08,summer,36.0,0.0,58.5,10.8,Very Hot,True,False,False
+2020-04-09,summer,38.0,0.0,62.9,7.6,Very Hot,True,False,False
+2020-04-10,summer,32.9,0.0,59.3,4.4,Hot,False,False,False
+2020-04-11,summer,34.8,0.0,64.6,17.0,Hot,False,False,False
+2020-04-12,summer,33.8,0.0,69.0,15.1,Hot,False,False,False
+2020-04-13,summer,35.1,0.0,59.3,4.7,Very Hot,False,False,False
+2020-04-14,summer,29.8,0.0,56.7,4.0,Pleasant,False,False,False
+2020-04-15,summer,33.2,0.0,66.1,5.5,Hot,False,False,False
+2020-04-16,summer,39.4,0.0,66.8,8.2,Very Hot,True,False,False
+2020-04-17,summer,35.0,0.0,61.8,18.5,Hot,False,False,False
+2020-04-18,summer,31.2,0.0,72.4,11.8,Hot,False,False,False
+2020-04-19,summer,33.2,0.0,66.2,14.9,Hot,False,False,False
+2020-04-20,summer,31.1,0.0,64.7,8.4,Hot,False,False,False
+2020-04-21,summer,37.3,0.0,56.2,3.8,Very Hot,True,False,False
+2020-04-22,summer,34.7,2.32,86.1,8.5,Hot,False,False,False
+2020-04-23,summer,34.4,0.0,63.3,14.3,Hot,False,False,False
+2020-04-24,summer,37.0,0.0,62.5,2.2,Very Hot,True,False,False
+2020-04-25,summer,36.4,0.0,61.1,6.7,Very Hot,True,False,False
+2020-04-26,summer,33.7,0.0,55.7,4.8,Hot,False,False,False
+2020-04-27,summer,31.7,0.0,67.0,0.4,Hot,False,False,False
+2020-04-28,summer,35.5,0.0,58.3,7.6,Very Hot,False,False,False
+2020-04-29,summer,31.7,0.0,52.7,0.6,Hot,False,False,False
+2020-04-30,summer,31.9,0.0,65.8,11.1,Hot,False,False,False
+2020-05-01,summer,33.9,0.0,60.3,3.9,Hot,False,False,False
+2020-05-02,summer,31.6,0.0,66.8,18.5,Hot,False,False,False
+2020-05-03,summer,30.0,0.0,62.5,7.7,Hot,False,False,False
+2020-05-04,summer,34.2,0.0,58.8,18.0,Hot,False,False,False
+2020-05-05,summer,33.0,0.0,54.0,1.1,Hot,False,False,False
+2020-05-06,summer,31.0,0.0,54.0,17.6,Hot,False,False,False
+2020-05-07,summer,33.1,0.0,75.2,11.0,Hot,False,False,False
+2020-05-08,summer,29.0,0.0,55.3,8.0,Pleasant,False,False,False
+2020-05-09,summer,34.8,0.0,58.2,2.5,Hot,False,False,False
+2020-05-10,summer,31.1,0.0,64.1,17.5,Hot,False,False,False
+2020-05-11,summer,32.8,0.0,62.7,10.1,Hot,False,False,False
+2020-05-12,summer,33.2,0.0,64.1,5.7,Hot,False,False,False
+2020-05-13,summer,34.6,0.0,62.7,20.4,Hot,False,False,False
+2020-05-14,summer,28.0,0.0,76.9,33.5,Pleasant,False,False,False
+2020-05-15,summer,33.0,0.0,56.8,3.7,Hot,False,False,False
+2020-05-16,summer,33.2,2.91,89.8,12.1,Hot,False,False,False
+2020-05-17,summer,35.1,0.0,62.9,6.8,Very Hot,False,False,False
+2020-05-18,summer,28.7,0.0,61.1,5.9,Pleasant,False,False,False
+2020-05-19,summer,33.8,0.0,61.6,7.5,Hot,False,False,False
+2020-05-20,summer,33.1,0.0,56.6,11.7,Hot,False,False,False
+2020-05-21,summer,33.2,0.0,68.5,1.9,Hot,False,False,False
+2020-05-22,summer,32.1,0.0,68.8,13.4,Hot,False,False,False
+2020-05-23,summer,32.9,0.0,63.2,8.3,Hot,False,False,False
+2020-05-24,summer,29.8,8.96,88.2,11.3,Rainy,False,False,False
+2020-05-25,summer,29.7,0.0,71.1,21.4,Pleasant,False,False,False
+2020-05-26,summer,31.5,0.0,63.9,2.3,Hot,False,False,False
+2020-05-27,summer,35.2,0.0,73.5,11.2,Very Hot,False,False,False
+2020-05-28,summer,34.0,0.0,62.3,9.6,Hot,False,False,False
+2020-05-29,summer,32.4,0.0,71.9,21.2,Hot,False,False,False
+2020-05-30,summer,36.7,0.0,68.7,12.5,Very Hot,True,False,False
+2020-05-31,summer,34.1,0.0,61.1,13.7,Hot,False,False,False
+2020-06-01,monsoon,28.9,16.67,86.9,10.9,Rainy,False,False,False
+2020-06-02,monsoon,32.1,18.01,93.1,9.5,Rainy,False,False,False
+2020-06-03,monsoon,29.9,41.9,94.6,3.5,Heavy Rain,False,False,False
+2020-06-04,monsoon,29.5,10.07,90.2,5.7,Rainy,False,False,False
+2020-06-05,monsoon,26.9,23.67,100.0,50.1,Heavy Rain,False,False,False
+2020-06-06,monsoon,29.1,68.71,90.2,35.1,Storm,False,True,True
+2020-06-07,monsoon,28.4,52.27,93.7,11.1,Heavy Rain,False,True,False
+2020-06-08,monsoon,29.4,18.99,91.9,6.2,Rainy,False,False,False
+2020-06-09,monsoon,25.1,7.27,87.9,35.6,Rainy,False,False,False
+2020-06-10,monsoon,25.9,20.34,100.0,15.1,Heavy Rain,False,False,False
+2020-06-11,monsoon,27.9,20.72,93.8,16.6,Heavy Rain,False,False,False
+2020-06-12,monsoon,27.0,46.48,100.0,33.3,Heavy Rain,False,False,False
+2020-06-13,monsoon,22.5,23.47,100.0,38.6,Heavy Rain,False,False,False
+2020-06-14,monsoon,27.8,9.48,73.3,36.3,Rainy,False,False,False
+2020-06-15,monsoon,27.1,22.41,93.9,27.1,Heavy Rain,False,False,False
+2020-06-16,monsoon,26.9,26.82,92.1,14.9,Heavy Rain,False,False,False
+2020-06-17,monsoon,30.5,43.21,94.0,65.7,Heavy Rain,False,False,False
+2020-06-18,monsoon,25.7,10.35,84.9,9.6,Rainy,False,False,False
+2020-06-19,monsoon,29.6,54.82,92.3,22.2,Heavy Rain,False,True,False
+2020-06-20,monsoon,25.3,17.96,88.5,23.1,Rainy,False,False,False
+2020-06-21,monsoon,30.3,13.05,88.9,18.4,Rainy,False,False,False
+2020-06-22,monsoon,25.3,16.39,88.5,9.7,Rainy,False,False,False
+2020-06-23,monsoon,25.2,5.42,84.7,27.6,Rainy,False,False,False
+2020-06-24,monsoon,25.3,11.31,81.9,33.5,Rainy,False,False,False
+2020-06-25,monsoon,25.2,13.64,77.6,10.9,Rainy,False,False,False
+2020-06-26,monsoon,27.0,32.31,97.6,65.1,Heavy Rain,False,False,False
+2020-06-27,monsoon,24.1,29.88,92.9,18.2,Heavy Rain,False,False,False
+2020-06-28,monsoon,29.5,66.06,100.0,40.0,Storm,False,True,True
+2020-06-29,monsoon,25.0,33.62,96.4,86.3,Heavy Rain,False,False,False
+2020-06-30,monsoon,29.7,15.04,86.5,7.3,Rainy,False,False,False
+2020-07-01,monsoon,27.3,32.97,100.0,21.9,Heavy Rain,False,False,False
+2020-07-02,monsoon,26.3,30.22,100.0,85.9,Heavy Rain,False,False,False
+2020-07-03,monsoon,30.7,11.67,85.7,33.1,Rainy,False,False,False
+2020-07-04,monsoon,29.1,7.21,87.3,17.0,Rainy,False,False,False
+2020-07-05,monsoon,30.6,12.13,88.0,37.8,Rainy,False,False,False
+2020-07-06,monsoon,24.7,69.7,88.7,85.3,Storm,False,True,True
+2020-07-07,monsoon,29.1,26.53,83.4,15.4,Heavy Rain,False,False,False
+2020-07-08,monsoon,28.8,2.31,83.6,11.3,Pleasant,False,False,False
+2020-07-09,monsoon,27.9,31.5,89.2,69.2,Heavy Rain,False,False,False
+2020-07-10,monsoon,28.1,46.89,93.8,65.1,Heavy Rain,False,False,False
+2020-07-11,monsoon,30.6,331.98,96.9,57.0,Storm,False,True,True
+2020-07-12,monsoon,27.0,40.62,91.3,5.0,Heavy Rain,False,False,False
+2020-07-13,monsoon,27.5,65.74,89.0,97.6,Storm,False,True,True
+2020-07-14,monsoon,26.8,19.61,85.0,13.5,Rainy,False,False,False
+2020-07-15,monsoon,27.4,27.76,90.9,30.6,Heavy Rain,False,False,False
+2020-07-16,monsoon,24.6,2.04,94.0,33.6,Pleasant,False,False,False
+2020-07-17,monsoon,26.4,19.64,83.1,51.8,Rainy,False,False,False
+2020-07-18,monsoon,31.8,14.46,87.6,3.0,Rainy,False,False,False
+2020-07-19,monsoon,25.3,41.01,95.9,49.9,Heavy Rain,False,False,False
+2020-07-20,monsoon,31.2,7.69,83.2,19.7,Rainy,False,False,False
+2020-07-21,monsoon,29.7,30.75,90.6,56.6,Heavy Rain,False,False,False
+2020-07-22,monsoon,31.2,5.02,85.0,17.5,Rainy,False,False,False
+2020-07-23,monsoon,31.0,43.27,100.0,41.6,Heavy Rain,False,False,False
+2020-07-24,monsoon,29.5,12.62,87.2,33.5,Rainy,False,False,False
+2020-07-25,monsoon,29.0,3.55,88.3,24.3,Pleasant,False,False,False
+2020-07-26,monsoon,30.5,25.1,96.7,31.6,Heavy Rain,False,False,False
+2020-07-27,monsoon,30.0,11.11,92.9,6.3,Rainy,False,False,False
+2020-07-28,monsoon,29.0,51.04,91.0,31.6,Storm,False,True,True
+2020-07-29,monsoon,27.9,7.15,86.3,38.3,Rainy,False,False,False
+2020-07-30,monsoon,28.1,13.19,85.7,11.1,Rainy,False,False,False
+2020-07-31,monsoon,28.2,204.84,100.0,4.6,Heavy Rain,False,True,False
+2020-08-01,monsoon,28.1,25.15,94.9,26.9,Heavy Rain,False,False,False
+2020-08-02,monsoon,26.2,76.97,100.0,27.8,Heavy Rain,False,True,False
+2020-08-03,monsoon,27.7,7.28,86.0,24.0,Rainy,False,False,False
+2020-08-04,monsoon,24.4,9.12,78.8,19.6,Rainy,False,False,False
+2020-08-05,monsoon,25.3,20.31,98.0,12.7,Heavy Rain,False,False,False
+2020-08-06,monsoon,27.2,47.08,95.3,20.0,Heavy Rain,False,False,False
+2020-08-07,monsoon,27.9,30.63,94.9,104.3,Heavy Rain,False,False,False
+2020-08-08,monsoon,26.4,27.4,99.5,37.5,Heavy Rain,False,False,False
+2020-08-09,monsoon,29.5,45.95,94.5,43.4,Heavy Rain,False,False,False
+2020-08-10,monsoon,27.7,8.94,83.9,19.1,Rainy,False,False,False
+2020-08-11,monsoon,28.8,134.48,97.9,7.1,Heavy Rain,False,True,False
+2020-08-12,monsoon,27.7,81.23,93.4,34.5,Storm,False,True,True
+2020-08-13,monsoon,28.9,3.43,87.1,13.1,Pleasant,False,False,False
+2020-08-14,monsoon,25.5,61.59,100.0,39.8,Storm,False,True,True
+2020-08-15,monsoon,30.4,41.95,95.1,31.5,Heavy Rain,False,False,False
+2020-08-16,monsoon,26.3,16.75,88.4,21.9,Rainy,False,False,False
+2020-08-17,monsoon,24.9,28.73,100.0,4.5,Heavy Rain,False,False,False
+2020-08-18,monsoon,26.0,26.39,92.4,20.1,Heavy Rain,False,False,False
+2020-08-19,monsoon,29.2,12.78,89.7,41.5,Rainy,False,False,False
+2020-08-20,monsoon,25.7,28.48,98.7,6.3,Heavy Rain,False,False,False
+2020-08-21,monsoon,29.1,19.31,79.5,11.6,Rainy,False,False,False
+2020-08-22,monsoon,27.9,61.52,98.4,91.3,Storm,False,True,True
+2020-08-23,monsoon,29.0,51.08,100.0,16.8,Heavy Rain,False,True,False
+2020-08-24,monsoon,28.0,17.85,82.6,7.4,Rainy,False,False,False
+2020-08-25,monsoon,29.2,14.82,78.8,27.3,Rainy,False,False,False
+2020-08-26,monsoon,29.7,21.54,94.2,36.0,Heavy Rain,False,False,False
+2020-08-27,monsoon,30.3,39.13,97.1,20.5,Heavy Rain,False,False,False
+2020-08-28,monsoon,27.0,38.6,93.7,39.2,Heavy Rain,False,False,False
+2020-08-29,monsoon,30.8,21.63,91.4,15.1,Heavy Rain,False,False,False
+2020-08-30,monsoon,26.3,11.64,84.2,6.6,Rainy,False,False,False
+2020-08-31,monsoon,29.2,21.78,100.0,8.6,Heavy Rain,False,False,False
+2020-09-01,monsoon,28.3,49.69,97.9,89.9,Heavy Rain,False,False,False
+2020-09-02,monsoon,27.8,221.48,92.1,41.0,Storm,False,True,True
+2020-09-03,monsoon,28.9,20.78,89.8,10.3,Heavy Rain,False,False,False
+2020-09-04,monsoon,25.2,18.21,81.6,12.9,Rainy,False,False,False
+2020-09-05,monsoon,28.1,23.86,100.0,25.3,Heavy Rain,False,False,False
+2020-09-06,monsoon,27.9,36.08,100.0,31.8,Heavy Rain,False,False,False
+2020-09-07,monsoon,28.3,48.96,88.8,27.5,Heavy Rain,False,False,False
+2020-09-08,monsoon,27.0,22.04,100.0,11.3,Heavy Rain,False,False,False
+2020-09-09,monsoon,25.0,24.3,92.6,37.7,Heavy Rain,False,False,False
+2020-09-10,monsoon,29.4,17.28,94.3,41.5,Rainy,False,False,False
+2020-09-11,monsoon,25.9,21.29,99.6,11.4,Heavy Rain,False,False,False
+2020-09-12,monsoon,30.2,17.16,82.3,39.4,Rainy,False,False,False
+2020-09-13,monsoon,27.3,3.62,89.5,15.4,Pleasant,False,False,False
+2020-09-14,monsoon,31.6,13.35,87.4,51.9,Rainy,False,False,False
+2020-09-15,monsoon,29.2,39.78,89.1,26.9,Heavy Rain,False,False,False
+2020-09-16,monsoon,27.4,39.57,96.2,22.5,Heavy Rain,False,False,False
+2020-09-17,monsoon,26.9,12.13,86.3,33.2,Rainy,False,False,False
+2020-09-18,monsoon,33.7,8.92,92.6,12.0,Rainy,False,False,False
+2020-09-19,monsoon,29.1,69.36,99.8,42.8,Storm,False,True,True
+2020-09-20,monsoon,23.6,15.03,79.9,27.3,Rainy,False,False,False
+2020-09-21,monsoon,32.5,8.22,84.3,14.2,Rainy,False,False,False
+2020-09-22,monsoon,31.7,22.18,92.4,23.7,Heavy Rain,False,False,False
+2020-09-23,monsoon,25.7,22.36,92.5,23.0,Heavy Rain,False,False,False
+2020-09-24,monsoon,29.9,57.01,98.9,13.1,Heavy Rain,False,True,False
+2020-09-25,monsoon,28.2,10.42,90.7,14.3,Rainy,False,False,False
+2020-09-26,monsoon,27.7,4.75,80.4,9.5,Pleasant,False,False,False
+2020-09-27,monsoon,28.2,27.23,86.7,16.3,Heavy Rain,False,False,False
+2020-09-28,monsoon,27.1,22.57,97.6,27.1,Heavy Rain,False,False,False
+2020-09-29,monsoon,27.6,18.86,78.4,15.6,Rainy,False,False,False
+2020-09-30,monsoon,26.4,16.49,87.1,7.0,Rainy,False,False,False
+2020-10-01,post_monsoon,26.9,0.0,61.7,13.4,Pleasant,False,False,False
+2020-10-02,post_monsoon,34.6,0.0,73.5,28.0,Hot,False,False,False
+2020-10-03,post_monsoon,29.4,0.0,69.5,20.7,Pleasant,False,False,False
+2020-10-04,post_monsoon,27.5,0.0,71.1,15.9,Pleasant,False,False,False
+2020-10-05,post_monsoon,29.7,0.0,65.6,8.6,Pleasant,False,False,False
+2020-10-06,post_monsoon,27.3,1.31,88.9,10.8,Pleasant,False,False,False
+2020-10-07,post_monsoon,28.3,0.0,53.7,2.8,Pleasant,False,False,False
+2020-10-08,post_monsoon,31.2,0.0,62.4,20.4,Hot,False,False,False
+2020-10-09,post_monsoon,24.9,0.0,64.2,6.2,Pleasant,False,False,False
+2020-10-10,post_monsoon,26.1,0.0,58.4,4.2,Pleasant,False,False,False
+2020-10-11,post_monsoon,28.5,0.0,63.1,17.8,Pleasant,False,False,False
+2020-10-12,post_monsoon,29.0,0.0,54.6,9.7,Pleasant,False,False,False
+2020-10-13,post_monsoon,28.5,0.0,58.6,22.3,Pleasant,False,False,False
+2020-10-14,post_monsoon,27.7,0.0,61.6,5.9,Pleasant,False,False,False
+2020-10-15,post_monsoon,31.5,0.0,61.0,4.8,Hot,False,False,False
+2020-10-16,post_monsoon,27.7,0.0,58.4,18.9,Pleasant,False,False,False
+2020-10-17,post_monsoon,32.6,0.0,67.7,10.1,Hot,False,False,False
+2020-10-18,post_monsoon,27.6,0.0,75.3,16.8,Pleasant,False,False,False
+2020-10-19,post_monsoon,29.7,0.0,70.5,4.6,Pleasant,False,False,False
+2020-10-20,post_monsoon,26.4,0.0,78.3,2.2,Pleasant,False,False,False
+2020-10-21,post_monsoon,31.3,0.0,63.5,42.9,Hot,False,False,False
+2020-10-22,post_monsoon,30.1,0.0,65.9,11.7,Hot,False,False,False
+2020-10-23,post_monsoon,32.4,0.0,72.7,8.8,Hot,False,False,False
+2020-10-24,post_monsoon,27.4,0.0,59.6,13.5,Pleasant,False,False,False
+2020-10-25,post_monsoon,30.5,0.0,58.2,4.2,Hot,False,False,False
+2020-10-26,post_monsoon,31.8,0.0,66.5,12.1,Hot,False,False,False
+2020-10-27,post_monsoon,30.9,0.0,57.3,14.8,Hot,False,False,False
+2020-10-28,post_monsoon,29.6,0.0,53.3,2.6,Pleasant,False,False,False
+2020-10-29,post_monsoon,26.7,0.0,58.6,3.4,Pleasant,False,False,False
+2020-10-30,post_monsoon,27.9,0.0,77.3,2.7,Pleasant,False,False,False
+2020-10-31,post_monsoon,27.8,0.0,61.3,2.8,Pleasant,False,False,False
+2020-11-01,winter,26.6,0.0,58.6,3.4,Pleasant,False,False,False
+2020-11-02,winter,24.4,0.0,58.6,5.2,Pleasant,False,False,False
+2020-11-03,winter,26.0,0.0,63.6,10.2,Pleasant,False,False,False
+2020-11-04,winter,24.0,0.0,53.2,18.9,Pleasant,False,False,False
+2020-11-05,winter,30.9,0.0,60.5,15.5,Hot,False,False,False
+2020-11-06,winter,19.6,0.0,60.2,6.8,Cool,False,False,False
+2020-11-07,winter,21.6,0.0,61.3,11.0,Pleasant,False,False,False
+2020-11-08,winter,22.6,0.0,60.8,4.4,Pleasant,False,False,False
+2020-11-09,winter,21.4,0.0,66.1,10.6,Pleasant,False,False,False
+2020-11-10,winter,27.9,3.96,80.2,6.9,Pleasant,False,False,False
+2020-11-11,winter,21.6,0.0,62.5,5.4,Pleasant,False,False,False
+2020-11-12,winter,25.6,0.0,52.9,4.5,Pleasant,False,False,False
+2020-11-13,winter,21.1,0.0,61.4,26.5,Pleasant,False,False,False
+2020-11-14,winter,25.4,0.0,66.3,8.8,Pleasant,False,False,False
+2020-11-15,winter,24.5,0.0,63.7,12.1,Pleasant,False,False,False
+2020-11-16,winter,23.3,0.0,72.4,1.9,Pleasant,False,False,False
+2020-11-17,winter,24.1,0.0,60.7,4.1,Pleasant,False,False,False
+2020-11-18,winter,21.7,0.0,64.5,11.8,Pleasant,False,False,False
+2020-11-19,winter,21.3,0.0,62.3,6.1,Pleasant,False,False,False
+2020-11-20,winter,25.2,0.0,59.0,10.3,Pleasant,False,False,False
+2020-11-21,winter,25.5,0.0,64.1,3.6,Pleasant,False,False,False
+2020-11-22,winter,24.3,0.0,56.9,7.7,Pleasant,False,False,False
+2020-11-23,winter,28.4,0.0,67.2,24.5,Pleasant,False,False,False
+2020-11-24,winter,30.0,0.0,64.0,6.5,Hot,False,False,False
+2020-11-25,winter,25.1,0.0,64.9,2.6,Pleasant,False,False,False
+2020-11-26,winter,26.5,0.0,58.2,9.1,Pleasant,False,False,False
+2020-11-27,winter,20.8,0.0,60.6,1.4,Pleasant,False,False,False
+2020-11-28,winter,22.9,0.0,71.6,7.2,Pleasant,False,False,False
+2020-11-29,winter,23.8,0.0,61.7,8.9,Pleasant,False,False,False
+2020-11-30,winter,23.3,0.0,71.7,4.9,Pleasant,False,False,False
+2020-12-01,winter,25.8,0.0,54.7,10.6,Pleasant,False,False,False
+2020-12-02,winter,27.5,0.0,60.6,3.0,Pleasant,False,False,False
+2020-12-03,winter,25.8,0.0,65.8,8.6,Pleasant,False,False,False
+2020-12-04,winter,25.8,0.0,58.1,6.9,Pleasant,False,False,False
+2020-12-05,winter,25.5,0.0,63.8,16.7,Pleasant,False,False,False
+2020-12-06,winter,27.9,0.0,58.0,3.5,Pleasant,False,False,False
+2020-12-07,winter,20.3,0.0,69.8,1.7,Pleasant,False,False,False
+2020-12-08,winter,19.6,15.35,79.5,15.9,Rainy,False,False,False
+2020-12-09,winter,22.2,0.0,63.6,24.3,Pleasant,False,False,False
+2020-12-10,winter,18.8,0.0,61.3,10.4,Cool,False,False,False
+2020-12-11,winter,20.1,0.0,57.6,6.0,Pleasant,False,False,False
+2020-12-12,winter,21.3,0.0,57.4,24.0,Pleasant,False,False,False
+2020-12-13,winter,23.8,0.0,64.0,9.2,Pleasant,False,False,False
+2020-12-14,winter,22.0,0.0,74.3,10.9,Pleasant,False,False,False
+2020-12-15,winter,20.7,0.0,57.3,13.9,Pleasant,False,False,False
+2020-12-16,winter,26.5,0.0,51.4,8.1,Pleasant,False,False,False
+2020-12-17,winter,26.4,0.0,62.5,7.1,Pleasant,False,False,False
+2020-12-18,winter,25.4,0.0,70.7,19.8,Pleasant,False,False,False
+2020-12-19,winter,24.9,16.42,93.5,10.8,Rainy,False,False,False
+2020-12-20,winter,25.4,0.0,63.9,2.4,Pleasant,False,False,False
+2020-12-21,winter,26.8,0.0,39.4,6.2,Pleasant,False,False,False
+2020-12-22,winter,23.0,0.0,60.9,6.5,Pleasant,False,False,False
+2020-12-23,winter,22.0,4.47,87.5,2.7,Pleasant,False,False,False
+2020-12-24,winter,23.3,0.0,67.5,14.0,Pleasant,False,False,False
+2020-12-25,winter,23.2,0.0,56.4,5.9,Pleasant,False,False,False
+2020-12-26,winter,24.2,0.0,58.4,3.9,Pleasant,False,False,False
+2020-12-27,winter,25.0,0.0,55.6,17.4,Pleasant,False,False,False
+2020-12-28,winter,23.1,0.0,60.4,13.8,Pleasant,False,False,False
+2020-12-29,winter,29.5,0.0,57.2,2.5,Pleasant,False,False,False
+2020-12-30,winter,25.7,0.0,63.2,9.3,Pleasant,False,False,False
+2020-12-31,winter,29.4,0.0,40.2,1.0,Pleasant,False,False,False
+2021-01-01,winter,26.0,0.0,65.7,7.6,Pleasant,False,False,False
+2021-01-02,winter,20.9,0.0,50.3,5.5,Pleasant,False,False,False
+2021-01-03,winter,26.2,0.0,65.4,24.5,Pleasant,False,False,False
+2021-01-04,winter,28.4,0.0,60.3,15.2,Pleasant,False,False,False
+2021-01-05,winter,22.2,0.0,75.1,7.8,Pleasant,False,False,False
+2021-01-06,winter,21.2,0.0,63.9,14.3,Pleasant,False,False,False
+2021-01-07,winter,23.2,0.0,63.5,7.0,Pleasant,False,False,False
+2021-01-08,winter,18.2,0.0,58.9,27.4,Cool,False,False,False
+2021-01-09,winter,26.0,0.0,61.5,6.4,Pleasant,False,False,False
+2021-01-10,winter,29.7,0.0,55.8,3.9,Pleasant,False,False,False
+2021-01-11,winter,24.7,0.0,59.5,8.3,Pleasant,False,False,False
+2021-01-12,winter,22.4,0.0,59.4,5.7,Pleasant,False,False,False
+2021-01-13,winter,30.2,0.0,67.6,6.8,Hot,False,False,False
+2021-01-14,winter,21.9,0.0,54.2,7.0,Pleasant,False,False,False
+2021-01-15,winter,27.2,0.0,65.6,3.1,Pleasant,False,False,False
+2021-01-16,winter,23.8,0.0,57.6,8.4,Pleasant,False,False,False
+2021-01-17,winter,20.2,0.0,57.2,21.8,Pleasant,False,False,False
+2021-01-18,winter,24.4,0.0,64.5,18.3,Pleasant,False,False,False
+2021-01-19,winter,24.0,0.0,63.9,3.8,Pleasant,False,False,False
+2021-01-20,winter,26.5,0.0,67.4,18.3,Pleasant,False,False,False
+2021-01-21,winter,25.3,0.0,63.9,7.3,Pleasant,False,False,False
+2021-01-22,winter,18.0,0.0,52.3,11.8,Cool,False,False,False
+2021-01-23,winter,23.3,0.0,61.1,21.6,Pleasant,False,False,False
+2021-01-24,winter,19.6,0.0,58.9,2.8,Cool,False,False,False
+2021-01-25,winter,28.2,0.0,58.2,2.2,Pleasant,False,False,False
+2021-01-26,winter,26.6,0.0,62.6,23.5,Pleasant,False,False,False
+2021-01-27,winter,23.9,0.0,54.7,6.4,Pleasant,False,False,False
+2021-01-28,winter,23.9,0.0,62.8,7.8,Pleasant,False,False,False
+2021-01-29,winter,24.9,0.0,59.0,18.7,Pleasant,False,False,False
+2021-01-30,winter,25.1,0.0,62.4,6.3,Pleasant,False,False,False
+2021-01-31,winter,27.9,0.0,60.2,7.5,Pleasant,False,False,False
+2021-02-01,winter,25.4,0.0,56.6,34.6,Pleasant,False,False,False
+2021-02-02,winter,23.3,0.0,59.2,2.9,Pleasant,False,False,False
+2021-02-03,winter,21.8,0.0,59.2,23.6,Pleasant,False,False,False
+2021-02-04,winter,26.7,0.0,66.4,4.4,Pleasant,False,False,False
+2021-02-05,winter,25.5,0.0,60.3,6.8,Pleasant,False,False,False
+2021-02-06,winter,25.3,0.0,65.0,4.7,Pleasant,False,False,False
+2021-02-07,winter,24.3,1.86,78.1,10.5,Pleasant,False,False,False
+2021-02-08,winter,21.3,0.0,56.7,5.7,Pleasant,False,False,False
+2021-02-09,winter,27.4,0.0,58.4,9.1,Pleasant,False,False,False
+2021-02-10,winter,20.2,0.0,64.7,21.2,Pleasant,False,False,False
+2021-02-11,winter,28.4,0.0,64.9,7.3,Pleasant,False,False,False
+2021-02-12,winter,19.2,0.0,61.8,0.6,Cool,False,False,False
+2021-02-13,winter,20.6,0.0,60.8,8.3,Pleasant,False,False,False
+2021-02-14,winter,26.9,0.0,57.4,14.5,Pleasant,False,False,False
+2021-02-15,winter,26.4,3.4,89.8,20.6,Pleasant,False,False,False
+2021-02-16,winter,25.9,0.0,62.4,3.6,Pleasant,False,False,False
+2021-02-17,winter,28.2,0.0,63.4,20.1,Pleasant,False,False,False
+2021-02-18,winter,19.0,0.0,52.8,5.3,Cool,False,False,False
+2021-02-19,winter,27.2,0.0,47.3,9.5,Pleasant,False,False,False
+2021-02-20,winter,26.7,0.0,58.9,19.7,Pleasant,False,False,False
+2021-02-21,winter,19.6,0.0,53.0,14.0,Cool,False,False,False
+2021-02-22,winter,23.5,0.0,60.3,14.9,Pleasant,False,False,False
+2021-02-23,winter,20.9,0.0,66.1,3.3,Pleasant,False,False,False
+2021-02-24,winter,21.7,0.0,60.2,1.5,Pleasant,False,False,False
+2021-02-25,winter,25.3,0.0,60.6,58.2,Pleasant,False,False,False
+2021-02-26,winter,25.2,0.0,58.7,3.7,Pleasant,False,False,False
+2021-02-27,winter,23.9,0.0,71.3,7.8,Pleasant,False,False,False
+2021-02-28,winter,29.8,0.0,61.9,5.4,Pleasant,False,False,False
+2021-03-01,summer,38.8,0.0,53.9,3.2,Very Hot,True,False,False
+2021-03-02,summer,31.2,0.0,56.9,8.3,Hot,False,False,False
+2021-03-03,summer,36.2,0.0,62.6,8.0,Very Hot,True,False,False
+2021-03-04,summer,37.8,0.0,67.6,10.3,Very Hot,True,False,False
+2021-03-05,summer,33.0,0.0,63.4,0.6,Hot,False,False,False
+2021-03-06,summer,34.4,0.0,69.8,14.9,Hot,False,False,False
+2021-03-07,summer,32.5,3.89,84.2,7.1,Hot,False,False,False
+2021-03-08,summer,32.0,0.0,65.8,21.7,Hot,False,False,False
+2021-03-09,summer,31.5,0.0,51.5,13.7,Hot,False,False,False
+2021-03-10,summer,28.9,0.0,54.2,15.7,Pleasant,False,False,False
+2021-03-11,summer,34.4,0.0,73.8,19.2,Hot,False,False,False
+2021-03-12,summer,27.9,0.0,66.3,11.6,Pleasant,False,False,False
+2021-03-13,summer,30.6,0.0,75.1,7.6,Hot,False,False,False
+2021-03-14,summer,32.8,0.0,64.0,12.3,Hot,False,False,False
+2021-03-15,summer,34.4,0.0,62.3,6.0,Hot,False,False,False
+2021-03-16,summer,32.8,0.0,65.2,7.7,Hot,False,False,False
+2021-03-17,summer,32.2,0.0,61.9,2.4,Hot,False,False,False
+2021-03-18,summer,31.1,0.0,70.9,8.1,Hot,False,False,False
+2021-03-19,summer,31.3,0.0,70.9,5.9,Hot,False,False,False
+2021-03-20,summer,36.2,0.0,56.0,7.2,Very Hot,True,False,False
+2021-03-21,summer,34.2,0.0,60.1,20.1,Hot,False,False,False
+2021-03-22,summer,31.5,0.0,63.6,8.6,Hot,False,False,False
+2021-03-23,summer,32.4,0.0,68.5,31.2,Hot,False,False,False
+2021-03-24,summer,35.0,0.0,69.8,11.6,Hot,False,False,False
+2021-03-25,summer,33.0,6.27,86.1,3.9,Rainy,False,False,False
+2021-03-26,summer,29.0,0.0,63.7,7.7,Pleasant,False,False,False
+2021-03-27,summer,35.1,0.0,53.8,17.4,Very Hot,False,False,False
+2021-03-28,summer,34.0,0.0,59.3,4.3,Hot,False,False,False
+2021-03-29,summer,38.4,0.0,75.1,12.5,Very Hot,True,False,False
+2021-03-30,summer,35.4,0.0,60.9,1.4,Very Hot,False,False,False
+2021-03-31,summer,35.5,0.0,60.1,11.0,Very Hot,False,False,False
+2021-04-01,summer,39.2,0.0,70.6,3.8,Very Hot,True,False,False
+2021-04-02,summer,34.3,1.39,88.6,14.9,Hot,False,False,False
+2021-04-03,summer,34.4,0.0,54.8,7.6,Hot,False,False,False
+2021-04-04,summer,32.8,0.0,71.8,12.7,Hot,False,False,False
+2021-04-05,summer,30.2,0.0,59.4,4.4,Hot,False,False,False
+2021-04-06,summer,30.3,0.0,63.8,6.6,Hot,False,False,False
+2021-04-07,summer,28.9,0.0,64.1,12.9,Pleasant,False,False,False
+2021-04-08,summer,30.3,0.0,52.8,8.3,Hot,False,False,False
+2021-04-09,summer,37.1,0.0,52.5,11.1,Very Hot,True,False,False
+2021-04-10,summer,32.8,0.0,74.1,12.3,Hot,False,False,False
+2021-04-11,summer,36.5,0.0,68.9,9.0,Very Hot,True,False,False
+2021-04-12,summer,32.2,0.0,62.4,17.2,Hot,False,False,False
+2021-04-13,summer,32.9,0.0,71.8,4.2,Hot,False,False,False
+2021-04-14,summer,34.9,0.0,65.1,3.6,Hot,False,False,False
+2021-04-15,summer,33.0,0.0,61.5,3.7,Hot,False,False,False
+2021-04-16,summer,34.7,0.0,62.1,7.6,Hot,False,False,False
+2021-04-17,summer,34.2,0.0,64.7,2.2,Hot,False,False,False
+2021-04-18,summer,30.6,0.0,71.1,2.5,Hot,False,False,False
+2021-04-19,summer,28.6,0.0,64.6,3.2,Pleasant,False,False,False
+2021-04-20,summer,32.8,0.0,48.7,2.2,Hot,False,False,False
+2021-04-21,summer,34.1,0.0,58.4,12.7,Hot,False,False,False
+2021-04-22,summer,31.5,0.0,54.2,10.4,Hot,False,False,False
+2021-04-23,summer,31.1,0.0,67.2,3.3,Hot,False,False,False
+2021-04-24,summer,32.5,0.0,57.2,1.8,Hot,False,False,False
+2021-04-25,summer,36.4,0.0,55.8,8.5,Very Hot,True,False,False
+2021-04-26,summer,30.1,0.0,67.7,1.5,Hot,False,False,False
+2021-04-27,summer,37.6,0.0,63.3,15.1,Very Hot,True,False,False
+2021-04-28,summer,33.2,0.0,72.1,4.5,Hot,False,False,False
+2021-04-29,summer,31.2,0.0,61.7,19.1,Hot,False,False,False
+2021-04-30,summer,32.4,0.0,53.4,15.2,Hot,False,False,False
+2021-05-01,summer,33.0,0.0,69.1,7.9,Hot,False,False,False
+2021-05-02,summer,29.6,0.0,60.6,6.4,Pleasant,False,False,False
+2021-05-03,summer,34.9,0.0,62.1,5.5,Hot,False,False,False
+2021-05-04,summer,36.3,0.0,75.2,2.0,Very Hot,True,False,False
+2021-05-05,summer,33.7,0.0,62.5,6.2,Hot,False,False,False
+2021-05-06,summer,31.9,0.0,67.1,5.2,Hot,False,False,False
+2021-05-07,summer,33.6,0.0,57.5,16.0,Hot,False,False,False
+2021-05-08,summer,34.2,0.0,61.8,14.2,Hot,False,False,False
+2021-05-09,summer,34.0,0.0,53.1,2.6,Hot,False,False,False
+2021-05-10,summer,30.6,0.0,62.5,20.4,Hot,False,False,False
+2021-05-11,summer,30.5,0.0,76.8,2.8,Hot,False,False,False
+2021-05-12,summer,29.6,0.0,70.8,3.0,Pleasant,False,False,False
+2021-05-13,summer,32.5,0.0,65.6,7.5,Hot,False,False,False
+2021-05-14,summer,36.9,0.0,59.0,10.4,Very Hot,True,False,False
+2021-05-15,summer,33.4,0.0,56.7,7.3,Hot,False,False,False
+2021-05-16,summer,38.9,0.0,56.9,8.0,Very Hot,True,False,False
+2021-05-17,summer,28.4,0.0,61.6,6.9,Pleasant,False,False,False
+2021-05-18,summer,34.0,0.0,65.0,9.5,Hot,False,False,False
+2021-05-19,summer,37.1,0.0,61.1,4.9,Very Hot,True,False,False
+2021-05-20,summer,31.8,0.0,61.0,4.4,Hot,False,False,False
+2021-05-21,summer,33.2,0.0,64.5,0.8,Hot,False,False,False
+2021-05-22,summer,33.1,0.0,62.7,4.9,Hot,False,False,False
+2021-05-23,summer,37.4,0.0,63.6,8.1,Very Hot,True,False,False
+2021-05-24,summer,32.7,0.0,65.2,6.3,Hot,False,False,False
+2021-05-25,summer,33.0,0.0,60.7,16.0,Hot,False,False,False
+2021-05-26,summer,38.1,0.0,60.8,9.8,Very Hot,True,False,False
+2021-05-27,summer,40.0,0.0,52.5,10.3,Very Hot,True,False,False
+2021-05-28,summer,30.9,0.0,62.4,11.5,Hot,False,False,False
+2021-05-29,summer,34.7,0.0,58.1,6.8,Hot,False,False,False
+2021-05-30,summer,30.4,0.0,72.0,8.6,Hot,False,False,False
+2021-05-31,summer,30.3,0.73,77.9,28.7,Hot,False,False,False
+2021-06-01,monsoon,27.4,18.96,84.0,22.6,Rainy,False,False,False
+2021-06-02,monsoon,32.5,27.42,89.2,15.8,Heavy Rain,False,False,False
+2021-06-03,monsoon,27.8,86.68,95.6,91.0,Storm,False,True,True
+2021-06-04,monsoon,26.5,16.71,87.1,34.2,Rainy,False,False,False
+2021-06-05,monsoon,30.2,26.27,95.3,43.8,Heavy Rain,False,False,False
+2021-06-06,monsoon,29.8,22.46,100.0,37.6,Heavy Rain,False,False,False
+2021-06-07,monsoon,27.0,1.9,89.9,12.7,Pleasant,False,False,False
+2021-06-08,monsoon,31.0,15.69,87.8,5.4,Rainy,False,False,False
+2021-06-09,monsoon,29.0,18.67,84.7,7.8,Rainy,False,False,False
+2021-06-10,monsoon,27.0,27.38,96.2,17.6,Heavy Rain,False,False,False
+2021-06-11,monsoon,25.0,17.58,85.8,30.4,Rainy,False,False,False
+2021-06-12,monsoon,23.9,6.38,83.6,8.2,Rainy,False,False,False
+2021-06-13,monsoon,27.7,42.96,99.1,34.2,Heavy Rain,False,False,False
+2021-06-14,monsoon,30.2,40.36,100.0,50.8,Heavy Rain,False,False,False
+2021-06-15,monsoon,26.0,24.68,97.0,15.0,Heavy Rain,False,False,False
+2021-06-16,monsoon,27.0,26.28,94.1,10.9,Heavy Rain,False,False,False
+2021-06-17,monsoon,29.4,20.53,97.4,40.7,Heavy Rain,False,False,False
+2021-06-18,monsoon,29.7,17.06,90.3,20.5,Rainy,False,False,False
+2021-06-19,monsoon,26.5,6.23,84.0,15.0,Rainy,False,False,False
+2021-06-20,monsoon,26.3,10.39,88.0,39.6,Rainy,False,False,False
+2021-06-21,monsoon,27.5,48.57,91.6,6.0,Heavy Rain,False,False,False
+2021-06-22,monsoon,28.8,66.4,90.6,132.0,Storm,False,True,True
+2021-06-23,monsoon,26.1,149.02,94.3,22.5,Heavy Rain,False,True,False
+2021-06-24,monsoon,29.2,24.95,99.8,3.4,Heavy Rain,False,False,False
+2021-06-25,monsoon,26.1,234.77,86.5,103.8,Storm,False,True,True
+2021-06-26,monsoon,28.1,41.91,100.0,28.2,Heavy Rain,False,False,False
+2021-06-27,monsoon,27.0,6.82,92.5,25.0,Rainy,False,False,False
+2021-06-28,monsoon,32.4,29.49,91.4,5.9,Heavy Rain,False,False,False
+2021-06-29,monsoon,27.9,19.4,94.0,29.6,Rainy,False,False,False
+2021-06-30,monsoon,28.1,29.68,99.7,4.8,Heavy Rain,False,False,False
+2021-07-01,monsoon,25.7,17.22,80.4,46.7,Rainy,False,False,False
+2021-07-02,monsoon,25.6,4.89,91.9,44.3,Pleasant,False,False,False
+2021-07-03,monsoon,26.2,20.74,93.4,22.0,Heavy Rain,False,False,False
+2021-07-04,monsoon,29.7,45.75,90.3,35.2,Heavy Rain,False,False,False
+2021-07-05,monsoon,28.0,63.15,96.0,28.3,Heavy Rain,False,True,False
+2021-07-06,monsoon,26.6,42.52,97.7,30.1,Heavy Rain,False,False,False
+2021-07-07,monsoon,28.0,14.17,79.5,10.1,Rainy,False,False,False
+2021-07-08,monsoon,27.8,18.24,87.1,20.3,Rainy,False,False,False
+2021-07-09,monsoon,24.8,33.13,95.4,56.6,Heavy Rain,False,False,False
+2021-07-10,monsoon,30.2,11.83,82.8,10.8,Rainy,False,False,False
+2021-07-11,monsoon,28.0,40.75,96.4,25.0,Heavy Rain,False,False,False
+2021-07-12,monsoon,25.9,13.56,87.0,28.0,Rainy,False,False,False
+2021-07-13,monsoon,30.6,203.62,99.0,27.4,Heavy Rain,False,True,False
+2021-07-14,monsoon,27.2,5.87,82.7,12.3,Rainy,False,False,False
+2021-07-15,monsoon,29.2,36.29,87.6,20.0,Heavy Rain,False,False,False
+2021-07-16,monsoon,31.1,102.88,98.1,25.5,Heavy Rain,False,True,False
+2021-07-17,monsoon,27.0,37.66,93.2,30.6,Heavy Rain,False,False,False
+2021-07-18,monsoon,31.2,10.38,83.3,10.7,Rainy,False,False,False
+2021-07-19,monsoon,31.5,24.47,89.9,21.4,Heavy Rain,False,False,False
+2021-07-20,monsoon,30.4,64.18,96.6,26.1,Heavy Rain,False,True,False
+2021-07-21,monsoon,25.1,101.64,95.9,22.7,Heavy Rain,False,True,False
+2021-07-22,monsoon,24.6,22.18,95.9,30.3,Heavy Rain,False,False,False
+2021-07-23,monsoon,25.4,48.97,95.1,41.4,Heavy Rain,False,False,False
+2021-07-24,monsoon,27.3,32.74,96.8,7.4,Heavy Rain,False,False,False
+2021-07-25,monsoon,26.1,56.37,97.8,27.0,Heavy Rain,False,True,False
+2021-07-26,monsoon,29.9,27.13,89.1,18.9,Heavy Rain,False,False,False
+2021-07-27,monsoon,28.1,19.45,93.4,22.1,Rainy,False,False,False
+2021-07-28,monsoon,29.7,20.95,99.2,21.8,Heavy Rain,False,False,False
+2021-07-29,monsoon,30.6,29.4,88.8,10.1,Heavy Rain,False,False,False
+2021-07-30,monsoon,29.4,58.57,90.0,11.7,Heavy Rain,False,True,False
+2021-07-31,monsoon,29.3,44.42,93.1,29.4,Heavy Rain,False,False,False
+2021-08-01,monsoon,30.2,4.87,92.4,16.9,Hot,False,False,False
+2021-08-02,monsoon,30.4,35.68,93.0,26.0,Heavy Rain,False,False,False
+2021-08-03,monsoon,25.4,11.67,78.4,23.3,Rainy,False,False,False
+2021-08-04,monsoon,27.2,77.06,87.1,77.7,Storm,False,True,True
+2021-08-05,monsoon,26.6,11.21,80.6,52.9,Rainy,False,False,False
+2021-08-06,monsoon,25.9,27.48,92.8,40.7,Heavy Rain,False,False,False
+2021-08-07,monsoon,29.1,8.87,87.6,7.4,Rainy,False,False,False
+2021-08-08,monsoon,29.8,42.02,87.0,45.2,Heavy Rain,False,False,False
+2021-08-09,monsoon,28.0,29.44,96.8,62.0,Heavy Rain,False,False,False
+2021-08-10,monsoon,25.2,14.18,88.7,34.2,Rainy,False,False,False
+2021-08-11,monsoon,33.3,28.92,90.4,32.0,Heavy Rain,False,False,False
+2021-08-12,monsoon,29.0,18.68,78.8,28.4,Rainy,False,False,False
+2021-08-13,monsoon,26.9,6.06,83.5,14.3,Rainy,False,False,False
+2021-08-14,monsoon,30.5,46.2,95.8,38.2,Heavy Rain,False,False,False
+2021-08-15,monsoon,25.3,28.06,100.0,9.3,Heavy Rain,False,False,False
+2021-08-16,monsoon,30.9,5.07,83.5,16.1,Rainy,False,False,False
+2021-08-17,monsoon,28.5,25.83,90.8,4.3,Heavy Rain,False,False,False
+2021-08-18,monsoon,29.9,25.58,96.9,16.5,Heavy Rain,False,False,False
+2021-08-19,monsoon,26.8,23.69,91.6,15.3,Heavy Rain,False,False,False
+2021-08-20,monsoon,30.8,11.93,87.5,8.5,Rainy,False,False,False
+2021-08-21,monsoon,31.8,27.8,96.3,9.5,Heavy Rain,False,False,False
+2021-08-22,monsoon,29.8,40.4,97.8,22.0,Heavy Rain,False,False,False
+2021-08-23,monsoon,27.7,22.47,100.0,61.2,Heavy Rain,False,False,False
+2021-08-24,monsoon,26.1,29.0,99.0,2.4,Heavy Rain,False,False,False
+2021-08-25,monsoon,29.1,23.86,100.0,9.2,Heavy Rain,False,False,False
+2021-08-26,monsoon,26.0,16.66,83.2,12.1,Rainy,False,False,False
+2021-08-27,monsoon,26.0,56.42,89.1,28.8,Heavy Rain,False,True,False
+2021-08-28,monsoon,27.0,12.34,85.7,11.4,Rainy,False,False,False
+2021-08-29,monsoon,29.2,14.15,88.7,27.3,Rainy,False,False,False
+2021-08-30,monsoon,31.7,427.92,94.9,53.6,Storm,False,True,True
+2021-08-31,monsoon,28.2,27.22,91.7,4.6,Heavy Rain,False,False,False
+2021-09-01,monsoon,25.7,35.56,100.0,152.0,Heavy Rain,False,False,False
+2021-09-02,monsoon,27.0,63.04,90.2,35.0,Storm,False,True,True
+2021-09-03,monsoon,24.5,29.67,87.5,0.4,Heavy Rain,False,False,False
+2021-09-04,monsoon,27.2,54.51,91.0,31.0,Storm,False,True,True
+2021-09-05,monsoon,28.6,36.06,92.4,67.1,Heavy Rain,False,False,False
+2021-09-06,monsoon,27.6,21.85,95.4,40.2,Heavy Rain,False,False,False
+2021-09-07,monsoon,28.2,14.77,90.0,7.2,Rainy,False,False,False
+2021-09-08,monsoon,25.5,57.67,100.0,18.1,Heavy Rain,False,True,False
+2021-09-09,monsoon,25.8,12.28,86.9,1.8,Rainy,False,False,False
+2021-09-10,monsoon,24.9,54.21,93.0,51.0,Storm,False,True,True
+2021-09-11,monsoon,32.5,12.39,90.6,22.8,Rainy,False,False,False
+2021-09-12,monsoon,26.5,43.71,100.0,25.8,Heavy Rain,False,False,False
+2021-09-13,monsoon,27.1,27.85,94.5,42.7,Heavy Rain,False,False,False
+2021-09-14,monsoon,26.5,32.03,100.0,5.4,Heavy Rain,False,False,False
+2021-09-15,monsoon,24.5,19.27,84.0,2.1,Rainy,False,False,False
+2021-09-16,monsoon,28.7,7.84,87.6,19.4,Rainy,False,False,False
+2021-09-17,monsoon,30.7,24.95,95.0,20.4,Heavy Rain,False,False,False
+2021-09-18,monsoon,29.8,19.87,87.2,9.2,Rainy,False,False,False
+2021-09-19,monsoon,28.1,5.63,85.2,14.7,Rainy,False,False,False
+2021-09-20,monsoon,29.1,8.55,88.4,15.7,Rainy,False,False,False
+2021-09-21,monsoon,25.3,9.16,76.5,12.6,Rainy,False,False,False
+2021-09-22,monsoon,32.3,7.43,84.1,19.6,Rainy,False,False,False
+2021-09-23,monsoon,28.4,25.67,97.7,10.8,Heavy Rain,False,False,False
+2021-09-24,monsoon,27.4,1.93,93.0,10.6,Pleasant,False,False,False
+2021-09-25,monsoon,25.6,19.73,87.2,54.4,Rainy,False,False,False
+2021-09-26,monsoon,28.3,106.56,95.6,16.0,Heavy Rain,False,True,False
+2021-09-27,monsoon,28.4,51.92,86.9,27.9,Heavy Rain,False,True,False
+2021-09-28,monsoon,30.6,11.54,75.7,11.8,Rainy,False,False,False
+2021-09-29,monsoon,29.3,23.94,91.9,10.4,Heavy Rain,False,False,False
+2021-09-30,monsoon,26.5,7.98,94.4,43.5,Rainy,False,False,False
+2021-10-01,post_monsoon,29.7,0.0,61.4,7.3,Pleasant,False,False,False
+2021-10-02,post_monsoon,28.2,0.0,71.9,13.5,Pleasant,False,False,False
+2021-10-03,post_monsoon,31.7,0.0,59.2,12.2,Hot,False,False,False
+2021-10-04,post_monsoon,28.0,0.0,65.9,5.4,Pleasant,False,False,False
+2021-10-05,post_monsoon,29.8,0.0,53.5,16.2,Pleasant,False,False,False
+2021-10-06,post_monsoon,31.6,0.59,84.6,10.5,Hot,False,False,False
+2021-10-07,post_monsoon,32.1,0.0,71.3,9.8,Hot,False,False,False
+2021-10-08,post_monsoon,33.7,3.66,85.4,7.0,Hot,False,False,False
+2021-10-09,post_monsoon,24.1,0.0,62.9,2.3,Pleasant,False,False,False
+2021-10-10,post_monsoon,26.2,0.0,50.2,4.6,Pleasant,False,False,False
+2021-10-11,post_monsoon,27.8,0.0,57.5,25.6,Pleasant,False,False,False
+2021-10-12,post_monsoon,29.7,0.0,62.4,3.3,Pleasant,False,False,False
+2021-10-13,post_monsoon,28.9,0.0,49.5,16.9,Pleasant,False,False,False
+2021-10-14,post_monsoon,31.1,0.0,63.6,3.3,Hot,False,False,False
+2021-10-15,post_monsoon,27.8,0.0,53.7,16.0,Pleasant,False,False,False
+2021-10-16,post_monsoon,29.6,0.0,57.6,6.6,Pleasant,False,False,False
+2021-10-17,post_monsoon,35.2,0.0,57.5,4.2,Very Hot,False,False,False
+2021-10-18,post_monsoon,27.6,0.0,67.5,9.7,Pleasant,False,False,False
+2021-10-19,post_monsoon,31.6,0.0,60.3,10.4,Hot,False,False,False
+2021-10-20,post_monsoon,30.1,0.0,66.8,4.6,Hot,False,False,False
+2021-10-21,post_monsoon,31.3,0.0,68.0,4.8,Hot,False,False,False
+2021-10-22,post_monsoon,30.0,0.0,74.4,1.1,Pleasant,False,False,False
+2021-10-23,post_monsoon,28.5,0.0,59.2,8.7,Pleasant,False,False,False
+2021-10-24,post_monsoon,26.1,0.0,64.9,6.0,Pleasant,False,False,False
+2021-10-25,post_monsoon,27.9,0.0,55.6,1.2,Pleasant,False,False,False
+2021-10-26,post_monsoon,31.1,0.0,60.5,14.1,Hot,False,False,False
+2021-10-27,post_monsoon,29.9,0.0,62.2,5.7,Pleasant,False,False,False
+2021-10-28,post_monsoon,27.5,0.0,69.6,11.6,Pleasant,False,False,False
+2021-10-29,post_monsoon,26.7,0.0,63.9,16.1,Pleasant,False,False,False
+2021-10-30,post_monsoon,27.0,0.0,59.9,17.4,Pleasant,False,False,False
+2021-10-31,post_monsoon,30.8,0.0,65.8,5.1,Hot,False,False,False
+2021-11-01,winter,22.1,0.0,60.5,16.7,Pleasant,False,False,False
+2021-11-02,winter,19.6,0.0,63.4,13.6,Cool,False,False,False
+2021-11-03,winter,19.0,0.0,67.2,10.9,Cool,False,False,False
+2021-11-04,winter,17.0,0.0,73.9,2.6,Cool,False,False,False
+2021-11-05,winter,22.7,5.89,81.2,14.6,Rainy,False,False,False
+2021-11-06,winter,21.7,0.0,53.1,6.0,Pleasant,False,False,False
+2021-11-07,winter,25.9,0.0,63.5,0.9,Pleasant,False,False,False
+2021-11-08,winter,27.9,0.0,61.9,17.3,Pleasant,False,False,False
+2021-11-09,winter,20.2,0.0,64.6,22.2,Pleasant,False,False,False
+2021-11-10,winter,25.5,0.0,54.4,24.7,Pleasant,False,False,False
+2021-11-11,winter,19.6,0.0,49.9,10.1,Cool,False,False,False
+2021-11-12,winter,22.1,0.0,56.6,2.7,Pleasant,False,False,False
+2021-11-13,winter,27.6,0.0,59.5,11.4,Pleasant,False,False,False
+2021-11-14,winter,22.8,0.0,65.6,6.2,Pleasant,False,False,False
+2021-11-15,winter,25.9,0.0,59.5,12.2,Pleasant,False,False,False
+2021-11-16,winter,23.4,0.0,64.6,28.6,Pleasant,False,False,False
+2021-11-17,winter,16.5,0.0,62.4,12.7,Cool,False,False,False
+2021-11-18,winter,29.8,0.0,62.6,14.3,Pleasant,False,False,False
+2021-11-19,winter,22.8,0.0,73.3,15.6,Pleasant,False,False,False
+2021-11-20,winter,22.0,0.0,61.6,22.2,Pleasant,False,False,False
+2021-11-21,winter,22.6,0.0,56.7,43.7,Pleasant,False,False,False
+2021-11-22,winter,21.5,0.0,58.4,3.0,Pleasant,False,False,False
+2021-11-23,winter,23.9,0.0,70.9,7.8,Pleasant,False,False,False
+2021-11-24,winter,24.4,0.0,66.7,9.6,Pleasant,False,False,False
+2021-11-25,winter,22.4,0.0,63.8,13.7,Pleasant,False,False,False
+2021-11-26,winter,24.4,0.0,52.0,17.9,Pleasant,False,False,False
+2021-11-27,winter,24.1,0.0,73.1,14.6,Pleasant,False,False,False
+2021-11-28,winter,21.5,0.0,67.6,6.5,Pleasant,False,False,False
+2021-11-29,winter,23.2,0.0,63.4,8.3,Pleasant,False,False,False
+2021-11-30,winter,26.4,0.0,52.8,12.9,Pleasant,False,False,False
+2021-12-01,winter,26.3,0.0,61.6,2.7,Pleasant,False,False,False
+2021-12-02,winter,21.0,0.0,64.4,10.7,Pleasant,False,False,False
+2021-12-03,winter,19.4,1.62,82.5,4.5,Cool,False,False,False
+2021-12-04,winter,27.0,0.0,58.8,13.8,Pleasant,False,False,False
+2021-12-05,winter,26.9,0.0,68.2,14.6,Pleasant,False,False,False
+2021-12-06,winter,25.7,0.0,67.5,6.1,Pleasant,False,False,False
+2021-12-07,winter,24.1,0.0,62.3,8.7,Pleasant,False,False,False
+2021-12-08,winter,22.3,0.0,58.4,17.4,Pleasant,False,False,False
+2021-12-09,winter,22.4,0.0,68.7,12.3,Pleasant,False,False,False
+2021-12-10,winter,29.2,0.0,66.6,9.8,Pleasant,False,False,False
+2021-12-11,winter,22.7,0.0,62.5,11.1,Pleasant,False,False,False
+2021-12-12,winter,23.9,0.0,64.4,7.3,Pleasant,False,False,False
+2021-12-13,winter,25.4,0.0,70.3,2.0,Pleasant,False,False,False
+2021-12-14,winter,19.1,0.0,68.4,33.9,Cool,False,False,False
+2021-12-15,winter,22.6,0.0,66.9,11.7,Pleasant,False,False,False
+2021-12-16,winter,24.7,0.0,58.4,2.6,Pleasant,False,False,False
+2021-12-17,winter,23.7,0.0,69.1,4.0,Pleasant,False,False,False
+2021-12-18,winter,23.8,0.0,63.9,4.4,Pleasant,False,False,False
+2021-12-19,winter,25.2,0.0,65.4,10.0,Pleasant,False,False,False
+2021-12-20,winter,26.0,0.0,59.9,5.7,Pleasant,False,False,False
+2021-12-21,winter,22.4,0.0,67.3,2.2,Pleasant,False,False,False
+2021-12-22,winter,24.8,0.0,67.7,16.3,Pleasant,False,False,False
+2021-12-23,winter,24.9,0.0,64.9,2.2,Pleasant,False,False,False
+2021-12-24,winter,18.3,0.0,64.3,9.5,Cool,False,False,False
+2021-12-25,winter,24.8,0.0,57.7,8.9,Pleasant,False,False,False
+2021-12-26,winter,21.7,0.0,51.0,9.5,Pleasant,False,False,False
+2021-12-27,winter,20.4,0.0,60.0,11.3,Pleasant,False,False,False
+2021-12-28,winter,22.2,4.2,83.8,4.9,Pleasant,False,False,False
+2021-12-29,winter,24.6,0.0,57.9,7.8,Pleasant,False,False,False
+2021-12-30,winter,22.6,0.0,64.1,13.0,Pleasant,False,False,False
+2021-12-31,winter,20.4,0.0,62.8,10.0,Pleasant,False,False,False
+2022-01-01,winter,20.0,0.0,66.3,12.2,Pleasant,False,False,False
+2022-01-02,winter,22.8,0.0,58.4,8.5,Pleasant,False,False,False
+2022-01-03,winter,28.6,0.0,61.2,2.6,Pleasant,False,False,False
+2022-01-04,winter,21.3,0.0,61.4,6.8,Pleasant,False,False,False
+2022-01-05,winter,22.8,0.0,64.6,9.8,Pleasant,False,False,False
+2022-01-06,winter,26.3,0.0,72.3,6.8,Pleasant,False,False,False
+2022-01-07,winter,23.5,0.0,65.8,3.2,Pleasant,False,False,False
+2022-01-08,winter,24.7,0.0,48.6,7.8,Pleasant,False,False,False
+2022-01-09,winter,23.4,0.0,57.8,17.8,Pleasant,False,False,False
+2022-01-10,winter,24.3,0.0,53.2,18.6,Pleasant,False,False,False
+2022-01-11,winter,21.4,0.0,57.5,5.3,Pleasant,False,False,False
+2022-01-12,winter,21.4,0.0,59.9,10.5,Pleasant,False,False,False
+2022-01-13,winter,21.0,0.0,63.8,12.0,Pleasant,False,False,False
+2022-01-14,winter,21.8,2.74,88.7,2.4,Pleasant,False,False,False
+2022-01-15,winter,23.5,0.0,71.1,3.9,Pleasant,False,False,False
+2022-01-16,winter,21.8,0.0,56.9,9.5,Pleasant,False,False,False
+2022-01-17,winter,20.4,0.0,57.0,8.9,Pleasant,False,False,False
+2022-01-18,winter,27.4,0.0,56.6,27.1,Pleasant,False,False,False
+2022-01-19,winter,22.4,0.0,63.4,29.3,Pleasant,False,False,False
+2022-01-20,winter,26.0,0.0,56.9,1.1,Pleasant,False,False,False
+2022-01-21,winter,19.5,0.0,58.7,5.2,Cool,False,False,False
+2022-01-22,winter,24.1,0.0,60.2,5.3,Pleasant,False,False,False
+2022-01-23,winter,21.5,0.0,71.9,14.1,Pleasant,False,False,False
+2022-01-24,winter,18.5,0.0,62.9,5.3,Cool,False,False,False
+2022-01-25,winter,22.4,0.0,68.9,4.2,Pleasant,False,False,False
+2022-01-26,winter,23.0,0.0,74.3,5.0,Pleasant,False,False,False
+2022-01-27,winter,26.7,0.0,63.5,8.8,Pleasant,False,False,False
+2022-01-28,winter,28.4,0.0,61.5,2.8,Pleasant,False,False,False
+2022-01-29,winter,21.7,0.0,63.4,11.9,Pleasant,False,False,False
+2022-01-30,winter,24.7,0.0,60.7,11.0,Pleasant,False,False,False
+2022-01-31,winter,27.0,0.0,57.7,10.8,Pleasant,False,False,False
+2022-02-01,winter,21.1,0.0,59.6,16.6,Pleasant,False,False,False
+2022-02-02,winter,19.8,0.0,66.1,15.3,Cool,False,False,False
+2022-02-03,winter,17.2,0.0,66.7,4.5,Cool,False,False,False
+2022-02-04,winter,18.8,7.37,84.0,5.7,Rainy,False,False,False
+2022-02-05,winter,24.8,0.0,57.7,4.1,Pleasant,False,False,False
+2022-02-06,winter,22.2,0.0,68.9,15.8,Pleasant,False,False,False
+2022-02-07,winter,17.9,0.0,62.2,4.7,Cool,False,False,False
+2022-02-08,winter,24.1,0.0,63.3,5.9,Pleasant,False,False,False
+2022-02-09,winter,25.9,0.0,58.8,4.6,Pleasant,False,False,False
+2022-02-10,winter,22.5,0.54,86.1,12.2,Pleasant,False,False,False
+2022-02-11,winter,25.4,0.0,65.0,1.9,Pleasant,False,False,False
+2022-02-12,winter,25.4,0.0,74.2,15.4,Pleasant,False,False,False
+2022-02-13,winter,22.0,0.0,66.1,7.3,Pleasant,False,False,False
+2022-02-14,winter,19.2,0.0,60.8,6.5,Cool,False,False,False
+2022-02-15,winter,23.8,0.0,59.7,1.6,Pleasant,False,False,False
+2022-02-16,winter,20.3,0.0,75.2,2.1,Pleasant,False,False,False
+2022-02-17,winter,29.2,0.0,62.3,6.3,Pleasant,False,False,False
+2022-02-18,winter,25.6,0.0,57.8,8.1,Pleasant,False,False,False
+2022-02-19,winter,24.2,0.0,54.9,10.0,Pleasant,False,False,False
+2022-02-20,winter,23.4,0.0,64.6,1.8,Pleasant,False,False,False
+2022-02-21,winter,24.5,0.0,59.3,10.9,Pleasant,False,False,False
+2022-02-22,winter,23.2,0.0,60.6,1.0,Pleasant,False,False,False
+2022-02-23,winter,26.1,0.0,55.2,12.7,Pleasant,False,False,False
+2022-02-24,winter,22.6,0.0,64.5,2.5,Pleasant,False,False,False
+2022-02-25,winter,25.5,0.0,64.1,13.9,Pleasant,False,False,False
+2022-02-26,winter,22.7,0.0,64.3,14.1,Pleasant,False,False,False
+2022-02-27,winter,24.5,0.0,62.1,2.4,Pleasant,False,False,False
+2022-02-28,winter,26.2,0.0,66.8,5.5,Pleasant,False,False,False
+2022-03-01,summer,34.4,0.0,52.4,10.4,Hot,False,False,False
+2022-03-02,summer,38.2,0.0,63.0,3.4,Very Hot,True,False,False
+2022-03-03,summer,32.1,0.0,68.0,6.1,Hot,False,False,False
+2022-03-04,summer,30.9,0.0,56.7,25.0,Hot,False,False,False
+2022-03-05,summer,34.4,0.0,70.5,6.3,Hot,False,False,False
+2022-03-06,summer,31.5,0.45,78.8,20.6,Hot,False,False,False
+2022-03-07,summer,35.2,0.0,66.4,2.7,Very Hot,False,False,False
+2022-03-08,summer,30.3,0.0,67.3,17.3,Hot,False,False,False
+2022-03-09,summer,32.2,0.0,63.5,13.1,Hot,False,False,False
+2022-03-10,summer,29.7,0.0,65.2,17.6,Pleasant,False,False,False
+2022-03-11,summer,37.7,0.0,70.8,18.7,Very Hot,True,False,False
+2022-03-12,summer,32.9,0.0,62.5,3.1,Hot,False,False,False
+2022-03-13,summer,29.2,0.0,60.6,24.8,Pleasant,False,False,False
+2022-03-14,summer,32.0,0.0,59.0,7.4,Hot,False,False,False
+2022-03-15,summer,27.8,0.0,51.1,6.4,Pleasant,False,False,False
+2022-03-16,summer,27.8,0.0,71.5,2.4,Pleasant,False,False,False
+2022-03-17,summer,31.0,0.0,66.9,23.1,Hot,False,False,False
+2022-03-18,summer,36.7,0.0,67.3,8.3,Very Hot,True,False,False
+2022-03-19,summer,31.6,0.0,62.8,20.3,Hot,False,False,False
+2022-03-20,summer,33.9,0.0,54.2,4.1,Hot,False,False,False
+2022-03-21,summer,33.6,0.0,66.3,0.8,Hot,False,False,False
+2022-03-22,summer,31.1,0.0,59.5,6.8,Hot,False,False,False
+2022-03-23,summer,34.0,0.0,74.6,14.8,Hot,False,False,False
+2022-03-24,summer,34.4,0.0,63.3,3.9,Hot,False,False,False
+2022-03-25,summer,37.0,0.0,66.1,4.8,Very Hot,True,False,False
+2022-03-26,summer,32.0,0.0,71.9,6.3,Hot,False,False,False
+2022-03-27,summer,35.6,0.0,60.7,6.5,Very Hot,False,False,False
+2022-03-28,summer,31.9,0.0,58.1,7.8,Hot,False,False,False
+2022-03-29,summer,34.0,0.0,59.8,37.8,Hot,False,False,False
+2022-03-30,summer,34.6,4.92,89.1,2.3,Hot,False,False,False
+2022-03-31,summer,35.2,0.0,62.0,8.1,Very Hot,False,False,False
+2022-04-01,summer,33.3,0.0,59.4,2.4,Hot,False,False,False
+2022-04-02,summer,33.1,0.0,64.2,2.7,Hot,False,False,False
+2022-04-03,summer,34.7,0.0,66.7,3.5,Hot,False,False,False
+2022-04-04,summer,27.3,0.0,62.3,3.6,Pleasant,False,False,False
+2022-04-05,summer,32.9,0.0,60.4,4.7,Hot,False,False,False
+2022-04-06,summer,31.6,0.0,79.0,2.0,Hot,False,False,False
+2022-04-07,summer,36.5,0.0,62.3,9.0,Very Hot,True,False,False
+2022-04-08,summer,34.8,0.0,75.6,12.7,Hot,False,False,False
+2022-04-09,summer,32.6,0.0,65.7,7.6,Hot,False,False,False
+2022-04-10,summer,30.7,0.0,58.3,15.8,Hot,False,False,False
+2022-04-11,summer,35.1,0.0,75.4,7.7,Very Hot,False,False,False
+2022-04-12,summer,34.9,0.0,50.3,0.8,Hot,False,False,False
+2022-04-13,summer,38.7,0.0,59.8,6.4,Very Hot,True,False,False
+2022-04-14,summer,31.1,0.0,56.4,9.1,Hot,False,False,False
+2022-04-15,summer,35.1,0.0,52.8,4.9,Very Hot,False,False,False
+2022-04-16,summer,31.6,0.0,58.6,7.0,Hot,False,False,False
+2022-04-17,summer,31.3,0.0,66.6,1.8,Hot,False,False,False
+2022-04-18,summer,33.0,0.0,69.5,10.7,Hot,False,False,False
+2022-04-19,summer,29.0,0.0,71.6,9.7,Pleasant,False,False,False
+2022-04-20,summer,34.7,0.0,59.1,9.6,Hot,False,False,False
+2022-04-21,summer,33.6,0.0,70.2,8.8,Hot,False,False,False
+2022-04-22,summer,31.4,0.0,58.8,3.3,Hot,False,False,False
+2022-04-23,summer,30.3,0.0,62.0,4.9,Hot,False,False,False
+2022-04-24,summer,34.2,3.76,85.3,5.5,Hot,False,False,False
+2022-04-25,summer,36.1,0.0,69.0,25.8,Very Hot,True,False,False
+2022-04-26,summer,33.9,5.76,92.2,14.2,Rainy,False,False,False
+2022-04-27,summer,29.6,0.0,58.7,1.2,Pleasant,False,False,False
+2022-04-28,summer,33.5,0.0,55.3,5.2,Hot,False,False,False
+2022-04-29,summer,36.7,3.52,89.8,9.9,Very Hot,True,False,False
+2022-04-30,summer,33.7,0.0,63.6,17.2,Hot,False,False,False
+2022-05-01,summer,35.9,0.0,68.6,10.6,Very Hot,False,False,False
+2022-05-02,summer,30.4,0.0,65.2,5.0,Hot,False,False,False
+2022-05-03,summer,29.3,0.0,62.9,26.4,Pleasant,False,False,False
+2022-05-04,summer,36.5,0.0,61.7,11.5,Very Hot,True,False,False
+2022-05-05,summer,33.6,0.0,57.9,1.8,Hot,False,False,False
+2022-05-06,summer,36.0,0.0,60.9,3.8,Very Hot,False,False,False
+2022-05-07,summer,36.4,0.0,71.3,6.0,Very Hot,True,False,False
+2022-05-08,summer,30.5,0.0,65.3,7.7,Hot,False,False,False
+2022-05-09,summer,35.8,0.0,62.9,2.0,Very Hot,False,False,False
+2022-05-10,summer,29.8,0.0,62.8,16.4,Pleasant,False,False,False
+2022-05-11,summer,32.8,0.0,62.3,8.7,Hot,False,False,False
+2022-05-12,summer,32.4,0.0,65.1,4.5,Hot,False,False,False
+2022-05-13,summer,33.8,0.0,68.3,10.4,Hot,False,False,False
+2022-05-14,summer,31.4,0.0,52.9,5.4,Hot,False,False,False
+2022-05-15,summer,35.4,0.0,66.7,5.5,Very Hot,False,False,False
+2022-05-16,summer,29.5,0.0,65.6,5.3,Pleasant,False,False,False
+2022-05-17,summer,33.7,0.0,75.6,9.0,Hot,False,False,False
+2022-05-18,summer,34.5,0.0,61.9,6.4,Hot,False,False,False
+2022-05-19,summer,31.0,0.0,62.4,8.8,Hot,False,False,False
+2022-05-20,summer,30.6,0.0,64.5,9.2,Hot,False,False,False
+2022-05-21,summer,29.6,0.0,70.0,1.3,Pleasant,False,False,False
+2022-05-22,summer,34.8,0.0,72.0,17.1,Hot,False,False,False
+2022-05-23,summer,33.3,0.0,53.0,5.8,Hot,False,False,False
+2022-05-24,summer,33.7,0.0,67.9,10.8,Hot,False,False,False
+2022-05-25,summer,31.8,0.0,66.9,9.8,Hot,False,False,False
+2022-05-26,summer,34.7,0.0,56.2,5.5,Hot,False,False,False
+2022-05-27,summer,31.0,0.0,69.9,11.3,Hot,False,False,False
+2022-05-28,summer,33.7,0.0,68.1,11.8,Hot,False,False,False
+2022-05-29,summer,35.5,0.0,54.5,6.5,Very Hot,False,False,False
+2022-05-30,summer,33.9,0.0,61.6,2.2,Hot,False,False,False
+2022-05-31,summer,36.1,0.0,58.6,8.7,Very Hot,True,False,False
+2022-06-01,monsoon,26.9,4.1,86.3,17.3,Pleasant,False,False,False
+2022-06-02,monsoon,29.3,12.59,86.0,9.1,Rainy,False,False,False
+2022-06-03,monsoon,25.3,13.54,75.4,16.2,Rainy,False,False,False
+2022-06-04,monsoon,29.2,27.49,100.0,24.7,Heavy Rain,False,False,False
+2022-06-05,monsoon,29.2,12.52,88.2,10.4,Rainy,False,False,False
+2022-06-06,monsoon,27.6,40.34,94.2,15.7,Heavy Rain,False,False,False
+2022-06-07,monsoon,24.2,11.39,83.2,18.0,Rainy,False,False,False
+2022-06-08,monsoon,28.5,41.69,98.3,19.0,Heavy Rain,False,False,False
+2022-06-09,monsoon,26.9,22.79,89.7,33.3,Heavy Rain,False,False,False
+2022-06-10,monsoon,28.2,40.28,91.8,46.9,Heavy Rain,False,False,False
+2022-06-11,monsoon,28.5,8.59,82.6,4.5,Rainy,False,False,False
+2022-06-12,monsoon,27.1,5.87,79.1,20.9,Rainy,False,False,False
+2022-06-13,monsoon,25.7,19.17,84.5,17.2,Rainy,False,False,False
+2022-06-14,monsoon,28.7,44.92,92.0,17.0,Heavy Rain,False,False,False
+2022-06-15,monsoon,31.6,51.63,97.8,13.5,Heavy Rain,False,True,False
+2022-06-16,monsoon,27.4,25.99,99.0,22.1,Heavy Rain,False,False,False
+2022-06-17,monsoon,26.4,20.32,92.7,15.9,Heavy Rain,False,False,False
+2022-06-18,monsoon,28.6,11.83,84.4,24.2,Rainy,False,False,False
+2022-06-19,monsoon,33.0,182.74,90.6,40.8,Storm,False,True,True
+2022-06-20,monsoon,33.7,24.32,93.4,9.4,Heavy Rain,False,False,False
+2022-06-21,monsoon,31.5,35.89,97.5,24.8,Heavy Rain,False,False,False
+2022-06-22,monsoon,25.5,32.32,89.4,108.2,Heavy Rain,False,False,False
+2022-06-23,monsoon,29.9,17.11,71.6,22.8,Rainy,False,False,False
+2022-06-24,monsoon,27.1,28.2,95.5,32.4,Heavy Rain,False,False,False
+2022-06-25,monsoon,28.6,30.91,93.6,74.5,Heavy Rain,False,False,False
+2022-06-26,monsoon,29.9,75.07,93.6,97.2,Storm,False,True,True
+2022-06-27,monsoon,27.1,9.5,86.2,12.9,Rainy,False,False,False
+2022-06-28,monsoon,30.0,35.91,94.5,36.7,Heavy Rain,False,False,False
+2022-06-29,monsoon,23.6,4.38,95.8,18.0,Pleasant,False,False,False
+2022-06-30,monsoon,28.6,153.84,98.7,70.8,Storm,False,True,True
+2022-07-01,monsoon,28.7,9.46,85.9,20.5,Rainy,False,False,False
+2022-07-02,monsoon,31.8,47.65,94.5,40.7,Heavy Rain,False,False,False
+2022-07-03,monsoon,27.1,20.27,96.2,15.9,Heavy Rain,False,False,False
+2022-07-04,monsoon,27.4,31.53,97.0,21.3,Heavy Rain,False,False,False
+2022-07-05,monsoon,25.4,19.62,79.1,12.6,Rainy,False,False,False
+2022-07-06,monsoon,28.2,34.86,100.0,25.3,Heavy Rain,False,False,False
+2022-07-07,monsoon,28.5,47.39,90.3,38.4,Heavy Rain,False,False,False
+2022-07-08,monsoon,29.8,95.06,95.0,56.0,Storm,False,True,True
+2022-07-09,monsoon,26.1,5.98,80.3,14.8,Rainy,False,False,False
+2022-07-10,monsoon,23.6,11.02,77.5,11.5,Rainy,False,False,False
+2022-07-11,monsoon,23.2,21.73,100.0,89.8,Heavy Rain,False,False,False
+2022-07-12,monsoon,28.6,15.21,80.5,5.5,Rainy,False,False,False
+2022-07-13,monsoon,26.5,2.93,92.7,45.0,Pleasant,False,False,False
+2022-07-14,monsoon,30.0,24.32,95.0,21.5,Heavy Rain,False,False,False
+2022-07-15,monsoon,27.7,41.7,100.0,11.9,Heavy Rain,False,False,False
+2022-07-16,monsoon,25.8,3.28,77.9,33.5,Pleasant,False,False,False
+2022-07-17,monsoon,28.8,25.29,85.2,18.7,Heavy Rain,False,False,False
+2022-07-18,monsoon,28.3,20.31,99.9,20.2,Heavy Rain,False,False,False
+2022-07-19,monsoon,27.6,31.53,96.1,46.7,Heavy Rain,False,False,False
+2022-07-20,monsoon,27.8,21.37,100.0,10.6,Heavy Rain,False,False,False
+2022-07-21,monsoon,27.9,14.14,72.9,9.7,Rainy,False,False,False
+2022-07-22,monsoon,29.1,28.51,87.6,8.5,Heavy Rain,False,False,False
+2022-07-23,monsoon,29.6,9.79,87.0,4.8,Rainy,False,False,False
+2022-07-24,monsoon,28.9,16.83,80.2,37.1,Rainy,False,False,False
+2022-07-25,monsoon,26.3,26.68,95.5,8.0,Heavy Rain,False,False,False
+2022-07-26,monsoon,29.8,7.13,81.8,2.3,Rainy,False,False,False
+2022-07-27,monsoon,25.6,31.17,88.7,32.4,Heavy Rain,False,False,False
+2022-07-28,monsoon,30.2,51.14,95.8,70.7,Storm,False,True,True
+2022-07-29,monsoon,28.2,77.23,96.0,38.9,Storm,False,True,True
+2022-07-30,monsoon,30.8,49.08,93.2,41.7,Heavy Rain,False,False,False
+2022-07-31,monsoon,25.0,14.45,81.7,36.5,Rainy,False,False,False
+2022-08-01,monsoon,26.5,16.31,86.1,12.8,Rainy,False,False,False
+2022-08-02,monsoon,31.4,59.2,100.0,27.6,Heavy Rain,False,True,False
+2022-08-03,monsoon,25.7,109.95,100.0,27.9,Heavy Rain,False,True,False
+2022-08-04,monsoon,25.0,27.7,89.4,98.0,Heavy Rain,False,False,False
+2022-08-05,monsoon,30.8,33.58,98.6,15.2,Heavy Rain,False,False,False
+2022-08-06,monsoon,27.7,13.58,84.3,15.2,Rainy,False,False,False
+2022-08-07,monsoon,27.2,25.79,100.0,24.2,Heavy Rain,False,False,False
+2022-08-08,monsoon,29.4,72.37,87.8,49.9,Storm,False,True,True
+2022-08-09,monsoon,31.3,28.61,99.2,7.2,Heavy Rain,False,False,False
+2022-08-10,monsoon,29.1,32.53,97.0,50.7,Heavy Rain,False,False,False
+2022-08-11,monsoon,30.2,21.81,100.0,15.9,Heavy Rain,False,False,False
+2022-08-12,monsoon,29.9,41.15,89.8,83.4,Heavy Rain,False,False,False
+2022-08-13,monsoon,29.9,87.06,89.6,20.2,Heavy Rain,False,True,False
+2022-08-14,monsoon,27.9,37.53,93.9,15.1,Heavy Rain,False,False,False
+2022-08-15,monsoon,27.8,10.63,87.3,50.8,Rainy,False,False,False
+2022-08-16,monsoon,27.8,16.08,82.7,14.8,Rainy,False,False,False
+2022-08-17,monsoon,28.4,5.89,81.0,68.1,Rainy,False,False,False
+2022-08-18,monsoon,26.1,20.41,100.0,28.7,Heavy Rain,False,False,False
+2022-08-19,monsoon,27.0,19.37,87.4,4.1,Rainy,False,False,False
+2022-08-20,monsoon,27.9,15.01,86.2,9.3,Rainy,False,False,False
+2022-08-21,monsoon,26.9,30.21,91.0,84.4,Heavy Rain,False,False,False
+2022-08-22,monsoon,26.7,29.24,92.4,12.7,Heavy Rain,False,False,False
+2022-08-23,monsoon,26.6,29.13,100.0,17.1,Heavy Rain,False,False,False
+2022-08-24,monsoon,27.4,27.16,90.0,3.3,Heavy Rain,False,False,False
+2022-08-25,monsoon,27.1,11.84,88.0,26.3,Rainy,False,False,False
+2022-08-26,monsoon,26.5,48.06,93.0,42.1,Heavy Rain,False,False,False
+2022-08-27,monsoon,28.3,21.06,95.4,26.7,Heavy Rain,False,False,False
+2022-08-28,monsoon,28.5,70.18,100.0,31.1,Storm,False,True,True
+2022-08-29,monsoon,28.8,34.18,100.0,31.4,Heavy Rain,False,False,False
+2022-08-30,monsoon,25.8,92.46,96.1,18.7,Heavy Rain,False,True,False
+2022-08-31,monsoon,27.2,24.01,91.0,6.7,Heavy Rain,False,False,False
+2022-09-01,monsoon,29.5,40.85,90.2,9.6,Heavy Rain,False,False,False
+2022-09-02,monsoon,30.9,8.91,86.4,14.7,Rainy,False,False,False
+2022-09-03,monsoon,30.7,21.7,93.2,5.4,Heavy Rain,False,False,False
+2022-09-04,monsoon,26.1,11.73,81.3,31.3,Rainy,False,False,False
+2022-09-05,monsoon,29.1,14.66,78.3,10.0,Rainy,False,False,False
+2022-09-06,monsoon,26.0,5.73,92.4,42.0,Rainy,False,False,False
+2022-09-07,monsoon,26.7,14.18,84.4,5.2,Rainy,False,False,False
+2022-09-08,monsoon,31.7,19.01,94.9,19.8,Rainy,False,False,False
+2022-09-09,monsoon,25.6,36.98,96.8,53.5,Heavy Rain,False,False,False
+2022-09-10,monsoon,25.8,15.92,81.8,31.2,Rainy,False,False,False
+2022-09-11,monsoon,26.1,50.1,92.0,24.4,Heavy Rain,False,True,False
+2022-09-12,monsoon,27.2,17.59,86.5,19.3,Rainy,False,False,False
+2022-09-13,monsoon,26.7,25.62,89.2,15.1,Heavy Rain,False,False,False
+2022-09-14,monsoon,25.6,34.12,87.2,33.2,Heavy Rain,False,False,False
+2022-09-15,monsoon,29.0,9.95,88.1,30.6,Rainy,False,False,False
+2022-09-16,monsoon,29.8,37.72,95.5,23.0,Heavy Rain,False,False,False
+2022-09-17,monsoon,29.1,13.08,84.6,3.8,Rainy,False,False,False
+2022-09-18,monsoon,28.2,6.48,92.8,29.3,Rainy,False,False,False
+2022-09-19,monsoon,25.1,16.67,85.2,26.8,Rainy,False,False,False
+2022-09-20,monsoon,31.3,11.05,90.6,32.0,Rainy,False,False,False
+2022-09-21,monsoon,26.5,31.77,95.0,37.0,Heavy Rain,False,False,False
+2022-09-22,monsoon,31.4,50.95,96.9,33.3,Storm,False,True,True
+2022-09-23,monsoon,26.2,16.53,91.7,14.7,Rainy,False,False,False
+2022-09-24,monsoon,26.9,39.84,92.4,12.0,Heavy Rain,False,False,False
+2022-09-25,monsoon,24.7,35.17,98.2,53.2,Heavy Rain,False,False,False
+2022-09-26,monsoon,26.8,29.44,94.7,21.9,Heavy Rain,False,False,False
+2022-09-27,monsoon,29.3,22.5,93.4,6.7,Heavy Rain,False,False,False
+2022-09-28,monsoon,26.7,25.46,97.8,42.9,Heavy Rain,False,False,False
+2022-09-29,monsoon,32.1,29.57,95.9,54.8,Heavy Rain,False,False,False
+2022-09-30,monsoon,28.3,7.07,84.7,26.6,Rainy,False,False,False
+2022-10-01,post_monsoon,33.8,0.62,87.5,1.4,Hot,False,False,False
+2022-10-02,post_monsoon,26.9,0.0,54.2,10.4,Pleasant,False,False,False
+2022-10-03,post_monsoon,35.4,0.0,61.0,9.6,Very Hot,False,False,False
+2022-10-04,post_monsoon,31.9,0.0,58.0,16.6,Hot,False,False,False
+2022-10-05,post_monsoon,28.6,0.0,61.0,13.7,Pleasant,False,False,False
+2022-10-06,post_monsoon,29.0,0.0,59.9,3.1,Pleasant,False,False,False
+2022-10-07,post_monsoon,28.8,5.24,80.2,24.1,Rainy,False,False,False
+2022-10-08,post_monsoon,32.4,0.0,65.5,16.4,Hot,False,False,False
+2022-10-09,post_monsoon,31.5,0.0,62.8,10.5,Hot,False,False,False
+2022-10-10,post_monsoon,30.6,0.0,60.8,7.2,Hot,False,False,False
+2022-10-11,post_monsoon,25.7,0.0,48.0,4.2,Pleasant,False,False,False
+2022-10-12,post_monsoon,29.5,0.0,60.4,36.6,Pleasant,False,False,False
+2022-10-13,post_monsoon,25.8,0.0,68.3,9.7,Pleasant,False,False,False
+2022-10-14,post_monsoon,29.6,0.0,52.6,7.2,Pleasant,False,False,False
+2022-10-15,post_monsoon,29.8,0.0,59.6,6.7,Pleasant,False,False,False
+2022-10-16,post_monsoon,28.7,0.0,67.9,4.2,Pleasant,False,False,False
+2022-10-17,post_monsoon,30.5,0.0,61.5,1.3,Hot,False,False,False
+2022-10-18,post_monsoon,33.2,0.0,62.8,4.8,Hot,False,False,False
+2022-10-19,post_monsoon,27.7,0.0,52.8,2.1,Pleasant,False,False,False
+2022-10-20,post_monsoon,31.7,0.0,68.0,19.3,Hot,False,False,False
+2022-10-21,post_monsoon,35.3,0.0,58.3,11.9,Very Hot,False,False,False
+2022-10-22,post_monsoon,29.2,7.42,90.3,3.2,Rainy,False,False,False
+2022-10-23,post_monsoon,30.3,0.0,61.1,3.7,Hot,False,False,False
+2022-10-24,post_monsoon,27.9,0.0,62.2,15.8,Pleasant,False,False,False
+2022-10-25,post_monsoon,27.6,0.0,71.5,7.6,Pleasant,False,False,False
+2022-10-26,post_monsoon,28.4,0.0,60.1,14.8,Pleasant,False,False,False
+2022-10-27,post_monsoon,26.4,0.0,66.4,3.8,Pleasant,False,False,False
+2022-10-28,post_monsoon,28.8,0.0,67.2,10.2,Pleasant,False,False,False
+2022-10-29,post_monsoon,28.7,0.0,55.6,9.3,Pleasant,False,False,False
+2022-10-30,post_monsoon,28.3,0.0,57.7,6.7,Pleasant,False,False,False
+2022-10-31,post_monsoon,27.9,0.0,58.8,9.7,Pleasant,False,False,False
+2022-11-01,winter,23.7,0.0,75.2,6.9,Pleasant,False,False,False
+2022-11-02,winter,23.4,1.45,79.4,2.0,Pleasant,False,False,False
+2022-11-03,winter,27.4,0.0,52.7,6.1,Pleasant,False,False,False
+2022-11-04,winter,20.5,0.0,66.4,1.4,Pleasant,False,False,False
+2022-11-05,winter,30.0,0.0,61.6,5.0,Pleasant,False,False,False
+2022-11-06,winter,26.8,4.42,84.3,5.8,Pleasant,False,False,False
+2022-11-07,winter,25.4,0.0,63.9,11.8,Pleasant,False,False,False
+2022-11-08,winter,18.8,0.0,62.0,26.7,Cool,False,False,False
+2022-11-09,winter,32.0,0.0,64.5,6.3,Hot,False,False,False
+2022-11-10,winter,26.8,0.0,72.0,8.9,Pleasant,False,False,False
+2022-11-11,winter,24.8,0.0,64.6,14.1,Pleasant,False,False,False
+2022-11-12,winter,28.1,0.0,66.4,10.9,Pleasant,False,False,False
+2022-11-13,winter,23.9,0.0,53.6,14.7,Pleasant,False,False,False
+2022-11-14,winter,20.5,0.0,63.0,7.9,Pleasant,False,False,False
+2022-11-15,winter,25.5,0.0,59.7,6.9,Pleasant,False,False,False
+2022-11-16,winter,25.0,0.0,58.7,10.0,Pleasant,False,False,False
+2022-11-17,winter,22.5,0.0,55.1,1.4,Pleasant,False,False,False
+2022-11-18,winter,22.6,0.0,64.1,3.3,Pleasant,False,False,False
+2022-11-19,winter,22.7,0.0,72.8,10.4,Pleasant,False,False,False
+2022-11-20,winter,17.8,0.0,60.9,12.4,Cool,False,False,False
+2022-11-21,winter,25.0,0.0,59.2,17.3,Pleasant,False,False,False
+2022-11-22,winter,23.8,0.0,60.6,24.0,Pleasant,False,False,False
+2022-11-23,winter,27.2,0.0,60.6,8.2,Pleasant,False,False,False
+2022-11-24,winter,27.3,3.87,89.4,13.7,Pleasant,False,False,False
+2022-11-25,winter,22.4,0.0,67.9,3.0,Pleasant,False,False,False
+2022-11-26,winter,21.3,0.0,65.4,11.7,Pleasant,False,False,False
+2022-11-27,winter,24.0,0.0,69.9,12.6,Pleasant,False,False,False
+2022-11-28,winter,25.4,0.0,63.3,15.0,Pleasant,False,False,False
+2022-11-29,winter,24.8,0.0,56.7,8.5,Pleasant,False,False,False
+2022-11-30,winter,26.9,0.0,57.7,5.9,Pleasant,False,False,False
+2022-12-01,winter,19.0,0.0,69.2,13.0,Cool,False,False,False
+2022-12-02,winter,19.9,0.0,65.9,3.3,Cool,False,False,False
+2022-12-03,winter,24.4,0.0,62.6,2.2,Pleasant,False,False,False
+2022-12-04,winter,19.1,0.0,61.5,3.8,Cool,False,False,False
+2022-12-05,winter,29.3,0.0,71.5,10.6,Pleasant,False,False,False
+2022-12-06,winter,20.6,0.0,60.1,7.3,Pleasant,False,False,False
+2022-12-07,winter,26.7,0.0,52.9,10.9,Pleasant,False,False,False
+2022-12-08,winter,27.8,0.0,64.6,15.3,Pleasant,False,False,False
+2022-12-09,winter,22.8,0.0,63.3,5.8,Pleasant,False,False,False
+2022-12-10,winter,24.4,0.0,62.7,17.1,Pleasant,False,False,False
+2022-12-11,winter,25.8,0.0,54.8,11.2,Pleasant,False,False,False
+2022-12-12,winter,21.0,0.0,63.0,9.9,Pleasant,False,False,False
+2022-12-13,winter,17.2,0.0,55.3,5.6,Cool,False,False,False
+2022-12-14,winter,24.4,0.0,53.1,1.6,Pleasant,False,False,False
+2022-12-15,winter,29.3,0.0,51.7,26.1,Pleasant,False,False,False
+2022-12-16,winter,22.3,0.0,59.6,1.7,Pleasant,False,False,False
+2022-12-17,winter,21.4,0.0,60.7,2.4,Pleasant,False,False,False
+2022-12-18,winter,23.6,0.0,71.5,24.4,Pleasant,False,False,False
+2022-12-19,winter,24.0,0.0,48.5,17.4,Pleasant,False,False,False
+2022-12-20,winter,24.4,0.0,55.5,5.5,Pleasant,False,False,False
+2022-12-21,winter,25.4,0.0,64.1,2.6,Pleasant,False,False,False
+2022-12-22,winter,25.4,0.0,65.8,2.6,Pleasant,False,False,False
+2022-12-23,winter,25.9,0.0,57.9,8.5,Pleasant,False,False,False
+2022-12-24,winter,24.0,5.3,82.1,6.2,Rainy,False,False,False
+2022-12-25,winter,26.5,0.0,66.0,6.1,Pleasant,False,False,False
+2022-12-26,winter,23.7,0.0,58.6,21.9,Pleasant,False,False,False
+2022-12-27,winter,25.6,0.0,55.8,8.6,Pleasant,False,False,False
+2022-12-28,winter,29.6,0.0,56.0,2.1,Pleasant,False,False,False
+2022-12-29,winter,24.8,2.38,86.2,7.0,Pleasant,False,False,False
+2022-12-30,winter,23.0,0.0,50.7,3.0,Pleasant,False,False,False
+2022-12-31,winter,24.7,0.0,57.4,2.9,Pleasant,False,False,False
+2023-01-01,winter,26.5,0.0,70.4,8.8,Pleasant,False,False,False
+2023-01-02,winter,22.9,0.0,51.6,7.5,Pleasant,False,False,False
+2023-01-03,winter,26.9,1.18,88.6,11.0,Pleasant,False,False,False
+2023-01-04,winter,19.3,0.0,64.2,7.9,Cool,False,False,False
+2023-01-05,winter,24.3,0.0,67.7,4.4,Pleasant,False,False,False
+2023-01-06,winter,19.6,0.0,69.2,2.2,Cool,False,False,False
+2023-01-07,winter,26.4,0.0,64.3,14.9,Pleasant,False,False,False
+2023-01-08,winter,26.2,0.0,52.4,10.8,Pleasant,False,False,False
+2023-01-09,winter,23.7,0.0,83.6,2.0,Pleasant,False,False,False
+2023-01-10,winter,16.7,0.0,53.2,15.6,Cool,False,False,False
+2023-01-11,winter,25.4,0.0,67.6,4.2,Pleasant,False,False,False
+2023-01-12,winter,26.5,0.0,66.0,10.9,Pleasant,False,False,False
+2023-01-13,winter,22.7,0.0,73.5,6.2,Pleasant,False,False,False
+2023-01-14,winter,24.2,0.0,71.7,12.7,Pleasant,False,False,False
+2023-01-15,winter,26.3,0.0,61.4,16.0,Pleasant,False,False,False
+2023-01-16,winter,24.6,0.0,62.7,23.1,Pleasant,False,False,False
+2023-01-17,winter,22.7,0.0,68.8,1.5,Pleasant,False,False,False
+2023-01-18,winter,22.6,0.0,59.0,14.3,Pleasant,False,False,False
+2023-01-19,winter,25.1,0.0,71.6,8.5,Pleasant,False,False,False
+2023-01-20,winter,22.3,2.1,88.2,28.0,Pleasant,False,False,False
+2023-01-21,winter,20.5,0.0,57.7,2.9,Pleasant,False,False,False
+2023-01-22,winter,25.1,0.0,60.9,5.3,Pleasant,False,False,False
+2023-01-23,winter,24.5,0.0,63.0,10.5,Pleasant,False,False,False
+2023-01-24,winter,21.0,0.0,64.2,7.8,Pleasant,False,False,False
+2023-01-25,winter,27.1,0.0,64.3,7.7,Pleasant,False,False,False
+2023-01-26,winter,19.6,0.0,61.5,13.5,Cool,False,False,False
+2023-01-27,winter,27.0,0.0,57.2,10.4,Pleasant,False,False,False
+2023-01-28,winter,23.3,0.0,55.3,8.2,Pleasant,False,False,False
+2023-01-29,winter,20.5,0.0,55.1,5.5,Pleasant,False,False,False
+2023-01-30,winter,24.4,0.0,58.1,6.4,Pleasant,False,False,False
+2023-01-31,winter,26.0,0.0,77.4,24.9,Pleasant,False,False,False
+2023-02-01,winter,21.9,0.0,71.9,3.0,Pleasant,False,False,False
+2023-02-02,winter,29.9,0.0,66.5,11.6,Pleasant,False,False,False
+2023-02-03,winter,21.2,0.0,67.9,15.6,Pleasant,False,False,False
+2023-02-04,winter,32.0,0.0,66.9,8.9,Hot,False,False,False
+2023-02-05,winter,22.3,0.0,67.3,5.7,Pleasant,False,False,False
+2023-02-06,winter,25.1,0.0,62.6,6.3,Pleasant,False,False,False
+2023-02-07,winter,21.1,0.0,52.4,3.1,Pleasant,False,False,False
+2023-02-08,winter,21.5,0.0,59.8,3.2,Pleasant,False,False,False
+2023-02-09,winter,21.5,0.0,61.4,0.9,Pleasant,False,False,False
+2023-02-10,winter,17.4,0.0,59.4,20.3,Cool,False,False,False
+2023-02-11,winter,25.8,0.0,58.4,8.0,Pleasant,False,False,False
+2023-02-12,winter,21.8,0.0,72.8,3.8,Pleasant,False,False,False
+2023-02-13,winter,22.2,0.0,57.4,10.7,Pleasant,False,False,False
+2023-02-14,winter,27.1,0.0,75.9,37.8,Pleasant,False,False,False
+2023-02-15,winter,29.9,0.0,52.9,4.6,Pleasant,False,False,False
+2023-02-16,winter,22.3,0.0,74.8,9.8,Pleasant,False,False,False
+2023-02-17,winter,24.9,0.0,69.0,2.7,Pleasant,False,False,False
+2023-02-18,winter,23.2,0.0,66.5,14.9,Pleasant,False,False,False
+2023-02-19,winter,32.0,5.64,80.8,9.1,Rainy,False,False,False
+2023-02-20,winter,26.5,0.0,59.0,6.3,Pleasant,False,False,False
+2023-02-21,winter,22.3,0.0,55.3,0.9,Pleasant,False,False,False
+2023-02-22,winter,28.7,0.0,68.8,2.8,Pleasant,False,False,False
+2023-02-23,winter,21.6,0.0,67.8,7.6,Pleasant,False,False,False
+2023-02-24,winter,17.3,0.0,69.3,14.0,Cool,False,False,False
+2023-02-25,winter,27.7,5.6,87.0,10.2,Rainy,False,False,False
+2023-02-26,winter,23.1,0.0,54.3,6.9,Pleasant,False,False,False
+2023-02-27,winter,21.9,0.0,65.5,5.2,Pleasant,False,False,False
+2023-02-28,winter,27.4,0.0,52.4,14.3,Pleasant,False,False,False
+2023-03-01,summer,29.3,0.0,58.9,10.0,Pleasant,False,False,False
+2023-03-02,summer,31.7,0.0,59.3,10.5,Hot,False,False,False
+2023-03-03,summer,34.4,0.0,56.7,5.0,Hot,False,False,False
+2023-03-04,summer,32.4,0.0,58.5,10.1,Hot,False,False,False
+2023-03-05,summer,28.9,0.0,62.8,8.9,Pleasant,False,False,False
+2023-03-06,summer,36.0,0.0,62.3,16.4,Very Hot,False,False,False
+2023-03-07,summer,31.0,0.0,72.1,5.5,Hot,False,False,False
+2023-03-08,summer,35.0,0.0,56.0,26.4,Very Hot,False,False,False
+2023-03-09,summer,34.1,0.0,60.9,21.9,Hot,False,False,False
+2023-03-10,summer,28.2,0.0,70.2,2.0,Pleasant,False,False,False
+2023-03-11,summer,33.0,0.0,61.6,9.6,Hot,False,False,False
+2023-03-12,summer,38.2,0.0,57.9,10.9,Very Hot,True,False,False
+2023-03-13,summer,35.4,0.0,55.4,10.0,Very Hot,False,False,False
+2023-03-14,summer,33.4,0.0,58.8,10.9,Hot,False,False,False
+2023-03-15,summer,29.9,0.0,61.0,4.5,Pleasant,False,False,False
+2023-03-16,summer,34.9,0.0,50.7,7.1,Hot,False,False,False
+2023-03-17,summer,34.2,0.0,61.2,1.2,Hot,False,False,False
+2023-03-18,summer,33.1,0.0,61.9,3.6,Hot,False,False,False
+2023-03-19,summer,36.2,0.0,47.1,6.2,Very Hot,True,False,False
+2023-03-20,summer,30.5,0.0,57.6,13.2,Hot,False,False,False
+2023-03-21,summer,36.1,0.0,70.9,9.4,Very Hot,True,False,False
+2023-03-22,summer,34.4,0.0,69.4,7.5,Hot,False,False,False
+2023-03-23,summer,32.0,0.0,69.5,3.5,Hot,False,False,False
+2023-03-24,summer,31.8,0.0,49.4,9.1,Hot,False,False,False
+2023-03-25,summer,36.3,0.0,63.2,21.9,Very Hot,True,False,False
+2023-03-26,summer,36.3,0.0,62.4,11.4,Very Hot,True,False,False
+2023-03-27,summer,32.8,0.0,66.5,5.6,Hot,False,False,False
+2023-03-28,summer,32.8,0.0,65.4,15.4,Hot,False,False,False
+2023-03-29,summer,34.6,0.0,49.4,7.3,Hot,False,False,False
+2023-03-30,summer,33.6,0.0,65.0,5.5,Hot,False,False,False
+2023-03-31,summer,35.9,0.0,60.6,5.3,Very Hot,False,False,False
+2023-04-01,summer,29.9,0.0,66.9,2.4,Pleasant,False,False,False
+2023-04-02,summer,34.2,0.0,52.3,5.8,Hot,False,False,False
+2023-04-03,summer,30.7,0.0,72.1,10.4,Hot,False,False,False
+2023-04-04,summer,30.7,0.0,69.1,8.9,Hot,False,False,False
+2023-04-05,summer,33.7,0.0,66.2,8.0,Hot,False,False,False
+2023-04-06,summer,27.7,2.36,85.5,2.6,Pleasant,False,False,False
+2023-04-07,summer,35.9,0.0,70.6,14.6,Very Hot,False,False,False
+2023-04-08,summer,34.9,0.0,61.4,6.2,Hot,False,False,False
+2023-04-09,summer,33.6,0.0,63.7,13.0,Hot,False,False,False
+2023-04-10,summer,36.6,0.0,65.1,4.4,Very Hot,True,False,False
+2023-04-11,summer,29.7,0.0,57.9,5.2,Pleasant,False,False,False
+2023-04-12,summer,34.3,0.0,69.5,5.5,Hot,False,False,False
+2023-04-13,summer,36.4,0.0,62.5,26.5,Very Hot,True,False,False
+2023-04-14,summer,34.7,0.0,61.7,10.7,Hot,False,False,False
+2023-04-15,summer,31.9,0.0,64.9,10.4,Hot,False,False,False
+2023-04-16,summer,31.0,0.0,60.1,11.3,Hot,False,False,False
+2023-04-17,summer,36.2,0.0,68.5,10.8,Very Hot,True,False,False
+2023-04-18,summer,34.6,0.0,63.7,3.4,Hot,False,False,False
+2023-04-19,summer,33.7,0.0,66.0,10.4,Hot,False,False,False
+2023-04-20,summer,36.3,0.0,58.1,10.2,Very Hot,True,False,False
+2023-04-21,summer,32.2,0.0,58.2,5.8,Hot,False,False,False
+2023-04-22,summer,29.2,0.0,64.3,12.0,Pleasant,False,False,False
+2023-04-23,summer,33.8,0.0,61.7,1.4,Hot,False,False,False
+2023-04-24,summer,33.2,0.0,60.9,13.4,Hot,False,False,False
+2023-04-25,summer,31.4,0.0,53.5,9.2,Hot,False,False,False
+2023-04-26,summer,33.7,0.0,63.2,5.5,Hot,False,False,False
+2023-04-27,summer,32.8,0.0,59.9,2.6,Hot,False,False,False
+2023-04-28,summer,29.2,0.0,60.3,8.4,Pleasant,False,False,False
+2023-04-29,summer,38.3,0.0,71.0,2.4,Very Hot,True,False,False
+2023-04-30,summer,28.6,0.0,71.2,8.7,Pleasant,False,False,False
+2023-05-01,summer,33.1,0.0,66.6,3.8,Hot,False,False,False
+2023-05-02,summer,36.4,0.0,59.4,10.8,Very Hot,True,False,False
+2023-05-03,summer,29.7,0.0,59.8,3.6,Pleasant,False,False,False
+2023-05-04,summer,30.9,0.0,66.6,11.3,Hot,False,False,False
+2023-05-05,summer,33.5,0.0,56.7,6.8,Hot,False,False,False
+2023-05-06,summer,34.7,0.95,79.5,26.4,Hot,False,False,False
+2023-05-07,summer,32.5,0.0,73.9,4.7,Hot,False,False,False
+2023-05-08,summer,32.9,0.0,59.7,14.3,Hot,False,False,False
+2023-05-09,summer,31.0,0.45,80.8,10.2,Hot,False,False,False
+2023-05-10,summer,35.8,0.0,59.8,13.8,Very Hot,False,False,False
+2023-05-11,summer,29.0,0.0,58.1,18.9,Pleasant,False,False,False
+2023-05-12,summer,31.7,0.0,56.9,3.6,Hot,False,False,False
+2023-05-13,summer,28.9,1.42,88.0,3.1,Pleasant,False,False,False
+2023-05-14,summer,37.0,0.0,69.0,8.4,Very Hot,True,False,False
+2023-05-15,summer,34.7,0.0,67.5,10.2,Hot,False,False,False
+2023-05-16,summer,34.0,0.0,56.6,7.0,Hot,False,False,False
+2023-05-17,summer,31.0,0.0,76.5,0.8,Hot,False,False,False
+2023-05-18,summer,32.3,0.0,57.8,4.1,Hot,False,False,False
+2023-05-19,summer,35.1,0.0,67.6,17.5,Very Hot,False,False,False
+2023-05-20,summer,37.0,0.0,67.3,2.3,Very Hot,True,False,False
+2023-05-21,summer,38.5,0.0,48.8,10.5,Very Hot,True,False,False
+2023-05-22,summer,35.9,0.0,64.2,16.2,Very Hot,False,False,False
+2023-05-23,summer,29.7,0.0,54.9,16.2,Pleasant,False,False,False
+2023-05-24,summer,30.2,0.0,70.5,10.0,Hot,False,False,False
+2023-05-25,summer,32.1,0.0,55.1,7.5,Hot,False,False,False
+2023-05-26,summer,31.9,0.0,58.4,13.3,Hot,False,False,False
+2023-05-27,summer,36.3,0.0,66.3,20.2,Very Hot,True,False,False
+2023-05-28,summer,31.2,0.0,66.7,5.9,Hot,False,False,False
+2023-05-29,summer,33.5,0.0,57.0,14.2,Hot,False,False,False
+2023-05-30,summer,26.3,0.0,53.8,9.4,Pleasant,False,False,False
+2023-05-31,summer,35.1,0.0,52.7,4.4,Very Hot,False,False,False
+2023-06-01,monsoon,26.2,35.05,96.2,14.4,Heavy Rain,False,False,False
+2023-06-02,monsoon,29.3,6.96,76.7,17.2,Rainy,False,False,False
+2023-06-03,monsoon,34.0,99.74,97.5,15.7,Heavy Rain,False,True,False
+2023-06-04,monsoon,26.4,20.08,91.6,9.3,Heavy Rain,False,False,False
+2023-06-05,monsoon,29.3,30.96,92.1,90.5,Heavy Rain,False,False,False
+2023-06-06,monsoon,26.1,23.32,90.5,24.9,Heavy Rain,False,False,False
+2023-06-07,monsoon,24.6,34.27,98.7,41.2,Heavy Rain,False,False,False
+2023-06-08,monsoon,29.7,5.18,80.3,11.8,Rainy,False,False,False
+2023-06-09,monsoon,28.8,16.65,76.3,39.6,Rainy,False,False,False
+2023-06-10,monsoon,28.2,7.47,93.1,28.3,Rainy,False,False,False
+2023-06-11,monsoon,25.6,66.38,100.0,40.8,Storm,False,True,True
+2023-06-12,monsoon,27.8,31.49,90.6,22.3,Heavy Rain,False,False,False
+2023-06-13,monsoon,29.3,140.85,96.2,11.9,Heavy Rain,False,True,False
+2023-06-14,monsoon,26.7,101.53,100.0,41.3,Storm,False,True,True
+2023-06-15,monsoon,29.8,17.83,87.4,22.2,Rainy,False,False,False
+2023-06-16,monsoon,31.6,31.16,92.3,22.7,Heavy Rain,False,False,False
+2023-06-17,monsoon,26.5,21.16,98.2,38.7,Heavy Rain,False,False,False
+2023-06-18,monsoon,26.4,27.6,92.6,11.4,Heavy Rain,False,False,False
+2023-06-19,monsoon,28.5,21.95,100.0,5.6,Heavy Rain,False,False,False
+2023-06-20,monsoon,26.7,18.44,85.9,19.8,Rainy,False,False,False
+2023-06-21,monsoon,25.2,16.36,88.7,7.4,Rainy,False,False,False
+2023-06-22,monsoon,28.7,18.84,86.9,6.3,Rainy,False,False,False
+2023-06-23,monsoon,28.2,17.62,86.3,17.5,Rainy,False,False,False
+2023-06-24,monsoon,28.5,23.84,86.0,23.6,Heavy Rain,False,False,False
+2023-06-25,monsoon,27.8,25.88,92.0,10.9,Heavy Rain,False,False,False
+2023-06-26,monsoon,24.0,72.29,90.8,20.4,Heavy Rain,False,True,False
+2023-06-27,monsoon,28.3,63.89,100.0,33.6,Storm,False,True,True
+2023-06-28,monsoon,25.3,138.58,93.4,106.6,Storm,False,True,True
+2023-06-29,monsoon,28.4,75.75,96.3,32.2,Storm,False,True,True
+2023-06-30,monsoon,25.9,10.98,86.6,19.3,Rainy,False,False,False
+2023-07-01,monsoon,28.2,14.09,87.1,39.3,Rainy,False,False,False
+2023-07-02,monsoon,28.6,21.22,90.1,29.6,Heavy Rain,False,False,False
+2023-07-03,monsoon,30.3,23.99,100.0,22.1,Heavy Rain,False,False,False
+2023-07-04,monsoon,27.8,12.58,93.4,21.4,Rainy,False,False,False
+2023-07-05,monsoon,24.7,14.32,80.1,13.7,Rainy,False,False,False
+2023-07-06,monsoon,28.5,17.26,88.2,3.0,Rainy,False,False,False
+2023-07-07,monsoon,27.0,241.52,88.1,43.1,Storm,False,True,True
+2023-07-08,monsoon,28.8,2.97,88.7,18.2,Pleasant,False,False,False
+2023-07-09,monsoon,29.0,2.98,85.6,23.1,Pleasant,False,False,False
+2023-07-10,monsoon,28.2,11.95,85.7,0.7,Rainy,False,False,False
+2023-07-11,monsoon,29.3,8.08,91.2,16.7,Rainy,False,False,False
+2023-07-12,monsoon,23.8,47.23,100.0,22.1,Heavy Rain,False,False,False
+2023-07-13,monsoon,25.2,23.73,93.0,13.5,Heavy Rain,False,False,False
+2023-07-14,monsoon,28.1,17.19,84.8,17.9,Rainy,False,False,False
+2023-07-15,monsoon,25.3,67.16,95.1,2.1,Heavy Rain,False,True,False
+2023-07-16,monsoon,27.5,7.6,82.8,9.4,Rainy,False,False,False
+2023-07-17,monsoon,25.0,12.75,87.0,27.3,Rainy,False,False,False
+2023-07-18,monsoon,29.7,82.24,97.3,66.3,Storm,False,True,True
+2023-07-19,monsoon,24.7,9.5,98.9,1.3,Rainy,False,False,False
+2023-07-20,monsoon,26.7,19.6,85.4,14.2,Rainy,False,False,False
+2023-07-21,monsoon,26.2,22.62,94.1,31.9,Heavy Rain,False,False,False
+2023-07-22,monsoon,26.6,14.65,89.4,29.6,Rainy,False,False,False
+2023-07-23,monsoon,27.7,11.11,85.5,14.0,Rainy,False,False,False
+2023-07-24,monsoon,28.4,64.99,93.1,33.8,Storm,False,True,True
+2023-07-25,monsoon,23.9,26.96,91.5,2.3,Heavy Rain,False,False,False
+2023-07-26,monsoon,25.2,35.88,95.8,19.8,Heavy Rain,False,False,False
+2023-07-27,monsoon,27.0,56.91,100.0,4.0,Heavy Rain,False,True,False
+2023-07-28,monsoon,28.2,59.85,93.5,64.0,Storm,False,True,True
+2023-07-29,monsoon,29.4,64.18,94.7,50.9,Storm,False,True,True
+2023-07-30,monsoon,25.0,7.48,84.7,3.7,Rainy,False,False,False
+2023-07-31,monsoon,26.5,50.63,96.1,72.7,Storm,False,True,True
+2023-08-01,monsoon,29.4,128.53,88.8,33.9,Storm,False,True,True
+2023-08-02,monsoon,30.2,24.25,100.0,7.7,Heavy Rain,False,False,False
+2023-08-03,monsoon,26.6,15.5,87.3,5.1,Rainy,False,False,False
+2023-08-04,monsoon,28.8,2.61,87.8,25.4,Pleasant,False,False,False
+2023-08-05,monsoon,25.8,26.68,100.0,21.6,Heavy Rain,False,False,False
+2023-08-06,monsoon,28.4,27.44,98.8,1.8,Heavy Rain,False,False,False
+2023-08-07,monsoon,28.7,14.27,88.1,29.2,Rainy,False,False,False
+2023-08-08,monsoon,31.7,12.12,88.6,18.3,Rainy,False,False,False
+2023-08-09,monsoon,28.7,20.57,89.8,20.6,Heavy Rain,False,False,False
+2023-08-10,monsoon,33.0,10.18,86.3,5.1,Rainy,False,False,False
+2023-08-11,monsoon,27.4,62.99,100.0,32.0,Storm,False,True,True
+2023-08-12,monsoon,27.6,59.82,100.0,44.6,Storm,False,True,True
+2023-08-13,monsoon,29.8,10.1,78.9,4.9,Rainy,False,False,False
+2023-08-14,monsoon,29.7,76.72,98.8,21.2,Heavy Rain,False,True,False
+2023-08-15,monsoon,25.0,40.21,79.2,21.6,Heavy Rain,False,False,False
+2023-08-16,monsoon,28.7,5.15,84.6,33.5,Rainy,False,False,False
+2023-08-17,monsoon,26.6,31.81,94.6,81.1,Heavy Rain,False,False,False
+2023-08-18,monsoon,27.4,9.6,82.9,17.8,Rainy,False,False,False
+2023-08-19,monsoon,27.3,41.3,94.6,18.9,Heavy Rain,False,False,False
+2023-08-20,monsoon,26.7,59.22,89.1,1.9,Heavy Rain,False,True,False
+2023-08-21,monsoon,29.7,10.8,81.0,38.0,Rainy,False,False,False
+2023-08-22,monsoon,27.3,44.95,96.9,55.5,Heavy Rain,False,False,False
+2023-08-23,monsoon,26.7,28.28,83.1,68.8,Heavy Rain,False,False,False
+2023-08-24,monsoon,30.2,7.84,87.2,21.7,Rainy,False,False,False
+2023-08-25,monsoon,31.7,1.81,83.1,18.9,Hot,False,False,False
+2023-08-26,monsoon,28.1,27.83,96.7,42.7,Heavy Rain,False,False,False
+2023-08-27,monsoon,27.8,214.14,96.0,16.6,Heavy Rain,False,True,False
+2023-08-28,monsoon,25.5,66.19,95.1,12.8,Heavy Rain,False,True,False
+2023-08-29,monsoon,27.0,4.69,88.1,14.8,Pleasant,False,False,False
+2023-08-30,monsoon,30.0,21.17,91.4,16.0,Heavy Rain,False,False,False
+2023-08-31,monsoon,27.3,8.88,91.9,14.3,Rainy,False,False,False
+2023-09-01,monsoon,30.7,55.26,94.2,40.2,Storm,False,True,True
+2023-09-02,monsoon,31.1,7.31,86.4,17.6,Rainy,False,False,False
+2023-09-03,monsoon,26.6,15.71,85.2,10.9,Rainy,False,False,False
+2023-09-04,monsoon,27.7,7.05,77.2,16.0,Rainy,False,False,False
+2023-09-05,monsoon,29.3,17.21,78.7,16.9,Rainy,False,False,False
+2023-09-06,monsoon,29.7,4.27,88.6,27.2,Pleasant,False,False,False
+2023-09-07,monsoon,24.2,19.49,89.9,9.7,Rainy,False,False,False
+2023-09-08,monsoon,28.5,11.81,86.4,36.5,Rainy,False,False,False
+2023-09-09,monsoon,28.7,29.1,92.3,21.2,Heavy Rain,False,False,False
+2023-09-10,monsoon,27.6,55.23,87.7,35.2,Storm,False,True,True
+2023-09-11,monsoon,27.2,29.18,100.0,18.6,Heavy Rain,False,False,False
+2023-09-12,monsoon,28.6,15.77,87.3,20.8,Rainy,False,False,False
+2023-09-13,monsoon,29.4,6.23,73.3,30.8,Rainy,False,False,False
+2023-09-14,monsoon,27.3,13.04,91.3,13.8,Rainy,False,False,False
+2023-09-15,monsoon,27.2,21.8,94.9,7.0,Heavy Rain,False,False,False
+2023-09-16,monsoon,26.1,25.33,90.3,10.1,Heavy Rain,False,False,False
+2023-09-17,monsoon,28.0,156.5,86.6,12.0,Heavy Rain,False,True,False
+2023-09-18,monsoon,29.8,14.75,84.5,22.3,Rainy,False,False,False
+2023-09-19,monsoon,26.8,37.9,96.5,37.1,Heavy Rain,False,False,False
+2023-09-20,monsoon,29.3,34.14,100.0,8.5,Heavy Rain,False,False,False
+2023-09-21,monsoon,23.0,34.05,95.1,71.2,Heavy Rain,False,False,False
+2023-09-22,monsoon,28.2,17.98,84.5,9.2,Rainy,False,False,False
+2023-09-23,monsoon,26.4,66.18,88.0,40.9,Storm,False,True,True
+2023-09-24,monsoon,30.4,7.73,81.6,28.9,Rainy,False,False,False
+2023-09-25,monsoon,28.3,29.12,96.3,9.0,Heavy Rain,False,False,False
+2023-09-26,monsoon,27.7,34.16,99.7,54.7,Heavy Rain,False,False,False
+2023-09-27,monsoon,30.7,24.43,91.4,38.5,Heavy Rain,False,False,False
+2023-09-28,monsoon,29.6,12.52,85.1,11.3,Rainy,False,False,False
+2023-09-29,monsoon,26.0,31.36,94.4,77.0,Heavy Rain,False,False,False
+2023-09-30,monsoon,25.7,17.5,83.6,7.5,Rainy,False,False,False
+2023-10-01,post_monsoon,33.3,0.0,58.6,6.0,Hot,False,False,False
+2023-10-02,post_monsoon,28.6,0.0,62.3,11.9,Pleasant,False,False,False
+2023-10-03,post_monsoon,30.6,0.0,55.0,21.0,Hot,False,False,False
+2023-10-04,post_monsoon,30.1,0.0,62.3,18.3,Hot,False,False,False
+2023-10-05,post_monsoon,28.3,0.0,55.9,8.8,Pleasant,False,False,False
+2023-10-06,post_monsoon,32.3,8.36,76.8,7.2,Rainy,False,False,False
+2023-10-07,post_monsoon,30.6,0.0,60.2,1.3,Hot,False,False,False
+2023-10-08,post_monsoon,27.9,0.0,68.7,18.0,Pleasant,False,False,False
+2023-10-09,post_monsoon,28.2,0.0,60.2,3.1,Pleasant,False,False,False
+2023-10-10,post_monsoon,33.8,0.0,64.4,11.0,Hot,False,False,False
+2023-10-11,post_monsoon,30.6,0.0,55.7,1.4,Hot,False,False,False
+2023-10-12,post_monsoon,28.4,0.0,71.7,18.7,Pleasant,False,False,False
+2023-10-13,post_monsoon,27.7,0.0,56.6,23.0,Pleasant,False,False,False
+2023-10-14,post_monsoon,26.7,0.0,65.0,7.0,Pleasant,False,False,False
+2023-10-15,post_monsoon,30.8,0.0,66.9,16.2,Hot,False,False,False
+2023-10-16,post_monsoon,33.1,0.0,74.3,11.7,Hot,False,False,False
+2023-10-17,post_monsoon,28.2,0.0,68.2,1.3,Pleasant,False,False,False
+2023-10-18,post_monsoon,30.7,0.0,60.2,13.8,Hot,False,False,False
+2023-10-19,post_monsoon,29.9,0.0,53.0,11.1,Pleasant,False,False,False
+2023-10-20,post_monsoon,26.6,0.0,69.8,6.6,Pleasant,False,False,False
+2023-10-21,post_monsoon,31.3,0.0,56.8,7.6,Hot,False,False,False
+2023-10-22,post_monsoon,28.5,0.0,60.0,2.2,Pleasant,False,False,False
+2023-10-23,post_monsoon,30.7,0.0,63.5,6.2,Hot,False,False,False
+2023-10-24,post_monsoon,27.9,0.0,57.6,16.4,Pleasant,False,False,False
+2023-10-25,post_monsoon,27.9,0.0,66.9,2.6,Pleasant,False,False,False
+2023-10-26,post_monsoon,27.0,0.0,75.6,34.2,Pleasant,False,False,False
+2023-10-27,post_monsoon,30.7,0.0,70.0,7.9,Hot,False,False,False
+2023-10-28,post_monsoon,28.0,0.0,58.4,7.3,Pleasant,False,False,False
+2023-10-29,post_monsoon,29.6,0.0,65.6,2.7,Pleasant,False,False,False
+2023-10-30,post_monsoon,26.5,0.0,46.3,7.0,Pleasant,False,False,False
+2023-10-31,post_monsoon,28.3,0.0,62.0,6.3,Pleasant,False,False,False
+2023-11-01,winter,26.3,0.0,64.8,6.1,Pleasant,False,False,False
+2023-11-02,winter,22.7,0.0,60.2,11.0,Pleasant,False,False,False
+2023-11-03,winter,26.7,0.0,66.5,2.0,Pleasant,False,False,False
+2023-11-04,winter,26.7,0.0,61.4,14.7,Pleasant,False,False,False
+2023-11-05,winter,24.1,5.23,83.3,3.3,Rainy,False,False,False
+2023-11-06,winter,23.6,0.0,60.0,10.1,Pleasant,False,False,False
+2023-11-07,winter,24.7,7.02,84.7,6.0,Rainy,False,False,False
+2023-11-08,winter,21.5,0.0,60.2,5.7,Pleasant,False,False,False
+2023-11-09,winter,30.0,0.0,67.3,19.6,Pleasant,False,False,False
+2023-11-10,winter,19.2,0.0,70.1,1.6,Cool,False,False,False
+2023-11-11,winter,22.2,0.0,52.0,5.2,Pleasant,False,False,False
+2023-11-12,winter,18.6,0.0,62.4,3.4,Cool,False,False,False
+2023-11-13,winter,19.7,0.0,59.5,6.6,Cool,False,False,False
+2023-11-14,winter,24.3,0.0,62.1,2.7,Pleasant,False,False,False
+2023-11-15,winter,20.3,0.0,44.7,1.3,Pleasant,False,False,False
+2023-11-16,winter,25.5,0.0,55.4,2.9,Pleasant,False,False,False
+2023-11-17,winter,24.2,0.0,56.8,4.8,Pleasant,False,False,False
+2023-11-18,winter,20.9,0.0,61.7,9.1,Pleasant,False,False,False
+2023-11-19,winter,30.2,0.0,59.1,29.7,Hot,False,False,False
+2023-11-20,winter,24.1,0.0,62.7,14.4,Pleasant,False,False,False
+2023-11-21,winter,20.8,0.0,60.0,2.1,Pleasant,False,False,False
+2023-11-22,winter,27.0,0.0,63.4,4.0,Pleasant,False,False,False
+2023-11-23,winter,21.7,0.0,69.2,2.8,Pleasant,False,False,False
+2023-11-24,winter,19.8,0.0,59.3,9.1,Cool,False,False,False
+2023-11-25,winter,18.0,0.0,66.5,16.4,Cool,False,False,False
+2023-11-26,winter,27.1,0.0,68.6,5.4,Pleasant,False,False,False
+2023-11-27,winter,27.0,0.0,64.0,8.9,Pleasant,False,False,False
+2023-11-28,winter,21.5,0.0,66.1,8.3,Pleasant,False,False,False
+2023-11-29,winter,25.7,0.0,49.2,3.7,Pleasant,False,False,False
+2023-11-30,winter,31.3,0.0,60.8,12.3,Hot,False,False,False
+2023-12-01,winter,23.3,0.0,65.5,19.0,Pleasant,False,False,False
+2023-12-02,winter,21.8,0.0,64.1,11.2,Pleasant,False,False,False
+2023-12-03,winter,21.0,0.0,65.0,3.3,Pleasant,False,False,False
+2023-12-04,winter,26.3,0.0,59.4,23.6,Pleasant,False,False,False
+2023-12-05,winter,22.2,0.0,48.9,24.4,Pleasant,False,False,False
+2023-12-06,winter,25.9,0.0,61.1,23.0,Pleasant,False,False,False
+2023-12-07,winter,24.8,0.0,68.3,15.9,Pleasant,False,False,False
+2023-12-08,winter,26.3,0.0,65.1,6.5,Pleasant,False,False,False
+2023-12-09,winter,22.9,0.0,68.7,5.0,Pleasant,False,False,False
+2023-12-10,winter,25.0,0.0,65.7,7.5,Pleasant,False,False,False
+2023-12-11,winter,23.6,0.0,62.4,14.5,Pleasant,False,False,False
+2023-12-12,winter,23.5,0.0,64.7,14.1,Pleasant,False,False,False
+2023-12-13,winter,23.8,0.0,60.3,2.4,Pleasant,False,False,False
+2023-12-14,winter,25.3,0.0,52.1,9.3,Pleasant,False,False,False
+2023-12-15,winter,22.2,0.0,63.1,17.4,Pleasant,False,False,False
+2023-12-16,winter,16.0,0.0,67.9,9.9,Cool,False,False,False
+2023-12-17,winter,20.2,0.0,63.6,13.3,Pleasant,False,False,False
+2023-12-18,winter,22.2,0.0,64.4,8.6,Pleasant,False,False,False
+2023-12-19,winter,28.1,0.0,65.4,4.9,Pleasant,False,False,False
+2023-12-20,winter,26.6,0.0,76.0,16.0,Pleasant,False,False,False
+2023-12-21,winter,24.3,0.0,57.1,8.9,Pleasant,False,False,False
+2023-12-22,winter,23.9,0.0,53.8,7.6,Pleasant,False,False,False
+2023-12-23,winter,30.2,0.0,55.4,12.9,Hot,False,False,False
+2023-12-24,winter,22.1,0.0,54.7,7.9,Pleasant,False,False,False
+2023-12-25,winter,20.2,0.0,60.6,1.5,Pleasant,False,False,False
+2023-12-26,winter,22.6,0.0,62.9,6.2,Pleasant,False,False,False
+2023-12-27,winter,20.4,0.0,58.8,7.3,Pleasant,False,False,False
+2023-12-28,winter,22.5,0.0,57.5,27.5,Pleasant,False,False,False
+2023-12-29,winter,24.4,0.0,61.8,5.3,Pleasant,False,False,False
+2023-12-30,winter,20.0,0.0,65.6,6.9,Cool,False,False,False
+2023-12-31,winter,23.5,0.0,58.5,27.6,Pleasant,False,False,False
+2024-01-01,winter,22.4,0.0,58.1,16.2,Pleasant,False,False,False
+2024-01-02,winter,32.0,0.0,54.1,18.1,Hot,False,False,False
+2024-01-03,winter,22.4,0.0,57.0,6.6,Pleasant,False,False,False
+2024-01-04,winter,19.6,0.0,61.2,21.3,Cool,False,False,False
+2024-01-05,winter,24.1,0.0,66.3,5.4,Pleasant,False,False,False
+2024-01-06,winter,27.9,0.0,64.4,16.8,Pleasant,False,False,False
+2024-01-07,winter,23.1,0.0,65.2,5.7,Pleasant,False,False,False
+2024-01-08,winter,24.5,0.0,61.3,10.6,Pleasant,False,False,False
+2024-01-09,winter,24.1,0.0,53.7,21.4,Pleasant,False,False,False
+2024-01-10,winter,26.5,0.0,70.6,12.9,Pleasant,False,False,False
+2024-01-11,winter,20.0,0.0,55.8,9.2,Cool,False,False,False
+2024-01-12,winter,17.9,14.54,92.8,6.1,Rainy,False,False,False
+2024-01-13,winter,24.7,0.0,59.0,8.4,Pleasant,False,False,False
+2024-01-14,winter,30.6,0.0,65.1,23.1,Hot,False,False,False
+2024-01-15,winter,24.5,0.0,54.6,12.8,Pleasant,False,False,False
+2024-01-16,winter,23.3,0.0,60.2,2.4,Pleasant,False,False,False
+2024-01-17,winter,19.0,0.0,61.4,9.2,Cool,False,False,False
+2024-01-18,winter,23.0,0.0,62.4,5.7,Pleasant,False,False,False
+2024-01-19,winter,24.5,0.0,75.2,8.6,Pleasant,False,False,False
+2024-01-20,winter,23.1,0.0,63.6,7.9,Pleasant,False,False,False
+2024-01-21,winter,25.8,0.0,58.5,5.9,Pleasant,False,False,False
+2024-01-22,winter,29.9,0.0,61.5,28.2,Pleasant,False,False,False
+2024-01-23,winter,23.3,0.0,57.0,12.5,Pleasant,False,False,False
+2024-01-24,winter,19.5,0.0,58.4,30.6,Cool,False,False,False
+2024-01-25,winter,22.8,0.0,53.3,19.4,Pleasant,False,False,False
+2024-01-26,winter,20.0,0.0,65.4,8.9,Pleasant,False,False,False
+2024-01-27,winter,25.5,0.0,55.1,4.2,Pleasant,False,False,False
+2024-01-28,winter,25.2,0.0,57.9,9.3,Pleasant,False,False,False
+2024-01-29,winter,24.0,0.0,54.6,13.4,Pleasant,False,False,False
+2024-01-30,winter,26.8,0.0,67.6,6.6,Pleasant,False,False,False
+2024-01-31,winter,26.1,0.0,56.1,11.6,Pleasant,False,False,False
+2024-02-01,winter,18.1,0.0,67.0,10.4,Cool,False,False,False
+2024-02-02,winter,27.2,0.0,60.8,10.5,Pleasant,False,False,False
+2024-02-03,winter,20.7,0.0,64.4,10.2,Pleasant,False,False,False
+2024-02-04,winter,22.3,0.0,69.8,11.5,Pleasant,False,False,False
+2024-02-05,winter,27.5,0.0,60.5,7.2,Pleasant,False,False,False
+2024-02-06,winter,27.0,0.0,75.1,4.6,Pleasant,False,False,False
+2024-02-07,winter,21.6,0.0,56.6,11.2,Pleasant,False,False,False
+2024-02-08,winter,23.3,0.0,56.7,11.5,Pleasant,False,False,False
+2024-02-09,winter,20.8,0.0,65.8,7.9,Pleasant,False,False,False
+2024-02-10,winter,24.4,10.14,90.2,1.1,Rainy,False,False,False
+2024-02-11,winter,21.1,0.0,70.7,8.1,Pleasant,False,False,False
+2024-02-12,winter,24.4,0.0,70.2,25.9,Pleasant,False,False,False
+2024-02-13,winter,25.9,0.0,60.8,10.2,Pleasant,False,False,False
+2024-02-14,winter,26.0,0.0,59.6,5.1,Pleasant,False,False,False
+2024-02-15,winter,20.2,0.0,68.7,5.1,Pleasant,False,False,False
+2024-02-16,winter,26.0,0.0,73.8,9.2,Pleasant,False,False,False
+2024-02-17,winter,22.4,0.0,60.3,1.1,Pleasant,False,False,False
+2024-02-18,winter,25.6,0.0,52.6,8.3,Pleasant,False,False,False
+2024-02-19,winter,23.7,0.0,51.2,5.0,Pleasant,False,False,False
+2024-02-20,winter,27.2,0.0,55.6,1.6,Pleasant,False,False,False
+2024-02-21,winter,26.1,0.0,53.5,15.5,Pleasant,False,False,False
+2024-02-22,winter,24.3,0.0,64.0,5.4,Pleasant,False,False,False
+2024-02-23,winter,22.6,0.0,67.0,8.0,Pleasant,False,False,False
+2024-02-24,winter,27.2,0.0,62.1,18.8,Pleasant,False,False,False
+2024-02-25,winter,25.9,0.0,56.6,18.8,Pleasant,False,False,False
+2024-02-26,winter,24.8,0.0,66.1,16.0,Pleasant,False,False,False
+2024-02-27,winter,19.6,0.0,62.3,5.9,Cool,False,False,False
+2024-02-28,winter,19.0,0.0,65.8,14.3,Cool,False,False,False
+2024-02-29,winter,21.4,0.0,62.3,2.3,Pleasant,False,False,False
+2024-03-01,summer,35.1,0.0,66.0,3.3,Very Hot,False,False,False
+2024-03-02,summer,35.6,0.0,53.6,14.6,Very Hot,False,False,False
+2024-03-03,summer,33.7,0.0,73.4,7.6,Hot,False,False,False
+2024-03-04,summer,36.0,0.0,64.9,3.8,Very Hot,True,False,False
+2024-03-05,summer,33.1,0.0,62.7,0.5,Hot,False,False,False
+2024-03-06,summer,33.0,0.0,68.7,34.4,Hot,False,False,False
+2024-03-07,summer,34.3,0.0,65.7,5.0,Hot,False,False,False
+2024-03-08,summer,33.5,0.0,60.5,37.0,Hot,False,False,False
+2024-03-09,summer,28.9,0.0,68.6,6.8,Pleasant,False,False,False
+2024-03-10,summer,32.1,0.0,57.8,2.1,Hot,False,False,False
+2024-03-11,summer,37.1,0.0,67.9,6.3,Very Hot,True,False,False
+2024-03-12,summer,34.3,0.0,58.4,16.2,Hot,False,False,False
+2024-03-13,summer,37.2,0.0,64.1,8.5,Very Hot,True,False,False
+2024-03-14,summer,30.0,0.0,64.5,5.8,Hot,False,False,False
+2024-03-15,summer,36.8,0.0,65.2,11.8,Very Hot,True,False,False
+2024-03-16,summer,32.7,0.0,70.9,4.0,Hot,False,False,False
+2024-03-17,summer,36.7,0.0,54.9,7.3,Very Hot,True,False,False
+2024-03-18,summer,31.0,0.0,66.4,6.7,Hot,False,False,False
+2024-03-19,summer,30.6,0.2,81.5,3.7,Hot,False,False,False
+2024-03-20,summer,35.9,0.0,56.9,5.8,Very Hot,False,False,False
+2024-03-21,summer,37.7,0.0,70.5,15.5,Very Hot,True,False,False
+2024-03-22,summer,36.1,0.0,67.2,12.7,Very Hot,True,False,False
+2024-03-23,summer,34.1,0.0,75.8,6.4,Hot,False,False,False
+2024-03-24,summer,33.6,0.0,60.1,5.2,Hot,False,False,False
+2024-03-25,summer,33.2,0.0,61.0,3.6,Hot,False,False,False
+2024-03-26,summer,33.3,0.0,51.5,11.5,Hot,False,False,False
+2024-03-27,summer,33.2,0.0,61.8,10.4,Hot,False,False,False
+2024-03-28,summer,31.7,0.0,52.0,6.0,Hot,False,False,False
+2024-03-29,summer,30.8,0.0,67.2,14.2,Hot,False,False,False
+2024-03-30,summer,32.6,0.0,67.6,7.8,Hot,False,False,False
+2024-03-31,summer,35.0,0.0,50.4,16.3,Very Hot,False,False,False
+2024-04-01,summer,35.4,0.0,55.5,8.5,Very Hot,False,False,False
+2024-04-02,summer,34.6,0.0,57.7,5.7,Hot,False,False,False
+2024-04-03,summer,30.3,0.0,55.7,19.0,Hot,False,False,False
+2024-04-04,summer,33.8,0.0,78.5,19.3,Hot,False,False,False
+2024-04-05,summer,31.8,0.0,69.7,3.7,Hot,False,False,False
+2024-04-06,summer,38.7,0.0,60.8,17.8,Very Hot,True,False,False
+2024-04-07,summer,35.8,0.58,88.1,11.1,Very Hot,False,False,False
+2024-04-08,summer,34.9,0.0,64.6,17.5,Hot,False,False,False
+2024-04-09,summer,34.0,0.0,64.3,10.7,Hot,False,False,False
+2024-04-10,summer,36.7,0.0,79.9,13.7,Very Hot,True,False,False
+2024-04-11,summer,35.0,0.0,64.9,3.7,Very Hot,False,False,False
+2024-04-12,summer,29.3,0.0,66.4,14.1,Pleasant,False,False,False
+2024-04-13,summer,33.9,0.0,48.6,10.3,Hot,False,False,False
+2024-04-14,summer,31.8,0.0,63.2,3.9,Hot,False,False,False
+2024-04-15,summer,35.7,0.0,66.7,4.4,Very Hot,False,False,False
+2024-04-16,summer,30.9,0.0,58.8,18.2,Hot,False,False,False
+2024-04-17,summer,34.6,0.0,51.1,8.9,Hot,False,False,False
+2024-04-18,summer,33.4,0.0,63.2,7.2,Hot,False,False,False
+2024-04-19,summer,31.9,0.0,52.3,2.3,Hot,False,False,False
+2024-04-20,summer,32.9,0.0,60.4,8.5,Hot,False,False,False
+2024-04-21,summer,32.3,0.0,55.3,35.7,Hot,False,False,False
+2024-04-22,summer,32.0,0.0,73.1,4.6,Hot,False,False,False
+2024-04-23,summer,34.8,0.0,69.2,4.8,Hot,False,False,False
+2024-04-24,summer,32.8,0.0,54.9,3.1,Hot,False,False,False
+2024-04-25,summer,34.2,0.0,64.1,6.2,Hot,False,False,False
+2024-04-26,summer,33.9,0.0,58.8,7.0,Hot,False,False,False
+2024-04-27,summer,31.4,0.0,49.9,7.1,Hot,False,False,False
+2024-04-28,summer,32.4,0.0,77.0,10.7,Hot,False,False,False
+2024-04-29,summer,36.8,0.85,85.1,10.9,Very Hot,True,False,False
+2024-04-30,summer,32.7,0.0,67.8,10.6,Hot,False,False,False
+2024-05-01,summer,35.5,0.0,64.9,8.6,Very Hot,False,False,False
+2024-05-02,summer,35.3,0.0,57.8,12.9,Very Hot,False,False,False
+2024-05-03,summer,35.1,0.0,69.3,3.1,Very Hot,False,False,False
+2024-05-04,summer,32.2,0.0,58.1,19.0,Hot,False,False,False
+2024-05-05,summer,38.1,0.0,52.4,19.0,Very Hot,True,False,False
+2024-05-06,summer,33.6,0.0,62.0,9.0,Hot,False,False,False
+2024-05-07,summer,30.2,0.0,54.8,3.8,Hot,False,False,False
+2024-05-08,summer,32.5,0.0,52.7,19.4,Hot,False,False,False
+2024-05-09,summer,32.5,0.0,56.9,1.8,Hot,False,False,False
+2024-05-10,summer,31.1,0.0,68.0,8.7,Hot,False,False,False
+2024-05-11,summer,28.5,0.0,63.4,0.2,Pleasant,False,False,False
+2024-05-12,summer,35.2,0.0,62.5,7.8,Very Hot,False,False,False
+2024-05-13,summer,30.6,0.0,60.3,6.0,Hot,False,False,False
+2024-05-14,summer,35.6,0.0,50.5,12.2,Very Hot,False,False,False
+2024-05-15,summer,27.8,0.0,59.9,14.5,Pleasant,False,False,False
+2024-05-16,summer,33.7,0.0,56.4,28.2,Hot,False,False,False
+2024-05-17,summer,26.6,0.0,55.9,6.2,Pleasant,False,False,False
+2024-05-18,summer,33.6,0.0,79.2,4.4,Hot,False,False,False
+2024-05-19,summer,28.3,0.0,65.3,1.3,Pleasant,False,False,False
+2024-05-20,summer,35.3,0.0,52.1,5.1,Very Hot,False,False,False
+2024-05-21,summer,35.5,0.0,67.4,12.6,Very Hot,False,False,False
+2024-05-22,summer,35.0,7.11,89.2,21.4,Rainy,False,False,False
+2024-05-23,summer,32.0,0.0,64.6,9.1,Hot,False,False,False
+2024-05-24,summer,27.6,0.0,60.0,7.7,Pleasant,False,False,False
+2024-05-25,summer,34.3,0.0,57.8,7.7,Hot,False,False,False
+2024-05-26,summer,32.9,0.0,65.8,11.7,Hot,False,False,False
+2024-05-27,summer,31.8,0.0,63.7,6.9,Hot,False,False,False
+2024-05-28,summer,36.6,0.0,61.0,11.2,Very Hot,True,False,False
+2024-05-29,summer,34.8,0.0,73.8,26.3,Hot,False,False,False
+2024-05-30,summer,34.7,0.0,71.5,12.7,Hot,False,False,False
+2024-05-31,summer,34.7,0.0,59.3,8.8,Hot,False,False,False
+2024-06-01,monsoon,27.8,10.92,86.0,23.9,Rainy,False,False,False
+2024-06-02,monsoon,24.4,10.31,81.8,23.5,Rainy,False,False,False
+2024-06-03,monsoon,29.1,5.02,91.2,8.1,Rainy,False,False,False
+2024-06-04,monsoon,27.3,19.83,86.2,4.1,Rainy,False,False,False
+2024-06-05,monsoon,28.9,30.91,100.0,64.2,Heavy Rain,False,False,False
+2024-06-06,monsoon,24.8,21.87,99.2,21.8,Heavy Rain,False,False,False
+2024-06-07,monsoon,28.7,32.77,88.3,24.7,Heavy Rain,False,False,False
+2024-06-08,monsoon,26.3,20.66,100.0,19.9,Heavy Rain,False,False,False
+2024-06-09,monsoon,27.6,51.06,100.0,12.8,Heavy Rain,False,True,False
+2024-06-10,monsoon,27.8,21.97,91.8,53.4,Heavy Rain,False,False,False
+2024-06-11,monsoon,28.1,22.4,97.4,13.3,Heavy Rain,False,False,False
+2024-06-12,monsoon,29.7,10.79,84.5,11.8,Rainy,False,False,False
+2024-06-13,monsoon,26.9,4.86,89.5,5.1,Pleasant,False,False,False
+2024-06-14,monsoon,29.1,49.78,95.2,59.0,Heavy Rain,False,False,False
+2024-06-15,monsoon,30.0,8.44,100.0,26.6,Rainy,False,False,False
+2024-06-16,monsoon,24.3,27.04,96.0,12.2,Heavy Rain,False,False,False
+2024-06-17,monsoon,25.4,15.23,85.3,6.6,Rainy,False,False,False
+2024-06-18,monsoon,25.7,6.84,94.2,25.0,Rainy,False,False,False
+2024-06-19,monsoon,32.2,5.06,82.0,23.9,Rainy,False,False,False
+2024-06-20,monsoon,27.4,15.52,89.6,11.0,Rainy,False,False,False
+2024-06-21,monsoon,27.3,43.43,94.6,17.3,Heavy Rain,False,False,False
+2024-06-22,monsoon,28.8,51.38,88.3,57.7,Storm,False,True,True
+2024-06-23,monsoon,28.2,42.36,98.5,32.6,Heavy Rain,False,False,False
+2024-06-24,monsoon,28.4,53.7,100.0,4.7,Heavy Rain,False,True,False
+2024-06-25,monsoon,29.3,18.47,86.3,41.4,Rainy,False,False,False
+2024-06-26,monsoon,25.4,18.18,81.7,7.3,Rainy,False,False,False
+2024-06-27,monsoon,29.2,20.78,97.4,12.7,Heavy Rain,False,False,False
+2024-06-28,monsoon,24.9,19.73,83.8,39.8,Rainy,False,False,False
+2024-06-29,monsoon,29.8,27.84,100.0,11.2,Heavy Rain,False,False,False
+2024-06-30,monsoon,30.7,60.81,94.9,36.3,Storm,False,True,True
+2024-07-01,monsoon,29.1,53.69,94.9,41.3,Storm,False,True,True
+2024-07-02,monsoon,27.3,13.55,89.6,8.9,Rainy,False,False,False
+2024-07-03,monsoon,29.2,9.55,87.8,36.0,Rainy,False,False,False
+2024-07-04,monsoon,32.0,69.85,95.2,56.2,Storm,False,True,True
+2024-07-05,monsoon,27.8,39.09,92.1,16.6,Heavy Rain,False,False,False
+2024-07-06,monsoon,30.5,22.99,90.9,30.7,Heavy Rain,False,False,False
+2024-07-07,monsoon,24.5,32.14,98.8,42.4,Heavy Rain,False,False,False
+2024-07-08,monsoon,26.9,72.88,95.1,29.4,Heavy Rain,False,True,False
+2024-07-09,monsoon,25.3,8.18,85.7,9.6,Rainy,False,False,False
+2024-07-10,monsoon,27.7,28.63,89.8,21.6,Heavy Rain,False,False,False
+2024-07-11,monsoon,29.5,10.95,86.6,5.4,Rainy,False,False,False
+2024-07-12,monsoon,28.1,26.64,92.0,26.8,Heavy Rain,False,False,False
+2024-07-13,monsoon,29.5,23.62,99.1,43.0,Heavy Rain,False,False,False
+2024-07-14,monsoon,26.9,38.75,93.0,33.2,Heavy Rain,False,False,False
+2024-07-15,monsoon,29.9,36.73,100.0,67.0,Heavy Rain,False,False,False
+2024-07-16,monsoon,28.2,16.7,89.3,31.3,Rainy,False,False,False
+2024-07-17,monsoon,29.2,39.16,99.7,59.1,Heavy Rain,False,False,False
+2024-07-18,monsoon,29.5,20.65,89.3,18.6,Heavy Rain,False,False,False
+2024-07-19,monsoon,30.2,16.04,85.0,8.5,Rainy,False,False,False
+2024-07-20,monsoon,29.5,63.09,100.0,20.0,Heavy Rain,False,True,False
+2024-07-21,monsoon,27.7,51.31,87.9,13.2,Heavy Rain,False,True,False
+2024-07-22,monsoon,28.3,8.94,75.3,6.2,Rainy,False,False,False
+2024-07-23,monsoon,26.0,19.99,77.7,7.2,Rainy,False,False,False
+2024-07-24,monsoon,26.1,53.63,98.0,21.6,Heavy Rain,False,True,False
+2024-07-25,monsoon,27.6,25.98,100.0,24.3,Heavy Rain,False,False,False
+2024-07-26,monsoon,28.7,66.49,95.1,43.5,Storm,False,True,True
+2024-07-27,monsoon,25.6,31.99,91.3,9.3,Heavy Rain,False,False,False
+2024-07-28,monsoon,27.1,39.26,95.5,21.2,Heavy Rain,False,False,False
+2024-07-29,monsoon,28.0,55.25,99.5,50.1,Storm,False,True,True
+2024-07-30,monsoon,26.3,35.76,92.9,53.6,Heavy Rain,False,False,False
+2024-07-31,monsoon,28.0,135.37,94.6,75.4,Storm,False,True,True
+2024-08-01,monsoon,29.4,31.81,87.6,8.7,Heavy Rain,False,False,False
+2024-08-02,monsoon,32.4,5.36,92.5,8.4,Rainy,False,False,False
+2024-08-03,monsoon,28.1,20.13,94.2,5.3,Heavy Rain,False,False,False
+2024-08-04,monsoon,25.5,20.87,91.3,34.1,Heavy Rain,False,False,False
+2024-08-05,monsoon,28.4,53.66,95.3,15.5,Heavy Rain,False,True,False
+2024-08-06,monsoon,24.2,17.44,81.8,11.9,Rainy,False,False,False
+2024-08-07,monsoon,31.6,28.21,99.9,6.4,Heavy Rain,False,False,False
+2024-08-08,monsoon,26.8,77.61,88.3,22.4,Heavy Rain,False,True,False
+2024-08-09,monsoon,26.3,35.14,94.3,15.4,Heavy Rain,False,False,False
+2024-08-10,monsoon,26.1,9.79,81.8,34.4,Rainy,False,False,False
+2024-08-11,monsoon,29.4,19.04,92.5,12.9,Rainy,False,False,False
+2024-08-12,monsoon,29.1,6.8,85.8,25.8,Rainy,False,False,False
+2024-08-13,monsoon,26.4,26.19,95.2,46.4,Heavy Rain,False,False,False
+2024-08-14,monsoon,28.5,80.56,94.1,2.8,Heavy Rain,False,True,False
+2024-08-15,monsoon,27.4,44.12,97.8,31.0,Heavy Rain,False,False,False
+2024-08-16,monsoon,27.7,35.44,97.6,33.6,Heavy Rain,False,False,False
+2024-08-17,monsoon,27.9,28.14,95.9,29.0,Heavy Rain,False,False,False
+2024-08-18,monsoon,28.3,9.96,89.8,21.7,Rainy,False,False,False
+2024-08-19,monsoon,29.4,33.89,91.8,51.1,Heavy Rain,False,False,False
+2024-08-20,monsoon,25.5,25.1,94.1,5.9,Heavy Rain,False,False,False
+2024-08-21,monsoon,26.7,12.5,78.7,37.0,Rainy,False,False,False
+2024-08-22,monsoon,26.6,18.05,78.2,15.1,Rainy,False,False,False
+2024-08-23,monsoon,31.1,28.35,93.7,11.3,Heavy Rain,False,False,False
+2024-08-24,monsoon,29.7,25.3,84.0,23.6,Heavy Rain,False,False,False
+2024-08-25,monsoon,34.0,19.03,84.0,30.9,Rainy,False,False,False
+2024-08-26,monsoon,30.8,24.42,93.7,3.3,Heavy Rain,False,False,False
+2024-08-27,monsoon,28.3,16.51,86.9,45.0,Rainy,False,False,False
+2024-08-28,monsoon,29.1,47.7,100.0,42.5,Heavy Rain,False,False,False
+2024-08-29,monsoon,29.7,76.5,92.5,10.0,Heavy Rain,False,True,False
+2024-08-30,monsoon,27.3,31.5,99.3,29.7,Heavy Rain,False,False,False
+2024-08-31,monsoon,27.4,38.68,87.8,35.2,Heavy Rain,False,False,False
+2024-09-01,monsoon,27.4,19.48,84.1,39.0,Rainy,False,False,False
+2024-09-02,monsoon,25.6,13.21,92.7,12.1,Rainy,False,False,False
+2024-09-03,monsoon,26.4,35.6,97.5,28.5,Heavy Rain,False,False,False
+2024-09-04,monsoon,30.6,5.6,81.0,10.0,Rainy,False,False,False
+2024-09-05,monsoon,25.7,3.46,84.3,17.2,Pleasant,False,False,False
+2024-09-06,monsoon,25.4,25.2,88.1,11.2,Heavy Rain,False,False,False
+2024-09-07,monsoon,25.1,15.67,89.1,29.0,Rainy,False,False,False
+2024-09-08,monsoon,32.1,35.97,90.3,103.2,Heavy Rain,False,False,False
+2024-09-09,monsoon,29.1,31.73,95.7,43.2,Heavy Rain,False,False,False
+2024-09-10,monsoon,27.4,36.89,96.7,57.0,Heavy Rain,False,False,False
+2024-09-11,monsoon,31.2,30.22,100.0,41.2,Heavy Rain,False,False,False
+2024-09-12,monsoon,28.6,18.89,85.8,47.7,Rainy,False,False,False
+2024-09-13,monsoon,24.8,12.47,86.8,34.2,Rainy,False,False,False
+2024-09-14,monsoon,26.0,23.3,91.9,14.0,Heavy Rain,False,False,False
+2024-09-15,monsoon,24.9,21.08,87.8,22.9,Heavy Rain,False,False,False
+2024-09-16,monsoon,27.3,88.94,87.5,110.7,Storm,False,True,True
+2024-09-17,monsoon,26.5,25.69,92.1,15.0,Heavy Rain,False,False,False
+2024-09-18,monsoon,30.4,19.71,87.4,22.1,Rainy,False,False,False
+2024-09-19,monsoon,26.2,26.81,98.7,8.1,Heavy Rain,False,False,False
+2024-09-20,monsoon,30.5,15.37,83.0,2.8,Rainy,False,False,False
+2024-09-21,monsoon,28.9,27.65,99.7,31.8,Heavy Rain,False,False,False
+2024-09-22,monsoon,27.0,312.86,97.2,15.2,Heavy Rain,False,True,False
+2024-09-23,monsoon,32.3,16.19,85.8,5.8,Rainy,False,False,False
+2024-09-24,monsoon,26.4,25.26,94.1,16.0,Heavy Rain,False,False,False
+2024-09-25,monsoon,27.9,24.18,92.8,20.5,Heavy Rain,False,False,False
+2024-09-26,monsoon,29.3,71.45,100.0,63.1,Storm,False,True,True
+2024-09-27,monsoon,26.7,38.48,97.9,103.3,Heavy Rain,False,False,False
+2024-09-28,monsoon,26.3,8.97,86.6,21.9,Rainy,False,False,False
+2024-09-29,monsoon,28.8,24.12,96.6,16.1,Heavy Rain,False,False,False
+2024-09-30,monsoon,28.8,38.63,94.7,49.6,Heavy Rain,False,False,False
+2024-10-01,post_monsoon,28.6,0.0,62.6,15.9,Pleasant,False,False,False
+2024-10-02,post_monsoon,31.9,0.0,70.7,11.1,Hot,False,False,False
+2024-10-03,post_monsoon,26.8,0.0,61.2,12.7,Pleasant,False,False,False
+2024-10-04,post_monsoon,28.0,0.0,65.9,3.8,Pleasant,False,False,False
+2024-10-05,post_monsoon,29.2,0.0,53.9,12.6,Pleasant,False,False,False
+2024-10-06,post_monsoon,28.3,0.0,71.5,13.3,Pleasant,False,False,False
+2024-10-07,post_monsoon,32.0,0.0,66.2,24.0,Hot,False,False,False
+2024-10-08,post_monsoon,34.7,0.0,56.1,3.8,Hot,False,False,False
+2024-10-09,post_monsoon,28.0,0.0,67.4,1.8,Pleasant,False,False,False
+2024-10-10,post_monsoon,31.4,0.0,51.2,8.7,Hot,False,False,False
+2024-10-11,post_monsoon,30.9,0.0,65.5,2.7,Hot,False,False,False
+2024-10-12,post_monsoon,27.9,0.0,56.9,11.3,Pleasant,False,False,False
+2024-10-13,post_monsoon,30.9,0.0,60.4,9.6,Hot,False,False,False
+2024-10-14,post_monsoon,30.6,0.0,61.4,4.2,Hot,False,False,False
+2024-10-15,post_monsoon,30.2,0.0,53.5,24.6,Hot,False,False,False
+2024-10-16,post_monsoon,30.8,0.0,61.0,4.0,Hot,False,False,False
+2024-10-17,post_monsoon,33.3,0.0,58.8,13.5,Hot,False,False,False
+2024-10-18,post_monsoon,31.6,0.0,68.6,15.4,Hot,False,False,False
+2024-10-19,post_monsoon,31.3,0.0,65.3,8.4,Hot,False,False,False
+2024-10-20,post_monsoon,31.0,0.0,65.7,9.7,Hot,False,False,False
+2024-10-21,post_monsoon,32.9,0.0,68.3,6.2,Hot,False,False,False
+2024-10-22,post_monsoon,30.2,0.0,56.2,2.5,Hot,False,False,False
+2024-10-23,post_monsoon,26.7,0.0,60.4,13.0,Pleasant,False,False,False
+2024-10-24,post_monsoon,30.3,0.0,65.2,2.0,Hot,False,False,False
+2024-10-25,post_monsoon,27.4,0.0,61.7,15.9,Pleasant,False,False,False
+2024-10-26,post_monsoon,31.7,0.0,47.3,22.8,Hot,False,False,False
+2024-10-27,post_monsoon,28.6,0.0,63.6,9.9,Pleasant,False,False,False
+2024-10-28,post_monsoon,23.0,0.0,56.6,9.9,Pleasant,False,False,False
+2024-10-29,post_monsoon,28.3,0.0,75.0,14.8,Pleasant,False,False,False
+2024-10-30,post_monsoon,29.5,0.0,69.2,1.0,Pleasant,False,False,False
+2024-10-31,post_monsoon,31.4,0.0,64.1,3.6,Hot,False,False,False
+2024-11-01,winter,21.8,0.0,56.4,3.5,Pleasant,False,False,False
+2024-11-02,winter,25.2,0.0,64.4,3.7,Pleasant,False,False,False
+2024-11-03,winter,25.2,0.0,68.8,18.7,Pleasant,False,False,False
+2024-11-04,winter,24.7,0.0,62.3,15.1,Pleasant,False,False,False
+2024-11-05,winter,26.3,0.0,55.7,5.1,Pleasant,False,False,False
+2024-11-06,winter,22.3,0.0,58.8,6.2,Pleasant,False,False,False
+2024-11-07,winter,21.9,0.0,56.5,3.3,Pleasant,False,False,False
+2024-11-08,winter,24.9,0.0,63.5,16.8,Pleasant,False,False,False
+2024-11-09,winter,24.8,0.0,62.8,6.4,Pleasant,False,False,False
+2024-11-10,winter,24.5,0.0,55.2,10.6,Pleasant,False,False,False
+2024-11-11,winter,23.6,0.0,60.3,6.8,Pleasant,False,False,False
+2024-11-12,winter,21.2,0.0,68.7,9.4,Pleasant,False,False,False
+2024-11-13,winter,29.8,0.0,58.0,24.2,Pleasant,False,False,False
+2024-11-14,winter,25.1,0.73,88.5,9.3,Pleasant,False,False,False
+2024-11-15,winter,19.5,0.0,63.0,41.8,Cool,False,False,False
+2024-11-16,winter,20.2,0.0,66.4,7.8,Pleasant,False,False,False
+2024-11-17,winter,21.9,0.0,73.2,15.0,Pleasant,False,False,False
+2024-11-18,winter,24.5,0.0,65.0,6.6,Pleasant,False,False,False
+2024-11-19,winter,27.0,0.0,68.5,26.4,Pleasant,False,False,False
+2024-11-20,winter,20.5,2.25,86.2,0.6,Pleasant,False,False,False
+2024-11-21,winter,23.0,0.0,60.2,22.6,Pleasant,False,False,False
+2024-11-22,winter,22.6,0.0,66.0,4.1,Pleasant,False,False,False
+2024-11-23,winter,18.5,0.0,58.3,10.3,Cool,False,False,False
+2024-11-24,winter,20.0,0.0,77.1,18.4,Cool,False,False,False
+2024-11-25,winter,23.8,0.0,64.2,8.7,Pleasant,False,False,False
+2024-11-26,winter,25.0,0.0,55.5,5.9,Pleasant,False,False,False
+2024-11-27,winter,26.0,0.0,59.0,18.4,Pleasant,False,False,False
+2024-11-28,winter,22.7,0.0,66.8,0.5,Pleasant,False,False,False
+2024-11-29,winter,25.2,0.0,71.3,13.2,Pleasant,False,False,False
+2024-11-30,winter,25.5,0.0,56.6,6.2,Pleasant,False,False,False
+2024-12-01,winter,23.6,0.0,47.4,22.0,Pleasant,False,False,False
+2024-12-02,winter,22.7,0.0,55.7,5.3,Pleasant,False,False,False
+2024-12-03,winter,25.1,0.0,54.8,8.9,Pleasant,False,False,False
+2024-12-04,winter,25.9,0.0,65.5,3.8,Pleasant,False,False,False
+2024-12-05,winter,25.0,0.0,59.2,3.6,Pleasant,False,False,False
+2024-12-06,winter,21.0,0.0,66.7,11.2,Pleasant,False,False,False
+2024-12-07,winter,16.4,0.21,82.9,12.0,Cool,False,False,False
+2024-12-08,winter,24.8,0.0,61.7,2.5,Pleasant,False,False,False
+2024-12-09,winter,22.8,0.0,68.1,24.0,Pleasant,False,False,False
+2024-12-10,winter,24.9,0.0,63.9,15.2,Pleasant,False,False,False
+2024-12-11,winter,28.2,0.0,55.2,6.5,Pleasant,False,False,False
+2024-12-12,winter,23.3,0.0,64.8,28.5,Pleasant,False,False,False
+2024-12-13,winter,22.6,0.0,72.2,6.1,Pleasant,False,False,False
+2024-12-14,winter,21.5,0.0,59.0,3.4,Pleasant,False,False,False
+2024-12-15,winter,28.2,0.0,59.4,4.4,Pleasant,False,False,False
+2024-12-16,winter,19.2,0.0,62.5,2.9,Cool,False,False,False
+2024-12-17,winter,21.6,0.0,70.8,10.0,Pleasant,False,False,False
+2024-12-18,winter,19.3,0.0,59.7,6.3,Cool,False,False,False
+2024-12-19,winter,20.7,0.0,64.6,3.8,Pleasant,False,False,False
+2024-12-20,winter,25.2,0.0,67.8,18.7,Pleasant,False,False,False
+2024-12-21,winter,25.8,0.0,63.8,11.0,Pleasant,False,False,False
+2024-12-22,winter,26.5,0.0,51.4,7.8,Pleasant,False,False,False
+2024-12-23,winter,27.3,0.0,65.7,10.9,Pleasant,False,False,False
+2024-12-24,winter,22.8,0.0,57.5,4.9,Pleasant,False,False,False
+2024-12-25,winter,23.9,0.0,48.5,5.5,Pleasant,False,False,False
+2024-12-26,winter,24.0,0.0,62.1,7.3,Pleasant,False,False,False
+2024-12-27,winter,28.5,0.0,61.2,7.5,Pleasant,False,False,False
+2024-12-28,winter,25.0,0.0,53.4,13.9,Pleasant,False,False,False
+2024-12-29,winter,24.8,0.0,62.8,1.8,Pleasant,False,False,False
+2024-12-30,winter,23.4,0.0,65.2,18.4,Pleasant,False,False,False
+2024-12-31,winter,25.7,0.0,63.2,4.4,Pleasant,False,False,False
+2025-01-01,winter,20.1,0.0,63.1,15.5,Pleasant,False,False,False
+2025-01-02,winter,25.6,0.0,66.4,20.3,Pleasant,False,False,False
+2025-01-03,winter,23.2,0.0,57.2,9.7,Pleasant,False,False,False
+2025-01-04,winter,25.3,0.0,64.5,5.2,Pleasant,False,False,False
+2025-01-05,winter,18.8,0.0,74.6,10.2,Cool,False,False,False
+2025-01-06,winter,26.2,15.16,86.6,44.5,Rainy,False,False,False
+2025-01-07,winter,21.1,0.0,59.8,4.5,Pleasant,False,False,False
+2025-01-08,winter,19.6,0.0,67.3,6.3,Cool,False,False,False
+2025-01-09,winter,21.7,0.0,67.4,7.2,Pleasant,False,False,False
+2025-01-10,winter,24.7,0.0,50.2,7.1,Pleasant,False,False,False
+2025-01-11,winter,22.7,0.0,64.2,8.9,Pleasant,False,False,False
+2025-01-12,winter,25.0,0.0,76.7,24.7,Pleasant,False,False,False
+2025-01-13,winter,23.5,0.0,59.8,8.8,Pleasant,False,False,False
+2025-01-14,winter,26.1,0.0,60.1,4.4,Pleasant,False,False,False
+2025-01-15,winter,27.7,0.0,68.6,4.8,Pleasant,False,False,False
+2025-01-16,winter,22.8,0.0,67.7,7.6,Pleasant,False,False,False
+2025-01-17,winter,23.5,3.77,80.6,4.8,Pleasant,False,False,False
+2025-01-18,winter,22.9,0.0,62.5,8.4,Pleasant,False,False,False
+2025-01-19,winter,27.6,0.0,62.9,27.9,Pleasant,False,False,False
+2025-01-20,winter,23.4,0.0,62.5,19.6,Pleasant,False,False,False
+2025-01-21,winter,21.0,0.0,63.0,2.9,Pleasant,False,False,False
+2025-01-22,winter,22.0,0.0,67.0,16.6,Pleasant,False,False,False
+2025-01-23,winter,28.3,0.0,66.8,6.4,Pleasant,False,False,False
+2025-01-24,winter,30.2,0.0,62.8,9.5,Hot,False,False,False
+2025-01-25,winter,24.3,0.0,62.6,1.8,Pleasant,False,False,False
+2025-01-26,winter,25.6,0.0,59.5,6.0,Pleasant,False,False,False
+2025-01-27,winter,28.4,0.0,57.0,18.1,Pleasant,False,False,False
+2025-01-28,winter,24.4,0.0,61.2,5.6,Pleasant,False,False,False
+2025-01-29,winter,21.0,0.0,58.2,3.5,Pleasant,False,False,False
+2025-01-30,winter,24.0,0.0,68.4,4.8,Pleasant,False,False,False
+2025-01-31,winter,24.2,0.0,68.7,4.4,Pleasant,False,False,False
+2025-02-01,winter,21.1,0.0,63.4,15.6,Pleasant,False,False,False
+2025-02-02,winter,21.2,0.0,71.0,15.8,Pleasant,False,False,False
+2025-02-03,winter,28.8,0.0,58.7,18.0,Pleasant,False,False,False
+2025-02-04,winter,23.2,0.0,71.1,5.2,Pleasant,False,False,False
+2025-02-05,winter,22.3,0.0,65.5,20.6,Pleasant,False,False,False
+2025-02-06,winter,19.6,2.52,73.6,2.6,Cool,False,False,False
+2025-02-07,winter,28.0,0.0,71.0,12.4,Pleasant,False,False,False
+2025-02-08,winter,31.1,0.0,69.1,2.8,Hot,False,False,False
+2025-02-09,winter,27.6,5.2,91.5,11.4,Rainy,False,False,False
+2025-02-10,winter,20.8,0.0,60.3,7.4,Pleasant,False,False,False
+2025-02-11,winter,22.0,0.0,68.2,20.4,Pleasant,False,False,False
+2025-02-12,winter,26.7,0.0,75.2,38.0,Pleasant,False,False,False
+2025-02-13,winter,28.3,0.0,61.0,13.2,Pleasant,False,False,False
+2025-02-14,winter,18.6,0.0,55.8,15.4,Cool,False,False,False
+2025-02-15,winter,22.5,0.0,67.5,19.4,Pleasant,False,False,False
+2025-02-16,winter,22.3,0.0,59.4,21.5,Pleasant,False,False,False
+2025-02-17,winter,24.5,0.0,59.4,14.9,Pleasant,False,False,False
+2025-02-18,winter,29.3,0.0,64.8,7.9,Pleasant,False,False,False
+2025-02-19,winter,20.8,0.0,61.3,8.1,Pleasant,False,False,False
+2025-02-20,winter,26.1,0.0,79.5,19.8,Pleasant,False,False,False
+2025-02-21,winter,19.8,0.0,60.1,23.6,Cool,False,False,False
+2025-02-22,winter,27.2,0.0,58.9,4.2,Pleasant,False,False,False
+2025-02-23,winter,21.2,0.0,58.3,8.3,Pleasant,False,False,False
+2025-02-24,winter,21.1,0.0,66.5,5.7,Pleasant,False,False,False
+2025-02-25,winter,27.3,0.0,70.2,22.5,Pleasant,False,False,False
+2025-02-26,winter,29.0,0.0,65.8,14.0,Pleasant,False,False,False
+2025-02-27,winter,21.9,0.0,58.4,18.9,Pleasant,False,False,False
+2025-02-28,winter,25.7,0.0,50.0,9.3,Pleasant,False,False,False
+2025-03-01,summer,35.0,0.0,57.6,26.4,Hot,False,False,False
+2025-03-02,summer,33.2,0.0,56.4,11.1,Hot,False,False,False
+2025-03-03,summer,32.6,0.0,58.8,6.0,Hot,False,False,False
+2025-03-04,summer,34.9,0.0,68.2,6.6,Hot,False,False,False
+2025-03-05,summer,31.5,0.0,64.5,3.6,Hot,False,False,False
+2025-03-06,summer,34.7,0.0,60.0,4.2,Hot,False,False,False
+2025-03-07,summer,33.7,0.0,69.4,8.0,Hot,False,False,False
+2025-03-08,summer,33.3,0.0,60.7,4.9,Hot,False,False,False
+2025-03-09,summer,37.9,0.0,69.2,20.2,Very Hot,True,False,False
+2025-03-10,summer,31.6,0.46,84.2,15.8,Hot,False,False,False
+2025-03-11,summer,35.4,0.0,69.6,9.4,Very Hot,False,False,False
+2025-03-12,summer,30.4,0.0,52.7,16.0,Hot,False,False,False
+2025-03-13,summer,26.7,0.0,69.4,6.4,Pleasant,False,False,False
+2025-03-14,summer,28.8,0.0,58.4,13.2,Pleasant,False,False,False
+2025-03-15,summer,32.6,0.0,57.1,4.6,Hot,False,False,False
+2025-03-16,summer,34.1,0.0,61.1,6.1,Hot,False,False,False
+2025-03-17,summer,31.2,0.0,62.8,15.2,Hot,False,False,False
+2025-03-18,summer,32.3,0.0,68.5,18.5,Hot,False,False,False
+2025-03-19,summer,35.2,0.0,54.5,7.1,Very Hot,False,False,False
+2025-03-20,summer,28.5,0.0,60.0,5.0,Pleasant,False,False,False
+2025-03-21,summer,35.3,0.0,67.8,9.1,Very Hot,False,False,False
+2025-03-22,summer,32.6,0.0,58.0,15.6,Hot,False,False,False
+2025-03-23,summer,33.3,0.0,64.0,13.1,Hot,False,False,False
+2025-03-24,summer,34.4,0.0,60.1,8.2,Hot,False,False,False
+2025-03-25,summer,36.3,0.0,66.6,8.2,Very Hot,True,False,False
+2025-03-26,summer,33.3,0.0,55.6,11.5,Hot,False,False,False
+2025-03-27,summer,31.2,0.0,61.2,9.5,Hot,False,False,False
+2025-03-28,summer,36.5,0.0,60.8,14.8,Very Hot,True,False,False
+2025-03-29,summer,32.5,0.0,73.8,1.5,Hot,False,False,False
+2025-03-30,summer,30.6,0.0,56.0,3.9,Hot,False,False,False
+2025-03-31,summer,33.4,0.0,57.5,5.1,Hot,False,False,False
+2025-04-01,summer,33.4,0.0,69.7,20.1,Hot,False,False,False
+2025-04-02,summer,30.4,10.76,84.5,9.1,Rainy,False,False,False
+2025-04-03,summer,32.1,0.0,59.7,16.3,Hot,False,False,False
+2025-04-04,summer,31.8,0.0,65.4,32.5,Hot,False,False,False
+2025-04-05,summer,30.6,0.0,64.5,14.4,Hot,False,False,False
+2025-04-06,summer,36.1,0.0,65.8,17.6,Very Hot,True,False,False
+2025-04-07,summer,33.3,0.0,56.0,7.3,Hot,False,False,False
+2025-04-08,summer,28.8,0.0,80.6,5.3,Pleasant,False,False,False
+2025-04-09,summer,31.3,0.0,69.6,7.5,Hot,False,False,False
+2025-04-10,summer,33.2,0.0,67.6,10.6,Hot,False,False,False
+2025-04-11,summer,35.2,0.0,59.0,7.3,Very Hot,False,False,False
+2025-04-12,summer,32.2,2.03,83.4,15.6,Hot,False,False,False
+2025-04-13,summer,29.9,0.0,85.5,15.1,Pleasant,False,False,False
+2025-04-14,summer,32.5,0.0,66.5,32.7,Hot,False,False,False
+2025-04-15,summer,31.5,0.0,58.0,14.0,Hot,False,False,False
+2025-04-16,summer,29.8,0.0,66.4,5.5,Pleasant,False,False,False
+2025-04-17,summer,35.1,0.0,66.4,5.4,Very Hot,False,False,False
+2025-04-18,summer,29.5,0.0,49.4,0.6,Pleasant,False,False,False
+2025-04-19,summer,33.0,0.0,63.4,12.5,Hot,False,False,False
+2025-04-20,summer,32.8,0.0,63.2,0.3,Hot,False,False,False
+2025-04-21,summer,31.5,0.0,68.0,10.8,Hot,False,False,False
+2025-04-22,summer,36.8,0.0,61.3,20.7,Very Hot,True,False,False
+2025-04-23,summer,31.0,0.0,63.2,4.1,Hot,False,False,False
+2025-04-24,summer,33.3,0.0,62.1,10.1,Hot,False,False,False
+2025-04-25,summer,37.3,0.0,64.7,11.8,Very Hot,True,False,False
+2025-04-26,summer,36.1,0.0,69.1,5.3,Very Hot,True,False,False
+2025-04-27,summer,31.5,0.0,59.2,7.1,Hot,False,False,False
+2025-04-28,summer,30.4,0.0,60.9,3.5,Hot,False,False,False
+2025-04-29,summer,31.1,0.0,60.3,7.0,Hot,False,False,False
+2025-04-30,summer,35.4,0.0,54.5,8.4,Very Hot,False,False,False
+2025-05-01,summer,31.9,0.0,56.5,9.2,Hot,False,False,False
+2025-05-02,summer,28.4,0.0,63.4,10.0,Pleasant,False,False,False
+2025-05-03,summer,35.9,0.0,66.8,17.1,Very Hot,False,False,False
+2025-05-04,summer,31.2,0.0,67.5,10.2,Hot,False,False,False
+2025-05-05,summer,37.0,0.0,66.4,8.1,Very Hot,True,False,False
+2025-05-06,summer,30.9,11.18,87.0,13.0,Rainy,False,False,False
+2025-05-07,summer,33.7,0.0,64.3,11.0,Hot,False,False,False
+2025-05-08,summer,30.5,0.0,59.1,11.1,Hot,False,False,False
+2025-05-09,summer,36.2,0.0,63.5,13.6,Very Hot,True,False,False
+2025-05-10,summer,28.0,0.0,64.1,14.1,Pleasant,False,False,False
+2025-05-11,summer,33.6,0.0,65.3,5.1,Hot,False,False,False
+2025-05-12,summer,33.7,0.0,50.1,1.6,Hot,False,False,False
+2025-05-13,summer,34.5,0.0,67.9,6.8,Hot,False,False,False
+2025-05-14,summer,30.3,0.0,68.6,11.7,Hot,False,False,False
+2025-05-15,summer,31.6,0.0,65.6,9.4,Hot,False,False,False
+2025-05-16,summer,33.1,0.0,69.6,19.8,Hot,False,False,False
+2025-05-17,summer,32.9,0.0,46.3,3.7,Hot,False,False,False
+2025-05-18,summer,35.2,0.0,63.9,10.2,Very Hot,False,False,False
+2025-05-19,summer,33.7,0.0,68.4,12.6,Hot,False,False,False
+2025-05-20,summer,29.3,0.0,70.5,4.0,Pleasant,False,False,False
+2025-05-21,summer,33.6,0.0,63.6,8.0,Hot,False,False,False
+2025-05-22,summer,34.2,0.0,54.5,14.4,Hot,False,False,False
+2025-05-23,summer,35.0,0.0,54.6,0.7,Very Hot,False,False,False
+2025-05-24,summer,33.7,0.0,58.9,3.4,Hot,False,False,False
+2025-05-25,summer,30.4,0.0,54.9,9.3,Hot,False,False,False
+2025-05-26,summer,32.3,0.0,68.5,5.6,Hot,False,False,False
+2025-05-27,summer,32.4,0.0,71.6,2.6,Hot,False,False,False
+2025-05-28,summer,33.1,0.0,58.7,2.0,Hot,False,False,False
+2025-05-29,summer,34.2,0.0,56.1,10.8,Hot,False,False,False
+2025-05-30,summer,32.5,0.0,69.7,5.4,Hot,False,False,False
+2025-05-31,summer,35.4,0.0,66.3,3.5,Very Hot,False,False,False
+2025-06-01,monsoon,29.7,3.94,85.8,34.6,Pleasant,False,False,False
+2025-06-02,monsoon,30.1,8.73,81.6,27.4,Rainy,False,False,False
+2025-06-03,monsoon,26.6,12.04,96.3,9.1,Rainy,False,False,False
+2025-06-04,monsoon,30.0,65.76,100.0,8.7,Heavy Rain,False,True,False
+2025-06-05,monsoon,29.7,18.86,82.7,33.6,Rainy,False,False,False
+2025-06-06,monsoon,28.4,8.41,77.5,13.4,Rainy,False,False,False
+2025-06-07,monsoon,27.9,29.29,100.0,14.0,Heavy Rain,False,False,False
+2025-06-08,monsoon,30.0,15.46,83.3,16.3,Rainy,False,False,False
+2025-06-09,monsoon,28.5,121.75,85.2,21.9,Heavy Rain,False,True,False
+2025-06-10,monsoon,28.0,42.72,88.9,23.2,Heavy Rain,False,False,False
+2025-06-11,monsoon,23.9,17.95,88.3,18.0,Rainy,False,False,False
+2025-06-12,monsoon,24.6,28.46,100.0,46.9,Heavy Rain,False,False,False
+2025-06-13,monsoon,29.2,1.66,82.8,22.0,Pleasant,False,False,False
+2025-06-14,monsoon,26.7,10.55,83.8,6.4,Rainy,False,False,False
+2025-06-15,monsoon,29.9,9.21,91.5,23.2,Rainy,False,False,False
+2025-06-16,monsoon,26.8,7.14,93.1,20.1,Rainy,False,False,False
+2025-06-17,monsoon,28.7,7.09,88.7,22.5,Rainy,False,False,False
+2025-06-18,monsoon,28.2,7.57,85.9,6.5,Rainy,False,False,False
+2025-06-19,monsoon,29.0,93.89,96.9,153.6,Storm,False,True,True
+2025-06-20,monsoon,29.3,13.0,79.4,19.1,Rainy,False,False,False
+2025-06-21,monsoon,27.8,1.32,79.1,16.1,Pleasant,False,False,False
+2025-06-22,monsoon,26.9,26.91,93.1,54.1,Heavy Rain,False,False,False
+2025-06-23,monsoon,22.8,133.22,96.8,19.6,Heavy Rain,False,True,False
+2025-06-24,monsoon,30.8,27.6,92.4,49.9,Heavy Rain,False,False,False
+2025-06-25,monsoon,28.7,8.27,83.3,10.0,Rainy,False,False,False
+2025-06-26,monsoon,28.8,12.28,79.2,21.3,Rainy,False,False,False
+2025-06-27,monsoon,26.7,3.38,84.0,7.3,Pleasant,False,False,False
+2025-06-28,monsoon,30.9,12.65,75.9,4.5,Rainy,False,False,False
+2025-06-29,monsoon,25.8,41.79,91.2,9.0,Heavy Rain,False,False,False
+2025-06-30,monsoon,27.9,44.87,91.8,48.8,Heavy Rain,False,False,False
+2025-07-01,monsoon,26.1,40.62,92.6,37.6,Heavy Rain,False,False,False
+2025-07-02,monsoon,25.9,19.1,84.0,41.6,Rainy,False,False,False
+2025-07-03,monsoon,29.6,17.68,90.8,41.2,Rainy,False,False,False
+2025-07-04,monsoon,27.5,14.59,86.2,8.6,Rainy,False,False,False
+2025-07-05,monsoon,25.9,16.15,92.5,20.0,Rainy,False,False,False
+2025-07-06,monsoon,25.9,59.82,88.5,48.4,Storm,False,True,True
+2025-07-07,monsoon,27.9,145.94,88.7,24.5,Heavy Rain,False,True,False
+2025-07-08,monsoon,26.9,27.8,93.5,17.2,Heavy Rain,False,False,False
+2025-07-09,monsoon,26.4,21.05,96.8,15.8,Heavy Rain,False,False,False
+2025-07-10,monsoon,29.2,70.36,87.3,33.6,Storm,False,True,True
+2025-07-11,monsoon,28.1,2.53,86.2,1.4,Pleasant,False,False,False
+2025-07-12,monsoon,25.8,5.8,74.2,2.8,Rainy,False,False,False
+2025-07-13,monsoon,31.0,30.64,98.5,25.6,Heavy Rain,False,False,False
+2025-07-14,monsoon,29.1,6.45,84.9,24.1,Rainy,False,False,False
+2025-07-15,monsoon,32.4,13.57,93.7,1.3,Rainy,False,False,False
+2025-07-16,monsoon,26.8,10.53,88.2,6.5,Rainy,False,False,False
+2025-07-17,monsoon,30.2,59.59,95.9,48.2,Storm,False,True,True
+2025-07-18,monsoon,31.0,16.67,77.9,19.2,Rainy,False,False,False
+2025-07-19,monsoon,30.6,19.29,80.1,14.0,Rainy,False,False,False
+2025-07-20,monsoon,28.8,9.96,78.1,20.2,Rainy,False,False,False
+2025-07-21,monsoon,26.7,21.23,98.3,55.9,Heavy Rain,False,False,False
+2025-07-22,monsoon,27.2,23.84,96.6,65.9,Heavy Rain,False,False,False
+2025-07-23,monsoon,24.1,154.13,96.8,86.4,Storm,False,True,True
+2025-07-24,monsoon,26.0,32.83,100.0,45.4,Heavy Rain,False,False,False
+2025-07-25,monsoon,30.0,16.24,88.2,32.4,Rainy,False,False,False
+2025-07-26,monsoon,29.7,4.76,85.2,60.6,Pleasant,False,False,False
+2025-07-27,monsoon,29.1,109.13,91.2,4.9,Heavy Rain,False,True,False
+2025-07-28,monsoon,25.2,10.71,89.8,17.5,Rainy,False,False,False
+2025-07-29,monsoon,33.6,14.08,79.4,16.6,Rainy,False,False,False
+2025-07-30,monsoon,27.2,37.77,93.0,26.1,Heavy Rain,False,False,False
+2025-07-31,monsoon,29.5,3.86,82.0,7.6,Pleasant,False,False,False
+2025-08-01,monsoon,27.3,5.47,75.5,34.1,Rainy,False,False,False
+2025-08-02,monsoon,27.7,8.42,89.0,28.7,Rainy,False,False,False
+2025-08-03,monsoon,28.6,23.57,84.2,17.1,Heavy Rain,False,False,False
+2025-08-04,monsoon,27.0,17.83,77.6,2.4,Rainy,False,False,False
+2025-08-05,monsoon,25.5,11.15,92.2,8.5,Rainy,False,False,False
+2025-08-06,monsoon,22.0,17.9,90.2,4.7,Rainy,False,False,False
+2025-08-07,monsoon,31.9,20.32,87.1,73.5,Heavy Rain,False,False,False
+2025-08-08,monsoon,31.2,23.88,100.0,25.6,Heavy Rain,False,False,False
+2025-08-09,monsoon,26.7,16.64,85.1,17.3,Rainy,False,False,False
+2025-08-10,monsoon,27.1,40.55,88.7,48.2,Heavy Rain,False,False,False
+2025-08-11,monsoon,26.8,26.62,94.0,2.8,Heavy Rain,False,False,False
+2025-08-12,monsoon,27.3,29.92,94.7,15.9,Heavy Rain,False,False,False
+2025-08-13,monsoon,27.7,13.5,83.4,48.3,Rainy,False,False,False
+2025-08-14,monsoon,27.7,32.08,92.4,89.0,Heavy Rain,False,False,False
+2025-08-15,monsoon,28.0,7.66,79.8,21.1,Rainy,False,False,False
+2025-08-16,monsoon,26.9,11.87,83.9,7.1,Rainy,False,False,False
+2025-08-17,monsoon,26.0,44.85,100.0,53.3,Heavy Rain,False,False,False
+2025-08-18,monsoon,32.0,15.43,86.8,31.2,Rainy,False,False,False
+2025-08-19,monsoon,28.6,4.15,91.2,25.1,Pleasant,False,False,False
+2025-08-20,monsoon,31.3,48.13,98.3,54.1,Heavy Rain,False,False,False
+2025-08-21,monsoon,27.6,3.28,77.9,3.0,Pleasant,False,False,False
+2025-08-22,monsoon,28.5,20.96,91.6,12.3,Heavy Rain,False,False,False
+2025-08-23,monsoon,26.8,21.33,90.8,7.9,Heavy Rain,False,False,False
+2025-08-24,monsoon,26.0,4.13,86.7,61.3,Pleasant,False,False,False
+2025-08-25,monsoon,26.9,13.67,82.7,23.7,Rainy,False,False,False
+2025-08-26,monsoon,29.2,16.83,80.9,24.2,Rainy,False,False,False
+2025-08-27,monsoon,27.5,8.32,81.3,13.7,Rainy,False,False,False
+2025-08-28,monsoon,28.6,30.43,99.0,26.1,Heavy Rain,False,False,False
+2025-08-29,monsoon,29.6,95.25,93.6,27.4,Heavy Rain,False,True,False
+2025-08-30,monsoon,25.5,10.37,74.4,9.4,Rainy,False,False,False
+2025-08-31,monsoon,26.0,11.08,86.7,14.1,Rainy,False,False,False
+2025-09-01,monsoon,27.7,34.29,85.8,15.1,Heavy Rain,False,False,False
+2025-09-02,monsoon,26.9,12.23,84.6,16.7,Rainy,False,False,False
+2025-09-03,monsoon,28.7,77.27,92.2,14.1,Heavy Rain,False,True,False
+2025-09-04,monsoon,28.4,16.17,84.1,2.4,Rainy,False,False,False
+2025-09-05,monsoon,26.6,49.02,94.0,91.3,Heavy Rain,False,False,False
+2025-09-06,monsoon,25.6,10.65,79.6,31.7,Rainy,False,False,False
+2025-09-07,monsoon,27.3,24.06,95.7,1.4,Heavy Rain,False,False,False
+2025-09-08,monsoon,25.3,16.29,82.3,7.8,Rainy,False,False,False
+2025-09-09,monsoon,26.4,14.87,86.2,4.1,Rainy,False,False,False
+2025-09-10,monsoon,25.2,39.82,100.0,93.4,Heavy Rain,False,False,False
+2025-09-11,monsoon,28.3,20.69,95.0,8.9,Heavy Rain,False,False,False
+2025-09-12,monsoon,28.6,41.75,95.4,50.6,Heavy Rain,False,False,False
+2025-09-13,monsoon,30.2,16.36,78.3,10.7,Rainy,False,False,False
+2025-09-14,monsoon,32.1,54.85,94.6,24.1,Heavy Rain,False,True,False
+2025-09-15,monsoon,27.4,91.54,96.0,68.9,Storm,False,True,True
+2025-09-16,monsoon,28.5,4.94,87.1,15.2,Pleasant,False,False,False
+2025-09-17,monsoon,28.3,14.54,78.5,45.1,Rainy,False,False,False
+2025-09-18,monsoon,28.3,2.25,82.2,3.4,Pleasant,False,False,False
+2025-09-19,monsoon,23.6,33.99,97.8,24.3,Heavy Rain,False,False,False
+2025-09-20,monsoon,25.9,12.78,86.2,12.4,Rainy,False,False,False
+2025-09-21,monsoon,26.4,15.8,82.4,14.8,Rainy,False,False,False
+2025-09-22,monsoon,29.0,29.75,93.0,17.1,Heavy Rain,False,False,False
+2025-09-23,monsoon,29.7,58.34,99.5,5.9,Heavy Rain,False,True,False
+2025-09-24,monsoon,30.2,37.35,95.4,2.7,Heavy Rain,False,False,False
+2025-09-25,monsoon,27.0,17.55,97.1,27.7,Rainy,False,False,False
+2025-09-26,monsoon,26.6,29.73,95.2,4.0,Heavy Rain,False,False,False
+2025-09-27,monsoon,27.9,27.44,99.0,10.9,Heavy Rain,False,False,False
+2025-09-28,monsoon,28.9,28.12,94.0,16.3,Heavy Rain,False,False,False
+2025-09-29,monsoon,26.0,32.02,97.4,11.1,Heavy Rain,False,False,False
+2025-09-30,monsoon,30.3,13.46,84.1,16.8,Rainy,False,False,False
+2025-10-01,post_monsoon,28.2,0.0,57.6,19.6,Pleasant,False,False,False
+2025-10-02,post_monsoon,32.9,0.0,60.0,1.4,Hot,False,False,False
+2025-10-03,post_monsoon,28.6,0.0,56.3,13.3,Pleasant,False,False,False
+2025-10-04,post_monsoon,27.0,0.0,52.2,9.6,Pleasant,False,False,False
+2025-10-05,post_monsoon,32.6,0.0,70.9,0.9,Hot,False,False,False
+2025-10-06,post_monsoon,30.3,0.0,58.8,21.8,Hot,False,False,False
+2025-10-07,post_monsoon,28.6,0.0,69.7,14.9,Pleasant,False,False,False
+2025-10-08,post_monsoon,27.7,0.0,52.0,3.4,Pleasant,False,False,False
+2025-10-09,post_monsoon,30.0,0.0,58.4,11.5,Hot,False,False,False
+2025-10-10,post_monsoon,33.4,0.0,58.0,22.3,Hot,False,False,False
+2025-10-11,post_monsoon,32.2,0.0,63.2,13.9,Hot,False,False,False
+2025-10-12,post_monsoon,25.6,0.0,64.6,5.2,Pleasant,False,False,False
+2025-10-13,post_monsoon,29.7,0.12,89.0,16.1,Pleasant,False,False,False
+2025-10-14,post_monsoon,29.3,0.0,83.9,15.4,Pleasant,False,False,False
+2025-10-15,post_monsoon,27.1,0.0,70.0,7.9,Pleasant,False,False,False
+2025-10-16,post_monsoon,31.9,0.0,69.4,6.5,Hot,False,False,False
+2025-10-17,post_monsoon,29.0,0.0,58.4,3.8,Pleasant,False,False,False
+2025-10-18,post_monsoon,30.7,0.0,57.2,4.7,Hot,False,False,False
+2025-10-19,post_monsoon,31.8,0.0,69.8,7.3,Hot,False,False,False
+2025-10-20,post_monsoon,26.3,0.0,63.5,5.4,Pleasant,False,False,False
+2025-10-21,post_monsoon,28.5,0.0,63.5,14.5,Pleasant,False,False,False
+2025-10-22,post_monsoon,32.0,0.0,64.6,3.6,Hot,False,False,False
+2025-10-23,post_monsoon,30.9,0.0,69.9,2.1,Hot,False,False,False
+2025-10-24,post_monsoon,30.6,0.0,61.5,11.9,Hot,False,False,False
+2025-10-25,post_monsoon,24.7,0.0,56.7,19.9,Pleasant,False,False,False
+2025-10-26,post_monsoon,28.3,0.0,70.9,2.7,Pleasant,False,False,False
+2025-10-27,post_monsoon,25.0,0.0,63.7,1.7,Pleasant,False,False,False
+2025-10-28,post_monsoon,25.3,0.0,62.9,12.3,Pleasant,False,False,False
+2025-10-29,post_monsoon,30.7,0.0,66.8,23.2,Hot,False,False,False
+2025-10-30,post_monsoon,31.5,0.0,63.1,7.7,Hot,False,False,False
+2025-10-31,post_monsoon,28.3,0.0,66.5,21.6,Pleasant,False,False,False
+2025-11-01,winter,24.7,0.0,55.3,7.5,Pleasant,False,False,False
+2025-11-02,winter,21.1,0.0,73.0,17.1,Pleasant,False,False,False
+2025-11-03,winter,20.2,0.0,71.9,4.0,Pleasant,False,False,False
+2025-11-04,winter,21.8,0.0,64.0,9.4,Pleasant,False,False,False
+2025-11-05,winter,22.0,0.0,59.8,20.1,Pleasant,False,False,False
+2025-11-06,winter,24.4,0.0,59.5,5.3,Pleasant,False,False,False
+2025-11-07,winter,24.3,4.53,78.0,20.3,Pleasant,False,False,False
+2025-11-08,winter,19.3,0.0,64.7,7.9,Cool,False,False,False
+2025-11-09,winter,22.6,0.0,58.4,13.2,Pleasant,False,False,False
+2025-11-10,winter,23.0,0.0,62.7,11.1,Pleasant,False,False,False
+2025-11-11,winter,24.9,0.0,59.2,8.0,Pleasant,False,False,False
+2025-11-12,winter,20.3,0.0,46.2,1.9,Pleasant,False,False,False
+2025-11-13,winter,22.2,0.0,64.5,5.6,Pleasant,False,False,False
+2025-11-14,winter,22.8,0.0,64.0,7.9,Pleasant,False,False,False
+2025-11-15,winter,23.0,0.0,68.1,0.8,Pleasant,False,False,False
+2025-11-16,winter,21.1,0.88,74.5,33.8,Pleasant,False,False,False
+2025-11-17,winter,26.1,0.0,70.2,5.6,Pleasant,False,False,False
+2025-11-18,winter,23.6,0.0,56.4,4.9,Pleasant,False,False,False
+2025-11-19,winter,23.7,0.0,58.6,6.1,Pleasant,False,False,False
+2025-11-20,winter,24.3,0.0,56.1,11.5,Pleasant,False,False,False
+2025-11-21,winter,27.6,0.0,68.6,4.7,Pleasant,False,False,False
+2025-11-22,winter,23.9,0.0,69.9,7.4,Pleasant,False,False,False
+2025-11-23,winter,20.1,0.0,55.4,5.5,Pleasant,False,False,False
+2025-11-24,winter,21.7,0.0,57.3,21.6,Pleasant,False,False,False
+2025-11-25,winter,29.4,0.0,79.6,9.0,Pleasant,False,False,False
+2025-11-26,winter,25.5,0.0,62.5,27.0,Pleasant,False,False,False
+2025-11-27,winter,29.1,0.0,52.7,30.4,Pleasant,False,False,False
+2025-11-28,winter,19.1,0.0,66.9,12.2,Cool,False,False,False
+2025-11-29,winter,24.0,0.0,60.3,10.6,Pleasant,False,False,False
+2025-11-30,winter,26.8,0.35,81.1,4.4,Pleasant,False,False,False
+2025-12-01,winter,23.3,0.0,57.7,3.2,Pleasant,False,False,False
+2025-12-02,winter,22.7,11.67,86.7,0.7,Rainy,False,False,False
+2025-12-03,winter,25.6,0.0,64.7,5.9,Pleasant,False,False,False
+2025-12-04,winter,25.0,0.0,62.7,1.1,Pleasant,False,False,False
+2025-12-05,winter,24.1,0.0,68.2,6.2,Pleasant,False,False,False
+2025-12-06,winter,23.7,6.34,91.2,25.3,Rainy,False,False,False
+2025-12-07,winter,23.5,0.0,59.3,6.2,Pleasant,False,False,False
+2025-12-08,winter,24.1,0.0,65.1,3.7,Pleasant,False,False,False
+2025-12-09,winter,26.8,0.0,58.5,2.4,Pleasant,False,False,False
+2025-12-10,winter,17.9,0.0,58.3,6.0,Cool,False,False,False
+2025-12-11,winter,22.7,0.0,71.3,14.6,Pleasant,False,False,False
+2025-12-12,winter,21.8,0.0,61.8,16.7,Pleasant,False,False,False
+2025-12-13,winter,28.1,0.0,61.1,13.1,Pleasant,False,False,False
+2025-12-14,winter,22.2,0.0,66.2,7.4,Pleasant,False,False,False
+2025-12-15,winter,21.4,0.0,63.8,17.3,Pleasant,False,False,False
+2025-12-16,winter,26.0,0.0,56.6,8.0,Pleasant,False,False,False
+2025-12-17,winter,29.6,0.0,63.5,6.8,Pleasant,False,False,False
+2025-12-18,winter,20.6,0.0,55.6,9.2,Pleasant,False,False,False
+2025-12-19,winter,27.3,0.0,62.3,15.2,Pleasant,False,False,False
+2025-12-20,winter,16.0,0.0,60.9,10.9,Cool,False,False,False
+2025-12-21,winter,28.5,0.0,58.2,10.1,Pleasant,False,False,False
+2025-12-22,winter,18.3,0.0,61.3,13.9,Cool,False,False,False
+2025-12-23,winter,27.8,0.0,56.3,4.0,Pleasant,False,False,False
+2025-12-24,winter,22.0,0.0,73.6,17.0,Pleasant,False,False,False
+2025-12-25,winter,23.3,0.0,64.9,18.3,Pleasant,False,False,False
+2025-12-26,winter,27.9,8.62,80.3,4.7,Rainy,False,False,False
+2025-12-27,winter,24.2,0.0,70.2,17.4,Pleasant,False,False,False
+2025-12-28,winter,23.5,0.0,52.1,4.4,Pleasant,False,False,False
+2025-12-29,winter,21.6,0.0,54.6,17.0,Pleasant,False,False,False
+2025-12-30,winter,30.2,0.0,57.1,2.2,Hot,False,False,False
+2025-12-31,winter,26.2,0.0,73.7,9.6,Pleasant,False,False,False

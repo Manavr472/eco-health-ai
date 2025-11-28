@@ -1,0 +1,373 @@
+/* Eco-Health AI Premium Dashboard Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --bg-dark: #0f172a;
+    --bg-darker: #020617;
+    --card-bg: rgba(30, 41, 59, 0.6);
+    --card-border: rgba(255, 255, 255, 0.1);
+    
+    --primary: #3b82f6;
+    --primary-glow: rgba(59, 130, 246, 0.5);
+    
+    --success: #10b981;
+    --success-glow: rgba(16, 185, 129, 0.5);
+    
+    --warning: #f59e0b;
+    --danger: #ef4444;
+    --danger-glow: rgba(239, 68, 68, 0.5);
+    
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: radial-gradient(circle at 50% 0%, #1e293b, #020617);
+    color: var(--text-main);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Glassmorphism Utilities */
+.glass-panel {
+    background: var(--card-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--card-border);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+.dashboard-header {
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--card-border);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-content {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #60a5fa, #34d399);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+}
+
+.hospital-selector select {
+    background: rgba(15, 23, 42, 0.8);
+    color: var(--text-main);
+    border: 1px solid var(--primary);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    outline: none;
+    transition: box-shadow 0.3s;
+}
+
+.hospital-selector select:focus {
+    box-shadow: 0 0 15px var(--primary-glow);
+}
+
+/* Alert Banner */
+.alert-banner {
+    background: linear-gradient(90deg, rgba(220, 38, 38, 0.9), rgba(185, 28, 28, 0.9));
+    backdrop-filter: blur(5px);
+    padding: 0.75rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.alert-banner.hidden { display: none; }
+
+.alert-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+}
+
+.alert-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Main Layout */
+.dashboard-main {
+    max-width: 1600px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+/* KPI Section */
+.kpi-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.kpi-card {
+    background: var(--card-bg);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--card-border);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.kpi-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255,255,255,0.05), transparent);
+    transform: translateX(-100%);
+    transition: 0.5s;
+}
+
+.kpi-card:hover::before {
+    transform: translateX(100%);
+}
+
+.kpi-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px var(--primary-glow);
+    border-color: var(--primary);
+}
+
+.kpi-icon {
+    font-size: 2.5rem;
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.3));
+}
+
+.kpi-content h3 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    margin-bottom: 0.25rem;
+}
+
+.kpi-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+.kpi-status {
+    font-size: 0.8rem;
+    color: var(--success);
+}
+
+/* Tab Navigation */
+.tab-container { margin-top: 1rem; }
+
+.tab-nav {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--card-border);
+    padding-bottom: 1rem;
+    overflow-x: auto;
+}
+
+.tab-btn {
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--text-muted);
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.tab-btn:hover {
+    color: var(--text-main);
+    background: rgba(255,255,255,0.05);
+}
+
+.tab-btn.active {
+    background: rgba(59, 130, 246, 0.1);
+    border-color: var(--primary);
+    color: var(--primary);
+    box-shadow: 0 0 15px var(--primary-glow);
+}
+
+.tab-content {
+    display: none;
+    animation: fadeIn 0.4s ease-out;
+}
+
+.tab-content.active { display: block; }
+
+/* Charts & Containers */
+.charts-section, .analytics-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.chart-container, .surge-events-table, .resource-card, .impact-card, .timeline, .recommendation-card {
+    background: var(--card-bg);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--card-border);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.chart-header h2, .resources-section h2, .recommendations-section h2, .timeline-section h2, .sustainability-section h2 {
+    font-size: 1.2rem;
+    color: var(--text-main);
+    margin-bottom: 0.5rem;
+}
+
+.chart-info {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 1rem;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--card-border);
+    font-weight: 500;
+}
+
+td {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    color: var(--text-main);
+}
+
+/* Resources */
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+
+.resource-bar {
+    background: rgba(255,255,255,0.1);
+    height: 8px;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    overflow: hidden;
+}
+
+.resource-progress {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary), var(--success));
+    box-shadow: 0 0 10px var(--primary-glow);
+    border-radius: 4px;
+}
+
+/* Recommendations */
+.recommendation-card {
+    border-left: 4px solid var(--primary);
+    margin-bottom: 1rem;
+    transition: transform 0.2s;
+}
+
+.recommendation-card:hover {
+    transform: translateX(5px);
+    background: rgba(255,255,255,0.05);
+}
+
+.recommendation-card.high-priority {
+    border-left-color: var(--danger);
+    box-shadow: -5px 0 15px -5px var(--danger-glow);
+}
+
+.priority-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.priority-badge.critical { background: var(--danger); color: white; box-shadow: 0 0 10px var(--danger-glow); }
+.priority-badge.major { background: var(--warning); color: black; }
+.priority-badge.moderate { background: var(--primary); color: white; }
+
+/* Timeline */
+.timeline-item::before {
+    background: var(--primary);
+    box-shadow: 0 0 10px var(--primary-glow);
+}
+
+.timeline-item.urgent::before {
+    background: var(--danger);
+    box-shadow: 0 0 15px var(--danger-glow);
+    animation: pulse 2s infinite;
+}
+
+/* Sustainability */
+.impact-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.impact-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(to right, #34d399, #10b981);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 5px var(--success-glow));
+}
+
+/* Animations */
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); } 70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); } 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); } }
+
+/* Footer */
+.dashboard-footer {
+    border-top: 1px solid var(--card-border);
+    background: rgba(15, 23, 42, 0.9);
+    padding: 2rem;
+    text-align: center;
+    color: var(--text-muted);
+    margin-top: 4rem;
+}
