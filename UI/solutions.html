@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Health AI - Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- Navbar injected by JS -->
+
+    <main>
+        <!-- Title Section -->
+        <section class="container py-xl text-center">
+            <h1 class="text-primary-dark" style="margin-bottom: 1rem;">AI Solutions for Every Healthcare Challenge</h1>
+            <p class="text-gray" style="max-width: 600px; margin: 0 auto;">
+                Our platform addresses Mumbai's unique healthcare challenges with tailored AI solutions for pollution,
+                monsoon, and festival-related patient surges.
+            </p>
+        </section>
+
+        <!-- How It Works (Moved from Index) -->
+        <section class="bg-blue text-white py-xl">
+            <div class="container text-center">
+                <h2 class="font-bold" style="margin-bottom: 0.5rem;">How Our AI Works</h2>
+                <p style="margin-bottom: 3rem; opacity: 0.9;">A continuous cycle of data collection, analysis, and
+                    action</p>
+
+                <div class="grid grid-cols-4 gap-lg">
+                    <div class="flex flex-col items-center">
+                        <div class="feature-icon"
+                            style="background-color: #10b981; color: white; width: 4rem; height: 4rem; margin-bottom: 1rem;">
+                            <i data-lucide="database"></i>
+                        </div>
+                        <h4 class="font-bold" style="margin-bottom: 0.5rem;">Data Collection</h4>
+                        <p class="text-sm" style="opacity: 0.8;">Real-time environmental, weather, and hospital data
+                            ingestion</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="feature-icon"
+                            style="background-color: #10b981; color: white; width: 4rem; height: 4rem; margin-bottom: 1rem;">
+                            <i data-lucide="zap"></i>
+                        </div>
+                        <h4 class="font-bold" style="margin-bottom: 0.5rem;">AI Analysis</h4>
+                        <p class="text-sm" style="opacity: 0.8;">Machine learning models predict patient volumes and
+                            patterns</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="feature-icon"
+                            style="background-color: #10b981; color: white; width: 4rem; height: 4rem; margin-bottom: 1rem;">
+                            <i data-lucide="lightbulb"></i>
+                        </div>
+                        <h4 class="font-bold" style="margin-bottom: 0.5rem;">Smart Recommendations</h4>
+                        <p class="text-sm" style="opacity: 0.8;">Actionable insights for staffing, supplies, and
+                            resource allocation</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="feature-icon"
+                            style="background-color: #10b981; color: white; width: 4rem; height: 4rem; margin-bottom: 1rem;">
+                            <i data-lucide="check-circle"></i>
+                        </div>
+                        <h4 class="font-bold" style="margin-bottom: 0.5rem;">Carbon Impact</h4>
+                        <p class="text-sm" style="opacity: 0.8;">Track efficiency gains and convert to verified carbon
+                            credits</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pollution Surge Management (Moved from Index) -->
+        <section class="container py-xl">
+            <div class="flex items-center gap-sm" style="margin-bottom: 1.5rem;">
+                <i data-lucide="factory" style="width: 2rem; height: 2rem; color: #64748b;"></i>
+                <h2 class="text-dark">Pollution Surge Management</h2>
+            </div>
+
+            <div class="grid grid-cols-2 gap-xl">
+                <div class="flex flex-col gap-md">
+                    <div class="card" style="background-color: #fff1f2; border: 1px solid #fecdd3;">
+                        <div class="flex items-center gap-sm" style="margin-bottom: 0.5rem; color: #e11d48;">
+                            <div style="width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;">
+                            </div>
+                            <span class="font-bold text-sm">Problem</span>
+                        </div>
+                        <p class="text-red font-medium">During high AQI days (>300), respiratory admissions increase by
+                            45-60% within 24-48 hours</p>
+                    </div>
+                    <div class="card" style="background-color: #eff6ff; border: 1px solid #dbeafe;">
+                        <div class="flex items-center gap-sm" style="margin-bottom: 0.5rem; color: #2563eb;">
+                            <div style="width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;">
+                            </div>
+                            <span class="font-bold text-sm">AI Action</span>
+                        </div>
+                        <p class="text-primary font-medium">System alerts hospital admin 48h in advance to increase
+                            respiratory ward staffing and oxygen supply inventory</p>
+                    </div>
+                </div>
+                <!-- Placeholder for image from screenshot -->
+                <div class="rounded-lg overflow-hidden"
+                    style="height: 300px; background-color: #e2e8f0; display: flex; align-items: center; justify-content: center; position: relative;">
+                    <img src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                        alt="Pollution Management" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div
+                        style="position: absolute; inset: 0; background: linear-gradient(to right, rgba(0,0,0,0.2), transparent);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer injected by JS -->
+
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize Lucide icons
+        window.addEventListener('load', () => {
+            lucide.createIcons();
+        });
+    </script>
+</body>
+
+</html>
