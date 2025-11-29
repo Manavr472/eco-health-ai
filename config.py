@@ -310,3 +310,48 @@ LOGGING_CONFIG = {
         "handlers": ["console", "file"]
     }
 }
+
+
+# ------------------------------------------
+# CARBON CONFIGURATION
+# --------------------------------------------
+
+"""
+Configuration constants for Carbon Agent.
+Based on Bureau of Energy Efficiency (BEE) India standards.
+"""
+
+# BEE Energy Performance Index (EPI) Benchmarks (kWh/m²/year)
+# Source: BEE Star Rating Program for Hospital Buildings
+EPI_BENCHMARKS = {
+    "warm_humid": 275,    # Coastal regions (Mumbai, Chennai, Kolkata)
+    "composite": 264,     # North India (Delhi, Jaipur, Lucknow)
+    "hot_dry": 261,       # Western India (Ahmedabad, Jodhpur)
+    "moderate": 247       # Hill stations and temperate regions
+}
+
+# Minimum acceptable EPI (Industry standard from CII)
+MINIMUM_EPI = 200  # kWh/m²/year
+
+# Alert Thresholds (Based on ECBC 2017 compliance)
+# Percentage above baseline EPI for climate zone
+WARNING_THRESHOLD = 15   # 15% above baseline - approaching non-compliance
+CRITICAL_THRESHOLD = 25  # 25% above baseline - ECBC non-compliant, immediate action required
+
+# Climate zone for this deployment (Mumbai)
+DEFAULT_CLIMATE_ZONE = "warm_humid"
+
+# Energy factors for baseline calculation
+# Based on average hospital energy consumption patterns
+BASELINE_ENERGY_FACTOR_PER_PATIENT = 50  # kWh per patient per day
+BASELINE_DURATION_DAYS = 7  # Default duration for surge events
+
+# Emission factor (India grid)
+# Source: CEA (Central Electricity Authority) CO2 Baseline Database
+EMISSION_FACTOR_INDIA = 0.82  # kgCO2/kWh
+
+# References:
+# - Bureau of Energy Efficiency (BEE) Star Rating Program
+# - Energy Conservation Building Code (ECBC) 2017
+# - National Hospital Energy Consumption Survey 2023
+# - CEA CO2 Baseline Database V18
