@@ -3625,3 +3625,1179 @@ timestamp,prediction_date,days_ahead,hospital_id,hospital_name,total_admissions,
 2025-11-29 08:50:03,2025-12-03,4,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
 2025-11-29 08:50:06,2025-12-04,5,HBT_H15,HBT (Thackeray) Trauma Care,68,68,1.0,Normal operations,10,6,3,13,34
 2025-11-29 08:50:08,2025-12-05,6,HBT_H15,HBT (Thackeray) Trauma Care,76,76,1.0,Normal operations,11,7,3,15,38
+2025-11-29 08:50:41,2025-11-29,0,KEM_H1,King Edward Memorial Hospital,226,226,1.0,Normal operations,33,22,11,45,113
+2025-11-29 08:50:43,2025-11-30,1,KEM_H1,King Edward Memorial Hospital,221,221,1.0,Normal operations,33,22,11,44,110
+2025-11-29 08:50:46,2025-12-01,2,KEM_H1,King Edward Memorial Hospital,230,230,1.0,Normal operations,34,23,11,46,115
+2025-11-29 08:50:48,2025-12-02,3,KEM_H1,King Edward Memorial Hospital,279,279,1.0,Normal operations,41,27,13,55,139
+2025-11-29 08:50:51,2025-12-03,4,KEM_H1,King Edward Memorial Hospital,250,250,1.0,Normal operations,37,25,12,50,125
+2025-11-29 08:50:54,2025-12-04,5,KEM_H1,King Edward Memorial Hospital,253,253,1.0,Normal operations,37,25,12,50,126
+2025-11-29 08:50:56,2025-12-05,6,KEM_H1,King Edward Memorial Hospital,259,259,1.0,Normal operations,38,25,12,51,129
+2025-11-29 08:50:59,2025-11-29,0,LOK_H2,Lokmanya Tilak Hospital,148,148,1.0,Normal operations,22,14,7,29,74
+2025-11-29 08:51:01,2025-11-30,1,LOK_H2,Lokmanya Tilak Hospital,121,121,1.0,Normal operations,18,12,6,24,60
+2025-11-29 08:51:04,2025-12-01,2,LOK_H2,Lokmanya Tilak Hospital,117,117,1.0,Normal operations,17,11,5,23,58
+2025-11-29 08:51:06,2025-12-02,3,LOK_H2,Lokmanya Tilak Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 08:51:08,2025-12-03,4,LOK_H2,Lokmanya Tilak Hospital,126,126,1.0,Normal operations,18,12,6,25,63
+2025-11-29 08:51:10,2025-12-04,5,LOK_H2,Lokmanya Tilak Hospital,110,110,1.0,Normal operations,16,11,5,22,55
+2025-11-29 08:51:13,2025-12-05,6,LOK_H2,Lokmanya Tilak Hospital,134,134,1.0,Normal operations,20,13,6,26,67
+2025-11-29 08:51:15,2025-11-29,0,NAI_H3,BYL Nair Hospital,174,174,1.0,Normal operations,26,17,8,34,87
+2025-11-29 08:51:17,2025-11-30,1,NAI_H3,BYL Nair Hospital,166,166,1.0,Normal operations,24,16,8,33,83
+2025-11-29 08:51:20,2025-12-01,2,NAI_H3,BYL Nair Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 08:51:22,2025-12-02,3,NAI_H3,BYL Nair Hospital,164,164,1.0,Normal operations,24,16,8,32,82
+2025-11-29 08:51:25,2025-12-03,4,NAI_H3,BYL Nair Hospital,168,168,1.0,Normal operations,25,16,8,33,84
+2025-11-29 08:51:27,2025-12-04,5,NAI_H3,BYL Nair Hospital,191,191,1.0,Normal operations,28,19,9,38,95
+2025-11-29 08:51:29,2025-12-05,6,NAI_H3,BYL Nair Hospital,213,213,1.0,Normal operations,31,21,10,42,106
+2025-11-29 08:51:31,2025-11-29,0,JJ_H4,JJ Hospital,155,155,1.0,Normal operations,23,15,7,31,77
+2025-11-29 08:51:34,2025-11-30,1,JJ_H4,JJ Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 08:51:36,2025-12-01,2,JJ_H4,JJ Hospital,138,138,1.0,Normal operations,20,13,6,27,69
+2025-11-29 08:51:38,2025-12-02,3,JJ_H4,JJ Hospital,205,205,1.0,Normal operations,30,20,10,41,102
+2025-11-29 08:51:40,2025-12-03,4,JJ_H4,JJ Hospital,181,181,1.0,Normal operations,27,18,9,36,90
+2025-11-29 08:51:43,2025-12-04,5,JJ_H4,JJ Hospital,160,160,1.0,Normal operations,24,16,8,32,80
+2025-11-29 08:51:45,2025-12-05,6,JJ_H4,JJ Hospital,159,159,1.0,Normal operations,23,15,7,31,79
+2025-11-29 08:51:47,2025-11-29,0,HIN_H5,Hinduja Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 08:51:49,2025-11-30,1,HIN_H5,Hinduja Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 08:51:52,2025-12-01,2,HIN_H5,Hinduja Hospital,67,67,1.0,Normal operations,10,6,3,13,33
+2025-11-29 08:51:54,2025-12-02,3,HIN_H5,Hinduja Hospital,71,71,1.0,Normal operations,10,7,3,14,35
+2025-11-29 08:51:56,2025-12-03,4,HIN_H5,Hinduja Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 08:51:58,2025-12-04,5,HIN_H5,Hinduja Hospital,96,96,1.0,Normal operations,14,9,4,19,48
+2025-11-29 08:52:00,2025-12-05,6,HIN_H5,Hinduja Hospital,75,75,1.0,Normal operations,11,7,3,15,37
+2025-11-29 08:52:03,2025-11-29,0,LIL_H6,Lilavati Hospital,53,53,1.0,Normal operations,7,5,2,10,26
+2025-11-29 08:52:05,2025-11-30,1,LIL_H6,Lilavati Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 08:52:07,2025-12-01,2,LIL_H6,Lilavati Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 08:52:10,2025-12-02,3,LIL_H6,Lilavati Hospital,56,56,1.0,Normal operations,8,5,2,11,28
+2025-11-29 08:52:12,2025-12-03,4,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 08:52:14,2025-12-04,5,LIL_H6,Lilavati Hospital,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 08:52:16,2025-12-05,6,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 08:52:19,2025-11-29,0,NAN_H7,NANAVATI,55,55,1.0,Normal operations,8,5,2,11,27
+2025-11-29 08:52:21,2025-11-30,1,NAN_H7,NANAVATI,50,50,1.0,Normal operations,7,5,2,10,25
+2025-11-29 08:52:23,2025-12-01,2,NAN_H7,NANAVATI,39,39,1.0,Normal operations,5,3,1,7,19
+2025-11-29 08:52:26,2025-12-02,3,NAN_H7,NANAVATI,51,51,1.0,Normal operations,7,5,2,10,25
+2025-11-29 08:52:28,2025-12-03,4,NAN_H7,NANAVATI,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 08:52:30,2025-12-04,5,NAN_H7,NANAVATI,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 08:52:32,2025-12-05,6,NAN_H7,NANAVATI,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 08:52:35,2025-11-29,0,BOM_H8,Bombay Hospital,108,108,1.0,Normal operations,16,10,5,21,54
+2025-11-29 08:52:37,2025-11-30,1,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 08:52:39,2025-12-01,2,BOM_H8,Bombay Hospital,93,93,1.0,Normal operations,13,9,4,18,46
+2025-11-29 08:52:41,2025-12-02,3,BOM_H8,Bombay Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 08:52:44,2025-12-03,4,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 08:52:46,2025-12-04,5,BOM_H8,Bombay Hospital,81,81,1.0,Normal operations,12,8,4,16,40
+2025-11-29 08:52:48,2025-12-05,6,BOM_H8,Bombay Hospital,92,92,1.0,Normal operations,13,9,4,18,46
+2025-11-29 08:52:51,2025-11-29,0,JAS_H9,Jaslok Hospital & Research Centre,52,52,1.0,Normal operations,7,5,2,10,26
+2025-11-29 08:52:53,2025-11-30,1,JAS_H9,Jaslok Hospital & Research Centre,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 08:52:55,2025-12-01,2,JAS_H9,Jaslok Hospital & Research Centre,40,40,1.0,Normal operations,6,4,2,8,20
+2025-11-29 08:52:57,2025-12-02,3,JAS_H9,Jaslok Hospital & Research Centre,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 08:53:00,2025-12-03,4,JAS_H9,Jaslok Hospital & Research Centre,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 08:53:02,2025-12-04,5,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 08:53:04,2025-12-05,6,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 08:53:06,2025-11-29,0,BRE_H10,Breach Candy Hospital Trust,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 08:53:09,2025-11-30,1,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 08:53:11,2025-12-01,2,BRE_H10,Breach Candy Hospital Trust,23,23,1.0,Normal operations,3,2,1,4,11
+2025-11-29 08:53:13,2025-12-02,3,BRE_H10,Breach Candy Hospital Trust,26,26,1.0,Normal operations,3,2,1,5,13
+2025-11-29 08:53:15,2025-12-03,4,BRE_H10,Breach Candy Hospital Trust,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 08:53:18,2025-12-04,5,BRE_H10,Breach Candy Hospital Trust,32,32,1.0,Normal operations,4,3,1,6,16
+2025-11-29 08:53:20,2025-12-05,6,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 08:53:22,2025-11-29,0,SAI_H11,Saifee Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 08:53:24,2025-11-30,1,SAI_H11,Saifee Hospital,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 08:53:27,2025-12-01,2,SAI_H11,Saifee Hospital,31,31,1.0,Normal operations,4,3,1,6,15
+2025-11-29 08:53:29,2025-12-02,3,SAI_H11,Saifee Hospital,38,38,1.0,Normal operations,5,3,1,7,19
+2025-11-29 08:53:31,2025-12-03,4,SAI_H11,Saifee Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 08:53:34,2025-12-04,5,SAI_H11,Saifee Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 08:53:36,2025-12-05,6,SAI_H11,Saifee Hospital,42,42,1.0,Normal operations,6,4,2,8,21
+2025-11-29 08:53:38,2025-11-29,0,JUP_H13,Jupiter Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 08:53:40,2025-11-30,1,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 08:53:43,2025-12-01,2,JUP_H13,Jupiter Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 08:53:45,2025-12-02,3,JUP_H13,Jupiter Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 08:53:47,2025-12-03,4,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 08:53:49,2025-12-04,5,JUP_H13,Jupiter Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 08:53:52,2025-12-05,6,JUP_H13,Jupiter Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 08:53:54,2025-11-29,0,COO_H14,Dr. R N Cooper Hospital,72,72,1.0,Normal operations,10,7,3,14,36
+2025-11-29 08:53:56,2025-11-30,1,COO_H14,Dr. R N Cooper Hospital,47,47,1.0,Normal operations,7,4,2,9,23
+2025-11-29 08:53:58,2025-12-01,2,COO_H14,Dr. R N Cooper Hospital,60,60,1.0,Normal operations,9,6,3,12,30
+2025-11-29 08:54:00,2025-12-02,3,COO_H14,Dr. R N Cooper Hospital,77,77,1.0,Normal operations,11,7,3,15,38
+2025-11-29 08:54:03,2025-12-03,4,COO_H14,Dr. R N Cooper Hospital,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 08:54:05,2025-12-04,5,COO_H14,Dr. R N Cooper Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 08:54:07,2025-12-05,6,COO_H14,Dr. R N Cooper Hospital,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 08:54:09,2025-11-29,0,HBT_H15,HBT (Thackeray) Trauma Care,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 08:54:11,2025-11-30,1,HBT_H15,HBT (Thackeray) Trauma Care,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 08:54:14,2025-12-01,2,HBT_H15,HBT (Thackeray) Trauma Care,62,62,1.0,Normal operations,9,6,3,12,31
+2025-11-29 08:54:16,2025-12-02,3,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 08:54:19,2025-12-03,4,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 08:54:21,2025-12-04,5,HBT_H15,HBT (Thackeray) Trauma Care,68,68,1.0,Normal operations,10,6,3,13,34
+2025-11-29 08:54:24,2025-12-05,6,HBT_H15,HBT (Thackeray) Trauma Care,76,76,1.0,Normal operations,11,7,3,15,38
+2025-11-29 08:54:56,2025-11-29,0,KEM_H1,King Edward Memorial Hospital,226,226,1.0,Normal operations,33,22,11,45,113
+2025-11-29 08:54:58,2025-11-30,1,KEM_H1,King Edward Memorial Hospital,221,221,1.0,Normal operations,33,22,11,44,110
+2025-11-29 08:55:00,2025-12-01,2,KEM_H1,King Edward Memorial Hospital,230,230,1.0,Normal operations,34,23,11,46,115
+2025-11-29 08:55:03,2025-12-02,3,KEM_H1,King Edward Memorial Hospital,279,279,1.0,Normal operations,41,27,13,55,139
+2025-11-29 08:55:05,2025-12-03,4,KEM_H1,King Edward Memorial Hospital,250,250,1.0,Normal operations,37,25,12,50,125
+2025-11-29 08:55:07,2025-12-04,5,KEM_H1,King Edward Memorial Hospital,253,253,1.0,Normal operations,37,25,12,50,126
+2025-11-29 08:55:10,2025-12-05,6,KEM_H1,King Edward Memorial Hospital,259,259,1.0,Normal operations,38,25,12,51,129
+2025-11-29 08:55:12,2025-11-29,0,LOK_H2,Lokmanya Tilak Hospital,148,148,1.0,Normal operations,22,14,7,29,74
+2025-11-29 08:55:14,2025-11-30,1,LOK_H2,Lokmanya Tilak Hospital,121,121,1.0,Normal operations,18,12,6,24,60
+2025-11-29 08:55:16,2025-12-01,2,LOK_H2,Lokmanya Tilak Hospital,117,117,1.0,Normal operations,17,11,5,23,58
+2025-11-29 08:55:18,2025-12-02,3,LOK_H2,Lokmanya Tilak Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 08:55:21,2025-12-03,4,LOK_H2,Lokmanya Tilak Hospital,126,126,1.0,Normal operations,18,12,6,25,63
+2025-11-29 08:55:23,2025-12-04,5,LOK_H2,Lokmanya Tilak Hospital,110,110,1.0,Normal operations,16,11,5,22,55
+2025-11-29 08:55:25,2025-12-05,6,LOK_H2,Lokmanya Tilak Hospital,134,134,1.0,Normal operations,20,13,6,26,67
+2025-11-29 08:55:27,2025-11-29,0,NAI_H3,BYL Nair Hospital,174,174,1.0,Normal operations,26,17,8,34,87
+2025-11-29 08:55:30,2025-11-30,1,NAI_H3,BYL Nair Hospital,166,166,1.0,Normal operations,24,16,8,33,83
+2025-11-29 08:55:32,2025-12-01,2,NAI_H3,BYL Nair Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 08:55:35,2025-12-02,3,NAI_H3,BYL Nair Hospital,164,164,1.0,Normal operations,24,16,8,32,82
+2025-11-29 08:55:38,2025-12-03,4,NAI_H3,BYL Nair Hospital,168,168,1.0,Normal operations,25,16,8,33,84
+2025-11-29 08:55:40,2025-12-04,5,NAI_H3,BYL Nair Hospital,191,191,1.0,Normal operations,28,19,9,38,95
+2025-11-29 08:55:42,2025-12-05,6,NAI_H3,BYL Nair Hospital,213,213,1.0,Normal operations,31,21,10,42,106
+2025-11-29 08:55:45,2025-11-29,0,JJ_H4,JJ Hospital,155,155,1.0,Normal operations,23,15,7,31,77
+2025-11-29 08:55:47,2025-11-30,1,JJ_H4,JJ Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 08:55:49,2025-12-01,2,JJ_H4,JJ Hospital,138,138,1.0,Normal operations,20,13,6,27,69
+2025-11-29 08:55:52,2025-12-02,3,JJ_H4,JJ Hospital,205,205,1.0,Normal operations,30,20,10,41,102
+2025-11-29 08:55:54,2025-12-03,4,JJ_H4,JJ Hospital,181,181,1.0,Normal operations,27,18,9,36,90
+2025-11-29 08:55:57,2025-12-04,5,JJ_H4,JJ Hospital,160,160,1.0,Normal operations,24,16,8,32,80
+2025-11-29 08:55:59,2025-12-05,6,JJ_H4,JJ Hospital,159,159,1.0,Normal operations,23,15,7,31,79
+2025-11-29 08:56:01,2025-11-29,0,HIN_H5,Hinduja Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 08:56:03,2025-11-30,1,HIN_H5,Hinduja Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 08:56:06,2025-12-01,2,HIN_H5,Hinduja Hospital,67,67,1.0,Normal operations,10,6,3,13,33
+2025-11-29 08:56:08,2025-12-02,3,HIN_H5,Hinduja Hospital,71,71,1.0,Normal operations,10,7,3,14,35
+2025-11-29 08:56:10,2025-12-03,4,HIN_H5,Hinduja Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 08:56:12,2025-12-04,5,HIN_H5,Hinduja Hospital,96,96,1.0,Normal operations,14,9,4,19,48
+2025-11-29 08:56:15,2025-12-05,6,HIN_H5,Hinduja Hospital,75,75,1.0,Normal operations,11,7,3,15,37
+2025-11-29 08:56:17,2025-11-29,0,LIL_H6,Lilavati Hospital,53,53,1.0,Normal operations,7,5,2,10,26
+2025-11-29 08:56:19,2025-11-30,1,LIL_H6,Lilavati Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 08:56:22,2025-12-01,2,LIL_H6,Lilavati Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 08:56:24,2025-12-02,3,LIL_H6,Lilavati Hospital,56,56,1.0,Normal operations,8,5,2,11,28
+2025-11-29 08:56:26,2025-12-03,4,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 08:56:29,2025-12-04,5,LIL_H6,Lilavati Hospital,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 08:56:31,2025-12-05,6,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 08:56:33,2025-11-29,0,NAN_H7,NANAVATI,55,55,1.0,Normal operations,8,5,2,11,27
+2025-11-29 08:56:35,2025-11-30,1,NAN_H7,NANAVATI,50,50,1.0,Normal operations,7,5,2,10,25
+2025-11-29 08:56:38,2025-12-01,2,NAN_H7,NANAVATI,39,39,1.0,Normal operations,5,3,1,7,19
+2025-11-29 08:56:40,2025-12-02,3,NAN_H7,NANAVATI,51,51,1.0,Normal operations,7,5,2,10,25
+2025-11-29 08:56:42,2025-12-03,4,NAN_H7,NANAVATI,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 08:56:45,2025-12-04,5,NAN_H7,NANAVATI,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 08:56:48,2025-12-05,6,NAN_H7,NANAVATI,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 08:56:51,2025-11-29,0,BOM_H8,Bombay Hospital,108,108,1.0,Normal operations,16,10,5,21,54
+2025-11-29 08:56:54,2025-11-30,1,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 08:56:56,2025-12-01,2,BOM_H8,Bombay Hospital,93,93,1.0,Normal operations,13,9,4,18,46
+2025-11-29 08:56:58,2025-12-02,3,BOM_H8,Bombay Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 08:57:00,2025-12-03,4,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 08:57:03,2025-12-04,5,BOM_H8,Bombay Hospital,81,81,1.0,Normal operations,12,8,4,16,40
+2025-11-29 08:57:05,2025-12-05,6,BOM_H8,Bombay Hospital,92,92,1.0,Normal operations,13,9,4,18,46
+2025-11-29 08:57:08,2025-11-29,0,JAS_H9,Jaslok Hospital & Research Centre,52,52,1.0,Normal operations,7,5,2,10,26
+2025-11-29 08:57:10,2025-11-30,1,JAS_H9,Jaslok Hospital & Research Centre,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 08:57:12,2025-12-01,2,JAS_H9,Jaslok Hospital & Research Centre,40,40,1.0,Normal operations,6,4,2,8,20
+2025-11-29 08:57:14,2025-12-02,3,JAS_H9,Jaslok Hospital & Research Centre,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 08:57:17,2025-12-03,4,JAS_H9,Jaslok Hospital & Research Centre,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 08:57:19,2025-12-04,5,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 08:57:21,2025-12-05,6,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 08:57:24,2025-11-29,0,BRE_H10,Breach Candy Hospital Trust,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 08:57:26,2025-11-30,1,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 08:57:28,2025-12-01,2,BRE_H10,Breach Candy Hospital Trust,23,23,1.0,Normal operations,3,2,1,4,11
+2025-11-29 08:57:30,2025-12-02,3,BRE_H10,Breach Candy Hospital Trust,26,26,1.0,Normal operations,3,2,1,5,13
+2025-11-29 08:57:33,2025-12-03,4,BRE_H10,Breach Candy Hospital Trust,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 08:57:35,2025-12-04,5,BRE_H10,Breach Candy Hospital Trust,32,32,1.0,Normal operations,4,3,1,6,16
+2025-11-29 08:57:37,2025-12-05,6,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 08:57:40,2025-11-29,0,SAI_H11,Saifee Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 08:57:42,2025-11-30,1,SAI_H11,Saifee Hospital,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 08:57:45,2025-12-01,2,SAI_H11,Saifee Hospital,31,31,1.0,Normal operations,4,3,1,6,15
+2025-11-29 08:57:47,2025-12-02,3,SAI_H11,Saifee Hospital,38,38,1.0,Normal operations,5,3,1,7,19
+2025-11-29 08:57:49,2025-12-03,4,SAI_H11,Saifee Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 08:57:52,2025-12-04,5,SAI_H11,Saifee Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 08:57:54,2025-12-05,6,SAI_H11,Saifee Hospital,42,42,1.0,Normal operations,6,4,2,8,21
+2025-11-29 08:57:56,2025-11-29,0,JUP_H13,Jupiter Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 08:57:58,2025-11-30,1,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 08:58:01,2025-12-01,2,JUP_H13,Jupiter Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 08:58:03,2025-12-02,3,JUP_H13,Jupiter Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 08:58:06,2025-12-03,4,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 08:58:08,2025-12-04,5,JUP_H13,Jupiter Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 08:58:10,2025-12-05,6,JUP_H13,Jupiter Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 08:58:12,2025-11-29,0,COO_H14,Dr. R N Cooper Hospital,72,72,1.0,Normal operations,10,7,3,14,36
+2025-11-29 08:58:15,2025-11-30,1,COO_H14,Dr. R N Cooper Hospital,47,47,1.0,Normal operations,7,4,2,9,23
+2025-11-29 08:58:17,2025-12-01,2,COO_H14,Dr. R N Cooper Hospital,60,60,1.0,Normal operations,9,6,3,12,30
+2025-11-29 08:58:19,2025-12-02,3,COO_H14,Dr. R N Cooper Hospital,77,77,1.0,Normal operations,11,7,3,15,38
+2025-11-29 08:58:22,2025-12-03,4,COO_H14,Dr. R N Cooper Hospital,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 08:58:24,2025-12-04,5,COO_H14,Dr. R N Cooper Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 08:58:26,2025-12-05,6,COO_H14,Dr. R N Cooper Hospital,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 08:58:29,2025-11-29,0,HBT_H15,HBT (Thackeray) Trauma Care,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 08:58:31,2025-11-30,1,HBT_H15,HBT (Thackeray) Trauma Care,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 08:58:33,2025-12-01,2,HBT_H15,HBT (Thackeray) Trauma Care,62,62,1.0,Normal operations,9,6,3,12,31
+2025-11-29 08:58:36,2025-12-02,3,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 08:58:38,2025-12-03,4,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 08:58:40,2025-12-04,5,HBT_H15,HBT (Thackeray) Trauma Care,68,68,1.0,Normal operations,10,6,3,13,34
+2025-11-29 08:58:42,2025-12-05,6,HBT_H15,HBT (Thackeray) Trauma Care,76,76,1.0,Normal operations,11,7,3,15,38
+2025-11-29 08:59:14,2025-11-29,0,KEM_H1,King Edward Memorial Hospital,226,226,1.0,Normal operations,33,22,11,45,113
+2025-11-29 08:59:17,2025-11-30,1,KEM_H1,King Edward Memorial Hospital,221,221,1.0,Normal operations,33,22,11,44,110
+2025-11-29 08:59:19,2025-12-01,2,KEM_H1,King Edward Memorial Hospital,230,230,1.0,Normal operations,34,23,11,46,115
+2025-11-29 08:59:21,2025-12-02,3,KEM_H1,King Edward Memorial Hospital,279,279,1.0,Normal operations,41,27,13,55,139
+2025-11-29 08:59:24,2025-12-03,4,KEM_H1,King Edward Memorial Hospital,250,250,1.0,Normal operations,37,25,12,50,125
+2025-11-29 08:59:26,2025-12-04,5,KEM_H1,King Edward Memorial Hospital,253,253,1.0,Normal operations,37,25,12,50,126
+2025-11-29 08:59:28,2025-12-05,6,KEM_H1,King Edward Memorial Hospital,259,259,1.0,Normal operations,38,25,12,51,129
+2025-11-29 08:59:30,2025-11-29,0,LOK_H2,Lokmanya Tilak Hospital,148,148,1.0,Normal operations,22,14,7,29,74
+2025-11-29 08:59:33,2025-11-30,1,LOK_H2,Lokmanya Tilak Hospital,121,121,1.0,Normal operations,18,12,6,24,60
+2025-11-29 08:59:35,2025-12-01,2,LOK_H2,Lokmanya Tilak Hospital,117,117,1.0,Normal operations,17,11,5,23,58
+2025-11-29 08:59:37,2025-12-02,3,LOK_H2,Lokmanya Tilak Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 08:59:39,2025-12-03,4,LOK_H2,Lokmanya Tilak Hospital,126,126,1.0,Normal operations,18,12,6,25,63
+2025-11-29 08:59:42,2025-12-04,5,LOK_H2,Lokmanya Tilak Hospital,110,110,1.0,Normal operations,16,11,5,22,55
+2025-11-29 08:59:44,2025-12-05,6,LOK_H2,Lokmanya Tilak Hospital,134,134,1.0,Normal operations,20,13,6,26,67
+2025-11-29 08:59:46,2025-11-29,0,NAI_H3,BYL Nair Hospital,174,174,1.0,Normal operations,26,17,8,34,87
+2025-11-29 08:59:48,2025-11-30,1,NAI_H3,BYL Nair Hospital,166,166,1.0,Normal operations,24,16,8,33,83
+2025-11-29 08:59:51,2025-12-01,2,NAI_H3,BYL Nair Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 08:59:53,2025-12-02,3,NAI_H3,BYL Nair Hospital,164,164,1.0,Normal operations,24,16,8,32,82
+2025-11-29 08:59:55,2025-12-03,4,NAI_H3,BYL Nair Hospital,168,168,1.0,Normal operations,25,16,8,33,84
+2025-11-29 08:59:58,2025-12-04,5,NAI_H3,BYL Nair Hospital,191,191,1.0,Normal operations,28,19,9,38,95
+2025-11-29 09:00:00,2025-12-05,6,NAI_H3,BYL Nair Hospital,213,213,1.0,Normal operations,31,21,10,42,106
+2025-11-29 09:00:03,2025-11-29,0,JJ_H4,JJ Hospital,155,155,1.0,Normal operations,23,15,7,31,77
+2025-11-29 09:00:06,2025-11-30,1,JJ_H4,JJ Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:00:09,2025-12-01,2,JJ_H4,JJ Hospital,138,138,1.0,Normal operations,20,13,6,27,69
+2025-11-29 09:00:12,2025-12-02,3,JJ_H4,JJ Hospital,205,205,1.0,Normal operations,30,20,10,41,102
+2025-11-29 09:00:15,2025-12-03,4,JJ_H4,JJ Hospital,181,181,1.0,Normal operations,27,18,9,36,90
+2025-11-29 09:00:17,2025-12-04,5,JJ_H4,JJ Hospital,160,160,1.0,Normal operations,24,16,8,32,80
+2025-11-29 09:00:21,2025-12-05,6,JJ_H4,JJ Hospital,159,159,1.0,Normal operations,23,15,7,31,79
+2025-11-29 09:00:23,2025-11-29,0,HIN_H5,Hinduja Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:00:26,2025-11-30,1,HIN_H5,Hinduja Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:00:28,2025-12-01,2,HIN_H5,Hinduja Hospital,67,67,1.0,Normal operations,10,6,3,13,33
+2025-11-29 09:00:31,2025-12-02,3,HIN_H5,Hinduja Hospital,71,71,1.0,Normal operations,10,7,3,14,35
+2025-11-29 09:00:34,2025-12-03,4,HIN_H5,Hinduja Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:00:36,2025-12-04,5,HIN_H5,Hinduja Hospital,96,96,1.0,Normal operations,14,9,4,19,48
+2025-11-29 09:00:40,2025-12-05,6,HIN_H5,Hinduja Hospital,75,75,1.0,Normal operations,11,7,3,15,37
+2025-11-29 09:00:44,2025-11-29,0,LIL_H6,Lilavati Hospital,53,53,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:00:47,2025-11-30,1,LIL_H6,Lilavati Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:00:49,2025-12-01,2,LIL_H6,Lilavati Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:00:52,2025-12-02,3,LIL_H6,Lilavati Hospital,56,56,1.0,Normal operations,8,5,2,11,28
+2025-11-29 09:00:54,2025-12-03,4,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:00:57,2025-12-04,5,LIL_H6,Lilavati Hospital,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:01:00,2025-12-05,6,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:01:02,2025-11-29,0,NAN_H7,NANAVATI,55,55,1.0,Normal operations,8,5,2,11,27
+2025-11-29 09:01:05,2025-11-30,1,NAN_H7,NANAVATI,50,50,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:01:07,2025-12-01,2,NAN_H7,NANAVATI,39,39,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:01:09,2025-12-02,3,NAN_H7,NANAVATI,51,51,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:01:12,2025-12-03,4,NAN_H7,NANAVATI,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:01:14,2025-12-04,5,NAN_H7,NANAVATI,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:01:16,2025-12-05,6,NAN_H7,NANAVATI,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:01:19,2025-11-29,0,BOM_H8,Bombay Hospital,108,108,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:01:21,2025-11-30,1,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:01:24,2025-12-01,2,BOM_H8,Bombay Hospital,93,93,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:01:26,2025-12-02,3,BOM_H8,Bombay Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:01:29,2025-12-03,4,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:01:36,2025-12-04,5,BOM_H8,Bombay Hospital,81,81,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:01:41,2025-12-05,6,BOM_H8,Bombay Hospital,92,92,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:01:44,2025-11-29,0,JAS_H9,Jaslok Hospital & Research Centre,52,52,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:01:47,2025-11-30,1,JAS_H9,Jaslok Hospital & Research Centre,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:01:50,2025-12-01,2,JAS_H9,Jaslok Hospital & Research Centre,40,40,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:01:53,2025-12-02,3,JAS_H9,Jaslok Hospital & Research Centre,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:01:55,2025-12-03,4,JAS_H9,Jaslok Hospital & Research Centre,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:01:58,2025-12-04,5,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:02:00,2025-12-05,6,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:02:04,2025-11-29,0,BRE_H10,Breach Candy Hospital Trust,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:02:08,2025-11-30,1,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:02:10,2025-12-01,2,BRE_H10,Breach Candy Hospital Trust,23,23,1.0,Normal operations,3,2,1,4,11
+2025-11-29 09:02:12,2025-12-02,3,BRE_H10,Breach Candy Hospital Trust,26,26,1.0,Normal operations,3,2,1,5,13
+2025-11-29 09:02:14,2025-12-03,4,BRE_H10,Breach Candy Hospital Trust,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:02:17,2025-12-04,5,BRE_H10,Breach Candy Hospital Trust,32,32,1.0,Normal operations,4,3,1,6,16
+2025-11-29 09:02:19,2025-12-05,6,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:02:21,2025-11-29,0,SAI_H11,Saifee Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:02:24,2025-11-30,1,SAI_H11,Saifee Hospital,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:02:26,2025-12-01,2,SAI_H11,Saifee Hospital,31,31,1.0,Normal operations,4,3,1,6,15
+2025-11-29 09:02:28,2025-12-02,3,SAI_H11,Saifee Hospital,38,38,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:02:30,2025-12-03,4,SAI_H11,Saifee Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:02:32,2025-12-04,5,SAI_H11,Saifee Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:02:34,2025-12-05,6,SAI_H11,Saifee Hospital,42,42,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:02:37,2025-11-29,0,JUP_H13,Jupiter Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:02:39,2025-11-30,1,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:02:41,2025-12-01,2,JUP_H13,Jupiter Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:02:43,2025-12-02,3,JUP_H13,Jupiter Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:02:45,2025-12-03,4,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:02:47,2025-12-04,5,JUP_H13,Jupiter Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:02:49,2025-12-05,6,JUP_H13,Jupiter Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:02:52,2025-11-29,0,COO_H14,Dr. R N Cooper Hospital,72,72,1.0,Normal operations,10,7,3,14,36
+2025-11-29 09:02:55,2025-11-30,1,COO_H14,Dr. R N Cooper Hospital,47,47,1.0,Normal operations,7,4,2,9,23
+2025-11-29 09:02:57,2025-12-01,2,COO_H14,Dr. R N Cooper Hospital,60,60,1.0,Normal operations,9,6,3,12,30
+2025-11-29 09:02:59,2025-12-02,3,COO_H14,Dr. R N Cooper Hospital,77,77,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:03:02,2025-12-03,4,COO_H14,Dr. R N Cooper Hospital,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:03:04,2025-12-04,5,COO_H14,Dr. R N Cooper Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:03:07,2025-12-05,6,COO_H14,Dr. R N Cooper Hospital,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:03:09,2025-11-29,0,HBT_H15,HBT (Thackeray) Trauma Care,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:03:11,2025-11-30,1,HBT_H15,HBT (Thackeray) Trauma Care,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:03:14,2025-12-01,2,HBT_H15,HBT (Thackeray) Trauma Care,62,62,1.0,Normal operations,9,6,3,12,31
+2025-11-29 09:03:19,2025-12-02,3,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:03:22,2025-12-03,4,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:03:24,2025-12-04,5,HBT_H15,HBT (Thackeray) Trauma Care,68,68,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:03:28,2025-12-05,6,HBT_H15,HBT (Thackeray) Trauma Care,76,76,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:04:01,2025-11-29,0,KEM_H1,King Edward Memorial Hospital,226,226,1.0,Normal operations,33,22,11,45,113
+2025-11-29 09:04:04,2025-11-30,1,KEM_H1,King Edward Memorial Hospital,221,221,1.0,Normal operations,33,22,11,44,110
+2025-11-29 09:04:07,2025-12-01,2,KEM_H1,King Edward Memorial Hospital,230,230,1.0,Normal operations,34,23,11,46,115
+2025-11-29 09:04:09,2025-12-02,3,KEM_H1,King Edward Memorial Hospital,279,279,1.0,Normal operations,41,27,13,55,139
+2025-11-29 09:04:13,2025-12-03,4,KEM_H1,King Edward Memorial Hospital,250,250,1.0,Normal operations,37,25,12,50,125
+2025-11-29 09:04:16,2025-12-04,5,KEM_H1,King Edward Memorial Hospital,253,253,1.0,Normal operations,37,25,12,50,126
+2025-11-29 09:04:20,2025-12-05,6,KEM_H1,King Edward Memorial Hospital,259,259,1.0,Normal operations,38,25,12,51,129
+2025-11-29 09:04:22,2025-11-29,0,LOK_H2,Lokmanya Tilak Hospital,148,148,1.0,Normal operations,22,14,7,29,74
+2025-11-29 09:04:24,2025-11-30,1,LOK_H2,Lokmanya Tilak Hospital,121,121,1.0,Normal operations,18,12,6,24,60
+2025-11-29 09:04:27,2025-12-01,2,LOK_H2,Lokmanya Tilak Hospital,117,117,1.0,Normal operations,17,11,5,23,58
+2025-11-29 09:04:29,2025-12-02,3,LOK_H2,Lokmanya Tilak Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:04:31,2025-12-03,4,LOK_H2,Lokmanya Tilak Hospital,126,126,1.0,Normal operations,18,12,6,25,63
+2025-11-29 09:04:34,2025-12-04,5,LOK_H2,Lokmanya Tilak Hospital,110,110,1.0,Normal operations,16,11,5,22,55
+2025-11-29 09:04:36,2025-12-05,6,LOK_H2,Lokmanya Tilak Hospital,134,134,1.0,Normal operations,20,13,6,26,67
+2025-11-29 09:04:38,2025-11-29,0,NAI_H3,BYL Nair Hospital,174,174,1.0,Normal operations,26,17,8,34,87
+2025-11-29 09:04:41,2025-11-30,1,NAI_H3,BYL Nair Hospital,166,166,1.0,Normal operations,24,16,8,33,83
+2025-11-29 09:04:43,2025-12-01,2,NAI_H3,BYL Nair Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:04:45,2025-12-02,3,NAI_H3,BYL Nair Hospital,164,164,1.0,Normal operations,24,16,8,32,82
+2025-11-29 09:04:48,2025-12-03,4,NAI_H3,BYL Nair Hospital,168,168,1.0,Normal operations,25,16,8,33,84
+2025-11-29 09:04:51,2025-12-04,5,NAI_H3,BYL Nair Hospital,191,191,1.0,Normal operations,28,19,9,38,95
+2025-11-29 09:04:55,2025-12-05,6,NAI_H3,BYL Nair Hospital,213,213,1.0,Normal operations,31,21,10,42,106
+2025-11-29 09:04:57,2025-11-29,0,JJ_H4,JJ Hospital,155,155,1.0,Normal operations,23,15,7,31,77
+2025-11-29 09:05:01,2025-11-30,1,JJ_H4,JJ Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:05:08,2025-12-01,2,JJ_H4,JJ Hospital,138,138,1.0,Normal operations,20,13,6,27,69
+2025-11-29 09:05:10,2025-12-02,3,JJ_H4,JJ Hospital,205,205,1.0,Normal operations,30,20,10,41,102
+2025-11-29 09:05:13,2025-12-03,4,JJ_H4,JJ Hospital,181,181,1.0,Normal operations,27,18,9,36,90
+2025-11-29 09:05:15,2025-12-04,5,JJ_H4,JJ Hospital,160,160,1.0,Normal operations,24,16,8,32,80
+2025-11-29 09:05:19,2025-12-05,6,JJ_H4,JJ Hospital,159,159,1.0,Normal operations,23,15,7,31,79
+2025-11-29 09:05:21,2025-11-29,0,HIN_H5,Hinduja Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:05:26,2025-11-30,1,HIN_H5,Hinduja Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:05:30,2025-12-01,2,HIN_H5,Hinduja Hospital,67,67,1.0,Normal operations,10,6,3,13,33
+2025-11-29 09:05:33,2025-12-02,3,HIN_H5,Hinduja Hospital,71,71,1.0,Normal operations,10,7,3,14,35
+2025-11-29 09:05:36,2025-12-03,4,HIN_H5,Hinduja Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:05:39,2025-12-04,5,HIN_H5,Hinduja Hospital,96,96,1.0,Normal operations,14,9,4,19,48
+2025-11-29 09:05:42,2025-12-05,6,HIN_H5,Hinduja Hospital,75,75,1.0,Normal operations,11,7,3,15,37
+2025-11-29 09:05:44,2025-11-29,0,LIL_H6,Lilavati Hospital,53,53,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:05:46,2025-11-30,1,LIL_H6,Lilavati Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:05:48,2025-12-01,2,LIL_H6,Lilavati Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:05:51,2025-12-02,3,LIL_H6,Lilavati Hospital,56,56,1.0,Normal operations,8,5,2,11,28
+2025-11-29 09:05:55,2025-12-03,4,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:05:58,2025-12-04,5,LIL_H6,Lilavati Hospital,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:06:02,2025-12-05,6,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:06:05,2025-11-29,0,NAN_H7,NANAVATI,55,55,1.0,Normal operations,8,5,2,11,27
+2025-11-29 09:06:07,2025-11-30,1,NAN_H7,NANAVATI,50,50,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:06:09,2025-12-01,2,NAN_H7,NANAVATI,39,39,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:06:12,2025-12-02,3,NAN_H7,NANAVATI,51,51,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:06:15,2025-12-03,4,NAN_H7,NANAVATI,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:06:17,2025-12-04,5,NAN_H7,NANAVATI,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:06:20,2025-12-05,6,NAN_H7,NANAVATI,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:06:22,2025-11-29,0,BOM_H8,Bombay Hospital,108,108,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:06:26,2025-11-30,1,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:06:28,2025-12-01,2,BOM_H8,Bombay Hospital,93,93,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:06:30,2025-12-02,3,BOM_H8,Bombay Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:06:33,2025-12-03,4,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:06:35,2025-12-04,5,BOM_H8,Bombay Hospital,81,81,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:06:38,2025-12-05,6,BOM_H8,Bombay Hospital,92,92,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:06:41,2025-11-29,0,JAS_H9,Jaslok Hospital & Research Centre,52,52,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:06:43,2025-11-30,1,JAS_H9,Jaslok Hospital & Research Centre,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:06:45,2025-12-01,2,JAS_H9,Jaslok Hospital & Research Centre,40,40,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:06:48,2025-12-02,3,JAS_H9,Jaslok Hospital & Research Centre,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:06:50,2025-12-03,4,JAS_H9,Jaslok Hospital & Research Centre,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:06:53,2025-12-04,5,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:06:55,2025-12-05,6,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:06:58,2025-11-29,0,BRE_H10,Breach Candy Hospital Trust,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:07:00,2025-11-30,1,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:07:03,2025-12-01,2,BRE_H10,Breach Candy Hospital Trust,23,23,1.0,Normal operations,3,2,1,4,11
+2025-11-29 09:07:05,2025-12-02,3,BRE_H10,Breach Candy Hospital Trust,26,26,1.0,Normal operations,3,2,1,5,13
+2025-11-29 09:07:07,2025-12-03,4,BRE_H10,Breach Candy Hospital Trust,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:07:10,2025-12-04,5,BRE_H10,Breach Candy Hospital Trust,32,32,1.0,Normal operations,4,3,1,6,16
+2025-11-29 09:07:12,2025-12-05,6,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:07:16,2025-11-29,0,SAI_H11,Saifee Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:07:19,2025-11-30,1,SAI_H11,Saifee Hospital,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:07:23,2025-12-01,2,SAI_H11,Saifee Hospital,31,31,1.0,Normal operations,4,3,1,6,15
+2025-11-29 09:07:28,2025-12-02,3,SAI_H11,Saifee Hospital,38,38,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:07:30,2025-12-03,4,SAI_H11,Saifee Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:07:33,2025-12-04,5,SAI_H11,Saifee Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:07:35,2025-12-05,6,SAI_H11,Saifee Hospital,42,42,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:07:41,2025-11-29,0,JUP_H13,Jupiter Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:07:43,2025-11-30,1,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:07:45,2025-12-01,2,JUP_H13,Jupiter Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:07:47,2025-12-02,3,JUP_H13,Jupiter Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:07:50,2025-12-03,4,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:07:52,2025-12-04,5,JUP_H13,Jupiter Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:07:54,2025-12-05,6,JUP_H13,Jupiter Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:07:57,2025-11-29,0,COO_H14,Dr. R N Cooper Hospital,72,72,1.0,Normal operations,10,7,3,14,36
+2025-11-29 09:07:59,2025-11-30,1,COO_H14,Dr. R N Cooper Hospital,47,47,1.0,Normal operations,7,4,2,9,23
+2025-11-29 09:08:01,2025-12-01,2,COO_H14,Dr. R N Cooper Hospital,60,60,1.0,Normal operations,9,6,3,12,30
+2025-11-29 09:08:04,2025-12-02,3,COO_H14,Dr. R N Cooper Hospital,77,77,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:08:06,2025-12-03,4,COO_H14,Dr. R N Cooper Hospital,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:08:08,2025-12-04,5,COO_H14,Dr. R N Cooper Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:08:10,2025-12-05,6,COO_H14,Dr. R N Cooper Hospital,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:08:13,2025-11-29,0,HBT_H15,HBT (Thackeray) Trauma Care,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:08:15,2025-11-30,1,HBT_H15,HBT (Thackeray) Trauma Care,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:08:17,2025-12-01,2,HBT_H15,HBT (Thackeray) Trauma Care,62,62,1.0,Normal operations,9,6,3,12,31
+2025-11-29 09:08:19,2025-12-02,3,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:08:21,2025-12-03,4,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:08:24,2025-12-04,5,HBT_H15,HBT (Thackeray) Trauma Care,68,68,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:08:26,2025-12-05,6,HBT_H15,HBT (Thackeray) Trauma Care,76,76,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:08:59,2025-11-29,0,KEM_H1,King Edward Memorial Hospital,226,226,1.0,Normal operations,33,22,11,45,113
+2025-11-29 09:09:01,2025-11-30,1,KEM_H1,King Edward Memorial Hospital,221,221,1.0,Normal operations,33,22,11,44,110
+2025-11-29 09:09:03,2025-12-01,2,KEM_H1,King Edward Memorial Hospital,230,230,1.0,Normal operations,34,23,11,46,115
+2025-11-29 09:09:06,2025-12-02,3,KEM_H1,King Edward Memorial Hospital,279,279,1.0,Normal operations,41,27,13,55,139
+2025-11-29 09:09:08,2025-12-03,4,KEM_H1,King Edward Memorial Hospital,250,250,1.0,Normal operations,37,25,12,50,125
+2025-11-29 09:09:10,2025-12-04,5,KEM_H1,King Edward Memorial Hospital,253,253,1.0,Normal operations,37,25,12,50,126
+2025-11-29 09:09:12,2025-12-05,6,KEM_H1,King Edward Memorial Hospital,259,259,1.0,Normal operations,38,25,12,51,129
+2025-11-29 09:09:14,2025-11-29,0,LOK_H2,Lokmanya Tilak Hospital,148,148,1.0,Normal operations,22,14,7,29,74
+2025-11-29 09:09:17,2025-11-30,1,LOK_H2,Lokmanya Tilak Hospital,121,121,1.0,Normal operations,18,12,6,24,60
+2025-11-29 09:09:19,2025-12-01,2,LOK_H2,Lokmanya Tilak Hospital,117,117,1.0,Normal operations,17,11,5,23,58
+2025-11-29 09:09:23,2025-12-02,3,LOK_H2,Lokmanya Tilak Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:09:26,2025-12-03,4,LOK_H2,Lokmanya Tilak Hospital,126,126,1.0,Normal operations,18,12,6,25,63
+2025-11-29 09:09:29,2025-12-04,5,LOK_H2,Lokmanya Tilak Hospital,110,110,1.0,Normal operations,16,11,5,22,55
+2025-11-29 09:09:31,2025-12-05,6,LOK_H2,Lokmanya Tilak Hospital,134,134,1.0,Normal operations,20,13,6,26,67
+2025-11-29 09:09:34,2025-11-29,0,NAI_H3,BYL Nair Hospital,174,174,1.0,Normal operations,26,17,8,34,87
+2025-11-29 09:09:36,2025-11-30,1,NAI_H3,BYL Nair Hospital,166,166,1.0,Normal operations,24,16,8,33,83
+2025-11-29 09:09:40,2025-12-01,2,NAI_H3,BYL Nair Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:09:44,2025-12-02,3,NAI_H3,BYL Nair Hospital,164,164,1.0,Normal operations,24,16,8,32,82
+2025-11-29 09:09:46,2025-12-03,4,NAI_H3,BYL Nair Hospital,168,168,1.0,Normal operations,25,16,8,33,84
+2025-11-29 09:09:48,2025-12-04,5,NAI_H3,BYL Nair Hospital,191,191,1.0,Normal operations,28,19,9,38,95
+2025-11-29 09:09:51,2025-12-05,6,NAI_H3,BYL Nair Hospital,213,213,1.0,Normal operations,31,21,10,42,106
+2025-11-29 09:09:54,2025-11-29,0,JJ_H4,JJ Hospital,155,155,1.0,Normal operations,23,15,7,31,77
+2025-11-29 09:09:57,2025-11-30,1,JJ_H4,JJ Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:10:02,2025-12-01,2,JJ_H4,JJ Hospital,138,138,1.0,Normal operations,20,13,6,27,69
+2025-11-29 09:10:06,2025-12-02,3,JJ_H4,JJ Hospital,205,205,1.0,Normal operations,30,20,10,41,102
+2025-11-29 09:10:09,2025-12-03,4,JJ_H4,JJ Hospital,181,181,1.0,Normal operations,27,18,9,36,90
+2025-11-29 09:10:11,2025-12-04,5,JJ_H4,JJ Hospital,160,160,1.0,Normal operations,24,16,8,32,80
+2025-11-29 09:10:14,2025-12-05,6,JJ_H4,JJ Hospital,159,159,1.0,Normal operations,23,15,7,31,79
+2025-11-29 09:10:16,2025-11-29,0,HIN_H5,Hinduja Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:10:21,2025-11-30,1,HIN_H5,Hinduja Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:10:25,2025-12-01,2,HIN_H5,Hinduja Hospital,67,67,1.0,Normal operations,10,6,3,13,33
+2025-11-29 09:10:30,2025-12-02,3,HIN_H5,Hinduja Hospital,71,71,1.0,Normal operations,10,7,3,14,35
+2025-11-29 09:10:35,2025-12-03,4,HIN_H5,Hinduja Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:10:39,2025-12-04,5,HIN_H5,Hinduja Hospital,96,96,1.0,Normal operations,14,9,4,19,48
+2025-11-29 09:10:41,2025-12-05,6,HIN_H5,Hinduja Hospital,75,75,1.0,Normal operations,11,7,3,15,37
+2025-11-29 09:10:44,2025-11-29,0,LIL_H6,Lilavati Hospital,53,53,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:10:46,2025-11-30,1,LIL_H6,Lilavati Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:10:49,2025-12-01,2,LIL_H6,Lilavati Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:10:51,2025-12-02,3,LIL_H6,Lilavati Hospital,56,56,1.0,Normal operations,8,5,2,11,28
+2025-11-29 09:10:54,2025-12-03,4,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:10:56,2025-12-04,5,LIL_H6,Lilavati Hospital,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:10:58,2025-12-05,6,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:11:01,2025-11-29,0,NAN_H7,NANAVATI,55,55,1.0,Normal operations,8,5,2,11,27
+2025-11-29 09:11:03,2025-11-30,1,NAN_H7,NANAVATI,50,50,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:11:05,2025-12-01,2,NAN_H7,NANAVATI,39,39,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:11:08,2025-12-02,3,NAN_H7,NANAVATI,51,51,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:11:10,2025-12-03,4,NAN_H7,NANAVATI,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:11:12,2025-12-04,5,NAN_H7,NANAVATI,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:11:15,2025-12-05,6,NAN_H7,NANAVATI,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:11:17,2025-11-29,0,BOM_H8,Bombay Hospital,108,108,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:11:19,2025-11-30,1,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:11:22,2025-12-01,2,BOM_H8,Bombay Hospital,93,93,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:11:25,2025-12-02,3,BOM_H8,Bombay Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:11:29,2025-12-03,4,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:11:31,2025-12-04,5,BOM_H8,Bombay Hospital,81,81,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:11:34,2025-12-05,6,BOM_H8,Bombay Hospital,92,92,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:11:37,2025-11-29,0,JAS_H9,Jaslok Hospital & Research Centre,52,52,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:11:40,2025-11-30,1,JAS_H9,Jaslok Hospital & Research Centre,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:11:43,2025-12-01,2,JAS_H9,Jaslok Hospital & Research Centre,40,40,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:11:46,2025-12-02,3,JAS_H9,Jaslok Hospital & Research Centre,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:11:48,2025-12-03,4,JAS_H9,Jaslok Hospital & Research Centre,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:11:51,2025-12-04,5,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:11:53,2025-12-05,6,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:11:57,2025-11-29,0,BRE_H10,Breach Candy Hospital Trust,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:12:00,2025-11-30,1,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:12:02,2025-12-01,2,BRE_H10,Breach Candy Hospital Trust,23,23,1.0,Normal operations,3,2,1,4,11
+2025-11-29 09:12:04,2025-12-02,3,BRE_H10,Breach Candy Hospital Trust,26,26,1.0,Normal operations,3,2,1,5,13
+2025-11-29 09:12:06,2025-12-03,4,BRE_H10,Breach Candy Hospital Trust,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:12:10,2025-12-04,5,BRE_H10,Breach Candy Hospital Trust,32,32,1.0,Normal operations,4,3,1,6,16
+2025-11-29 09:12:12,2025-12-05,6,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:12:14,2025-11-29,0,SAI_H11,Saifee Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:12:16,2025-11-30,1,SAI_H11,Saifee Hospital,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:12:19,2025-12-01,2,SAI_H11,Saifee Hospital,31,31,1.0,Normal operations,4,3,1,6,15
+2025-11-29 09:12:21,2025-12-02,3,SAI_H11,Saifee Hospital,38,38,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:12:24,2025-12-03,4,SAI_H11,Saifee Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:12:26,2025-12-04,5,SAI_H11,Saifee Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:12:28,2025-12-05,6,SAI_H11,Saifee Hospital,42,42,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:12:31,2025-11-29,0,JUP_H13,Jupiter Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:12:33,2025-11-30,1,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:12:35,2025-12-01,2,JUP_H13,Jupiter Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:12:38,2025-12-02,3,JUP_H13,Jupiter Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:12:40,2025-12-03,4,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:12:43,2025-12-04,5,JUP_H13,Jupiter Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:12:45,2025-12-05,6,JUP_H13,Jupiter Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:12:47,2025-11-29,0,COO_H14,Dr. R N Cooper Hospital,72,72,1.0,Normal operations,10,7,3,14,36
+2025-11-29 09:12:50,2025-11-30,1,COO_H14,Dr. R N Cooper Hospital,47,47,1.0,Normal operations,7,4,2,9,23
+2025-11-29 09:12:53,2025-12-01,2,COO_H14,Dr. R N Cooper Hospital,60,60,1.0,Normal operations,9,6,3,12,30
+2025-11-29 09:12:55,2025-12-02,3,COO_H14,Dr. R N Cooper Hospital,77,77,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:12:57,2025-12-03,4,COO_H14,Dr. R N Cooper Hospital,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:13:00,2025-12-04,5,COO_H14,Dr. R N Cooper Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:13:02,2025-12-05,6,COO_H14,Dr. R N Cooper Hospital,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:13:04,2025-11-29,0,HBT_H15,HBT (Thackeray) Trauma Care,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:13:06,2025-11-30,1,HBT_H15,HBT (Thackeray) Trauma Care,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:13:09,2025-12-01,2,HBT_H15,HBT (Thackeray) Trauma Care,62,62,1.0,Normal operations,9,6,3,12,31
+2025-11-29 09:13:11,2025-12-02,3,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:13:14,2025-12-03,4,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:13:16,2025-12-04,5,HBT_H15,HBT (Thackeray) Trauma Care,68,68,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:13:19,2025-12-05,6,HBT_H15,HBT (Thackeray) Trauma Care,76,76,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:13:55,2025-11-29,0,KEM_H1,King Edward Memorial Hospital,226,226,1.0,Normal operations,33,22,11,45,113
+2025-11-29 09:13:59,2025-11-30,1,KEM_H1,King Edward Memorial Hospital,221,221,1.0,Normal operations,33,22,11,44,110
+2025-11-29 09:14:07,2025-12-01,2,KEM_H1,King Edward Memorial Hospital,230,230,1.0,Normal operations,34,23,11,46,115
+2025-11-29 09:14:11,2025-12-02,3,KEM_H1,King Edward Memorial Hospital,279,279,1.0,Normal operations,41,27,13,55,139
+2025-11-29 09:14:13,2025-12-03,4,KEM_H1,King Edward Memorial Hospital,250,250,1.0,Normal operations,37,25,12,50,125
+2025-11-29 09:14:16,2025-12-04,5,KEM_H1,King Edward Memorial Hospital,253,253,1.0,Normal operations,37,25,12,50,126
+2025-11-29 09:14:18,2025-12-05,6,KEM_H1,King Edward Memorial Hospital,259,259,1.0,Normal operations,38,25,12,51,129
+2025-11-29 09:14:21,2025-11-29,0,LOK_H2,Lokmanya Tilak Hospital,148,148,1.0,Normal operations,22,14,7,29,74
+2025-11-29 09:14:23,2025-11-30,1,LOK_H2,Lokmanya Tilak Hospital,121,121,1.0,Normal operations,18,12,6,24,60
+2025-11-29 09:14:25,2025-12-01,2,LOK_H2,Lokmanya Tilak Hospital,117,117,1.0,Normal operations,17,11,5,23,58
+2025-11-29 09:14:28,2025-12-02,3,LOK_H2,Lokmanya Tilak Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:14:31,2025-12-03,4,LOK_H2,Lokmanya Tilak Hospital,126,126,1.0,Normal operations,18,12,6,25,63
+2025-11-29 09:14:34,2025-12-04,5,LOK_H2,Lokmanya Tilak Hospital,110,110,1.0,Normal operations,16,11,5,22,55
+2025-11-29 09:14:38,2025-12-05,6,LOK_H2,Lokmanya Tilak Hospital,134,134,1.0,Normal operations,20,13,6,26,67
+2025-11-29 09:14:42,2025-11-29,0,NAI_H3,BYL Nair Hospital,174,174,1.0,Normal operations,26,17,8,34,87
+2025-11-29 09:14:48,2025-11-30,1,NAI_H3,BYL Nair Hospital,166,166,1.0,Normal operations,24,16,8,33,83
+2025-11-29 09:14:54,2025-12-01,2,NAI_H3,BYL Nair Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:14:57,2025-12-02,3,NAI_H3,BYL Nair Hospital,164,164,1.0,Normal operations,24,16,8,32,82
+2025-11-29 09:15:01,2025-12-03,4,NAI_H3,BYL Nair Hospital,168,168,1.0,Normal operations,25,16,8,33,84
+2025-11-29 09:15:03,2025-12-04,5,NAI_H3,BYL Nair Hospital,191,191,1.0,Normal operations,28,19,9,38,95
+2025-11-29 09:15:05,2025-12-05,6,NAI_H3,BYL Nair Hospital,213,213,1.0,Normal operations,31,21,10,42,106
+2025-11-29 09:15:11,2025-11-29,0,JJ_H4,JJ Hospital,155,155,1.0,Normal operations,23,15,7,31,77
+2025-11-29 09:15:13,2025-11-30,1,JJ_H4,JJ Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:15:16,2025-12-01,2,JJ_H4,JJ Hospital,138,138,1.0,Normal operations,20,13,6,27,69
+2025-11-29 09:15:18,2025-12-02,3,JJ_H4,JJ Hospital,205,205,1.0,Normal operations,30,20,10,41,102
+2025-11-29 09:15:20,2025-12-03,4,JJ_H4,JJ Hospital,181,181,1.0,Normal operations,27,18,9,36,90
+2025-11-29 09:15:22,2025-12-04,5,JJ_H4,JJ Hospital,160,160,1.0,Normal operations,24,16,8,32,80
+2025-11-29 09:15:25,2025-12-05,6,JJ_H4,JJ Hospital,159,159,1.0,Normal operations,23,15,7,31,79
+2025-11-29 09:15:27,2025-11-29,0,HIN_H5,Hinduja Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:15:31,2025-11-30,1,HIN_H5,Hinduja Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:15:34,2025-12-01,2,HIN_H5,Hinduja Hospital,67,67,1.0,Normal operations,10,6,3,13,33
+2025-11-29 09:15:36,2025-12-02,3,HIN_H5,Hinduja Hospital,71,71,1.0,Normal operations,10,7,3,14,35
+2025-11-29 09:15:39,2025-12-03,4,HIN_H5,Hinduja Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:15:42,2025-12-04,5,HIN_H5,Hinduja Hospital,96,96,1.0,Normal operations,14,9,4,19,48
+2025-11-29 09:15:44,2025-12-05,6,HIN_H5,Hinduja Hospital,75,75,1.0,Normal operations,11,7,3,15,37
+2025-11-29 09:15:47,2025-11-29,0,LIL_H6,Lilavati Hospital,53,53,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:15:49,2025-11-30,1,LIL_H6,Lilavati Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:15:51,2025-12-01,2,LIL_H6,Lilavati Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:15:54,2025-12-02,3,LIL_H6,Lilavati Hospital,56,56,1.0,Normal operations,8,5,2,11,28
+2025-11-29 09:15:56,2025-12-03,4,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:15:59,2025-12-04,5,LIL_H6,Lilavati Hospital,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:16:01,2025-12-05,6,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:16:03,2025-11-29,0,NAN_H7,NANAVATI,55,55,1.0,Normal operations,8,5,2,11,27
+2025-11-29 09:16:05,2025-11-30,1,NAN_H7,NANAVATI,50,50,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:16:08,2025-12-01,2,NAN_H7,NANAVATI,39,39,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:16:10,2025-12-02,3,NAN_H7,NANAVATI,51,51,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:16:12,2025-12-03,4,NAN_H7,NANAVATI,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:16:15,2025-12-04,5,NAN_H7,NANAVATI,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:16:17,2025-12-05,6,NAN_H7,NANAVATI,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:16:19,2025-11-29,0,BOM_H8,Bombay Hospital,108,108,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:16:21,2025-11-30,1,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:16:24,2025-12-01,2,BOM_H8,Bombay Hospital,93,93,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:16:26,2025-12-02,3,BOM_H8,Bombay Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:16:28,2025-12-03,4,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:16:31,2025-12-04,5,BOM_H8,Bombay Hospital,81,81,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:16:33,2025-12-05,6,BOM_H8,Bombay Hospital,92,92,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:16:36,2025-11-29,0,JAS_H9,Jaslok Hospital & Research Centre,52,52,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:16:38,2025-11-30,1,JAS_H9,Jaslok Hospital & Research Centre,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:16:41,2025-12-01,2,JAS_H9,Jaslok Hospital & Research Centre,40,40,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:16:44,2025-12-02,3,JAS_H9,Jaslok Hospital & Research Centre,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:16:47,2025-12-03,4,JAS_H9,Jaslok Hospital & Research Centre,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:16:49,2025-12-04,5,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:16:52,2025-12-05,6,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:16:54,2025-11-29,0,BRE_H10,Breach Candy Hospital Trust,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:16:56,2025-11-30,1,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:16:59,2025-12-01,2,BRE_H10,Breach Candy Hospital Trust,23,23,1.0,Normal operations,3,2,1,4,11
+2025-11-29 09:17:01,2025-12-02,3,BRE_H10,Breach Candy Hospital Trust,26,26,1.0,Normal operations,3,2,1,5,13
+2025-11-29 09:17:03,2025-12-03,4,BRE_H10,Breach Candy Hospital Trust,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:17:06,2025-12-04,5,BRE_H10,Breach Candy Hospital Trust,32,32,1.0,Normal operations,4,3,1,6,16
+2025-11-29 09:17:08,2025-12-05,6,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:17:11,2025-11-29,0,SAI_H11,Saifee Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:17:13,2025-11-30,1,SAI_H11,Saifee Hospital,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:17:15,2025-12-01,2,SAI_H11,Saifee Hospital,31,31,1.0,Normal operations,4,3,1,6,15
+2025-11-29 09:17:18,2025-12-02,3,SAI_H11,Saifee Hospital,38,38,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:17:20,2025-12-03,4,SAI_H11,Saifee Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:17:23,2025-12-04,5,SAI_H11,Saifee Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:17:25,2025-12-05,6,SAI_H11,Saifee Hospital,42,42,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:17:28,2025-11-29,0,JUP_H13,Jupiter Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:17:30,2025-11-30,1,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:17:32,2025-12-01,2,JUP_H13,Jupiter Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:17:35,2025-12-02,3,JUP_H13,Jupiter Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:17:37,2025-12-03,4,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:17:39,2025-12-04,5,JUP_H13,Jupiter Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:17:41,2025-12-05,6,JUP_H13,Jupiter Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:17:43,2025-11-29,0,COO_H14,Dr. R N Cooper Hospital,72,72,1.0,Normal operations,10,7,3,14,36
+2025-11-29 09:17:44,2025-11-30,1,COO_H14,Dr. R N Cooper Hospital,47,47,1.0,Normal operations,7,4,2,9,23
+2025-11-29 09:17:44,2025-12-01,2,COO_H14,Dr. R N Cooper Hospital,60,60,1.0,Normal operations,9,6,3,12,30
+2025-11-29 09:17:44,2025-12-02,3,COO_H14,Dr. R N Cooper Hospital,77,77,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:17:45,2025-12-03,4,COO_H14,Dr. R N Cooper Hospital,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:17:45,2025-12-04,5,COO_H14,Dr. R N Cooper Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:17:45,2025-12-05,6,COO_H14,Dr. R N Cooper Hospital,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:17:46,2025-11-29,0,HBT_H15,HBT (Thackeray) Trauma Care,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:17:46,2025-11-30,1,HBT_H15,HBT (Thackeray) Trauma Care,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:17:46,2025-12-01,2,HBT_H15,HBT (Thackeray) Trauma Care,62,62,1.0,Normal operations,9,6,3,12,31
+2025-11-29 09:17:46,2025-12-02,3,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:17:47,2025-12-03,4,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:17:47,2025-12-04,5,HBT_H15,HBT (Thackeray) Trauma Care,68,68,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:17:47,2025-12-05,6,HBT_H15,HBT (Thackeray) Trauma Care,76,76,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:18:20,2025-11-29,0,KEM_H1,King Edward Memorial Hospital,226,226,1.0,Normal operations,33,22,11,45,113
+2025-11-29 09:18:24,2025-11-30,1,KEM_H1,King Edward Memorial Hospital,221,221,1.0,Normal operations,33,22,11,44,110
+2025-11-29 09:18:29,2025-12-01,2,KEM_H1,King Edward Memorial Hospital,230,230,1.0,Normal operations,34,23,11,46,115
+2025-11-29 09:18:36,2025-12-02,3,KEM_H1,King Edward Memorial Hospital,279,279,1.0,Normal operations,41,27,13,55,139
+2025-11-29 09:18:45,2025-12-03,4,KEM_H1,King Edward Memorial Hospital,250,250,1.0,Normal operations,37,25,12,50,125
+2025-11-29 09:19:47,2025-12-04,5,KEM_H1,King Edward Memorial Hospital,253,253,1.0,Normal operations,37,25,12,50,126
+2025-11-29 09:20:02,2025-12-05,6,KEM_H1,King Edward Memorial Hospital,259,259,1.0,Normal operations,38,25,12,51,129
+2025-11-29 09:20:24,2025-11-29,0,LOK_H2,Lokmanya Tilak Hospital,148,148,1.0,Normal operations,22,14,7,29,74
+2025-11-29 09:20:39,2025-11-30,1,LOK_H2,Lokmanya Tilak Hospital,121,121,1.0,Normal operations,18,12,6,24,60
+2025-11-29 09:20:55,2025-12-01,2,LOK_H2,Lokmanya Tilak Hospital,117,117,1.0,Normal operations,17,11,5,23,58
+2025-11-29 09:22:03,2025-12-02,3,LOK_H2,Lokmanya Tilak Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:22:48,2025-12-03,4,LOK_H2,Lokmanya Tilak Hospital,126,126,1.0,Normal operations,18,12,6,25,63
+2025-11-29 09:23:21,2025-12-04,5,LOK_H2,Lokmanya Tilak Hospital,110,110,1.0,Normal operations,16,11,5,22,55
+2025-11-29 09:24:32,2025-12-05,6,LOK_H2,Lokmanya Tilak Hospital,134,134,1.0,Normal operations,20,13,6,26,67
+2025-11-29 09:25:47,2025-11-29,0,NAI_H3,BYL Nair Hospital,174,174,1.0,Normal operations,26,17,8,34,87
+2025-11-29 09:27:00,2025-11-30,1,NAI_H3,BYL Nair Hospital,166,166,1.0,Normal operations,24,16,8,33,83
+2025-11-29 09:27:38,2025-12-01,2,NAI_H3,BYL Nair Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:28:02,2025-12-02,3,NAI_H3,BYL Nair Hospital,164,164,1.0,Normal operations,24,16,8,32,82
+2025-11-29 09:28:23,2025-12-03,4,NAI_H3,BYL Nair Hospital,168,168,1.0,Normal operations,25,16,8,33,84
+2025-11-29 09:29:24,2025-12-04,5,NAI_H3,BYL Nair Hospital,191,191,1.0,Normal operations,28,19,9,38,95
+2025-11-29 09:29:40,2025-12-05,6,NAI_H3,BYL Nair Hospital,213,213,1.0,Normal operations,31,21,10,42,106
+2025-11-29 09:30:47,2025-11-29,0,JJ_H4,JJ Hospital,155,155,1.0,Normal operations,23,15,7,31,77
+2025-11-29 09:31:16,2025-11-30,1,JJ_H4,JJ Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:31:55,2025-12-01,2,JJ_H4,JJ Hospital,138,138,1.0,Normal operations,20,13,6,27,69
+2025-11-29 09:32:02,2025-12-02,3,JJ_H4,JJ Hospital,205,205,1.0,Normal operations,30,20,10,41,102
+2025-11-29 09:32:15,2025-12-03,4,JJ_H4,JJ Hospital,181,181,1.0,Normal operations,27,18,9,36,90
+2025-11-29 09:32:24,2025-12-04,5,JJ_H4,JJ Hospital,160,160,1.0,Normal operations,24,16,8,32,80
+2025-11-29 09:32:32,2025-12-05,6,JJ_H4,JJ Hospital,159,159,1.0,Normal operations,23,15,7,31,79
+2025-11-29 09:32:38,2025-11-29,0,HIN_H5,Hinduja Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:32:44,2025-11-30,1,HIN_H5,Hinduja Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:32:58,2025-12-01,2,HIN_H5,Hinduja Hospital,67,67,1.0,Normal operations,10,6,3,13,33
+2025-11-29 09:33:19,2025-12-02,3,HIN_H5,Hinduja Hospital,71,71,1.0,Normal operations,10,7,3,14,35
+2025-11-29 09:33:36,2025-12-03,4,HIN_H5,Hinduja Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:33:45,2025-12-04,5,HIN_H5,Hinduja Hospital,96,96,1.0,Normal operations,14,9,4,19,48
+2025-11-29 09:33:51,2025-12-05,6,HIN_H5,Hinduja Hospital,75,75,1.0,Normal operations,11,7,3,15,37
+2025-11-29 09:34:00,2025-11-29,0,LIL_H6,Lilavati Hospital,53,53,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:34:05,2025-11-30,1,LIL_H6,Lilavati Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:34:05,2025-12-01,2,LIL_H6,Lilavati Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:34:06,2025-12-02,3,LIL_H6,Lilavati Hospital,56,56,1.0,Normal operations,8,5,2,11,28
+2025-11-29 09:34:06,2025-12-03,4,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:34:06,2025-12-04,5,LIL_H6,Lilavati Hospital,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:34:06,2025-12-05,6,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:34:06,2025-11-29,0,NAN_H7,NANAVATI,55,55,1.0,Normal operations,8,5,2,11,27
+2025-11-29 09:34:07,2025-11-30,1,NAN_H7,NANAVATI,50,50,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:34:20,2025-12-01,2,NAN_H7,NANAVATI,39,39,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:34:23,2025-12-02,3,NAN_H7,NANAVATI,51,51,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:34:26,2025-12-03,4,NAN_H7,NANAVATI,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:34:28,2025-12-04,5,NAN_H7,NANAVATI,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:34:30,2025-12-05,6,NAN_H7,NANAVATI,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:34:32,2025-11-29,0,BOM_H8,Bombay Hospital,108,108,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:34:34,2025-11-30,1,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:34:37,2025-12-01,2,BOM_H8,Bombay Hospital,93,93,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:34:39,2025-12-02,3,BOM_H8,Bombay Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:34:41,2025-12-03,4,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:34:43,2025-12-04,5,BOM_H8,Bombay Hospital,81,81,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:34:46,2025-12-05,6,BOM_H8,Bombay Hospital,92,92,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:34:48,2025-11-29,0,JAS_H9,Jaslok Hospital & Research Centre,52,52,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:34:50,2025-11-30,1,JAS_H9,Jaslok Hospital & Research Centre,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:34:53,2025-12-01,2,JAS_H9,Jaslok Hospital & Research Centre,40,40,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:34:55,2025-12-02,3,JAS_H9,Jaslok Hospital & Research Centre,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:34:57,2025-12-03,4,JAS_H9,Jaslok Hospital & Research Centre,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:35:00,2025-12-04,5,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:35:02,2025-12-05,6,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:35:04,2025-11-29,0,BRE_H10,Breach Candy Hospital Trust,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:35:06,2025-11-30,1,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:35:09,2025-12-01,2,BRE_H10,Breach Candy Hospital Trust,23,23,1.0,Normal operations,3,2,1,4,11
+2025-11-29 09:35:11,2025-12-02,3,BRE_H10,Breach Candy Hospital Trust,26,26,1.0,Normal operations,3,2,1,5,13
+2025-11-29 09:35:13,2025-12-03,4,BRE_H10,Breach Candy Hospital Trust,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:35:16,2025-12-04,5,BRE_H10,Breach Candy Hospital Trust,32,32,1.0,Normal operations,4,3,1,6,16
+2025-11-29 09:35:18,2025-12-05,6,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:35:20,2025-11-29,0,SAI_H11,Saifee Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:35:23,2025-11-30,1,SAI_H11,Saifee Hospital,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:35:25,2025-12-01,2,SAI_H11,Saifee Hospital,31,31,1.0,Normal operations,4,3,1,6,15
+2025-11-29 09:35:27,2025-12-02,3,SAI_H11,Saifee Hospital,38,38,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:35:29,2025-12-03,4,SAI_H11,Saifee Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:35:32,2025-12-04,5,SAI_H11,Saifee Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:35:34,2025-12-05,6,SAI_H11,Saifee Hospital,42,42,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:35:36,2025-11-29,0,JUP_H13,Jupiter Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:35:38,2025-11-30,1,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:35:41,2025-12-01,2,JUP_H13,Jupiter Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:35:43,2025-12-02,3,JUP_H13,Jupiter Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:35:45,2025-12-03,4,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:35:47,2025-12-04,5,JUP_H13,Jupiter Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:35:50,2025-12-05,6,JUP_H13,Jupiter Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:35:52,2025-11-29,0,COO_H14,Dr. R N Cooper Hospital,72,72,1.0,Normal operations,10,7,3,14,36
+2025-11-29 09:35:54,2025-11-30,1,COO_H14,Dr. R N Cooper Hospital,47,47,1.0,Normal operations,7,4,2,9,23
+2025-11-29 09:35:56,2025-12-01,2,COO_H14,Dr. R N Cooper Hospital,60,60,1.0,Normal operations,9,6,3,12,30
+2025-11-29 09:35:58,2025-12-02,3,COO_H14,Dr. R N Cooper Hospital,77,77,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:36:01,2025-12-03,4,COO_H14,Dr. R N Cooper Hospital,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:36:03,2025-12-04,5,COO_H14,Dr. R N Cooper Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:36:05,2025-12-05,6,COO_H14,Dr. R N Cooper Hospital,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:36:08,2025-11-29,0,HBT_H15,HBT (Thackeray) Trauma Care,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:36:10,2025-11-30,1,HBT_H15,HBT (Thackeray) Trauma Care,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:36:13,2025-12-01,2,HBT_H15,HBT (Thackeray) Trauma Care,62,62,1.0,Normal operations,9,6,3,12,31
+2025-11-29 09:36:16,2025-12-02,3,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:36:18,2025-12-03,4,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:36:20,2025-12-04,5,HBT_H15,HBT (Thackeray) Trauma Care,68,68,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:36:23,2025-12-05,6,HBT_H15,HBT (Thackeray) Trauma Care,76,76,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:36:56,2025-11-29,0,KEM_H1,King Edward Memorial Hospital,226,226,1.0,Normal operations,33,22,11,45,113
+2025-11-29 09:37:00,2025-11-30,1,KEM_H1,King Edward Memorial Hospital,221,221,1.0,Normal operations,33,22,11,44,110
+2025-11-29 09:37:04,2025-12-01,2,KEM_H1,King Edward Memorial Hospital,230,230,1.0,Normal operations,34,23,11,46,115
+2025-11-29 09:37:13,2025-12-02,3,KEM_H1,King Edward Memorial Hospital,279,279,1.0,Normal operations,41,27,13,55,139
+2025-11-29 09:37:17,2025-12-03,4,KEM_H1,King Edward Memorial Hospital,250,250,1.0,Normal operations,37,25,12,50,125
+2025-11-29 09:37:22,2025-12-04,5,KEM_H1,King Edward Memorial Hospital,253,253,1.0,Normal operations,37,25,12,50,126
+2025-11-29 09:37:25,2025-12-05,6,KEM_H1,King Edward Memorial Hospital,259,259,1.0,Normal operations,38,25,12,51,129
+2025-11-29 09:37:27,2025-11-29,0,LOK_H2,Lokmanya Tilak Hospital,148,148,1.0,Normal operations,22,14,7,29,74
+2025-11-29 09:37:30,2025-11-30,1,LOK_H2,Lokmanya Tilak Hospital,121,121,1.0,Normal operations,18,12,6,24,60
+2025-11-29 09:37:33,2025-12-01,2,LOK_H2,Lokmanya Tilak Hospital,117,117,1.0,Normal operations,17,11,5,23,58
+2025-11-29 09:37:35,2025-12-02,3,LOK_H2,Lokmanya Tilak Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:37:40,2025-12-03,4,LOK_H2,Lokmanya Tilak Hospital,126,126,1.0,Normal operations,18,12,6,25,63
+2025-11-29 09:37:44,2025-12-04,5,LOK_H2,Lokmanya Tilak Hospital,110,110,1.0,Normal operations,16,11,5,22,55
+2025-11-29 09:37:47,2025-12-05,6,LOK_H2,Lokmanya Tilak Hospital,134,134,1.0,Normal operations,20,13,6,26,67
+2025-11-29 09:37:50,2025-11-29,0,NAI_H3,BYL Nair Hospital,174,174,1.0,Normal operations,26,17,8,34,87
+2025-11-29 09:37:52,2025-11-30,1,NAI_H3,BYL Nair Hospital,166,166,1.0,Normal operations,24,16,8,33,83
+2025-11-29 09:37:55,2025-12-01,2,NAI_H3,BYL Nair Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:37:57,2025-12-02,3,NAI_H3,BYL Nair Hospital,164,164,1.0,Normal operations,24,16,8,32,82
+2025-11-29 09:38:00,2025-12-03,4,NAI_H3,BYL Nair Hospital,168,168,1.0,Normal operations,25,16,8,33,84
+2025-11-29 09:38:03,2025-12-04,5,NAI_H3,BYL Nair Hospital,191,191,1.0,Normal operations,28,19,9,38,95
+2025-11-29 09:38:12,2025-12-05,6,NAI_H3,BYL Nair Hospital,213,213,1.0,Normal operations,31,21,10,42,106
+2025-11-29 09:38:15,2025-11-29,0,JJ_H4,JJ Hospital,155,155,1.0,Normal operations,23,15,7,31,77
+2025-11-29 09:38:17,2025-11-30,1,JJ_H4,JJ Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:38:20,2025-12-01,2,JJ_H4,JJ Hospital,138,138,1.0,Normal operations,20,13,6,27,69
+2025-11-29 09:38:22,2025-12-02,3,JJ_H4,JJ Hospital,205,205,1.0,Normal operations,30,20,10,41,102
+2025-11-29 09:38:24,2025-12-03,4,JJ_H4,JJ Hospital,181,181,1.0,Normal operations,27,18,9,36,90
+2025-11-29 09:38:26,2025-12-04,5,JJ_H4,JJ Hospital,160,160,1.0,Normal operations,24,16,8,32,80
+2025-11-29 09:38:29,2025-12-05,6,JJ_H4,JJ Hospital,159,159,1.0,Normal operations,23,15,7,31,79
+2025-11-29 09:38:31,2025-11-29,0,HIN_H5,Hinduja Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:38:33,2025-11-30,1,HIN_H5,Hinduja Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:38:35,2025-12-01,2,HIN_H5,Hinduja Hospital,67,67,1.0,Normal operations,10,6,3,13,33
+2025-11-29 09:38:38,2025-12-02,3,HIN_H5,Hinduja Hospital,71,71,1.0,Normal operations,10,7,3,14,35
+2025-11-29 09:38:40,2025-12-03,4,HIN_H5,Hinduja Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:38:42,2025-12-04,5,HIN_H5,Hinduja Hospital,96,96,1.0,Normal operations,14,9,4,19,48
+2025-11-29 09:38:44,2025-12-05,6,HIN_H5,Hinduja Hospital,75,75,1.0,Normal operations,11,7,3,15,37
+2025-11-29 09:38:47,2025-11-29,0,LIL_H6,Lilavati Hospital,53,53,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:38:52,2025-11-30,1,LIL_H6,Lilavati Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:38:54,2025-12-01,2,LIL_H6,Lilavati Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:38:57,2025-12-02,3,LIL_H6,Lilavati Hospital,56,56,1.0,Normal operations,8,5,2,11,28
+2025-11-29 09:39:00,2025-12-03,4,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:39:04,2025-12-04,5,LIL_H6,Lilavati Hospital,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:39:11,2025-12-05,6,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:39:19,2025-11-29,0,NAN_H7,NANAVATI,55,55,1.0,Normal operations,8,5,2,11,27
+2025-11-29 09:39:26,2025-11-30,1,NAN_H7,NANAVATI,50,50,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:39:32,2025-12-01,2,NAN_H7,NANAVATI,39,39,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:39:36,2025-12-02,3,NAN_H7,NANAVATI,51,51,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:39:40,2025-12-03,4,NAN_H7,NANAVATI,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:39:42,2025-12-04,5,NAN_H7,NANAVATI,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:39:44,2025-12-05,6,NAN_H7,NANAVATI,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:39:47,2025-11-29,0,BOM_H8,Bombay Hospital,108,108,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:39:50,2025-11-30,1,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:39:52,2025-12-01,2,BOM_H8,Bombay Hospital,93,93,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:39:54,2025-12-02,3,BOM_H8,Bombay Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:39:57,2025-12-03,4,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:39:59,2025-12-04,5,BOM_H8,Bombay Hospital,81,81,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:40:08,2025-12-05,6,BOM_H8,Bombay Hospital,92,92,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:40:10,2025-11-29,0,JAS_H9,Jaslok Hospital & Research Centre,52,52,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:40:13,2025-11-30,1,JAS_H9,Jaslok Hospital & Research Centre,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:40:18,2025-12-01,2,JAS_H9,Jaslok Hospital & Research Centre,40,40,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:40:24,2025-12-02,3,JAS_H9,Jaslok Hospital & Research Centre,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:40:30,2025-12-03,4,JAS_H9,Jaslok Hospital & Research Centre,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:40:36,2025-12-04,5,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:40:45,2025-12-05,6,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:40:50,2025-11-29,0,BRE_H10,Breach Candy Hospital Trust,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:40:52,2025-11-30,1,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:40:54,2025-12-01,2,BRE_H10,Breach Candy Hospital Trust,23,23,1.0,Normal operations,3,2,1,4,11
+2025-11-29 09:40:57,2025-12-02,3,BRE_H10,Breach Candy Hospital Trust,26,26,1.0,Normal operations,3,2,1,5,13
+2025-11-29 09:41:00,2025-12-03,4,BRE_H10,Breach Candy Hospital Trust,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:41:03,2025-12-04,5,BRE_H10,Breach Candy Hospital Trust,32,32,1.0,Normal operations,4,3,1,6,16
+2025-11-29 09:41:06,2025-12-05,6,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:41:08,2025-11-29,0,SAI_H11,Saifee Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:41:11,2025-11-30,1,SAI_H11,Saifee Hospital,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:41:13,2025-12-01,2,SAI_H11,Saifee Hospital,31,31,1.0,Normal operations,4,3,1,6,15
+2025-11-29 09:41:15,2025-12-02,3,SAI_H11,Saifee Hospital,38,38,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:41:18,2025-12-03,4,SAI_H11,Saifee Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:41:21,2025-12-04,5,SAI_H11,Saifee Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:41:23,2025-12-05,6,SAI_H11,Saifee Hospital,42,42,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:41:25,2025-11-29,0,JUP_H13,Jupiter Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:41:28,2025-11-30,1,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:41:30,2025-12-01,2,JUP_H13,Jupiter Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:41:32,2025-12-02,3,JUP_H13,Jupiter Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:41:35,2025-12-03,4,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:41:38,2025-12-04,5,JUP_H13,Jupiter Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:41:40,2025-12-05,6,JUP_H13,Jupiter Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:41:42,2025-11-29,0,COO_H14,Dr. R N Cooper Hospital,72,72,1.0,Normal operations,10,7,3,14,36
+2025-11-29 09:41:45,2025-11-30,1,COO_H14,Dr. R N Cooper Hospital,47,47,1.0,Normal operations,7,4,2,9,23
+2025-11-29 09:41:48,2025-12-01,2,COO_H14,Dr. R N Cooper Hospital,60,60,1.0,Normal operations,9,6,3,12,30
+2025-11-29 09:41:50,2025-12-02,3,COO_H14,Dr. R N Cooper Hospital,77,77,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:41:52,2025-12-03,4,COO_H14,Dr. R N Cooper Hospital,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:41:55,2025-12-04,5,COO_H14,Dr. R N Cooper Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:41:57,2025-12-05,6,COO_H14,Dr. R N Cooper Hospital,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:41:59,2025-11-29,0,HBT_H15,HBT (Thackeray) Trauma Care,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:42:02,2025-11-30,1,HBT_H15,HBT (Thackeray) Trauma Care,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:42:04,2025-12-01,2,HBT_H15,HBT (Thackeray) Trauma Care,62,62,1.0,Normal operations,9,6,3,12,31
+2025-11-29 09:42:06,2025-12-02,3,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:42:08,2025-12-03,4,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:42:11,2025-12-04,5,HBT_H15,HBT (Thackeray) Trauma Care,68,68,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:42:13,2025-12-05,6,HBT_H15,HBT (Thackeray) Trauma Care,76,76,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:42:46,2025-11-29,0,KEM_H1,King Edward Memorial Hospital,226,226,1.0,Normal operations,33,22,11,45,113
+2025-11-29 09:42:48,2025-11-30,1,KEM_H1,King Edward Memorial Hospital,221,221,1.0,Normal operations,33,22,11,44,110
+2025-11-29 09:42:51,2025-12-01,2,KEM_H1,King Edward Memorial Hospital,230,230,1.0,Normal operations,34,23,11,46,115
+2025-11-29 09:42:53,2025-12-02,3,KEM_H1,King Edward Memorial Hospital,279,279,1.0,Normal operations,41,27,13,55,139
+2025-11-29 09:42:55,2025-12-03,4,KEM_H1,King Edward Memorial Hospital,250,250,1.0,Normal operations,37,25,12,50,125
+2025-11-29 09:42:58,2025-12-04,5,KEM_H1,King Edward Memorial Hospital,253,253,1.0,Normal operations,37,25,12,50,126
+2025-11-29 09:43:00,2025-12-05,6,KEM_H1,King Edward Memorial Hospital,259,259,1.0,Normal operations,38,25,12,51,129
+2025-11-29 09:43:03,2025-11-29,0,LOK_H2,Lokmanya Tilak Hospital,148,148,1.0,Normal operations,22,14,7,29,74
+2025-11-29 09:43:05,2025-11-30,1,LOK_H2,Lokmanya Tilak Hospital,121,121,1.0,Normal operations,18,12,6,24,60
+2025-11-29 09:43:07,2025-12-01,2,LOK_H2,Lokmanya Tilak Hospital,117,117,1.0,Normal operations,17,11,5,23,58
+2025-11-29 09:43:10,2025-12-02,3,LOK_H2,Lokmanya Tilak Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:43:12,2025-12-03,4,LOK_H2,Lokmanya Tilak Hospital,126,126,1.0,Normal operations,18,12,6,25,63
+2025-11-29 09:43:14,2025-12-04,5,LOK_H2,Lokmanya Tilak Hospital,110,110,1.0,Normal operations,16,11,5,22,55
+2025-11-29 09:43:17,2025-12-05,6,LOK_H2,Lokmanya Tilak Hospital,134,134,1.0,Normal operations,20,13,6,26,67
+2025-11-29 09:43:20,2025-11-29,0,NAI_H3,BYL Nair Hospital,174,174,1.0,Normal operations,26,17,8,34,87
+2025-11-29 09:43:22,2025-11-30,1,NAI_H3,BYL Nair Hospital,166,166,1.0,Normal operations,24,16,8,33,83
+2025-11-29 09:43:24,2025-12-01,2,NAI_H3,BYL Nair Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:43:27,2025-12-02,3,NAI_H3,BYL Nair Hospital,164,164,1.0,Normal operations,24,16,8,32,82
+2025-11-29 09:43:29,2025-12-03,4,NAI_H3,BYL Nair Hospital,168,168,1.0,Normal operations,25,16,8,33,84
+2025-11-29 09:43:32,2025-12-04,5,NAI_H3,BYL Nair Hospital,191,191,1.0,Normal operations,28,19,9,38,95
+2025-11-29 09:43:34,2025-12-05,6,NAI_H3,BYL Nair Hospital,213,213,1.0,Normal operations,31,21,10,42,106
+2025-11-29 09:43:36,2025-11-29,0,JJ_H4,JJ Hospital,155,155,1.0,Normal operations,23,15,7,31,77
+2025-11-29 09:43:39,2025-11-30,1,JJ_H4,JJ Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:43:41,2025-12-01,2,JJ_H4,JJ Hospital,138,138,1.0,Normal operations,20,13,6,27,69
+2025-11-29 09:43:43,2025-12-02,3,JJ_H4,JJ Hospital,205,205,1.0,Normal operations,30,20,10,41,102
+2025-11-29 09:43:46,2025-12-03,4,JJ_H4,JJ Hospital,181,181,1.0,Normal operations,27,18,9,36,90
+2025-11-29 09:43:48,2025-12-04,5,JJ_H4,JJ Hospital,160,160,1.0,Normal operations,24,16,8,32,80
+2025-11-29 09:43:51,2025-12-05,6,JJ_H4,JJ Hospital,159,159,1.0,Normal operations,23,15,7,31,79
+2025-11-29 09:43:53,2025-11-29,0,HIN_H5,Hinduja Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:43:55,2025-11-30,1,HIN_H5,Hinduja Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:43:58,2025-12-01,2,HIN_H5,Hinduja Hospital,67,67,1.0,Normal operations,10,6,3,13,33
+2025-11-29 09:44:01,2025-12-02,3,HIN_H5,Hinduja Hospital,71,71,1.0,Normal operations,10,7,3,14,35
+2025-11-29 09:44:03,2025-12-03,4,HIN_H5,Hinduja Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:44:05,2025-12-04,5,HIN_H5,Hinduja Hospital,96,96,1.0,Normal operations,14,9,4,19,48
+2025-11-29 09:44:08,2025-12-05,6,HIN_H5,Hinduja Hospital,75,75,1.0,Normal operations,11,7,3,15,37
+2025-11-29 09:44:10,2025-11-29,0,LIL_H6,Lilavati Hospital,53,53,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:44:12,2025-11-30,1,LIL_H6,Lilavati Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:44:14,2025-12-01,2,LIL_H6,Lilavati Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:44:17,2025-12-02,3,LIL_H6,Lilavati Hospital,56,56,1.0,Normal operations,8,5,2,11,28
+2025-11-29 09:44:19,2025-12-03,4,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:44:22,2025-12-04,5,LIL_H6,Lilavati Hospital,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:44:24,2025-12-05,6,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:44:26,2025-11-29,0,NAN_H7,NANAVATI,55,55,1.0,Normal operations,8,5,2,11,27
+2025-11-29 09:44:29,2025-11-30,1,NAN_H7,NANAVATI,50,50,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:44:31,2025-12-01,2,NAN_H7,NANAVATI,39,39,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:44:33,2025-12-02,3,NAN_H7,NANAVATI,51,51,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:44:36,2025-12-03,4,NAN_H7,NANAVATI,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:44:38,2025-12-04,5,NAN_H7,NANAVATI,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:44:40,2025-12-05,6,NAN_H7,NANAVATI,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:44:43,2025-11-29,0,BOM_H8,Bombay Hospital,108,108,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:44:45,2025-11-30,1,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:44:49,2025-12-01,2,BOM_H8,Bombay Hospital,93,93,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:44:51,2025-12-02,3,BOM_H8,Bombay Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:44:54,2025-12-03,4,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:44:56,2025-12-04,5,BOM_H8,Bombay Hospital,81,81,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:44:58,2025-12-05,6,BOM_H8,Bombay Hospital,92,92,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:45:01,2025-11-29,0,JAS_H9,Jaslok Hospital & Research Centre,52,52,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:45:04,2025-11-30,1,JAS_H9,Jaslok Hospital & Research Centre,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:45:31,2025-12-01,2,JAS_H9,Jaslok Hospital & Research Centre,40,40,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:45:31,2025-12-02,3,JAS_H9,Jaslok Hospital & Research Centre,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:45:31,2025-12-03,4,JAS_H9,Jaslok Hospital & Research Centre,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:45:32,2025-12-04,5,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:45:32,2025-12-05,6,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:45:32,2025-11-29,0,BRE_H10,Breach Candy Hospital Trust,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:45:32,2025-11-30,1,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:45:32,2025-12-01,2,BRE_H10,Breach Candy Hospital Trust,23,23,1.0,Normal operations,3,2,1,4,11
+2025-11-29 09:45:32,2025-12-02,3,BRE_H10,Breach Candy Hospital Trust,26,26,1.0,Normal operations,3,2,1,5,13
+2025-11-29 09:45:33,2025-12-03,4,BRE_H10,Breach Candy Hospital Trust,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:45:33,2025-12-04,5,BRE_H10,Breach Candy Hospital Trust,32,32,1.0,Normal operations,4,3,1,6,16
+2025-11-29 09:45:33,2025-12-05,6,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:45:33,2025-11-29,0,SAI_H11,Saifee Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:45:33,2025-11-30,1,SAI_H11,Saifee Hospital,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:45:33,2025-12-01,2,SAI_H11,Saifee Hospital,31,31,1.0,Normal operations,4,3,1,6,15
+2025-11-29 09:45:33,2025-12-02,3,SAI_H11,Saifee Hospital,38,38,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:45:34,2025-12-03,4,SAI_H11,Saifee Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:45:34,2025-12-04,5,SAI_H11,Saifee Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:45:34,2025-12-05,6,SAI_H11,Saifee Hospital,42,42,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:45:34,2025-11-29,0,JUP_H13,Jupiter Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:45:34,2025-11-30,1,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:45:35,2025-12-01,2,JUP_H13,Jupiter Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:45:35,2025-12-02,3,JUP_H13,Jupiter Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:45:35,2025-12-03,4,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:45:35,2025-12-04,5,JUP_H13,Jupiter Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:45:35,2025-12-05,6,JUP_H13,Jupiter Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:45:35,2025-11-29,0,COO_H14,Dr. R N Cooper Hospital,72,72,1.0,Normal operations,10,7,3,14,36
+2025-11-29 09:45:36,2025-11-30,1,COO_H14,Dr. R N Cooper Hospital,47,47,1.0,Normal operations,7,4,2,9,23
+2025-11-29 09:45:36,2025-12-01,2,COO_H14,Dr. R N Cooper Hospital,60,60,1.0,Normal operations,9,6,3,12,30
+2025-11-29 09:45:36,2025-12-02,3,COO_H14,Dr. R N Cooper Hospital,77,77,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:45:36,2025-12-03,4,COO_H14,Dr. R N Cooper Hospital,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:45:36,2025-12-04,5,COO_H14,Dr. R N Cooper Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:45:36,2025-12-05,6,COO_H14,Dr. R N Cooper Hospital,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:45:37,2025-11-29,0,HBT_H15,HBT (Thackeray) Trauma Care,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:45:37,2025-11-30,1,HBT_H15,HBT (Thackeray) Trauma Care,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:45:37,2025-12-01,2,HBT_H15,HBT (Thackeray) Trauma Care,62,62,1.0,Normal operations,9,6,3,12,31
+2025-11-29 09:45:38,2025-12-02,3,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:45:38,2025-12-03,4,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:45:38,2025-12-04,5,HBT_H15,HBT (Thackeray) Trauma Care,68,68,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:45:39,2025-12-05,6,HBT_H15,HBT (Thackeray) Trauma Care,76,76,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:46:10,2025-11-29,0,KEM_H1,King Edward Memorial Hospital,226,226,1.0,Normal operations,33,22,11,45,113
+2025-11-29 09:46:10,2025-11-30,1,KEM_H1,King Edward Memorial Hospital,221,221,1.0,Normal operations,33,22,11,44,110
+2025-11-29 09:46:10,2025-12-01,2,KEM_H1,King Edward Memorial Hospital,230,230,1.0,Normal operations,34,23,11,46,115
+2025-11-29 09:46:10,2025-12-02,3,KEM_H1,King Edward Memorial Hospital,279,279,1.0,Normal operations,41,27,13,55,139
+2025-11-29 09:46:11,2025-12-03,4,KEM_H1,King Edward Memorial Hospital,250,250,1.0,Normal operations,37,25,12,50,125
+2025-11-29 09:46:11,2025-12-04,5,KEM_H1,King Edward Memorial Hospital,253,253,1.0,Normal operations,37,25,12,50,126
+2025-11-29 09:46:11,2025-12-05,6,KEM_H1,King Edward Memorial Hospital,259,259,1.0,Normal operations,38,25,12,51,129
+2025-11-29 09:46:11,2025-11-29,0,LOK_H2,Lokmanya Tilak Hospital,148,148,1.0,Normal operations,22,14,7,29,74
+2025-11-29 09:46:11,2025-11-30,1,LOK_H2,Lokmanya Tilak Hospital,121,121,1.0,Normal operations,18,12,6,24,60
+2025-11-29 09:46:12,2025-12-01,2,LOK_H2,Lokmanya Tilak Hospital,117,117,1.0,Normal operations,17,11,5,23,58
+2025-11-29 09:46:12,2025-12-02,3,LOK_H2,Lokmanya Tilak Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:46:12,2025-12-03,4,LOK_H2,Lokmanya Tilak Hospital,126,126,1.0,Normal operations,18,12,6,25,63
+2025-11-29 09:46:13,2025-12-04,5,LOK_H2,Lokmanya Tilak Hospital,110,110,1.0,Normal operations,16,11,5,22,55
+2025-11-29 09:46:14,2025-12-05,6,LOK_H2,Lokmanya Tilak Hospital,134,134,1.0,Normal operations,20,13,6,26,67
+2025-11-29 09:46:15,2025-11-29,0,NAI_H3,BYL Nair Hospital,174,174,1.0,Normal operations,26,17,8,34,87
+2025-11-29 09:46:15,2025-11-30,1,NAI_H3,BYL Nair Hospital,166,166,1.0,Normal operations,24,16,8,33,83
+2025-11-29 09:46:15,2025-12-01,2,NAI_H3,BYL Nair Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:46:15,2025-12-02,3,NAI_H3,BYL Nair Hospital,164,164,1.0,Normal operations,24,16,8,32,82
+2025-11-29 09:46:16,2025-12-03,4,NAI_H3,BYL Nair Hospital,168,168,1.0,Normal operations,25,16,8,33,84
+2025-11-29 09:46:16,2025-12-04,5,NAI_H3,BYL Nair Hospital,191,191,1.0,Normal operations,28,19,9,38,95
+2025-11-29 09:46:16,2025-12-05,6,NAI_H3,BYL Nair Hospital,213,213,1.0,Normal operations,31,21,10,42,106
+2025-11-29 09:46:16,2025-11-29,0,JJ_H4,JJ Hospital,155,155,1.0,Normal operations,23,15,7,31,77
+2025-11-29 09:46:16,2025-11-30,1,JJ_H4,JJ Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:46:17,2025-12-01,2,JJ_H4,JJ Hospital,138,138,1.0,Normal operations,20,13,6,27,69
+2025-11-29 09:46:17,2025-12-02,3,JJ_H4,JJ Hospital,205,205,1.0,Normal operations,30,20,10,41,102
+2025-11-29 09:46:17,2025-12-03,4,JJ_H4,JJ Hospital,181,181,1.0,Normal operations,27,18,9,36,90
+2025-11-29 09:46:17,2025-12-04,5,JJ_H4,JJ Hospital,160,160,1.0,Normal operations,24,16,8,32,80
+2025-11-29 09:46:17,2025-12-05,6,JJ_H4,JJ Hospital,159,159,1.0,Normal operations,23,15,7,31,79
+2025-11-29 09:46:17,2025-11-29,0,HIN_H5,Hinduja Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:46:18,2025-11-30,1,HIN_H5,Hinduja Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:46:18,2025-12-01,2,HIN_H5,Hinduja Hospital,67,67,1.0,Normal operations,10,6,3,13,33
+2025-11-29 09:46:18,2025-12-02,3,HIN_H5,Hinduja Hospital,71,71,1.0,Normal operations,10,7,3,14,35
+2025-11-29 09:46:18,2025-12-03,4,HIN_H5,Hinduja Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:46:18,2025-12-04,5,HIN_H5,Hinduja Hospital,96,96,1.0,Normal operations,14,9,4,19,48
+2025-11-29 09:46:18,2025-12-05,6,HIN_H5,Hinduja Hospital,75,75,1.0,Normal operations,11,7,3,15,37
+2025-11-29 09:46:19,2025-11-29,0,LIL_H6,Lilavati Hospital,53,53,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:46:19,2025-11-30,1,LIL_H6,Lilavati Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:46:19,2025-12-01,2,LIL_H6,Lilavati Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:46:19,2025-12-02,3,LIL_H6,Lilavati Hospital,56,56,1.0,Normal operations,8,5,2,11,28
+2025-11-29 09:46:19,2025-12-03,4,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:46:20,2025-12-04,5,LIL_H6,Lilavati Hospital,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:46:20,2025-12-05,6,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:46:20,2025-11-29,0,NAN_H7,NANAVATI,55,55,1.0,Normal operations,8,5,2,11,27
+2025-11-29 09:46:20,2025-11-30,1,NAN_H7,NANAVATI,50,50,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:46:20,2025-12-01,2,NAN_H7,NANAVATI,39,39,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:46:20,2025-12-02,3,NAN_H7,NANAVATI,51,51,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:46:20,2025-12-03,4,NAN_H7,NANAVATI,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:46:21,2025-12-04,5,NAN_H7,NANAVATI,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:46:21,2025-12-05,6,NAN_H7,NANAVATI,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:46:21,2025-11-29,0,BOM_H8,Bombay Hospital,108,108,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:46:21,2025-11-30,1,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:46:21,2025-12-01,2,BOM_H8,Bombay Hospital,93,93,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:46:21,2025-12-02,3,BOM_H8,Bombay Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:46:22,2025-12-03,4,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:46:22,2025-12-04,5,BOM_H8,Bombay Hospital,81,81,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:46:22,2025-12-05,6,BOM_H8,Bombay Hospital,92,92,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:46:23,2025-11-29,0,JAS_H9,Jaslok Hospital & Research Centre,52,52,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:46:23,2025-11-30,1,JAS_H9,Jaslok Hospital & Research Centre,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:46:23,2025-12-01,2,JAS_H9,Jaslok Hospital & Research Centre,40,40,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:46:23,2025-12-02,3,JAS_H9,Jaslok Hospital & Research Centre,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:46:23,2025-12-03,4,JAS_H9,Jaslok Hospital & Research Centre,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:46:24,2025-12-04,5,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:46:24,2025-12-05,6,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:46:24,2025-11-29,0,BRE_H10,Breach Candy Hospital Trust,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:46:24,2025-11-30,1,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:46:24,2025-12-01,2,BRE_H10,Breach Candy Hospital Trust,23,23,1.0,Normal operations,3,2,1,4,11
+2025-11-29 09:46:25,2025-12-02,3,BRE_H10,Breach Candy Hospital Trust,26,26,1.0,Normal operations,3,2,1,5,13
+2025-11-29 09:46:36,2025-12-03,4,BRE_H10,Breach Candy Hospital Trust,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:46:43,2025-12-04,5,BRE_H10,Breach Candy Hospital Trust,32,32,1.0,Normal operations,4,3,1,6,16
+2025-11-29 09:46:45,2025-12-05,6,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:46:48,2025-11-29,0,SAI_H11,Saifee Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:46:51,2025-11-30,1,SAI_H11,Saifee Hospital,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:46:54,2025-12-01,2,SAI_H11,Saifee Hospital,31,31,1.0,Normal operations,4,3,1,6,15
+2025-11-29 09:46:56,2025-12-02,3,SAI_H11,Saifee Hospital,38,38,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:46:58,2025-12-03,4,SAI_H11,Saifee Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:47:02,2025-12-04,5,SAI_H11,Saifee Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:47:04,2025-12-05,6,SAI_H11,Saifee Hospital,42,42,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:47:06,2025-11-29,0,JUP_H13,Jupiter Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:47:09,2025-11-30,1,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:47:11,2025-12-01,2,JUP_H13,Jupiter Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:47:13,2025-12-02,3,JUP_H13,Jupiter Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:47:16,2025-12-03,4,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:47:18,2025-12-04,5,JUP_H13,Jupiter Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:47:21,2025-12-05,6,JUP_H13,Jupiter Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:47:23,2025-11-29,0,COO_H14,Dr. R N Cooper Hospital,72,72,1.0,Normal operations,10,7,3,14,36
+2025-11-29 09:47:25,2025-11-30,1,COO_H14,Dr. R N Cooper Hospital,47,47,1.0,Normal operations,7,4,2,9,23
+2025-11-29 09:47:27,2025-12-01,2,COO_H14,Dr. R N Cooper Hospital,60,60,1.0,Normal operations,9,6,3,12,30
+2025-11-29 09:47:30,2025-12-02,3,COO_H14,Dr. R N Cooper Hospital,77,77,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:47:32,2025-12-03,4,COO_H14,Dr. R N Cooper Hospital,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:47:34,2025-12-04,5,COO_H14,Dr. R N Cooper Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:47:36,2025-12-05,6,COO_H14,Dr. R N Cooper Hospital,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:47:39,2025-11-29,0,HBT_H15,HBT (Thackeray) Trauma Care,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:47:41,2025-11-30,1,HBT_H15,HBT (Thackeray) Trauma Care,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:47:43,2025-12-01,2,HBT_H15,HBT (Thackeray) Trauma Care,62,62,1.0,Normal operations,9,6,3,12,31
+2025-11-29 09:47:46,2025-12-02,3,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:47:51,2025-12-03,4,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:47:54,2025-12-04,5,HBT_H15,HBT (Thackeray) Trauma Care,68,68,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:47:56,2025-12-05,6,HBT_H15,HBT (Thackeray) Trauma Care,76,76,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:48:29,2025-11-29,0,KEM_H1,King Edward Memorial Hospital,226,226,1.0,Normal operations,33,22,11,45,113
+2025-11-29 09:48:32,2025-11-30,1,KEM_H1,King Edward Memorial Hospital,221,221,1.0,Normal operations,33,22,11,44,110
+2025-11-29 09:48:35,2025-12-01,2,KEM_H1,King Edward Memorial Hospital,230,230,1.0,Normal operations,34,23,11,46,115
+2025-11-29 09:48:37,2025-12-02,3,KEM_H1,King Edward Memorial Hospital,279,279,1.0,Normal operations,41,27,13,55,139
+2025-11-29 09:48:39,2025-12-03,4,KEM_H1,King Edward Memorial Hospital,250,250,1.0,Normal operations,37,25,12,50,125
+2025-11-29 09:48:42,2025-12-04,5,KEM_H1,King Edward Memorial Hospital,253,253,1.0,Normal operations,37,25,12,50,126
+2025-11-29 09:48:44,2025-12-05,6,KEM_H1,King Edward Memorial Hospital,259,259,1.0,Normal operations,38,25,12,51,129
+2025-11-29 09:48:47,2025-11-29,0,LOK_H2,Lokmanya Tilak Hospital,148,148,1.0,Normal operations,22,14,7,29,74
+2025-11-29 09:48:50,2025-11-30,1,LOK_H2,Lokmanya Tilak Hospital,121,121,1.0,Normal operations,18,12,6,24,60
+2025-11-29 09:48:52,2025-12-01,2,LOK_H2,Lokmanya Tilak Hospital,117,117,1.0,Normal operations,17,11,5,23,58
+2025-11-29 09:48:55,2025-12-02,3,LOK_H2,Lokmanya Tilak Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:48:57,2025-12-03,4,LOK_H2,Lokmanya Tilak Hospital,126,126,1.0,Normal operations,18,12,6,25,63
+2025-11-29 09:49:00,2025-12-04,5,LOK_H2,Lokmanya Tilak Hospital,110,110,1.0,Normal operations,16,11,5,22,55
+2025-11-29 09:49:02,2025-12-05,6,LOK_H2,Lokmanya Tilak Hospital,134,134,1.0,Normal operations,20,13,6,26,67
+2025-11-29 09:49:05,2025-11-29,0,NAI_H3,BYL Nair Hospital,174,174,1.0,Normal operations,26,17,8,34,87
+2025-11-29 09:49:07,2025-11-30,1,NAI_H3,BYL Nair Hospital,166,166,1.0,Normal operations,24,16,8,33,83
+2025-11-29 09:49:10,2025-12-01,2,NAI_H3,BYL Nair Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:49:12,2025-12-02,3,NAI_H3,BYL Nair Hospital,164,164,1.0,Normal operations,24,16,8,32,82
+2025-11-29 09:49:15,2025-12-03,4,NAI_H3,BYL Nair Hospital,168,168,1.0,Normal operations,25,16,8,33,84
+2025-11-29 09:49:17,2025-12-04,5,NAI_H3,BYL Nair Hospital,191,191,1.0,Normal operations,28,19,9,38,95
+2025-11-29 09:49:19,2025-12-05,6,NAI_H3,BYL Nair Hospital,213,213,1.0,Normal operations,31,21,10,42,106
+2025-11-29 09:49:22,2025-11-29,0,JJ_H4,JJ Hospital,155,155,1.0,Normal operations,23,15,7,31,77
+2025-11-29 09:49:24,2025-11-30,1,JJ_H4,JJ Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:49:28,2025-12-01,2,JJ_H4,JJ Hospital,138,138,1.0,Normal operations,20,13,6,27,69
+2025-11-29 09:49:30,2025-12-02,3,JJ_H4,JJ Hospital,205,205,1.0,Normal operations,30,20,10,41,102
+2025-11-29 09:49:32,2025-12-03,4,JJ_H4,JJ Hospital,181,181,1.0,Normal operations,27,18,9,36,90
+2025-11-29 09:49:35,2025-12-04,5,JJ_H4,JJ Hospital,160,160,1.0,Normal operations,24,16,8,32,80
+2025-11-29 09:49:38,2025-12-05,6,JJ_H4,JJ Hospital,159,159,1.0,Normal operations,23,15,7,31,79
+2025-11-29 09:49:40,2025-11-29,0,HIN_H5,Hinduja Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:49:43,2025-11-30,1,HIN_H5,Hinduja Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:49:46,2025-12-01,2,HIN_H5,Hinduja Hospital,67,67,1.0,Normal operations,10,6,3,13,33
+2025-11-29 09:49:48,2025-12-02,3,HIN_H5,Hinduja Hospital,71,71,1.0,Normal operations,10,7,3,14,35
+2025-11-29 09:49:51,2025-12-03,4,HIN_H5,Hinduja Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:49:55,2025-12-04,5,HIN_H5,Hinduja Hospital,96,96,1.0,Normal operations,14,9,4,19,48
+2025-11-29 09:49:57,2025-12-05,6,HIN_H5,Hinduja Hospital,75,75,1.0,Normal operations,11,7,3,15,37
+2025-11-29 09:50:00,2025-11-29,0,LIL_H6,Lilavati Hospital,53,53,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:50:03,2025-11-30,1,LIL_H6,Lilavati Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:50:06,2025-12-01,2,LIL_H6,Lilavati Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:50:08,2025-12-02,3,LIL_H6,Lilavati Hospital,56,56,1.0,Normal operations,8,5,2,11,28
+2025-11-29 09:50:11,2025-12-03,4,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:50:13,2025-12-04,5,LIL_H6,Lilavati Hospital,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:50:16,2025-12-05,6,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:50:18,2025-11-29,0,NAN_H7,NANAVATI,55,55,1.0,Normal operations,8,5,2,11,27
+2025-11-29 09:50:21,2025-11-30,1,NAN_H7,NANAVATI,50,50,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:50:24,2025-12-01,2,NAN_H7,NANAVATI,39,39,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:50:27,2025-12-02,3,NAN_H7,NANAVATI,51,51,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:50:30,2025-12-03,4,NAN_H7,NANAVATI,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:50:33,2025-12-04,5,NAN_H7,NANAVATI,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:50:36,2025-12-05,6,NAN_H7,NANAVATI,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:50:38,2025-11-29,0,BOM_H8,Bombay Hospital,108,108,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:50:41,2025-11-30,1,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:50:43,2025-12-01,2,BOM_H8,Bombay Hospital,93,93,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:50:46,2025-12-02,3,BOM_H8,Bombay Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:50:48,2025-12-03,4,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:50:51,2025-12-04,5,BOM_H8,Bombay Hospital,81,81,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:50:53,2025-12-05,6,BOM_H8,Bombay Hospital,92,92,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:50:55,2025-11-29,0,JAS_H9,Jaslok Hospital & Research Centre,52,52,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:50:58,2025-11-30,1,JAS_H9,Jaslok Hospital & Research Centre,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:51:00,2025-12-01,2,JAS_H9,Jaslok Hospital & Research Centre,40,40,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:51:05,2025-12-02,3,JAS_H9,Jaslok Hospital & Research Centre,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:51:09,2025-12-03,4,JAS_H9,Jaslok Hospital & Research Centre,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:51:11,2025-12-04,5,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:51:15,2025-12-05,6,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:51:17,2025-11-29,0,BRE_H10,Breach Candy Hospital Trust,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:51:21,2025-11-30,1,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:51:23,2025-12-01,2,BRE_H10,Breach Candy Hospital Trust,23,23,1.0,Normal operations,3,2,1,4,11
+2025-11-29 09:51:26,2025-12-02,3,BRE_H10,Breach Candy Hospital Trust,26,26,1.0,Normal operations,3,2,1,5,13
+2025-11-29 09:51:28,2025-12-03,4,BRE_H10,Breach Candy Hospital Trust,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:51:31,2025-12-04,5,BRE_H10,Breach Candy Hospital Trust,32,32,1.0,Normal operations,4,3,1,6,16
+2025-11-29 09:51:33,2025-12-05,6,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:51:37,2025-11-29,0,SAI_H11,Saifee Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:51:39,2025-11-30,1,SAI_H11,Saifee Hospital,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:51:41,2025-12-01,2,SAI_H11,Saifee Hospital,31,31,1.0,Normal operations,4,3,1,6,15
+2025-11-29 09:51:43,2025-12-02,3,SAI_H11,Saifee Hospital,38,38,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:51:46,2025-12-03,4,SAI_H11,Saifee Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:51:48,2025-12-04,5,SAI_H11,Saifee Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:51:50,2025-12-05,6,SAI_H11,Saifee Hospital,42,42,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:51:53,2025-11-29,0,JUP_H13,Jupiter Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:51:55,2025-11-30,1,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:51:58,2025-12-01,2,JUP_H13,Jupiter Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:52:00,2025-12-02,3,JUP_H13,Jupiter Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:52:05,2025-12-03,4,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:52:09,2025-12-04,5,JUP_H13,Jupiter Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:52:28,2025-12-05,6,JUP_H13,Jupiter Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:52:38,2025-11-29,0,COO_H14,Dr. R N Cooper Hospital,72,72,1.0,Normal operations,10,7,3,14,36
+2025-11-29 09:52:41,2025-11-30,1,COO_H14,Dr. R N Cooper Hospital,47,47,1.0,Normal operations,7,4,2,9,23
+2025-11-29 09:52:46,2025-12-01,2,COO_H14,Dr. R N Cooper Hospital,60,60,1.0,Normal operations,9,6,3,12,30
+2025-11-29 09:52:53,2025-12-02,3,COO_H14,Dr. R N Cooper Hospital,77,77,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:52:58,2025-12-03,4,COO_H14,Dr. R N Cooper Hospital,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:53:03,2025-12-04,5,COO_H14,Dr. R N Cooper Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:53:10,2025-12-05,6,COO_H14,Dr. R N Cooper Hospital,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:53:16,2025-11-29,0,HBT_H15,HBT (Thackeray) Trauma Care,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:53:22,2025-11-30,1,HBT_H15,HBT (Thackeray) Trauma Care,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:53:26,2025-12-01,2,HBT_H15,HBT (Thackeray) Trauma Care,62,62,1.0,Normal operations,9,6,3,12,31
+2025-11-29 09:53:30,2025-12-02,3,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:53:34,2025-12-03,4,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:53:36,2025-12-04,5,HBT_H15,HBT (Thackeray) Trauma Care,68,68,1.0,Normal operations,10,6,3,13,34
+2025-11-29 09:53:39,2025-12-05,6,HBT_H15,HBT (Thackeray) Trauma Care,76,76,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:54:13,2025-11-29,0,KEM_H1,King Edward Memorial Hospital,226,226,1.0,Normal operations,33,22,11,45,113
+2025-11-29 09:54:17,2025-11-30,1,KEM_H1,King Edward Memorial Hospital,221,221,1.0,Normal operations,33,22,11,44,110
+2025-11-29 09:54:21,2025-12-01,2,KEM_H1,King Edward Memorial Hospital,230,230,1.0,Normal operations,34,23,11,46,115
+2025-11-29 09:54:24,2025-12-02,3,KEM_H1,King Edward Memorial Hospital,279,279,1.0,Normal operations,41,27,13,55,139
+2025-11-29 09:54:27,2025-12-03,4,KEM_H1,King Edward Memorial Hospital,250,250,1.0,Normal operations,37,25,12,50,125
+2025-11-29 09:54:32,2025-12-04,5,KEM_H1,King Edward Memorial Hospital,253,253,1.0,Normal operations,37,25,12,50,126
+2025-11-29 09:54:40,2025-12-05,6,KEM_H1,King Edward Memorial Hospital,259,259,1.0,Normal operations,38,25,12,51,129
+2025-11-29 09:54:43,2025-11-29,0,LOK_H2,Lokmanya Tilak Hospital,148,148,1.0,Normal operations,22,14,7,29,74
+2025-11-29 09:54:46,2025-11-30,1,LOK_H2,Lokmanya Tilak Hospital,121,121,1.0,Normal operations,18,12,6,24,60
+2025-11-29 09:54:49,2025-12-01,2,LOK_H2,Lokmanya Tilak Hospital,117,117,1.0,Normal operations,17,11,5,23,58
+2025-11-29 09:54:51,2025-12-02,3,LOK_H2,Lokmanya Tilak Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:54:54,2025-12-03,4,LOK_H2,Lokmanya Tilak Hospital,126,126,1.0,Normal operations,18,12,6,25,63
+2025-11-29 09:54:57,2025-12-04,5,LOK_H2,Lokmanya Tilak Hospital,110,110,1.0,Normal operations,16,11,5,22,55
+2025-11-29 09:55:08,2025-12-05,6,LOK_H2,Lokmanya Tilak Hospital,134,134,1.0,Normal operations,20,13,6,26,67
+2025-11-29 09:55:12,2025-11-29,0,NAI_H3,BYL Nair Hospital,174,174,1.0,Normal operations,26,17,8,34,87
+2025-11-29 09:55:16,2025-11-30,1,NAI_H3,BYL Nair Hospital,166,166,1.0,Normal operations,24,16,8,33,83
+2025-11-29 09:55:21,2025-12-01,2,NAI_H3,BYL Nair Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:55:26,2025-12-02,3,NAI_H3,BYL Nair Hospital,164,164,1.0,Normal operations,24,16,8,32,82
+2025-11-29 09:55:34,2025-12-03,4,NAI_H3,BYL Nair Hospital,168,168,1.0,Normal operations,25,16,8,33,84
+2025-11-29 09:55:37,2025-12-04,5,NAI_H3,BYL Nair Hospital,191,191,1.0,Normal operations,28,19,9,38,95
+2025-11-29 09:55:40,2025-12-05,6,NAI_H3,BYL Nair Hospital,213,213,1.0,Normal operations,31,21,10,42,106
+2025-11-29 09:55:45,2025-11-29,0,JJ_H4,JJ Hospital,155,155,1.0,Normal operations,23,15,7,31,77
+2025-11-29 09:55:51,2025-11-30,1,JJ_H4,JJ Hospital,154,154,1.0,Normal operations,23,15,7,30,77
+2025-11-29 09:56:06,2025-12-01,2,JJ_H4,JJ Hospital,138,138,1.0,Normal operations,20,13,6,27,69
+2025-11-29 09:56:12,2025-12-02,3,JJ_H4,JJ Hospital,205,205,1.0,Normal operations,30,20,10,41,102
+2025-11-29 09:56:15,2025-12-03,4,JJ_H4,JJ Hospital,181,181,1.0,Normal operations,27,18,9,36,90
+2025-11-29 09:56:17,2025-12-04,5,JJ_H4,JJ Hospital,160,160,1.0,Normal operations,24,16,8,32,80
+2025-11-29 09:56:19,2025-12-05,6,JJ_H4,JJ Hospital,159,159,1.0,Normal operations,23,15,7,31,79
+2025-11-29 09:56:22,2025-11-29,0,HIN_H5,Hinduja Hospital,109,109,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:56:24,2025-11-30,1,HIN_H5,Hinduja Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 09:56:26,2025-12-01,2,HIN_H5,Hinduja Hospital,67,67,1.0,Normal operations,10,6,3,13,33
+2025-11-29 09:56:29,2025-12-02,3,HIN_H5,Hinduja Hospital,71,71,1.0,Normal operations,10,7,3,14,35
+2025-11-29 09:56:35,2025-12-03,4,HIN_H5,Hinduja Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:56:39,2025-12-04,5,HIN_H5,Hinduja Hospital,96,96,1.0,Normal operations,14,9,4,19,48
+2025-11-29 09:56:42,2025-12-05,6,HIN_H5,Hinduja Hospital,75,75,1.0,Normal operations,11,7,3,15,37
+2025-11-29 09:56:46,2025-11-29,0,LIL_H6,Lilavati Hospital,53,53,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:56:49,2025-11-30,1,LIL_H6,Lilavati Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:56:52,2025-12-01,2,LIL_H6,Lilavati Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:56:54,2025-12-02,3,LIL_H6,Lilavati Hospital,56,56,1.0,Normal operations,8,5,2,11,28
+2025-11-29 09:56:59,2025-12-03,4,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:57:02,2025-12-04,5,LIL_H6,Lilavati Hospital,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:57:07,2025-12-05,6,LIL_H6,Lilavati Hospital,48,48,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:57:12,2025-11-29,0,NAN_H7,NANAVATI,55,55,1.0,Normal operations,8,5,2,11,27
+2025-11-29 09:57:15,2025-11-30,1,NAN_H7,NANAVATI,50,50,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:57:18,2025-12-01,2,NAN_H7,NANAVATI,39,39,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:57:20,2025-12-02,3,NAN_H7,NANAVATI,51,51,1.0,Normal operations,7,5,2,10,25
+2025-11-29 09:57:23,2025-12-03,4,NAN_H7,NANAVATI,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:57:25,2025-12-04,5,NAN_H7,NANAVATI,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:57:27,2025-12-05,6,NAN_H7,NANAVATI,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:57:30,2025-11-29,0,BOM_H8,Bombay Hospital,108,108,1.0,Normal operations,16,10,5,21,54
+2025-11-29 09:57:34,2025-11-30,1,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:57:38,2025-12-01,2,BOM_H8,Bombay Hospital,93,93,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:57:40,2025-12-02,3,BOM_H8,Bombay Hospital,83,83,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:57:45,2025-12-03,4,BOM_H8,Bombay Hospital,80,80,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:57:49,2025-12-04,5,BOM_H8,Bombay Hospital,81,81,1.0,Normal operations,12,8,4,16,40
+2025-11-29 09:57:55,2025-12-05,6,BOM_H8,Bombay Hospital,92,92,1.0,Normal operations,13,9,4,18,46
+2025-11-29 09:58:01,2025-11-29,0,JAS_H9,Jaslok Hospital & Research Centre,52,52,1.0,Normal operations,7,5,2,10,26
+2025-11-29 09:58:04,2025-11-30,1,JAS_H9,Jaslok Hospital & Research Centre,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 09:58:08,2025-12-01,2,JAS_H9,Jaslok Hospital & Research Centre,40,40,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:58:11,2025-12-02,3,JAS_H9,Jaslok Hospital & Research Centre,44,44,1.0,Normal operations,6,4,2,8,22
+2025-11-29 09:58:14,2025-12-03,4,JAS_H9,Jaslok Hospital & Research Centre,49,49,1.0,Normal operations,7,4,2,9,24
+2025-11-29 09:58:16,2025-12-04,5,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:58:20,2025-12-05,6,JAS_H9,Jaslok Hospital & Research Centre,46,46,1.0,Normal operations,6,4,2,9,23
+2025-11-29 09:58:28,2025-11-29,0,BRE_H10,Breach Candy Hospital Trust,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:58:31,2025-11-30,1,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:58:45,2025-12-01,2,BRE_H10,Breach Candy Hospital Trust,23,23,1.0,Normal operations,3,2,1,4,11
+2025-11-29 09:58:50,2025-12-02,3,BRE_H10,Breach Candy Hospital Trust,26,26,1.0,Normal operations,3,2,1,5,13
+2025-11-29 09:58:53,2025-12-03,4,BRE_H10,Breach Candy Hospital Trust,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:58:55,2025-12-04,5,BRE_H10,Breach Candy Hospital Trust,32,32,1.0,Normal operations,4,3,1,6,16
+2025-11-29 09:58:57,2025-12-05,6,BRE_H10,Breach Candy Hospital Trust,25,25,1.0,Normal operations,3,2,1,5,12
+2025-11-29 09:59:00,2025-11-29,0,SAI_H11,Saifee Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:59:02,2025-11-30,1,SAI_H11,Saifee Hospital,27,27,1.0,Normal operations,4,2,1,5,13
+2025-11-29 09:59:04,2025-12-01,2,SAI_H11,Saifee Hospital,31,31,1.0,Normal operations,4,3,1,6,15
+2025-11-29 09:59:06,2025-12-02,3,SAI_H11,Saifee Hospital,38,38,1.0,Normal operations,5,3,1,7,19
+2025-11-29 09:59:09,2025-12-03,4,SAI_H11,Saifee Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:59:11,2025-12-04,5,SAI_H11,Saifee Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:59:13,2025-12-05,6,SAI_H11,Saifee Hospital,42,42,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:59:16,2025-11-29,0,JUP_H13,Jupiter Hospital,41,41,1.0,Normal operations,6,4,2,8,20
+2025-11-29 09:59:20,2025-11-30,1,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:59:24,2025-12-01,2,JUP_H13,Jupiter Hospital,35,35,1.0,Normal operations,5,3,1,7,17
+2025-11-29 09:59:27,2025-12-02,3,JUP_H13,Jupiter Hospital,45,45,1.0,Normal operations,6,4,2,9,22
+2025-11-29 09:59:34,2025-12-03,4,JUP_H13,Jupiter Hospital,34,34,1.0,Normal operations,5,3,1,6,17
+2025-11-29 09:59:37,2025-12-04,5,JUP_H13,Jupiter Hospital,37,37,1.0,Normal operations,5,3,1,7,18
+2025-11-29 09:59:39,2025-12-05,6,JUP_H13,Jupiter Hospital,43,43,1.0,Normal operations,6,4,2,8,21
+2025-11-29 09:59:42,2025-11-29,0,COO_H14,Dr. R N Cooper Hospital,72,72,1.0,Normal operations,10,7,3,14,36
+2025-11-29 09:59:44,2025-11-30,1,COO_H14,Dr. R N Cooper Hospital,47,47,1.0,Normal operations,7,4,2,9,23
+2025-11-29 09:59:47,2025-12-01,2,COO_H14,Dr. R N Cooper Hospital,60,60,1.0,Normal operations,9,6,3,12,30
+2025-11-29 09:59:53,2025-12-02,3,COO_H14,Dr. R N Cooper Hospital,77,77,1.0,Normal operations,11,7,3,15,38
+2025-11-29 09:59:57,2025-12-03,4,COO_H14,Dr. R N Cooper Hospital,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 09:59:59,2025-12-04,5,COO_H14,Dr. R N Cooper Hospital,90,90,1.0,Normal operations,13,9,4,18,45
+2025-11-29 10:00:03,2025-12-05,6,COO_H14,Dr. R N Cooper Hospital,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 10:00:05,2025-11-29,0,HBT_H15,HBT (Thackeray) Trauma Care,82,82,1.0,Normal operations,12,8,4,16,41
+2025-11-29 10:00:08,2025-11-30,1,HBT_H15,HBT (Thackeray) Trauma Care,58,58,1.0,Normal operations,8,5,2,11,29
+2025-11-29 10:00:12,2025-12-01,2,HBT_H15,HBT (Thackeray) Trauma Care,62,62,1.0,Normal operations,9,6,3,12,31
+2025-11-29 10:00:16,2025-12-02,3,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 10:00:19,2025-12-03,4,HBT_H15,HBT (Thackeray) Trauma Care,69,69,1.0,Normal operations,10,6,3,13,34
+2025-11-29 10:00:21,2025-12-04,5,HBT_H15,HBT (Thackeray) Trauma Care,68,68,1.0,Normal operations,10,6,3,13,34
+2025-11-29 10:00:24,2025-12-05,6,HBT_H15,HBT (Thackeray) Trauma Care,76,76,1.0,Normal operations,11,7,3,15,38

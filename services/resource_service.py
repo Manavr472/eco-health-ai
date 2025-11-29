@@ -34,7 +34,7 @@ class ResourceService:
         api_key = os.getenv("GEMINI_API_KEY")
         if api_key:
             genai.configure(api_key=api_key)
-            self.model = genai.GenerativeModel('gemini-flash-latest')
+            self.model = genai.GenerativeModel('gemini-pro-latest')
             logger.info("Gemini AI initialized for resource recommendations")
         else:
             self.model = None
@@ -176,6 +176,112 @@ class ResourceService:
         
         return supplies_status
     
+
+
+    def generate_public_advisory(self, hospital_name, admissions, surge_multiplier):
+        """Generate public health advisory using Gemini"""
+        if not self.model:
+            return {
+                "level": "MODERATE",
+                "message": "Standard health precautions advised.",
+                "actions": ["Wear masks in crowded areas", "Stay hydrated"]
+            }
+            
+        try:
+            prompt = f"""
+            Generate a concise public health advisory for {hospital_name}.
+            Context:
+            - Predicted Admissions: {sum(admissions.values())}
+            - Surge Multiplier: {surge_multiplier}x
+            - Disease Breakdown: {json.dumps(admissions)}
+            
+            Output JSON only:
+            {{
+                "level": "LOW/MODERATE/HIGH/CRITICAL",
+                "message": "One sentence summary",
+                "actions": ["Action 1", "Action 2", "Action 3"]
+            }}
+            """
+            
+            response = self.model.generate_content(prompt)
+            return json.loads(response.text.strip().replace('```json', '').replace('```', ''))
+            
+        except Exception as e:
+            logger.error(f"Gemini advisory error: {e}")
+            return {
+                "level": "MODERATE",
+                "message": "Follow standard health guidelines.",
+                "actions": ["Monitor local health updates", "Maintain hygiene"]
+            }
+
+    def calculate_staff_requirements(self, hospital_id, admissions):
+        """Calculate staff requirements using Gemini based on predicted admissions"""
+        total_patients = sum(admissions.values())
+        
+        if not self.model:
+            # Fallback logic based on standard ratios
+            doctors_needed = max(int(total_patients / 15), 5)
+            nurses_needed = max(int(total_patients / 5), 15)
+            support_needed = max(int(total_patients / 10), 8)
+            
+            return {
+                "doctors": {"required": doctors_needed, "status": "CALCULATED"},
+                "nurses": {"required": nurses_needed, "status": "CALCULATED"},
+                "support": {"required": support_needed, "status": "CALCULATED"}
+            }
+            
+        try:
+            prompt = f"""
+            You are a healthcare resource planning expert. Calculate optimal staff requirements for {hospital_id}.
+            
+            Predicted Patient Load:
+            - Total Patients: {total_patients}
+            - Respiratory Cases: {admissions.get('respiratory', 0)}
+            - Waterborne Cases: {admissions.get('waterborne', 0)}
+            - Heat-related Cases: {admissions.get('heat', 0)}
+            - Trauma Cases: {admissions.get('trauma', 0)}
+            - Other Cases: {admissions.get('other', 0)}
+            
+            Apply standard healthcare staffing ratios:
+            - Doctors: 1 doctor per 15-20 patients (ICU cases need 1:5)
+            - Nurses: 1 nurse per 5-6 patients (ICU cases need 1:2)
+            - Support Staff: 1 support per 10-12 patients
+            
+            Consider disease severity:
+            - Respiratory and Trauma cases often need ICU care (higher staff ratios)
+            - Waterborne and Heat cases typically need general ward care
+            
+            Return ONLY valid JSON in this exact format:
+            {{
+                "doctors": {{"required": <number>, "status": "CALCULATED"}},
+                "nurses": {{"required": <number>, "status": "CALCULATED"}},
+                "support": {{"required": <number>, "status": "CALCULATED"}}
+            }}
+            """
+            
+            response = self.model.generate_content(prompt)
+            result_text = response.text.strip()
+            
+            # Clean up response
+            result_text = result_text.replace('```json', '').replace('```', '').strip()
+            result = json.loads(result_text)
+            
+            logger.info(f"Gemini staff calculation for {hospital_id}: {result}")
+            return result
+            
+        except Exception as e:
+            logger.error(f"Gemini staffing error: {e}")
+            # Fallback calculation
+            doctors_needed = max(int(total_patients / 15), 5)
+            nurses_needed = max(int(total_patients / 5), 15)
+            support_needed = max(int(total_patients / 10), 8)
+            
+            return {
+                "doctors": {"required": doctors_needed, "status": "FALLBACK"},
+                "nurses": {"required": nurses_needed, "status": "FALLBACK"},
+                "support": {"required": support_needed, "status": "FALLBACK"}
+            }
+
     def get_recommendations(self, hospital_id=None):
         """Get resource recommendations for hospital(s)"""
         logger.info("="*80)
@@ -200,22 +306,30 @@ class ResourceService:
             hospital_info = self.inventory_data.get(hid, {})
             admissions = surge_data.get(hid, {})
             
+            # 1. Supply Recommendations
             supplies_status = self.calculate_supply_needs(hid, admissions)
+            
+            # 2. Staff Requirements (Gemini-based only)
+            staff_reqs = self.calculate_staff_requirements(hid, admissions)
+            
+            # 3. Public Advisory
+            surge_multiplier = 1.2 # Placeholder, ideally get from surge data
+            advisory = self.generate_public_advisory(hospital_info.get('name', hid), admissions, surge_multiplier)
             
             # Count critical/low items
             critical_count = sum(1 for s in supplies_status if s['status'] == 'CRITICAL')
             low_count = sum(1 for s in supplies_status if s['status'] == 'LOW')
             
-            logger.info(f"[SUMMARY] {hid}: {critical_count} CRITICAL, {low_count} LOW, "
-                       f"{len(supplies_status) - critical_count - low_count} OK")
+            logger.info(f"[SUMMARY] {hid}: {critical_count} CRITICAL, {low_count} LOW")
             
             result = {
                 "hospital_id": hid,
                 "hospital_name": hospital_info.get('name', HOSPITAL_NAME_MAPPING.get(hid, hid)),
                 "hospital_type": hospital_info.get('type', 'Unknown'),
-                "safety_buffer_applied": f"{int(SAFETY_BUFFERS.get(hospital_info.get('type', 'Private'), 0.2) * 100)}%",
                 "admissions": admissions,
                 "supplies_status": supplies_status,
+                "staff_requirements": staff_reqs,
+                "public_advisory": advisory,
                 "summary": {
                     "total_items": len(supplies_status),
                     "critical_items": critical_count,

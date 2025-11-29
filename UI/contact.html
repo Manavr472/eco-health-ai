@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Health AI - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- Navbar injected by JS -->
+
+    <main class="container py-xl text-center">
+        <h1 class="text-primary-dark" style="margin-bottom: 1rem;">Contact Us</h1>
+        <p class="text-gray" style="margin-bottom: 2rem;">Get in touch with our team.</p>
+
+        <div class="card" style="max-width: 500px; margin: 0 auto; text-align: left;">
+            <form>
+                <div style="margin-bottom: 1rem;">
+                    <label class="block text-sm font-bold mb-xs" for="name">Name</label>
+                    <input type="text" id="name"
+                        style="width: 100%; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 0.25rem;">
+                </div>
+                <div style="margin-bottom: 1rem;">
+                    <label class="block text-sm font-bold mb-xs" for="email">Email</label>
+                    <input type="email" id="email"
+                        style="width: 100%; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 0.25rem;">
+                </div>
+                <div style="margin-bottom: 1rem;">
+                    <label class="block text-sm font-bold mb-xs" for="message">Message</label>
+                    <textarea id="message" rows="4"
+                        style="width: 100%; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 0.25rem;"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary w-full">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer injected by JS -->
+
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize Lucide icons
+        window.addEventListener('load', () => {
+            lucide.createIcons();
+        });
+    </script>
+</body>
+
+</html>
