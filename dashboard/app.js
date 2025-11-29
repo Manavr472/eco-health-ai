@@ -1,4 +1,4 @@
-// Eco-Health AI Dashboard - Interactive Application
+// Eco-Health AI Dashboard - Modern Single Page
 
 // API Configuration
 const API_URL = 'http://localhost:8000';
@@ -7,7 +7,7 @@ const API_URL = 'http://localhost:8000';
 let currentHospitalId = 1;
 let charts = {
     surge: null,
-    aqi: null,
+    disease: null,
     correlation: null,
     multiFactor: null,
     carbon: null
@@ -15,6 +15,7 @@ let charts = {
 
 // Initialize dashboard
 document.addEventListener('DOMContentLoaded', function () {
+    initializeTheme();
     initializeCharts();
     loadDashboardData();
 
@@ -24,23 +25,47 @@ document.addEventListener('DOMContentLoaded', function () {
         loadDashboardData();
     });
 
+    // Set up theme toggle
+    document.getElementById('themeToggle').addEventListener('click', toggleTheme);
+
     // Auto-refresh every 30 seconds
     setInterval(loadDashboardData, 30000);
 });
 
-// Tab Switching Logic
-function switchTab(tabId) {
-    // Update buttons
-    document.querySelectorAll('.tab-btn').forEach(btn => {
-        btn.classList.remove('active');
-    });
-    event.target.classList.add('active');
+// Theme Management
+function initializeTheme() {
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    updateThemeIcon(savedTheme);
+}
 
-    // Update content
-    document.querySelectorAll('.tab-content').forEach(content => {
-        content.classList.remove('active');
+function toggleTheme() {
+    const html = document.documentElement;
+    const currentTheme = html.getAttribute('data-theme');
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+    html.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    updateThemeIcon(newTheme);
+
+    // Update chart colors
+    updateChartThemes();
+}
+
+function updateThemeIcon(theme) {
+    const icon = document.querySelector('.theme-icon');
+    icon.textContent = theme === 'light' ? '🌙' : '☀️';
+}
+
+function updateChartThemes() {
+    // Re-initialize charts with new theme colors
+    Object.values(charts).forEach(chart => {
+        if (chart) {
+            chart.options.plugins.legend.labels.color = getComputedStyle(document.documentElement)
+                .getPropertyValue('--text-primary');
+            chart.update();
+        }
     });
-    document.getElementById(`tab-${tabId}`).classList.add('active');
 }
 
 // Initialize Chart.js charts
@@ -72,39 +97,46 @@ function initializeCharts() {
                 tension: 0.4
             }]
         },
-        options: commonOptions
+        options: {
+            ...commonOptions,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: { color: '#94a3b8' },
+                    grid: { color: '#334155' }
+                },
+                x: { ticks: { color: '#94a3b8' }, grid: { color: '#334155' } }
+            }
+        }
     });
 
-    // 2. Historical AQI Chart
-    const aqiCtx = document.getElementById('aqiTrendChart').getContext('2d');
-    charts.aqi = new Chart(aqiCtx, {
-        type: 'line',
+    // 2. Disease Breakdown Chart (Pie)
+    const diseaseCtx = document.getElementById('diseaseBreakdownChart').getContext('2d');
+    charts.disease = new Chart(diseaseCtx, {
+        type: 'pie',
         data: {
-            labels: [],
+            labels: ['Respiratory', 'Waterborne', 'Heat-Related', 'Trauma', 'Other'],
             datasets: [{
-                label: 'AQI History',
-                data: [],
-                borderColor: '#f59e0b',
-                backgroundColor: 'rgba(245, 158, 11, 0.1)',
-                fill: true,
-                tension: 0.4
+                label: 'Cases',
+                data: [0, 0, 0, 0, 0],
+                backgroundColor: [
+                    'rgba(239, 68, 68, 0.8)',   // Red - Respiratory
+                    'rgba(59, 130, 246, 0.8)',   // Blue - Waterborne
+                    'rgba(245, 158, 11, 0.8)',   // Orange - Heat
+                    'rgba(168, 85, 247, 0.8)',   // Purple - Trauma
+                    'rgba(34, 197, 94, 0.8)'     // Green - Other
+                ],
+                borderWidth: 2,
+                borderColor: '#1e293b'
             }]
         },
         options: {
-            ...commonOptions,
+            responsive: true,
+            maintainAspectRatio: false,
             plugins: {
-                annotation: {
-                    annotations: {
-                        line1: {
-                            type: 'line',
-                            yMin: 200,
-                            yMax: 200,
-                            borderColor: '#ef4444',
-                            borderWidth: 2,
-                            borderDash: [5, 5],
-                            label: { content: 'Poor AQI', enabled: true }
-                        }
-                    }
+                legend: {
+                    labels: { color: '#f1f5f9' },
+                    position: 'right'
                 }
             }
         }
@@ -209,6 +241,11 @@ async function loadKPIs() {
             document.getElementById('rainfallValue').textContent = (data.rainfall_mm || 0).toFixed(1) + ' mm';
         }
 
+        // Update Temperature
+        if (document.getElementById('temperatureValue')) {
+            document.getElementById('temperatureValue').textContent = (data.max_temp || 25).toFixed(1) + '°C';
+        }
+
         // Update Event
         if (document.getElementById('eventValue')) {
             document.getElementById('eventValue').textContent = data.active_events || 'None';
@@ -249,6 +286,39 @@ async function loadSurgePredictions() {
             banner.classList.add('hidden');
         }
 
+        // Update Disease Breakdown Chart (for today - first day)
+        if (data.length > 0) {
+            // Try to get from latest API or use prediction data
+            try {
+                const latestResponse = await fetch(`${API_URL}/api/data/latest?hospital_id=${currentHospitalId}`);
+                const latestData = await latestResponse.json();
+
+                // Use breakdown from latest data or calculate from first prediction
+                const todayPrediction = data[0];
+                const totalAdmissions = todayPrediction.predicted_admissions;
+
+                // Calculate disease breakdown (simplified - in real app this would come from API)
+                const breakdown = {
+                    respiratory: Math.round(totalAdmissions * 0.25),
+                    waterborne: Math.round(totalAdmissions * 0.15),
+                    heat: Math.round(totalAdmissions * 0.10),
+                    trauma: Math.round(totalAdmissions * 0.20),
+                    other: Math.round(totalAdmissions * 0.30)
+                };
+
+                charts.disease.data.datasets[0].data = [
+                    breakdown.respiratory,
+                    breakdown.waterborne,
+                    breakdown.heat,
+                    breakdown.trauma,
+                    breakdown.other
+                ];
+                charts.disease.update();
+            } catch (err) {
+                console.log('Could not load disease breakdown details');
+            }
+        }
+
     } catch (error) {
         console.error('Error loading predictions:', error);
     }
@@ -260,12 +330,7 @@ async function loadHistoricalData() {
         const response = await fetch(`${API_URL}/api/data/historical?hospital_id=${currentHospitalId}&days=30`);
         const data = await response.json();
 
-        // Update AQI Chart
-        charts.aqi.data.labels = data.dates.map(d => formatDate(d));
-        charts.aqi.data.datasets[0].data = data.aqi;
-        charts.aqi.update();
-
-        // Update Multi-Factor Chart
+        // Update Multi-Factor Chart (in Analytics tab)
         charts.multiFactor.data.labels = data.dates.map(d => formatDate(d));
         charts.multiFactor.data.datasets[0].data = data.admissions;
         charts.multiFactor.data.datasets[1].data = data.aqi;
@@ -290,84 +355,86 @@ async function loadAnalytics() {
         ];
         charts.correlation.update();
 
-        // Update Surge Events Table
-        const tableContainer = document.getElementById('surgeEventsTableContainer');
-        let html = `
-            <table>
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Admissions</th>
-                        <th>Severity</th>
-                        <th>Primary Causes</th>
-                    </tr>
-                </thead>
-                <tbody>
-        `;
-
-        data.surge_events.reverse().forEach(event => {
-            html += `
-                <tr>
-                    <td>${formatDate(event.date)}</td>
-                    <td>${event.admissions} (${event.multiplier.toFixed(1)}x)</td>
-                    <td><span class="priority-badge ${event.severity.toLowerCase()}">${event.severity}</span></td>
-                    <td>${event.causes.join(', ')}</td>
-                </tr>
-            `;
-        });
-
-        html += '</tbody></table>';
-        tableContainer.innerHTML = html;
-
     } catch (error) {
         console.error('Error loading analytics:', error);
     }
 }
 
-// Load AI recommendations
+// Load AI recommendations (Resource Recommendations from NESCO logic)
 async function loadAIRecommendations() {
     try {
-        const response = await fetch(`${API_URL}/api/recommendations?hospital_id=${currentHospitalId}&days_ahead=5`);
+        const response = await fetch(`${API_URL}/api/resources/recommendations?hospital_id=${currentHospitalId}`);
         const data = await response.json();
 
-        // Update Readiness Score
-        document.getElementById('readinessScore').textContent = data.readiness_score + '/100';
-        const status = data.readiness_score >= 90 ? '✓ Excellent' : data.readiness_score >= 70 ? '⚠ Fair' : '✗ Critical';
-        document.getElementById('readinessStatus').textContent = status;
-        document.getElementById('readinessStatus').style.color = data.readiness_score >= 90 ? '#10b981' : data.readiness_score >= 70 ? '#f59e0b' : '#ef4444';
-
-        // Render Recommendations
         const container = document.getElementById('recommendationsList');
-        container.innerHTML = '';
 
-        if (data.recommendations && data.recommendations.length > 0) {
-            data.recommendations.forEach(rec => {
-                container.appendChild(createRecommendationCard(rec));
-            });
-        } else {
-            container.innerHTML = '<div class="loading">No active recommendations. Operations normal.</div>';
+        if (!data.success || !data.recommendations || data.recommendations.length === 0) {
+            container.innerHTML = '<div class="loading">No resource data available</div>';
+            return;
         }
 
-        // Render Timeline
-        const timelineContainer = document.getElementById('actionTimeline');
-        timelineContainer.innerHTML = '';
+        const recommendation = data.recommendations[0];
+        const supplies = recommendation.supplies_status || [];
 
-        data.action_timeline.forEach(item => {
-            timelineContainer.appendChild(createTimelineItem(item));
+        // Create resource cards
+        let html = '';
+
+        // Show only critical and low items, or all items if everything is OK
+        const urgentSupplies = supplies.filter(s => s.status === 'CRITICAL' || s.status === 'LOW');
+        const displaySupplies = urgentSupplies.length > 0 ? urgentSupplies : supplies;
+
+        displaySupplies.forEach(supply => {
+            const priorityClass = supply.status === 'CRITICAL' ? 'priority-high' :
+                supply.status === 'LOW' ? 'priority-medium' : 'priority-low';
+
+            html += `
+                <div class="recommendation-card">
+                    <div class="recommendation-header">
+                        <span class="recommendation-icon">${getSupplyIcon(supply.item_name)}</span>
+                        <h4 class="recommendation-title">${supply.item_name}</h4>
+                    </div>
+                    <div class="recommendation-description">
+                        <p><strong>Current Stock:</strong> ${supply.current_stock}</p>
+                        <p><strong>Needed:</strong> ${supply.projected_need}</p>
+                        ${supply.quantity_to_order > 0 ?
+                    `<p><strong>Order:</strong> ${supply.quantity_to_order} units</p>` : ''}
+                    </div>
+                    <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+                        <span class="recommendation-priority ${priorityClass}">
+                            ${supply.status}
+                        </span>
+                        ${supply.action_required !== 'None' ?
+                    `<span class="recommendation-priority priority-high">
+                                ${supply.action_required}
+                            </span>` : ''}
+                    </div>
+                </div>
+            `;
         });
 
-        // Update Resources
-        // Note: In a real app, we'd get actual resource data. Here we simulate based on agent plan.
-        updateResourceBar('doctors', { current: 18, required: 20 });
-        updateResourceBar('nurses', { current: 55, required: 60 });
-        updateResourceBar('support', { current: 28, required: 30 });
-        updateResourceBar('ppe', { current: 450, required: 600 });
-        updateResourceBar('oxygen', { current: 2500, required: 3000 });
-        updateResourceBar('meds', { current: 1200, required: 1500 });
+        container.innerHTML = html;
 
     } catch (error) {
-        console.error('Error loading recommendations:', error);
+        console.error('Error loading resource recommendations:', error);
+        document.getElementById('recommendationsList').innerHTML =
+            '<div class="loading">Error loading recommendations</div>';
     }
+}
+
+function getSupplyIcon(itemName) {
+    const icons = {
+        'Oxygen Cylinders': '💨',
+        'Ventilators': '🫁',
+        'Oxygen Masks': '😷',
+        'Humidifiers': '💧',
+        'Trauma Stretchers': '🛏️',
+        'IV Stand Kits': '💉',
+        'Defibrillators': '⚡',
+        'Gloves/PPE': '🧤',
+        'Cooling Pads': '🧊',
+        'Thermometers': '🌡️'
+    };
+    return icons[itemName] || '📦';
 }
 
 // Load sustainability data

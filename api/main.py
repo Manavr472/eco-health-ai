@@ -391,157 +391,84 @@ async def predict_surge(hospital_id: int = 1, days_ahead: int = 7):
 
 @app.get("/api/recommendations")
 async def get_recommendations(hospital_id: int = 1, days_ahead: int = 5):
-    """Get AI agent recommendations for a specific hospital"""
+    """
+    Get resource recommendations for hospital (NESCO-based)
+    Kept for backward compatibility, redirects to resource service
+    """
     try:
-        from agent.resource_recommendation_agent import ResourceRecommendationAgent
-        
-        # Load patient data
-        patient_df = pd.read_csv("data/daily_patient_admissions_2019_2024.csv")
-        patient_df['date'] = pd.to_datetime(patient_df['date'])
-        
-        # Get today's date
-        today = datetime.now()
-        target_date = today + timedelta(days=days_ahead)
-        
-        # Map to 2024 for lookup
-        lookup_start = today.replace(year=2024)
-        lookup_end = target_date.replace(year=2024)
+        from services.resource_service import resource_service
         
         # Map integer ID to CSV ID
-        csv_id_map = {1: "KEM_H1", 2: "LOK_H2", 3: "NAI_H3", 4: "JJ_H4", 5: "RAJ_H5"}
-        target_csv_id = csv_id_map.get(hospital_id, "KEM_H1")
-        
-        # Get surge prediction data for next N days
-        future_data = patient_df[
-            (patient_df['date'] > lookup_start) & 
-            (patient_df['date'] <= lookup_end) &
-            (patient_df['hospital_id'] == target_csv_id)
-        ]
-        
-        if future_data.empty:
-            return {"message": "No prediction data available"}
-        
-        # Find the highest surge in the next period
-        max_surge_row = future_data.loc[future_data['surge_multiplier'].idxmax()]
-        
-        surge_prediction = {
-            'date': max_surge_row['date'].strftime('%Y-%m-%d'),
-            'predicted_admissions': int(max_surge_row['total_admissions']),
-            'surge_multiplier': float(max_surge_row['surge_multiplier']),
-            'resource_forecast': {
-                'doctors_needed': int(max_surge_row['total_admissions'] / 15),
-                'nurses_needed': int(max_surge_row['total_admissions'] / 5),
-                'support_staff_needed': int(max_surge_row['total_admissions'] / 10),
-                'ppe_kits': int(max_surge_row['total_admissions'] * 2),
-                'oxygen_liters': int(max_surge_row['total_admissions'] * 10),
-                'iv_fluids_ml': int(max_surge_row['total_admissions'] * 500),
-                'medications_units': int(max_surge_row['total_admissions'] * 5),
-                'bed_linens': int(max_surge_row['total_admissions'] * 2)
-            }
+        csv_id_map = {
+            1: "KEM_H1", 2: "LOK_H2", 3: "NAI_H3", 4: "JJ_H4", 5: "HIN_H5",
+            6: "LIL_H6", 7: "NAN_H7", 8: "BOM_H8", 9: "JAS_H9", 10: "BRE_H10",
+            11: "SAI_H11", 13: "JUP_H13", 14: "COO_H14", 15: "HBT_H15"
         }
+        target_hospital_id = csv_id_map.get(hospital_id, "KEM_H1")
         
-        # Current resources (simulated - in production would come from hospital DB)
-        current_resources = {
-            'doctors': 12,
-            'nurses': 35,
-            'support_staff': 18,
-            'ppe_kits': 200,
-            'oxygen_liters': 1000,
-            'iv_fluids_ml': 50000,
-            'medications_units': 500,
-            'bed_linens': 300
-        }
+        # Get resource recommendations
+        result = resource_service.get_recommendations(target_hospital_id)
         
-        # Initialize agent and get plan
-        agent = ResourceRecommendationAgent()
-        plan = agent.generate_comprehensive_resource_plan(
-            surge_prediction=surge_prediction,
-            current_resources=current_resources,
-            days_until_surge=days_ahead
-        )
+        if isinstance(result, dict) and "error" in result:
+            return {"message": "No recommendation data available"}
         
-        # Format recommendations for dashboard
+        # Format for backward compatibility with old dashboard format
+        recommendation_data = result if isinstance(result, dict) else result[0]
+        supplies = recommendation_data.get('supplies_status', [])
+        
+        # Convert to old format for compatibility
         recommendations = []
         
-        # Staff recommendations
-        staff_needed = []
-        for staff_type, details in plan['staff_allocation'].items():
-            if details['to_deploy'] > 0:
-                staff_needed.append(f"{details['to_deploy']} {staff_type.replace('_', ' ')}")
+        # Group by status
+        critical_supplies = [s for s in supplies if s['status'] == 'CRITICAL']
+        low_supplies = [s for s in supplies if s['status'] == 'LOW']
         
-        if staff_needed:
+        if critical_supplies:
             recommendations.append({
-                'category': 'Staff Deployment',
-                'priority': 'HIGH' if plan['readiness_score'] < 80 else 'MEDIUM',
-                'action': 'Deploy Additional Medical Staff',
+                'category': 'Critical Supply Shortage',
+                'priority': 'URGENT',
+                'action': 'ORDER IMMEDIATELY - Critical Stock Levels',
+                'icon': '🚨',
                 'details': [
-                    f"Activate on-call roster for {item}"
-                    for item in staff_needed[:3]
+                    f"{s['item_name']}: {s['current_stock']}/{s['projected_need']} ({s['stock_percentage']:.0f}%)"
+                    for s in critical_supplies[:5]
                 ]
             })
         
-        # Supply recommendations
-        urgent_supplies = [s for s in plan['supply_procurement'] if s['priority'] > 70]
-        if urgent_supplies:
-            supply_details = []
-            for supply in urgent_supplies[:3]:
-                supply_name = supply['supply'].replace('_', ' ').title()
-                supply_details.append(f"Order {supply['to_order']:,} {supply_name}")
-            
+        if low_supplies:
             recommendations.append({
-                'category': 'Supply Procurement',
-                'priority': 'URGENT' if any(s['priority'] > 80 for s in urgent_supplies) else 'HIGH',
-                'action': 'Emergency Supply Ordering',
-                'details': supply_details
-            })
-        
-        # Public health advisory
-        # Use real-time AQI if available, otherwise fallback to prediction
-        
-        # Get hospital coordinates
-        hospital = next((h for h in MUMBAI_HOSPITALS if h["id"] == hospital_id), MUMBAI_HOSPITALS[0])
-        
-        real_aqi_data = get_real_time_aqi(latitude=hospital["lat"], longitude=hospital["lon"])
-        current_aqi = real_aqi_data['aqi'] if real_aqi_data else max_surge_row.get('avg_aqi', 0)
-        
-        if current_aqi > 200:
-            recommendations.append({
-                'category': 'Public Health Advisory',
-                'priority': 'MEDIUM',
-                'action': 'Issue AQI Alert to Community',
+                'category': 'Low Supply Warning',
+                'priority': 'HIGH',
+                'action': 'Restock Soon - Running Low',
+                'icon': '⚠️',
                 'details': [
-                    f"Current AQI is {current_aqi} (Poor)",
-                    'Minimize outdoor activities due to poor air quality',
-                    'Advise vulnerable groups to stay indoors',
-                    'Visit hospital only for emergencies'
+                    f"{s['item_name']}: Order {s['quantity_to_order']} units"
+                    for s in low_supplies[:5]
                 ]
             })
         
-        # Facility management
-        if surge_prediction['surge_multiplier'] > 1.5:
-            recommendations.append({
-                'category': 'Facility Management',
-                'priority': 'NORMAL',
-                'action': 'Prepare Additional Bed Capacity',
-                'details': [
-                    f"Convert wards to surge capacity",
-                    f"Prepare {int(surge_prediction['predicted_admissions'] * 0.2)} additional beds",
-                    'Stock extra bed linens and equipment'
-                ]
-            })
+        # Add readiness summary
+        summary = recommendation_data.get('summary', {})
+        total_ok = summary.get('ok_items', 0)
+        total_items = summary.get('total_items', 10)
+        readiness_score = int((total_ok / total_items) * 100) if total_items > 0 else 100
         
         return {
-            'surge_info': {
-                'date': surge_prediction['date'],
-                'multiplier': surge_prediction['surge_multiplier'],
-                'predicted_admissions': surge_prediction['predicted_admissions']
-            },
-            'readiness_score': plan['readiness_score'],
+            'readiness_score': readiness_score,
             'recommendations': recommendations,
-            'action_timeline': plan['action_timeline'][:7]  # Top 7 actions
+            'action_timeline': [
+                {
+                    'date': 'Today',
+                    'action': f"Order {s['item_name']}: {s['quantity_to_order']} units",
+                    'priority': 'URGENT' if s['status'] == 'CRITICAL' else 'HIGH',
+                    'category': 'Supply'
+                }
+                for s in supplies if s['quantity_to_order'] > 0
+            ][:7]
         }
         
     except Exception as e:
+        agent_logger.error(f"Recommendations error: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -663,6 +590,43 @@ async def get_sustainability_impact():
             "avg_reduction_per_event_tons": 2.0
         }
     except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# === RESOURCE RECOMMENDATIONS ENDPOINT ===
+
+@app.get("/api/resources/recommendations")
+async def get_resource_recommendations(hospital_id: Optional[int] = None):
+    """
+    Get medical supply recommendations based on surge predictions
+    Uses NESCO logic without modifying surge_predictor
+    """
+    try:
+        from services.resource_service import resource_service
+        
+        # Map integer ID to CSV ID if provided
+        target_hospital_id = None
+        if hospital_id:
+            csv_id_map = {
+                1: "KEM_H1", 2: "LOK_H2", 3: "NAI_H3", 4: "JJ_H4", 5: "HIN_H5",
+                6: "LIL_H6", 7: "NAN_H7", 8: "BOM_H8", 9: "JAS_H9", 10: "BRE_H10",
+                11: "SAI_H11", 13: "JUP_H13", 14: "COO_H14", 15: "HBT_H15"
+            }
+            target_hospital_id = csv_id_map.get(hospital_id)
+            
+            if not target_hospital_id:
+                raise HTTPException(status_code=404, detail=f"Hospital ID {hospital_id} not found")
+        
+        # Get recommendations
+        recommendations = resource_service.get_recommendations(target_hospital_id)
+        
+        return {
+            "success": True,
+            "recommendations": recommendations if isinstance(recommendations, list) else [recommendations]
+        }
+        
+    except Exception as e:
+        agent_logger.error(f"Resource recommendations error: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 

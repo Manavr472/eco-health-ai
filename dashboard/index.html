@@ -1,275 +1,231 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eco-Health AI - Hospital Command Center</title>
+    <title>Eco-Health AI - Hospital Analytics Platform</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 
 <body>
     <!-- Header -->
-    <header class="dashboard-header">
-        <div class="header-content">
-            <h1>🏥 Eco-Health AI Command Center</h1>
-            <div class="hospital-selector">
-                <label>Hospital:</label>
-                <select id="hospitalSelect">
-                    <option value="1">King Edward Memorial Hospital - Parel</option>
-                    <option value="2">Lokmanya Tilak Hospital - Sion</option>
-                    <option value="3">BYL Nair Hospital - Mumbai Central</option>
-                    <option value="4">JJ Hospital - Mumbai Central</option>
-                    <option value="5">Hinduja Hospital - Mahim</option>
-                    <option value="6">Lilavati Hospital - Bandra West</option>
-                    <option value="7">NANAVATI - Vile Parle</option>
-                    <option value="8">Bombay Hospital - Marine Lines</option>
-                    <option value="9">Jaslok Hospital - Tardeo</option>
-                    <option value="10">Breach Candy Hospital - Breach Candy</option>
-                    <option value="11">Saifee Hospital - Charni Road</option>
-                    <option value="13">Jupiter Hospital - Thane West</option>
-                    <option value="14">Dr. R N Cooper Hospital - Juhu</option>
-                    <option value="15">HBT (Thackeray) Trauma Care - Jogeshwari East</option>
-                </select>
-            </div>
-            <div class="last-update">
-                Last Updated: <span id="lastUpdate">--</span>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="brand">
+                    <div class="brand-icon">🏥</div>
+                    <div class="brand-text">
+                        <h1>Eco-Health AI</h1>
+                        <p>Hospital Analytics Platform</p>
+                    </div>
+                </div>
+
+                <div class="header-controls">
+                    <select id="hospitalSelect" class="hospital-select">
+                        <option value="1">King Edward Memorial Hospital</option>
+                        <option value="2">Lokmanya Tilak Hospital</option>
+                        <option value="3">BYL Nair Hospital</option>
+                        <option value="4">JJ Hospital</option>
+                        <option value="5">Hinduja Hospital</option>
+                        <option value="6">Lilavati Hospital</option>
+                        <option value="7">NANAVATI Hospital</option>
+                        <option value="8">Bombay Hospital</option>
+                        <option value="9">Jaslok Hospital</option>
+                        <option value="10">Breach Candy Hospital</option>
+                        <option value="11">Saifee Hospital</option>
+                        <option value="13">Jupiter Hospital</option>
+                        <option value="14">Dr. R N Cooper Hospital</option>
+                        <option value="15">HBT Trauma Care</option>
+                    </select>
+
+                    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                </div>
             </div>
         </div>
     </header>
 
     <!-- Alert Banner -->
     <div id="alertBanner" class="alert-banner hidden">
-        <div class="alert-content">
-            <span class="alert-icon">⚠️</span>
-            <p></p>
-            <button class="alert-close" onclick="closeAlert()">×</button>
+        <div class="container">
+            <div class="alert-content">
+                <span class="alert-icon">⚠️</span>
+                <p></p>
+                <button class="alert-close" onclick="closeAlert()">×</button>
+            </div>
         </div>
     </div>
 
-    <!-- Main Dashboard -->
-    <main class="dashboard-main">
-        <!-- KPI Cards (Always visible) -->
-        <section class="kpi-section">
-            <div class="kpi-card">
-                <div class="kpi-icon">🌧️</div>
-                <div class="kpi-content">
-                    <h3>Rainfall</h3>
-                    <div class="kpi-value" id="rainfallValue">--</div>
-                    <div class="kpi-status">Today's Forecast</div>
-                </div>
-            </div>
-            <div class="kpi-card">
-                <div class="kpi-icon">🎉</div>
-                <div class="kpi-content">
-                    <h3>Upcoming Event</h3>
-                    <div class="kpi-value" id="eventValue" style="font-size: 1.2rem;">--</div>
-                    <div class="kpi-status">Festival Alert</div>
-                </div>
-            </div>
-            <div class="kpi-card">
-                <div class="kpi-icon">🚨</div>
-                <div class="kpi-content">
-                    <h3>Predicted Surge</h3>
-                    <div class="kpi-value" id="surgeMultiplier">--</div>
-                    <div class="kpi-status" id="surgeDate">--</div>
-                </div>
-            </div>
-            <div class="kpi-card">
-                <div class="kpi-icon">🌡️</div>
-                <div class="kpi-content">
-                    <h3>Current AQI</h3>
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+
+            <!-- KPI Grid -->
+            <section class="kpi-grid">
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-icon">💨</span>
+                        <h3>Air Quality Index</h3>
+                    </div>
                     <div class="kpi-value" id="currentAQI">--</div>
-                    <div class="kpi-status" id="aqiCategory">--</div>
+                    <div class="kpi-label" id="aqiCategory">Loading...</div>
                 </div>
-            </div>
-            <div class="kpi-card">
-                <div class="kpi-icon">🌱</div>
-                <div class="kpi-content">
-                    <h3>Carbon Credits</h3>
+
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-icon">🌡️</span>
+                        <h3>Temperature</h3>
+                    </div>
+                    <div class="kpi-value" id="temperatureValue">--</div>
+                    <div class="kpi-label">Current Weather</div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-icon">🌧️</span>
+                        <h3>Rainfall</h3>
+                    </div>
+                    <div class="kpi-value" id="rainfallValue">--</div>
+                    <div class="kpi-label">Today's Forecast</div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-icon">🚨</span>
+                        <h3>Surge Alert</h3>
+                    </div>
+                    <div class="kpi-value" id="surgeMultiplier">--</div>
+                    <div class="kpi-label" id="surgeDate">Checking...</div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-icon">🎉</span>
+                        <h3>Upcoming Event</h3>
+                    </div>
+                    <div class="kpi-value" id="eventValue" style="font-size: 1.2rem;">--</div>
+                    <div class="kpi-label">Festival Alert</div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-icon">🌱</span>
+                        <h3>Carbon Credits</h3>
+                    </div>
                     <div class="kpi-value" id="carbonCredits">--</div>
-                    <div class="kpi-status">tons CO₂ reduced</div>
+                    <div class="kpi-label">tons CO₂ reduced</div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Tab Navigation -->
-        <div class="tab-container">
-            <div class="tab-nav">
-                <button class="tab-btn active" onclick="switchTab('overview')">📊 Overview</button>
-                <button class="tab-btn" onclick="switchTab('analytics')">📈 Analytics</button>
-                <button class="tab-btn" onclick="switchTab('recommendations')">🤖 AI Recommendations</button>
-                <button class="tab-btn" onclick="switchTab('resources')">👥 Resources</button>
-                <button class="tab-btn" onclick="switchTab('sustainability')">🌱 Sustainability</button>
-            </div>
-
-            <!-- TAB 1: OVERVIEW -->
-            <div id="tab-overview" class="tab-content active">
-                <section class="charts-section">
-                    <div class="chart-container">
+            <!-- Charts Section -->
+            <section class="charts-section">
+                <!-- Row 1 -->
+                <div class="chart-row">
+                    <div class="chart-card">
                         <div class="chart-header">
                             <h2>📈 7-Day Surge Predictions</h2>
-                            <span class="chart-info">AI-predicted patient admissions with confidence intervals</span>
+                            <p>AI-predicted patient admissions</p>
                         </div>
-                        <div style="position: relative; height: 300px;">
+                        <div class="chart-container">
                             <canvas id="surgePredictionChart"></canvas>
                         </div>
                     </div>
-                    <div class="chart-container">
+
+                    <div class="chart-card">
                         <div class="chart-header">
-                            <h2>🌫️ Historical AQI Trend</h2>
-                            <span class="chart-info">Real data from past 30 days</span>
+                            <h2>🏥 Disease Breakdown</h2>
+                            <p>Today's predicted cases</p>
                         </div>
-                        <div style="position: relative; height: 300px;">
-                            <canvas id="aqiTrendChart"></canvas>
+                        <div class="chart-container">
+                            <canvas id="diseaseBreakdownChart"></canvas>
                         </div>
                     </div>
-                </section>
-            </div>
+                </div>
 
-            <!-- TAB 2: ANALYTICS -->
-            <div id="tab-analytics" class="tab-content">
-                <section class="analytics-section">
-                    <div class="chart-container">
+                <!-- Row 2 -->
+                <div class="chart-row">
+                    <div class="chart-card">
                         <div class="chart-header">
                             <h2>🔍 Surge Causation Analysis</h2>
-                            <span class="chart-info">Correlation between external factors and patient surges</span>
+                            <p>Correlation between factors and surges</p>
                         </div>
-                        <div style="position: relative; height: 350px;">
+                        <div class="chart-container">
                             <canvas id="correlationChart"></canvas>
                         </div>
                     </div>
-                    <div class="chart-container">
+
+                    <div class="chart-card">
                         <div class="chart-header">
                             <h2>📊 Multi-Factor Impact</h2>
-                            <span class="chart-info">How AQI, rainfall, and events affect admissions</span>
+                            <p>AQI and admissions over time</p>
                         </div>
-                        <div style="position: relative; height: 350px;">
+                        <div class="chart-container">
                             <canvas id="multiFactorChart"></canvas>
                         </div>
                     </div>
-                </section>
-
-                <!-- Recent Surge Events Table -->
-                <div class="surge-events-table">
-                    <h3>Recent Surge Events & Causes</h3>
-                    <div id="surgeEventsTableContainer"></div>
                 </div>
-            </div>
 
-            <!-- TAB 3: AI RECOMMENDATIONS -->
-            <div id="tab-recommendations" class="tab-content">
-                <section class="recommendations-section">
-                    <h2>🤖 AI Agent Recommendations</h2>
-                    <div id="recommendationsList" class="recommendations-list">
-                        <div class="loading">Loading recommendations...</div>
-                    </div>
-                </section>
-
-                <section class="timeline-section">
-                    <h2>📅 Action Timeline</h2>
-                    <div id="actionTimeline" class="timeline">
-                        <div class="loading">Loading timeline...</div>
-                    </div>
-                </section>
-            </div>
-
-            <!-- TAB 4: RESOURCES -->
-            <div id="tab-resources" class="tab-content">
-                <section class="resources-section">
-                    <h2>👥 Resource Allocation</h2>
-                    <div class="resource-grid">
-                        <div class="resource-card">
-                            <h3>Medical Staff</h3>
-                            <div class="resource-item">
-                                <span class="resource-label">Doctors</span>
-                                <div class="resource-bar">
-                                    <div class="resource-progress" id="doctorsBar"></div>
-                                </div>
-                                <span class="resource-value" id="doctorsValue">--</span>
-                            </div>
-                            <div class="resource-item">
-                                <span class="resource-label">Nurses</span>
-                                <div class="resource-bar">
-                                    <div class="resource-progress" id="nursesBar"></div>
-                                </div>
-                                <span class="resource-value" id="nursesValue">--</span>
-                            </div>
-                            <div class="resource-item">
-                                <span class="resource-label">Support Staff</span>
-                                <div class="resource-bar">
-                                    <div class="resource-progress" id="supportBar"></div>
-                                </div>
-                                <span class="resource-value" id="supportValue">--</span>
-                            </div>
+                <!-- Row 3 - Recommendations -->
+                <div class="chart-row">
+                    <div class="chart-card full-width">
+                        <div class="chart-header">
+                            <h2>🤖 AI Recommendations</h2>
+                            <p>Data-driven insights for hospital operations</p>
                         </div>
-                        <div class="resource-card">
-                            <h3>Critical Supplies</h3>
-                            <div class="resource-item">
-                                <span class="resource-label">PPE Kits</span>
-                                <div class="resource-bar">
-                                    <div class="resource-progress" id="ppeBar"></div>
-                                </div>
-                                <span class="resource-value" id="ppeValue">--</span>
-                            </div>
-                            <div class="resource-item">
-                                <span class="resource-label">Oxygen (L)</span>
-                                <div class="resource-bar">
-                                    <div class="resource-progress" id="oxygenBar"></div>
-                                </div>
-                                <span class="resource-value" id="oxygenValue">--</span>
-                            </div>
-                            <div class="resource-item">
-                                <span class="resource-label">Medications</span>
-                                <div class="resource-bar">
-                                    <div class="resource-progress" id="medsBar"></div>
-                                </div>
-                                <span class="resource-value" id="medsValue">--</span>
-                            </div>
+                        <div id="recommendationsList" class="recommendations-grid">
+                            <div class="loading">Loading recommendations...</div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </div>
 
-            <!-- TAB 5: SUSTAINABILITY -->
-            <div id="tab-sustainability" class="tab-content">
-                <section class="sustainability-section">
-                    <div class="chart-container">
+                <!-- Row 4 - Sustainability -->
+                <div class="chart-row">
+                    <div class="chart-card">
                         <div class="chart-header">
                             <h2>🌱 Carbon Emission Reduction</h2>
-                            <span class="chart-info">Optimized vs baseline operations</span>
+                            <p>Optimized vs baseline operations</p>
                         </div>
-                        <div style="position: relative; height: 300px;">
+                        <div class="chart-container">
                             <canvas id="carbonChart"></canvas>
                         </div>
                     </div>
-                    <div class="impact-cards">
-                        <div class="impact-card">
-                            <h3>Total CO₂ Reduced</h3>
-                            <div class="impact-value" id="totalCO2">--</div>
-                            <p>tons since deployment</p>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h2>📈 Sustainability Impact</h2>
+                            <p>Environmental performance metrics</p>
                         </div>
-                        <div class="impact-card">
-                            <h3>Revenue Generated</h3>
-                            <div class="impact-value" id="carbonRevenue">--</div>
-                            <p>from carbon credits</p>
-                        </div>
-                        <div class="impact-card">
-                            <h3>Efficiency Gain</h3>
-                            <div class="impact-value" id="efficiencyGain">--</div>
-                            <p>vs baseline operations</p>
+                        <div class="impact-grid">
+                            <div class="impact-stat">
+                                <div class="impact-value" id="totalCO2">--</div>
+                                <div class="impact-label">Total CO₂ Reduced (tons)</div>
+                            </div>
+                            <div class="impact-stat">
+                                <div class="impact-value" id="carbonRevenue">--</div>
+                                <div class="impact-label">Revenue from Credits</div>
+                            </div>
+                            <div class="impact-stat">
+                                <div class="impact-value" id="efficiencyGain">--</div>
+                                <div class="impact-label">Efficiency Gain</div>
+                            </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </div>
+            </section>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="dashboard-footer">
-        <p>Eco-Health AI Command Center | Mumbai Region</p>
-        <p>Powered by Agentic AI for Sustainable Hospital Operations</p>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>Eco-Health AI Platform | Mumbai Region</p>
+                <p>Last Updated: <span id="lastUpdate">--</span></p>
+            </div>
+        </div>
     </footer>
 
     <script src="app.js"></script>
