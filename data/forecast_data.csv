@@ -1,4 +1,0 @@
-timestamp,hospital_id,total_admissions,baseline_admissions,surge_multiplier,surge_reasons,respiratory_admissions,waterborne_admissions,heat_related_admissions,trauma_admissions,other_admissions
-2025-12-01T00:00:00,HOSP-001,250,100,2.5,Seasonal flu outbreak,120,10,5,10,5
-2025-12-08T00:00:00,HOSP-001,180,100,1.8,Heatwave event,15,5,140,15,5
-2025-12-15T00:00:00,HOSP-002,320,120,2.67,Multi-vehicle accident,30,8,12,250,20
