@@ -14,6 +14,20 @@ import pandas as pd
 import os
 import sys
 import logging
+from fastapi import FastAPI, HTTPException, File, UploadFile
+import io
+from models.carbon_models import (
+    ForecastRecord, CarbonReport, EmissionResult, HospitalReport,
+    CarbonCreditReport, BEECompliance, EnergySavingsPlan, 
+    CarbonCreditDetails, NABHVerifiedCredit, EnergyMeasure
+)
+from sustainability.energy import estimate_energy
+from sustainability.emissions import calculate_carbon
+from sustainability.baseline import estimate_baseline_energy, create_energy_alert
+from sustainability.llm import generate_hospital_advisory, generate_general_advisory
+from sustainability.llm_energy import estimate_energy_smart
+from sustainability.bee_compliance import assess_bee_compliance, calculate_epi
+from sustainability.savings_calculator import generate_savings_report
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -654,3 +668,407 @@ if __name__ == "__main__":
         port=API_CONFIG['port'],
         reload=API_CONFIG['reload']
     )
+
+
+# Carbon-Agent
+
+@app.post("/analyze", response_model=CarbonReport)
+async def analyze_surge_data(file: UploadFile = File(...)):
+    """
+    Analyzes a patient surge CSV file and returns a detailed carbon emission report
+    with per-hospital energy monitoring and baseline alerts.
+    """
+    if not file.filename.endswith('.csv'):
+        raise HTTPException(status_code=400, detail="Invalid file format. Please upload a CSV.")
+    
+    try:
+        content = await file.read()
+        df = pd.read_csv(io.BytesIO(content))
+        
+        # Validate columns
+        required_cols = {"timestamp", "hospital_id", "total_admissions", "baseline_admissions", 
+                        "surge_multiplier", "surge_reasons", "respiratory_admissions", 
+                        "waterborne_admissions", "heat_related_admissions", "trauma_admissions", 
+                        "other_admissions"}
+        if not required_cols.issubset(df.columns):
+            raise HTTPException(status_code=400, detail=f"Missing columns. Required: {required_cols}")
+            
+        # Initialize aggregates
+        hospital_reports: List[HospitalReport] = []
+        results: List[EmissionResult] = []
+        total_patients = 0
+        total_energy = 0.0
+        total_emissions = 0.0
+        
+        # Process each row (each represents a hospital forecast)
+        for index, row in df.iterrows():
+            # Validate Row
+            try:
+                record = ForecastRecord(**row.to_dict())
+            except Exception as e:
+                print(f"Skipping invalid row {index}: {e}")
+                continue
+            
+            # Calculate surge patients
+            surge_patients = record.total_admissions - record.baseline_admissions
+            
+            # Prepare data for LLM energy estimation
+            forecast_data = {
+                "baseline_admissions": record.baseline_admissions,
+                "respiratory_admissions": record.respiratory_admissions,
+                "waterborne_admissions": record.waterborne_admissions,
+                "heat_related_admissions": record.heat_related_admissions,
+                "trauma_admissions": record.trauma_admissions,
+                "other_admissions": record.other_admissions
+            }
+            
+            # 1. Estimate CURRENT energy (for total admissions)
+            current_energy_kwh, energy_reasoning = estimate_energy_smart(forecast_data)
+            
+            # 2. Estimate BASELINE energy (for baseline admissions only)
+            baseline_energy_kwh = estimate_baseline_energy(
+                baseline_admissions=record.baseline_admissions,
+                duration_days=7  # Default 7-day surge period
+            )
+            
+            # 3. Create energy alert (compare current vs baseline)
+            energy_alert = create_energy_alert(
+                current_energy_kwh=current_energy_kwh,
+                baseline_energy_kwh=baseline_energy_kwh
+            )
+            
+            # 4. Calculate Carbon Emissions
+            emission_result = calculate_carbon(
+                record_id=f"{record.hospital_id}-{record.timestamp}",
+                energy_kwh=current_energy_kwh,
+                scope="Scope 2",
+                energy_reasoning=energy_reasoning
+            )
+            
+            # 5. Generate hospital-specific solutions
+            hospital_data = {
+                "hospital_id": record.hospital_id,
+                "alert_level": energy_alert.alert_level.value,
+                "surge_reasons": record.surge_reasons,
+                "current_energy_kwh": current_energy_kwh,
+                "baseline_energy_kwh": baseline_energy_kwh,
+                "percentage_above_baseline": energy_alert.percentage_above_baseline,
+                "surge_patients": surge_patients
+            }
+            solutions = generate_hospital_advisory(hospital_data)
+            
+            # 6. Create hospital report
+            hospital_report = HospitalReport(
+                hospital_id=record.hospital_id,
+                timestamp=record.timestamp,
+                surge_patients=surge_patients,
+                baseline_admissions=record.baseline_admissions,
+                total_admissions=record.total_admissions,
+                surge_reasons=record.surge_reasons,
+                current_energy_kwh=round(current_energy_kwh, 2),
+                baseline_energy_kwh=round(baseline_energy_kwh, 2),
+                energy_alert=energy_alert,
+                emissions_kg=round(emission_result.total_emissions_kg, 2),
+                emissions_tons=round(emission_result.total_emissions_tons, 2),
+                solutions=solutions,
+                emission_result=emission_result
+            )
+            hospital_reports.append(hospital_report)
+            
+            # Update aggregates
+            total_patients += surge_patients
+            total_energy += current_energy_kwh
+            total_emissions += emission_result.total_emissions_kg
+            results.append(emission_result)
+            
+        # Generate overall advisory
+        summary_data = {
+            "total_patients": total_patients,
+            "total_energy": round(total_energy, 2),
+            "total_emissions": round(total_emissions, 2),
+            "surge_reasons": ", ".join(set([r.surge_reasons for r in hospital_reports]))
+        }
+        general_advisory = generate_general_advisory(summary_data)
+        
+        return CarbonReport(
+            total_surge_patients=total_patients,
+            total_energy_kwh=round(total_energy, 2),
+            total_emissions_kg=round(total_emissions, 2),
+            hospital_reports=hospital_reports,
+            results=results,
+            general_advisory=general_advisory
+        )
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/carbon/monitor", response_model=CarbonReport)
+async def monitor_live_carbon():
+    """
+    Monitor real-time carbon emissions based on the latest surge predictions.
+    Reads from the continuous surge monitoring system.
+    """
+    csv_path = "data/continuous_surge_predictions.csv"
+    if not os.path.exists(csv_path):
+        raise HTTPException(status_code=404, detail="Live surge data not found. Ensure continuous_surge_monitor.py is running.")
+        
+    try:
+        # Read CSV
+        df = pd.read_csv(csv_path)
+        
+        if df.empty:
+             raise HTTPException(status_code=404, detail="No data available in surge monitor.")
+             
+        # Filter for the LATEST batch of predictions (most recent timestamp)
+        latest_timestamp = df['timestamp'].max()
+        latest_df = df[df['timestamp'] == latest_timestamp]
+        
+        # Initialize aggregates
+        hospital_reports: List[HospitalReport] = []
+        results: List[EmissionResult] = []
+        total_patients = 0
+        total_energy = 0.0
+        total_emissions = 0.0
+        
+        for index, row in latest_df.iterrows():
+            # Prepare forecast data for energy estimation
+            forecast_data = {
+                "baseline_admissions": int(row['baseline_admissions']),
+                "respiratory_admissions": int(row['respiratory_admissions']),
+                "waterborne_admissions": int(row['waterborne_admissions']),
+                "heat_related_admissions": int(row['heat_related_admissions']),
+                "trauma_admissions": int(row['trauma_admissions']),
+                "other_admissions": int(row['other_admissions'])
+            }
+            
+            # 1. Estimate CURRENT energy
+            current_energy_kwh, energy_reasoning = estimate_energy_smart(forecast_data)
+            
+            # 2. Estimate BASELINE energy
+            baseline_energy_kwh = estimate_baseline_energy(
+                baseline_admissions=int(row['baseline_admissions']),
+                duration_days=1  # Daily estimate for live monitor
+            )
+            
+            # 3. Create energy alert
+            energy_alert = create_energy_alert(
+                current_energy_kwh=current_energy_kwh,
+                baseline_energy_kwh=baseline_energy_kwh
+            )
+            
+            # 4. Calculate Carbon Emissions
+            emission_result = calculate_carbon(
+                record_id=f"{row['hospital_id']}-{row['timestamp']}",
+                energy_kwh=current_energy_kwh,
+                scope="Scope 2",
+                energy_reasoning=energy_reasoning
+            )
+            
+            # 5. Generate hospital-specific solutions
+            surge_patients = int(row['total_admissions'] - row['baseline_admissions'])
+            hospital_data = {
+                "hospital_id": row['hospital_id'],
+                "alert_level": energy_alert.alert_level.value,
+                "surge_reasons": row['surge_reasons'],
+                "current_energy_kwh": current_energy_kwh,
+                "baseline_energy_kwh": baseline_energy_kwh,
+                "percentage_above_baseline": energy_alert.percentage_above_baseline,
+                "surge_patients": surge_patients
+            }
+            solutions = generate_hospital_advisory(hospital_data)
+            
+            # 6. Create hospital report
+            hospital_report = HospitalReport(
+                hospital_id=row['hospital_id'],
+                timestamp=row['timestamp'],
+                surge_patients=surge_patients,
+                baseline_admissions=int(row['baseline_admissions']),
+                total_admissions=int(row['total_admissions']),
+                surge_reasons=row['surge_reasons'],
+                current_energy_kwh=round(current_energy_kwh, 2),
+                baseline_energy_kwh=round(baseline_energy_kwh, 2),
+                energy_alert=energy_alert,
+                emissions_kg=round(emission_result.total_emissions_kg, 2),
+                emissions_tons=round(emission_result.total_emissions_tons, 2),
+                solutions=solutions,
+                emission_result=emission_result
+            )
+            hospital_reports.append(hospital_report)
+            
+            # Update aggregates
+            total_patients += surge_patients
+            total_energy += current_energy_kwh
+            total_emissions += emission_result.total_emissions_kg
+            results.append(emission_result)
+            
+        # Generate overall advisory
+        summary_data = {
+            "total_patients": total_patients,
+            "total_energy": round(total_energy, 2),
+            "total_emissions": round(total_emissions, 2),
+            "surge_reasons": "Live Surge Monitoring Data"
+        }
+        general_advisory = generate_general_advisory(summary_data)
+        
+        return CarbonReport(
+            total_surge_patients=total_patients,
+            total_energy_kwh=round(total_energy, 2),
+            total_emissions_kg=round(total_emissions, 2),
+            hospital_reports=hospital_reports,
+            results=results,
+            general_advisory=general_advisory
+        )
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/carbon/credits", response_model=CarbonCreditReport)
+async def generate_carbon_credits(
+    hospital_id: str,
+    num_beds: int = 500,
+    apply_all_measures: bool = False
+):
+    """
+    Generate carbon credits based on energy savings potential.
+    
+    This endpoint:
+    1. Reads current energy consumption from /api/carbon/monitor
+    2. Assesses BEE compliance and star rating
+    3. Calculates potential energy savings from BEE best practices
+    4. Converts savings to carbon credits
+    5. Returns comprehensive report with ROI analysis
+    
+    Args:
+        hospital_id: Hospital identifier (e.g., 'KEM_H1')
+        num_beds: Number of hospital beds (default: 500)
+        apply_all_measures: Apply all recommended measures (default: False, applies top 3)
+    
+    Returns:
+        CarbonCreditReport with BEE compliance, savings plan, and carbon credits
+    """
+    csv_path = "data/continuous_surge_predictions.csv"
+    if not os.path.exists(csv_path):
+        raise HTTPException(
+            status_code=404,
+            detail="Live surge data not found. Ensure continuous_surge_monitor.py is running."
+        )
+    
+    try:
+        # Read CSV and get latest data for the hospital
+        df = pd.read_csv(csv_path)
+        
+        if df.empty:
+            raise HTTPException(status_code=404, detail="No data available in surge monitor.")
+        
+        # Filter for latest timestamp and specific hospital
+        latest_timestamp = df['timestamp'].max()
+        hospital_df = df[
+            (df['timestamp'] == latest_timestamp) &
+            (df['hospital_id'] == hospital_id)
+        ]
+        
+        if hospital_df.empty:
+            raise HTTPException(
+                status_code=404,
+                detail=f"No data found for hospital {hospital_id} in latest predictions."
+            )
+        
+        # Get hospital data
+        row = hospital_df.iloc[0]
+        
+        # Prepare forecast data for energy estimation
+        forecast_data = {
+            "baseline_admissions": int(row['baseline_admissions']),
+            "respiratory_admissions": int(row['respiratory_admissions']),
+            "waterborne_admissions": int(row['waterborne_admissions']),
+            "heat_related_admissions": int(row['heat_related_admissions']),
+            "trauma_admissions": int(row['trauma_admissions']),
+            "other_admissions": int(row['other_admissions'])
+        }
+        
+        # Estimate current energy (daily, so annualize it)
+        daily_energy_kwh, _ = estimate_energy_smart(forecast_data)
+        annual_energy_kwh = daily_energy_kwh * 365
+        
+        # Calculate baseline energy
+        baseline_energy_kwh = estimate_baseline_energy(
+            baseline_admissions=int(row['baseline_admissions']),
+            duration_days=365
+        )
+        
+        # Create energy alert
+        energy_alert = create_energy_alert(
+            current_energy_kwh=annual_energy_kwh,
+            baseline_energy_kwh=baseline_energy_kwh
+        )
+        
+        # BEE Compliance Assessment
+        bee_assessment = assess_bee_compliance(annual_energy_kwh, num_beds, 365)
+        bee_compliance = BEECompliance(**bee_assessment)
+        
+        # Generate Savings Report
+        savings_report = generate_savings_report(
+            hospital_id=hospital_id,
+            current_energy_kwh=annual_energy_kwh,
+            alert_level=energy_alert.alert_level.value,
+            num_beds=num_beds,
+            apply_all_measures=apply_all_measures
+        )
+        
+        # Convert measures to EnergyMeasure models
+        energy_measures = [
+            EnergyMeasure(**measure)
+            for measure in savings_report["energy_savings"]["measures"]
+        ]
+        
+        # Create EnergySavingsPlan
+        energy_savings_plan = EnergySavingsPlan(
+            hospital_id=hospital_id,
+            current_energy_kwh=savings_report["current_state"]["energy_kwh"],
+            alert_level=savings_report["current_state"]["alert_level"],
+            num_beds=savings_report["current_state"]["num_beds"],
+            total_savings_kwh=savings_report["energy_savings"]["total_savings_kwh"],
+            savings_percentage=savings_report["energy_savings"]["savings_percentage"],
+            new_energy_kwh=savings_report["energy_savings"]["new_energy_kwh"],
+            measures_applied=savings_report["energy_savings"]["measures_applied"],
+            measures=energy_measures,
+            annual_cost_savings_inr=savings_report["financial_impact"]["annual_cost_savings_inr"],
+            implementation_cost_inr=savings_report["financial_impact"]["implementation_cost_inr"],
+            payback_period_months=savings_report["financial_impact"]["payback_period_months"],
+            roi_percentage=savings_report["financial_impact"]["roi_percentage"]
+        )
+        
+        # Create CarbonCreditDetails
+        carbon_credits = CarbonCreditDetails(**savings_report["carbon_credits"])
+        
+        # Generate Credit ID
+        credit_id = f"CC-{hospital_id}-{datetime.now().strftime('%Y%m%d-%H%M%S')}"
+        
+        # Create NABH Verified Credit (initially PENDING)
+        verified_credit = NABHVerifiedCredit(
+            credit_id=credit_id,
+            hospital_id=hospital_id,
+            saved_energy_kwh=carbon_credits.saved_energy_kwh,
+            saved_emissions_tons=carbon_credits.saved_emissions_tons,
+            credit_value_usd=carbon_credits.credit_value_usd,
+            credit_value_inr=carbon_credits.credit_value_inr,
+            bee_star_improvement=bee_compliance.next_star_rating - bee_compliance.current_star_rating,
+            nabh_verification_status="PENDING",
+            blockchain_hash=None,  # Will be set after blockchain tokenization
+            verification_documents=[]
+        )
+        
+        # Return complete report
+        return CarbonCreditReport(
+            hospital_id=hospital_id,
+            bee_compliance=bee_compliance,
+            energy_savings=energy_savings_plan,
+            carbon_credits=carbon_credits,
+            verified_credit=verified_credit,
+            recommended_measures=savings_report["recommended_measures"]
+        )
+    
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
