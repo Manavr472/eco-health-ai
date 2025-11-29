@@ -375,11 +375,117 @@ async function loadAIRecommendations() {
 
         const recommendation = data.recommendations[0];
         const supplies = recommendation.supplies_status || [];
+        const advisory = recommendation.public_advisory;
+        const staff = recommendation.staff_requirements;
 
-        // Create resource cards
         let html = '';
 
-        // Show only critical and low items, or all items if everything is OK
+        // 1. Public Advisory Section
+        if (advisory) {
+            const advisoryColor = advisory.level === 'CRITICAL' ? '#ef4444' :
+                advisory.level === 'HIGH' ? '#f97316' :
+                    advisory.level === 'MODERATE' ? '#eab308' : '#10b981';
+
+            html += `
+                <div class="advisory-card" style="border-left: 4px solid ${advisoryColor}; background: rgba(30, 41, 59, 0.7); padding: 1.5rem; border-radius: 0.75rem; margin-bottom: 2rem;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                        <h3 style="color: ${advisoryColor}; margin: 0; display: flex; align-items: center; gap: 0.5rem;">
+                            <span style="font-size: 1.5rem;">📢</span> Public Health Advisory
+                        </h3>
+                        <span style="background: ${advisoryColor}20; color: ${advisoryColor}; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.875rem; font-weight: 600;">
+                            ${advisory.level}
+                        </span>
+                    </div>
+                    <p style="color: #e2e8f0; font-size: 1.1rem; margin-bottom: 1rem;">${advisory.message}</p>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        ${advisory.actions.map(action =>
+                `<span style="background: rgba(255,255,255,0.1); padding: 0.5rem 1rem; border-radius: 0.5rem; font-size: 0.9rem;">• ${action}</span>`
+            ).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        // 2. Staff Requirements Section (Gemini-based, no current staff)
+        if (staff) {
+            html += `
+                <h3 style="margin-bottom: 1rem; color: #f8fafc;">Staffing Requirements (AI Recommended)</h3>
+                <div class="staff-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+            `;
+
+            // Doctors
+            if (staff.doctors) {
+                const statusColor = staff.doctors.status === 'CRITICAL' ? '#ef4444' :
+                    staff.doctors.status === 'FALLBACK' ? '#f97316' : '#10b981';
+                html += `
+                    <div class="staff-card" style="background: rgba(30, 41, 59, 0.5); padding: 1rem; border-radius: 0.75rem; border: 1px solid rgba(255,255,255,0.1);">
+                        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+                            <span style="font-size: 1.5rem;">👨‍⚕️</span>
+                            <h4 style="margin: 0; color: #e2e8f0;">Doctors</h4>
+                        </div>
+                        <div style="text-align: center; margin: 1rem 0;">
+                            <div style="font-size: 2rem; font-weight: 700; color: #f8fafc;">${staff.doctors.required}</div>
+                            <div style="color: #94a3b8; font-size: 0.875rem;">Required</div>
+                        </div>
+                        <div style="margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;">
+                            <span style="color: ${statusColor}; font-weight: 600; font-size: 0.875rem;">
+                                ${staff.doctors.status}
+                            </span>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Nurses
+            if (staff.nurses) {
+                const statusColor = staff.nurses.status === 'CRITICAL' ? '#ef4444' :
+                    staff.nurses.status === 'FALLBACK' ? '#f97316' : '#10b981';
+                html += `
+                    <div class="staff-card" style="background: rgba(30, 41, 59, 0.5); padding: 1rem; border-radius: 0.75rem; border: 1px solid rgba(255,255,255,0.1);">
+                        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+                            <span style="font-size: 1.5rem;">👩‍⚕️</span>
+                            <h4 style="margin: 0; color: #e2e8f0;">Nurses</h4>
+                        </div>
+                        <div style="text-align: center; margin: 1rem 0;">
+                            <div style="font-size: 2rem; font-weight: 700; color: #f8fafc;">${staff.nurses.required}</div>
+                            <div style="color: #94a3b8; font-size: 0.875rem;">Required</div>
+                        </div>
+                        <div style="margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;">
+                            <span style="color: ${statusColor}; font-weight: 600; font-size: 0.875rem;">
+                                ${staff.nurses.status}
+                            </span>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Support Staff
+            if (staff.support) {
+                const statusColor = staff.support.status === 'CRITICAL' ? '#ef4444' :
+                    staff.support.status === 'FALLBACK' ? '#f97316' : '#10b981';
+                html += `
+                    <div class="staff-card" style="background: rgba(30, 41, 59, 0.5); padding: 1rem; border-radius: 0.75rem; border: 1px solid rgba(255,255,255,0.1);">
+                        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+                            <span style="font-size: 1.5rem;">🏥</span>
+                            <h4 style="margin: 0; color: #e2e8f0;">Support Staff</h4>
+                        </div>
+                        <div style="text-align: center; margin: 1rem 0;">
+                            <div style="font-size: 2rem; font-weight: 700; color: #f8fafc;">${staff.support.required}</div>
+                            <div style="color: #94a3b8; font-size: 0.875rem;">Required</div>
+                        </div>
+                        <div style="margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;">
+                            <span style="color: ${statusColor}; font-weight: 600; font-size: 0.875rem;">
+                                ${staff.support.status}
+                            </span>
+                        </div>
+                    </div>
+                `;
+            }
+
+            html += `</div><h3 style="margin-bottom: 1rem; color: #f8fafc;">Supply Recommendations</h3>`;
+        }
+
+        // 3. Supply Recommendations (Existing Logic)
         const urgentSupplies = supplies.filter(s => s.status === 'CRITICAL' || s.status === 'LOW');
         const displaySupplies = urgentSupplies.length > 0 ? urgentSupplies : supplies;
 
