@@ -9,9 +9,9 @@ from datetime import datetime
 import sys
 import os
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from config import BLOCKCHAIN_CONFIG, CARBON_CREDIT_PRICE_USD
+from src.core.config import BLOCKCHAIN_CONFIG, CARBON_CREDIT_PRICE_USD
 
 
 class Block:

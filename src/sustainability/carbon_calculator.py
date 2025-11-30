@@ -9,9 +9,9 @@ from datetime import datetime
 import sys
 import os
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from config import (
+from src.core.config import (
     CARBON_EMISSIONS, RESOURCE_CONSUMPTION,
     OPTIMIZATION_BENEFITS, NUM_HOSPITALS
 )

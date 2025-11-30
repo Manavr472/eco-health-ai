@@ -11,8 +11,8 @@ import joblib
 import os
 import sys
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from config import STAFF_RATIOS, SUPPLIES_PER_PATIENT
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+from src.core.config import STAFF_RATIOS, SUPPLIES_PER_PATIENT
 
 
 class ResourceForecaster:

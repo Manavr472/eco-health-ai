@@ -83,6 +83,16 @@ ANNUAL_FESTIVALS = {
     ]
 }
 
+# ============= ENERGY & BEE STANDARDS =============
+
+# Energy Alert Thresholds (BEE Standards)
+WARNING_THRESHOLD = 15.0  # 15% above baseline triggers warning
+CRITICAL_THRESHOLD = 25.0  # 25% above baseline triggers critical alert
+
+# Baseline Energy Consumption Factors
+BASELINE_ENERGY_FACTOR_PER_PATIENT = 25.0  # kWh per patient per day
+BASELINE_DURATION_DAYS = 1  # Default duration for baseline calculations
+
 # ============= AQI PARAMETERS =============
 
 # AQI Categories and thresholds
@@ -275,7 +285,7 @@ DATABASE_CONFIG = {
 # ============= PATHS =============
 
 import os
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 MODELS_DIR = os.path.join(BASE_DIR, "saved_models")
 LOGS_DIR = os.path.join(BASE_DIR, "logs")

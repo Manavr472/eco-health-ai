@@ -10,7 +10,7 @@ import logging
 import pandas as pd
 import google.generativeai as genai
 from dotenv import load_dotenv
-from services.resource_mappings import (
+from src.services.resource_mappings import (
     HOSPITAL_NAME_MAPPING,
     HOSPITAL_TYPES,
     SUPPLY_REQUIREMENTS,

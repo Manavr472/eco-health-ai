@@ -16,36 +16,36 @@ import sys
 import logging
 from fastapi import FastAPI, HTTPException, File, UploadFile
 import io
-from models.carbon_models import (
+from src.models.carbon_models import (
     ForecastRecord, CarbonReport, EmissionResult, HospitalReport,
     CarbonCreditReport, BEECompliance, EnergySavingsPlan, 
     CarbonCreditDetails, NABHVerifiedCredit, EnergyMeasure
 )
-from sustainability.energy import estimate_energy
-from sustainability.emissions import calculate_carbon
-from sustainability.baseline import estimate_baseline_energy, create_energy_alert
-from sustainability.llm import generate_hospital_advisory, generate_general_advisory
-from sustainability.llm_energy import estimate_energy_smart
-from sustainability.bee_compliance import assess_bee_compliance, calculate_epi
-from sustainability.savings_calculator import generate_savings_report
+from src.sustainability.energy import estimate_energy
+from src.sustainability.emissions import calculate_carbon
+from src.sustainability.baseline import estimate_baseline_energy, create_energy_alert
+from src.sustainability.llm import generate_hospital_advisory, generate_general_advisory
+from src.sustainability.llm_energy import estimate_energy_smart
+from src.sustainability.bee_compliance import assess_bee_compliance, calculate_epi
+from src.sustainability.savings_calculator import generate_savings_report
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 # Setup Prediction Agent Logger
 agent_logger = logging.getLogger('prediction_agent')
 agent_logger.setLevel(logging.INFO)
 if not agent_logger.handlers:
-    log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'logs', 'prediction_agent.log')
+    log_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'logs', 'prediction_agent.log')
     os.makedirs(os.path.dirname(log_path), exist_ok=True)
     file_handler = logging.FileHandler(log_path)
     file_handler.setFormatter(logging.Formatter('[%(asctime)s] %(message)s'))
     agent_logger.addHandler(file_handler)
 
-from config import API_CONFIG, MUMBAI_HOSPITALS
-from services.aqi_service import get_real_time_aqi, get_historical_aqi
-from services.weather_service import weather_service
-from services.event_service import event_service
-from models.surge_predictor import surge_predictor
+from src.core.config import API_CONFIG, MUMBAI_HOSPITALS
+from src.services.aqi_service import get_real_time_aqi, get_historical_aqi
+from src.services.weather_service import weather_service
+from src.services.event_service import event_service
+from src.models.surge_predictor import surge_predictor
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -94,10 +94,15 @@ class CarbonCreditResponse(BaseModel):
 @app.get("/", response_class=HTMLResponse)
 async def root():
     """Serve the dashboard"""
-    dashboard_path = os.path.join(os.path.dirname(__file__), "../dashboard/index.html")
+    dashboard_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "frontend", "dashboard.html")
     if os.path.exists(dashboard_path):
         return FileResponse(dashboard_path)
-    return HTMLResponse(content="<h1>Eco-Health AI Platform</h1><p>Dashboard coming soon...</p>")
+    return HTMLResponse(content="<h1>Eco-Health AI Platform</h1><p>Dashboard not found.</p>")
+
+# Mount UI directory for static files (css, js)
+app.mount("/css", StaticFiles(directory=os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "frontend", "css")), name="css")
+app.mount("/js", StaticFiles(directory=os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "frontend", "js")), name="js")
+
 
 
 # === HEALTH CHECK ===
@@ -155,9 +160,9 @@ async def get_latest_data(hospital_id: int = 1):
         today_weather = weather.get(today_str, {})
         rainfall = today_weather.get('rainfall', 0.0)
         
-        # Fetch Events
+        # Fetch Events using event_service
         events = event_service.get_events(today_str)
-        event_display = events[0] if events else "None"
+        event_display = ', '.join(events) if events else None
         
         current_aqi = real_aqi_data['aqi'] if real_aqi_data else float(latest_data['avg_aqi'])
         
@@ -166,8 +171,8 @@ async def get_latest_data(hospital_id: int = 1):
             "aqi": current_aqi,
             "location": hospital["location"],
             "temperature_c": float(latest_data['temperature_c']),
-            "rainfall_mm": float(latest_data['rainfall_mm']),
-            "active_events": latest_data['active_events'] if pd.notna(latest_data['active_events']) else None,
+            "rainfall_mm": rainfall,  # Use live weather data
+            "active_events": event_display,  # Use live event service data
             "total_admissions_today": int(patient_df[patient_df['date'] == lookup_date]['total_admissions'].sum())
         }
     except Exception as e:
@@ -486,7 +491,72 @@ async def get_recommendations(hospital_id: int = 1, days_ahead: int = 5):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@app.get("/api/departments/forecast")
+async def get_department_forecast(hospital_id: int = 1):
+    """Get department-level admissions forecast for a hospital"""
+    try:
+        from services.resource_service import resource_service
+        
+        # Map integer ID to CSV ID
+        csv_id_map = {
+            1: "KEM_H1", 2: "LOK_H2", 3: "NAI_H3", 4: "JJ_H4", 5: "HIN_H5",
+            6: "LIL_H6", 7: "NAN_H7", 8: "BOM_H8", 9: "JAS_H9", 10: "BRE_H10",
+            11: "SAI_H11", 13: "JUP_H13", 14: "COO_H14", 15: "HBT_H15"
+        }
+        target_hospital_id = csv_id_map.get(hospital_id, "KEM_H1")
+        
+        # Get surge data which has department breakdowns
+        surge_data = resource_service.get_latest_surge_data()
+        
+        if not surge_data or target_hospital_id not in surge_data:
+            return {"error": "No department data available"}
+        
+        admissions = surge_data[target_hospital_id]
+        
+        # Get predictions for surge growth
+       
+        # For now use a simple 1.3x multiplier for predictions
+        # In future, could integrate with surge_predictor for more accurate forecasts
+        surge_multiplier = 1.3
+        
+        # Department mapping - convert from admission types to hospital departments
+        departments = {
+            "emergency": {
+                "current": admissions.get('trauma', 0),
+                "predicted": int(admissions.get('trauma', 0) * surge_multiplier),
+                "name": "Emergency"
+            },
+            "respiratory": {
+                "current": admissions.get('respiratory', 0),
+                "predicted": int(admissions.get('respiratory', 0) * surge_multiplier),
+                "name": "Respiratory"
+            },
+            "cardiology": {
+                "current": int(admissions.get('other', 0) * 0.3),  # 30% of other
+                "predicted": int(admissions.get('other', 0) * 0.3 * 1.22),
+                "name": "Cardiology"
+            },
+            "general": {
+                "current": admissions.get('waterborne', 0) +  admissions.get('heat_related', 0) + int(admissions.get('other', 0) * 0.7),
+                "predicted": int((admissions.get('waterborne', 0) + admissions.get('heat_related', 0) + int(admissions.get('other', 0) * 0.7)) * 1.14),
+                "name": "General Ward"
+            }
+        }
+        
+        return {
+            "hospital_id": target_hospital_id,
+            "departments": departments,
+            "total_current": sum(d['current'] for d in departments.values()),
+            "total_predicted": sum(d['predicted'] for d in departments.values())
+        }
+        
+    except Exception as e:
+        agent_logger.error(f"Department forecast error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 # === AGENT SIMULATION ENDPOINT ===
+
 
 @app.post("/api/agent/simulate")
 async def simulate_agent_response(scenario: str = "diwali_surge"):

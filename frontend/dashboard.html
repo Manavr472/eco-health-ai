@@ -29,7 +29,7 @@
                     <span style="width: 8px; height: 8px; background-color: #166534; border-radius: 50%;"></span>
                     System Online
                 </span>
-                <span class="text-gray text-sm">Last updated: <span id="last-updated">2 minutes ago</span></span>
+                <span class="text-gray text-sm">Last updated: <span id="last-updated">Just now</span></span>
             </div>
         </div>
 
@@ -45,32 +45,33 @@
                     <div style="margin-bottom: 1.5rem;">
                         <div class="flex justify-between items-center" style="margin-bottom: 0.5rem;">
                             <span class="text-gray text-sm">Air Quality Index</span>
-                            <span class="badge badge-red">Hazardous</span>
+                            <span id="aqi-badge" class="badge badge-gray">Loading...</span>
                         </div>
-                        <div class="stat-value text-red" style="font-size: 2rem;">287</div>
+                        <div id="aqi-value" class="stat-value text-red" style="font-size: 2rem;">--</div>
                         <div class="progress-bar">
-                            <div class="progress-fill" style="width: 85%; background-color: var(--accent-red);"></div>
+                            <div id="aqi-progress" class="progress-fill"
+                                style="width: 0%; background-color: var(--accent-red);"></div>
                         </div>
                     </div>
 
                     <div style="margin-bottom: 1.5rem;">
                         <div class="flex justify-between items-center" style="margin-bottom: 0.5rem;">
                             <span class="text-gray text-sm">Rainfall (24h)</span>
-                            <span class="badge" style="background-color: #f1f5f9; color: #475569;">Moderate</span>
+                            <span id="rainfall-badge" class="badge badge-gray">Loading...</span>
                         </div>
-                        <div class="stat-value text-primary" style="font-size: 2rem;">12.5mm</div>
+                        <div id="rainfall-value" class="stat-value text-primary" style="font-size: 2rem;">--</div>
                         <div class="progress-bar">
-                            <div class="progress-fill" style="width: 40%; background-color: var(--primary-blue);"></div>
+                            <div id="rainfall-progress" class="progress-fill"
+                                style="width: 0%; background-color: var(--primary-blue);"></div>
                         </div>
                     </div>
 
                     <div>
                         <div class="flex justify-between items-center" style="margin-bottom: 0.5rem;">
                             <span class="text-gray text-sm">Festival Impact</span>
-                            <span class="badge" style="background-color: #fff7ed; color: #c2410c;">Diwali - 2
-                                days</span>
+                            <span id="event-badge" class="badge badge-gray">Loading...</span>
                         </div>
-                        <p class="text-red text-sm font-medium" style="margin-top: 0.5rem;">High risk period approaching
+                        <p id="event-description" class="text-gray text-sm font-medium" style="margin-top: 0.5rem;">--
                         </p>
                     </div>
                 </div>
@@ -81,21 +82,22 @@
 
                     <div style="margin-bottom: 1.5rem;">
                         <span class="text-gray text-sm block" style="margin-bottom: 0.25rem;">Current Patients</span>
-                        <div class="stat-value">156</div>
+                        <div id="current-patients" class="stat-value">--</div>
                     </div>
 
                     <div style="margin-bottom: 1.5rem;">
                         <span class="text-gray text-sm block" style="margin-bottom: 0.25rem;">Bed Occupancy</span>
-                        <div class="stat-value">78%</div>
+                        <div id="bed-occupancy" class="stat-value">--%</div>
                         <div class="progress-bar">
-                            <div class="progress-fill" style="width: 78%; background-color: var(--text-dark);"></div>
+                            <div id="bed-progress" class="progress-fill"
+                                style="width: 0%; background-color: var(--text-dark);"></div>
                         </div>
                     </div>
 
                     <div>
                         <span class="text-gray text-sm block" style="margin-bottom: 0.25rem;">Carbon Credits
                             (YTD)</span>
-                        <div class="stat-value text-green">₹2,847</div>
+                        <div id="carbon-credits" class="stat-value text-green">₹--</div>
                     </div>
                 </div>
             </div>
@@ -106,8 +108,7 @@
                 <div class="card">
                     <div style="margin-bottom: 1rem;">
                         <h3 class="font-bold" style="font-size: 1.1rem;">Patient Surge Prediction - Next 7 Days</h3>
-                        <p class="text-gray text-sm">Predicted 32% increase in admissions over the coming week due to
-                            high AQI levels</p>
+                        <p id="surge-description" class="text-gray text-sm">Loading predictions...</p>
                     </div>
                     <div style="height: 300px; width: 100%;">
                         <canvas id="surgeChart"></canvas>
@@ -122,41 +123,41 @@
                             Forecast</h3>
 
                         <div class="flex flex-col gap-md">
-                            <!-- Item 1 -->
+                            <!-- Item 1 - Emergency -->
                             <div class="flex justify-between items-center p-sm rounded-md"
                                 style="background-color: #f8fafc;">
                                 <div>
                                     <div class="font-bold">Emergency</div>
-                                    <div class="text-xs text-gray">Current: 45 → Predicted: 62</div>
+                                    <div id="dept-emergency" class="text-xs text-gray">Loading...</div>
                                 </div>
-                                <div class="badge badge-red">+38%</div>
+                                <div id="dept-emergency-badge" class="badge badge-gray">--%</div>
                             </div>
-                            <!-- Item 2 -->
+                            <!-- Item 2 - Respiratory -->
                             <div class="flex justify-between items-center p-sm rounded-md"
                                 style="background-color: #f8fafc;">
                                 <div>
                                     <div class="font-bold">Respiratory</div>
-                                    <div class="text-xs text-gray">Current: 23 → Predicted: 41</div>
+                                    <div id="dept-respiratory" class="text-xs text-gray">Loading...</div>
                                 </div>
-                                <div class="badge badge-red">+78%</div>
+                                <div id="dept-respiratory-badge" class="badge badge-gray">--%</div>
                             </div>
-                            <!-- Item 3 -->
+                            <!-- Item 3 - Cardiology -->
                             <div class="flex justify-between items-center p-sm rounded-md"
                                 style="background-color: #f8fafc;">
                                 <div>
                                     <div class="font-bold">Cardiology</div>
-                                    <div class="text-xs text-gray">Current: 18 → Predicted: 22</div>
+                                    <div id="dept-cardiology" class="text-xs text-gray">Loading...</div>
                                 </div>
-                                <div class="badge" style="background-color: #f1f5f9; color: #475569;">+22%</div>
+                                <div id="dept-cardiology-badge" class="badge badge-gray">--%</div>
                             </div>
-                            <!-- Item 4 -->
+                            <!-- Item 4 - General -->
                             <div class="flex justify-between items-center p-sm rounded-md"
                                 style="background-color: #f8fafc;">
                                 <div>
                                     <div class="font-bold">General</div>
-                                    <div class="text-xs text-gray">Current: 70 → Predicted: 80</div>
+                                    <div id="dept-general" class="text-xs text-gray">Loading...</div>
                                 </div>
-                                <div class="badge" style="background-color: #f1f5f9; color: #475569;">+14%</div>
+                                <div id="dept-general-badge" class="badge badge-gray">--%</div>
                             </div>
                         </div>
                     </div>
@@ -189,13 +190,13 @@
                 </div>
             </div>
         </div>
-        </div>
     </main>
 
     <!-- Footer injected by JS -->
 
     <script src="js/components.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/api-service.js"></script>
     <script src="js/dashboard.js"></script>
     <script>
         // Initialize Lucide icons

@@ -9,10 +9,11 @@ from datetime import datetime
 import pandas as pd
 
 # Add project root to path
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+# Add project root to path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from models.surge_predictor import SurgePredictorModel
-from models.resource_forecaster import ResourceForecaster
+from src.models.surge_predictor import SurgePredictorModel
+from src.models.resource_forecaster import ResourceForecaster
 
 
 def main():

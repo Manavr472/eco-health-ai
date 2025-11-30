@@ -27977,3 +27977,169 @@
 [2025-11-29 10:05:25,235] [THOUGHT] Predicting for 2025-12-04 (DAY +5)
 [2025-11-29 10:05:29,055] [ACTION] DAY +5: 46 patients (x1.0) - Normal operations
 [2025-11-29 10:05:29,056] [THOUGHT] Predicting for 2025-12-05 (DAY +6)
+[2025-11-29 12:33:36,995] GEMINI_API_KEY not found. AI narratives disabled.
+[2025-11-29 12:39:36,633] GEMINI_API_KEY not found. AI narratives disabled.
+[2025-11-29 12:56:14,530] GEMINI_API_KEY not found. AI narratives disabled.
+[2025-11-29 13:03:22,982] GEMINI_API_KEY not found. AI narratives disabled.
+[2025-11-29 13:08:51,278] GEMINI_API_KEY not found. AI narratives disabled.
+[2025-11-29 13:14:43,097] GEMINI_API_KEY not found. AI narratives disabled.
+[2025-11-29 13:44:06,766] GEMINI_API_KEY not found. AI narratives disabled.
+[2025-11-29 13:46:43,831] GEMINI_API_KEY not found. AI narratives disabled.
+[2025-11-29 13:47:42,717] GEMINI_API_KEY not found. AI narratives disabled.
+[2025-11-29 14:02:58,084] GEMINI_API_KEY not found. AI narratives disabled.
+[2025-11-30 15:55:27,312] GEMINI_API_KEY not found. AI narratives disabled.
+[2025-11-30 15:55:38,577] Continuous Surge Monitor Started
+[2025-11-30 15:55:38,577] Output File: data/continuous_surge_predictions.csv
+[2025-11-30 15:55:38,577] Update Interval: 30 seconds
+[2025-11-30 15:55:38,578] Monitoring 14 hospitals
+[2025-11-30 15:55:38,578] 
+[2025-11-30 15:55:38,586] 
+################################################################################
+[2025-11-30 15:55:38,586] ITERATION #1 - 2025-11-30 15:55:38
+[2025-11-30 15:55:38,586] ################################################################################
+
+[2025-11-30 15:55:38,586] ================================================================================
+[2025-11-30 15:55:38,586] [CYCLE START] Beginning 7-day prediction cycle
+[2025-11-30 15:55:38,587] ================================================================================
+[2025-11-30 15:55:38,587] 
+[2025-11-30 15:55:38,587] [HOSPITAL] King Edward Memorial Hospital (KEM_H1)
+[2025-11-30 15:55:38,587] --------------------------------------------------------------------------------
+[2025-11-30 15:55:38,587] [THOUGHT] Predicting for 2025-11-30 (TODAY)
+[2025-11-30 15:55:42,157] [THOUGHT] AQI=134, Temp=27.9°C, Rain=0.0mm, Events=None
+[2025-11-30 15:55:42,236] [ACTION] TODAY: 221 patients (x1.0) - Normal operations
+[2025-11-30 15:55:42,237] [THOUGHT] Predicting for 2025-12-01 (DAY +1)
+[2025-11-30 15:55:44,231] [ACTION] DAY +1: 230 patients (x1.0) - Normal operations
+[2025-11-30 15:55:44,231] [THOUGHT] Predicting for 2025-12-02 (DAY +2)
+[2025-11-30 15:55:46,201] [ACTION] DAY +2: 279 patients (x1.0) - Normal operations
+[2025-11-30 15:55:46,201] [THOUGHT] Predicting for 2025-12-03 (DAY +3)
+[2025-11-30 15:55:48,149] [ACTION] DAY +3: 250 patients (x1.0) - Normal operations
+[2025-11-30 15:55:48,149] [THOUGHT] Predicting for 2025-12-04 (DAY +4)
+[2025-11-30 15:55:50,182] [ACTION] DAY +4: 253 patients (x1.0) - Normal operations
+[2025-11-30 15:55:50,183] [THOUGHT] Predicting for 2025-12-05 (DAY +5)
+[2025-11-30 15:55:52,198] [ACTION] DAY +5: 259 patients (x1.0) - Normal operations
+[2025-11-30 15:55:52,199] [THOUGHT] Predicting for 2025-12-06 (DAY +6)
+[2025-11-30 15:56:19,958] [ACTION] DAY +6: 292 patients (x1.0) - Normal operations
+[2025-11-30 15:56:19,959] [COMPLETE] King Edward Memorial Hospital 7-day forecast complete
+[2025-11-30 15:56:19,959] 
+[2025-11-30 15:56:19,959] [HOSPITAL] Lokmanya Tilak Hospital (LOK_H2)
+[2025-11-30 15:56:19,959] --------------------------------------------------------------------------------
+[2025-11-30 15:56:19,960] [THOUGHT] Predicting for 2025-11-30 (TODAY)
+[2025-11-30 15:56:26,517] [THOUGHT] AQI=134, Temp=27.9°C, Rain=0.0mm, Events=None
+[2025-11-30 15:56:26,581] [ACTION] TODAY: 121 patients (x1.0) - Normal operations
+[2025-11-30 15:56:26,581] [THOUGHT] Predicting for 2025-12-01 (DAY +1)
+[2025-11-30 15:56:49,557] [ACTION] DAY +1: 117 patients (x1.0) - Normal operations
+[2025-11-30 15:56:49,558] [THOUGHT] Predicting for 2025-12-02 (DAY +2)
+[2025-11-30 15:57:12,574] [ACTION] DAY +2: 109 patients (x1.0) - Normal operations
+[2025-11-30 15:57:12,574] [THOUGHT] Predicting for 2025-12-03 (DAY +3)
+[2025-11-30 15:57:40,237] [ACTION] DAY +3: 126 patients (x1.0) - Normal operations
+[2025-11-30 15:57:40,238] [THOUGHT] Predicting for 2025-12-04 (DAY +4)
+[2025-11-30 15:58:03,364] [ACTION] DAY +4: 110 patients (x1.0) - Normal operations
+[2025-11-30 15:58:03,364] [THOUGHT] Predicting for 2025-12-05 (DAY +5)
+[2025-11-30 15:58:05,390] [ACTION] DAY +5: 134 patients (x1.0) - Normal operations
+[2025-11-30 15:58:05,391] [THOUGHT] Predicting for 2025-12-06 (DAY +6)
+[2025-11-30 15:58:28,396] [ACTION] DAY +6: 150 patients (x1.0) - Normal operations
+[2025-11-30 15:58:28,396] [COMPLETE] Lokmanya Tilak Hospital 7-day forecast complete
+[2025-11-30 15:58:28,396] 
+[2025-11-30 15:58:28,396] [HOSPITAL] BYL Nair Hospital (NAI_H3)
+[2025-11-30 15:58:28,397] --------------------------------------------------------------------------------
+[2025-11-30 15:58:28,397] [THOUGHT] Predicting for 2025-11-30 (TODAY)
+[2025-11-30 15:58:30,316] [THOUGHT] AQI=136, Temp=27.9°C, Rain=0.0mm, Events=None
+[2025-11-30 15:58:30,382] [ACTION] TODAY: 166 patients (x1.0) - Normal operations
+[2025-11-30 15:58:30,382] [THOUGHT] Predicting for 2025-12-01 (DAY +1)
+[2025-11-30 15:58:32,394] [ACTION] DAY +1: 154 patients (x1.0) - Normal operations
+[2025-11-30 15:58:32,394] [THOUGHT] Predicting for 2025-12-02 (DAY +2)
+[2025-11-30 15:58:34,417] [ACTION] DAY +2: 164 patients (x1.0) - Normal operations
+[2025-11-30 15:58:34,417] [THOUGHT] Predicting for 2025-12-03 (DAY +3)
+[2025-11-30 15:58:36,463] [ACTION] DAY +3: 168 patients (x1.0) - Normal operations
+[2025-11-30 15:58:36,464] [THOUGHT] Predicting for 2025-12-04 (DAY +4)
+[2025-11-30 15:58:43,584] [ACTION] DAY +4: 191 patients (x1.0) - Normal operations
+[2025-11-30 15:58:43,584] [THOUGHT] Predicting for 2025-12-05 (DAY +5)
+[2025-11-30 15:59:06,777] [ACTION] DAY +5: 213 patients (x1.0) - Normal operations
+[2025-11-30 15:59:06,778] [THOUGHT] Predicting for 2025-12-06 (DAY +6)
+[2025-11-30 15:59:09,241] [ACTION] DAY +6: 231 patients (x1.0) - Normal operations
+[2025-11-30 15:59:09,242] [COMPLETE] BYL Nair Hospital 7-day forecast complete
+[2025-11-30 15:59:09,242] 
+[2025-11-30 15:59:09,242] [HOSPITAL] JJ Hospital (JJ_H4)
+[2025-11-30 15:59:09,242] --------------------------------------------------------------------------------
+[2025-11-30 15:59:09,242] [THOUGHT] Predicting for 2025-11-30 (TODAY)
+[2025-11-30 15:59:11,626] [THOUGHT] AQI=136, Temp=27.9°C, Rain=0.0mm, Events=None
+[2025-11-30 15:59:11,689] [ACTION] TODAY: 154 patients (x1.0) - Normal operations
+[2025-11-30 15:59:11,690] [THOUGHT] Predicting for 2025-12-01 (DAY +1)
+[2025-11-30 15:59:34,753] [ACTION] DAY +1: 138 patients (x1.0) - Normal operations
+[2025-11-30 15:59:34,753] [THOUGHT] Predicting for 2025-12-02 (DAY +2)
+[2025-11-30 15:59:57,800] [ACTION] DAY +2: 205 patients (x1.0) - Normal operations
+[2025-11-30 15:59:57,801] [THOUGHT] Predicting for 2025-12-03 (DAY +3)
+[2025-11-30 15:59:59,832] [ACTION] DAY +3: 181 patients (x1.0) - Normal operations
+[2025-11-30 15:59:59,833] [THOUGHT] Predicting for 2025-12-04 (DAY +4)
+[2025-11-30 16:00:06,850] [ACTION] DAY +4: 160 patients (x1.0) - Normal operations
+[2025-11-30 16:00:06,850] [THOUGHT] Predicting for 2025-12-05 (DAY +5)
+[2025-11-30 16:00:08,944] [ACTION] DAY +5: 159 patients (x1.0) - Normal operations
+[2025-11-30 16:00:08,944] [THOUGHT] Predicting for 2025-12-06 (DAY +6)
+[2025-11-30 16:00:10,973] [ACTION] DAY +6: 190 patients (x1.0) - Normal operations
+[2025-11-30 16:00:10,973] [COMPLETE] JJ Hospital 7-day forecast complete
+[2025-11-30 16:00:10,973] 
+[2025-11-30 16:00:10,973] [HOSPITAL] Hinduja Hospital (HIN_H5)
+[2025-11-30 16:00:10,973] --------------------------------------------------------------------------------
+[2025-11-30 16:00:10,974] [THOUGHT] Predicting for 2025-11-30 (TODAY)
+[2025-11-30 16:00:33,895] [THOUGHT] AQI=134, Temp=27.9°C, Rain=0.0mm, Events=None
+[2025-11-30 16:00:33,976] [ACTION] TODAY: 90 patients (x1.0) - Normal operations
+[2025-11-30 16:00:33,976] [THOUGHT] Predicting for 2025-12-01 (DAY +1)
+[2025-11-30 16:00:40,639] [ACTION] DAY +1: 67 patients (x1.0) - Normal operations
+[2025-11-30 16:00:40,639] [THOUGHT] Predicting for 2025-12-02 (DAY +2)
+[2025-11-30 16:00:42,741] [ACTION] DAY +2: 71 patients (x1.0) - Normal operations
+[2025-11-30 16:00:42,741] [THOUGHT] Predicting for 2025-12-03 (DAY +3)
+[2025-11-30 16:01:22,832] Error fetching weather forecast: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=None)
+[2025-11-30 16:01:22,902] [ACTION] DAY +3: 83 patients (x1.0) - Normal operations
+[2025-11-30 16:01:22,902] [THOUGHT] Predicting for 2025-12-04 (DAY +4)
+[2025-11-30 16:01:50,589] [ACTION] DAY +4: 96 patients (x1.0) - Normal operations
+[2025-11-30 16:01:50,589] [THOUGHT] Predicting for 2025-12-05 (DAY +5)
+[2025-11-30 16:02:07,137] GEMINI_API_KEY not found. AI narratives disabled.
+[2025-11-30 16:02:10,985] Continuous Surge Monitor Started
+[2025-11-30 16:02:10,986] Output File: data/continuous_surge_predictions.csv
+[2025-11-30 16:02:10,986] Update Interval: 30 seconds
+[2025-11-30 16:02:10,986] Monitoring 14 hospitals
+[2025-11-30 16:02:10,986] 
+[2025-11-30 16:02:10,991] 
+################################################################################
+[2025-11-30 16:02:10,992] ITERATION #1 - 2025-11-30 16:02:10
+[2025-11-30 16:02:10,992] ################################################################################
+
+[2025-11-30 16:02:10,992] ================================================================================
+[2025-11-30 16:02:10,993] [CYCLE START] Beginning 7-day prediction cycle
+[2025-11-30 16:02:10,993] ================================================================================
+[2025-11-30 16:02:10,993] 
+[2025-11-30 16:02:10,993] [HOSPITAL] King Edward Memorial Hospital (KEM_H1)
+[2025-11-30 16:02:10,993] --------------------------------------------------------------------------------
+[2025-11-30 16:02:10,994] [THOUGHT] Predicting for 2025-11-30 (TODAY)
+[2025-11-30 16:02:38,659] [THOUGHT] AQI=134, Temp=27.9°C, Rain=0.0mm, Events=None
+[2025-11-30 16:02:38,731] [ACTION] TODAY: 221 patients (x1.0) - Normal operations
+[2025-11-30 16:02:38,731] [THOUGHT] Predicting for 2025-12-01 (DAY +1)
+[2025-11-30 16:02:45,398] [ACTION] DAY +1: 230 patients (x1.0) - Normal operations
+[2025-11-30 16:02:45,398] [THOUGHT] Predicting for 2025-12-02 (DAY +2)
+[2025-11-30 16:02:52,053] [ACTION] DAY +2: 279 patients (x1.0) - Normal operations
+[2025-11-30 16:02:52,053] [THOUGHT] Predicting for 2025-12-03 (DAY +3)
+[2025-11-30 16:09:47,216] GEMINI_API_KEY not found. AI narratives disabled.
+[2025-11-30 16:10:12,452] Continuous Surge Monitor Started
+[2025-11-30 16:10:12,452] Output File: data/continuous_surge_predictions.csv
+[2025-11-30 16:10:12,453] Update Interval: 30 seconds
+[2025-11-30 16:10:12,453] Monitoring 14 hospitals
+[2025-11-30 16:10:12,453] 
+[2025-11-30 16:10:12,458] 
+################################################################################
+[2025-11-30 16:10:12,459] ITERATION #1 - 2025-11-30 16:10:12
+[2025-11-30 16:10:12,459] ################################################################################
+
+[2025-11-30 16:10:12,459] ================================================================================
+[2025-11-30 16:10:12,460] [CYCLE START] Beginning 7-day prediction cycle
+[2025-11-30 16:10:12,460] ================================================================================
+[2025-11-30 16:10:12,460] 
+[2025-11-30 16:10:12,460] [HOSPITAL] King Edward Memorial Hospital (KEM_H1)
+[2025-11-30 16:10:12,461] --------------------------------------------------------------------------------
+[2025-11-30 16:10:12,461] [THOUGHT] Predicting for 2025-11-30 (TODAY)
+[2025-11-30 16:10:40,910] [THOUGHT] AQI=134, Temp=27.9°C, Rain=0.0mm, Events=None
+[2025-11-30 16:10:40,976] [ACTION] TODAY: 221 patients (x1.0) - Normal operations
+[2025-11-30 16:10:40,977] [THOUGHT] Predicting for 2025-12-01 (DAY +1)
+[2025-11-30 16:10:47,611] [ACTION] DAY +1: 230 patients (x1.0) - Normal operations
+[2025-11-30 16:10:47,611] [THOUGHT] Predicting for 2025-12-02 (DAY +2)
+[2025-11-30 16:10:49,613] [ACTION] DAY +2: 279 patients (x1.0) - Normal operations
+[2025-11-30 16:10:49,614] [THOUGHT] Predicting for 2025-12-03 (DAY +3)

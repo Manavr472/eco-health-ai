@@ -10,12 +10,12 @@ import numpy as np
 from datetime import datetime, timedelta
 import time
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from config import AGENT_CONFIG, BASELINE_DAILY_ADMISSIONS
-from models.surge_predictor import SurgePredictorModel
-from models.resource_forecaster import ResourceForecaster
-from agent.recommendation_engine import RecommendationEngine
+from src.core.config import AGENT_CONFIG, BASELINE_DAILY_ADMISSIONS
+from src.models.surge_predictor import SurgePredictorModel
+from src.models.resource_forecaster import ResourceForecaster
+from src.agents.recommendation_engine import RecommendationEngine
 
 
 class EcoHealthAgent:

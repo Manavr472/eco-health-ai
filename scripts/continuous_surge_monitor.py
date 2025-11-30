@@ -14,11 +14,11 @@ from dotenv import load_dotenv
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from config import MUMBAI_HOSPITALS
-from services.aqi_service import get_real_time_aqi
-from services.weather_service import weather_service
-from services.event_service import event_service
-from models.surge_predictor import surge_predictor
+from src.core.config import MUMBAI_HOSPITALS
+from src.services.aqi_service import get_real_time_aqi
+from src.services.weather_service import weather_service
+from src.services.event_service import event_service
+from src.models.surge_predictor import surge_predictor
 
 # Setup logging
 logging.basicConfig(
